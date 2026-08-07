@@ -1,0 +1,30 @@
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# LaTeX y documentos compilados
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+04-escritura/manuscrito.pdf
+
+# Datos locales o sensibles
+.env
+privado/
+datos-sensibles/

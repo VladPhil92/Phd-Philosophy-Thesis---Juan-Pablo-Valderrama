@@ -1,0 +1,16 @@
+name: Auditoría del repositorio
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  estructura:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Comprobar arquitectura y enlaces locales
+        run: python3 scripts/auditar_repositorio.py

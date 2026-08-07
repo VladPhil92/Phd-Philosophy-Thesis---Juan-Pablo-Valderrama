@@ -12,7 +12,7 @@ análisis, manuscrito o revisión.
 
 | Área | Hallazgo | Riesgo inicial | Tratamiento |
 |---|---|---:|---|
-| Arquitectura | Sin estructura documental | Alto | Capas numeradas y alcance local |
+| Arquitectura | Sin estructura documental | Alto | Capas semánticas y alcance local |
 | Trazabilidad | Sin identificadores ni plantillas | Alto | Convenciones y tres plantillas |
 | Fuentes | Sin catálogo canónico | Alto | Archivo BibTeX y fichas separadas |
 | IA | Declaración general sin protocolo | Alto | Política y registro por interacción |

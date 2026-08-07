@@ -1,115 +1,123 @@
 # Soberanía de la hospitalidad y comunidad política interespecie
 
-Repositorio de investigación doctoral en Filosofía de Juan Pablo Valderrama. El
-proyecto estudia la **soberanía de la hospitalidad** y las condiciones de una
-comunidad política interespecie.
+## Subtítulo
 
-El repositorio organiza fuentes, notas, argumentos, borradores y decisiones
-metodológicas. La inteligencia artificial puede apoyar tareas de búsqueda,
-análisis, organización y redacción, pero no es la autora de la tesis ni sustituye
-la interpretación, la verificación o la responsabilidad académica del
-investigador.
+Investigación doctoral en Filosofía sobre la soberanía de la hospitalidad y las
+condiciones de una comunidad política interespecie.
 
-## Estado del proyecto
+## Acerca de la investigación
 
-La infraestructura documental está preparada y todavía no contiene resultados
-de investigación ni capítulos sustantivos. La auditoría inicial, sus hallazgos y
-las decisiones adoptadas se documentan en
-[`00-gobernanza/auditoria-inicial.md`](00-gobernanza/auditoria-inicial.md).
+Este proyecto doctoral de Juan Pablo Valderrama estudia la **soberanía de la
+hospitalidad** y las condiciones de una comunidad política interespecie. Este
+repositorio aún no contiene resultados de investigación ni capítulos
+sustantivos; por ello, las formulaciones que requieren decisión del investigador
+se mantienen explícitamente pendientes, en vez de completarse por conjetura.
+
+## Problema filosófico central
+
+El problema se sitúa en la relación entre soberanía, hospitalidad y comunidad
+política interespecie. Su formulación filosófica definitiva está pendiente de
+validación por el investigador.
+
+## Pregunta de investigación
+
+La pregunta central y las preguntas secundarias se formularán y versionarán en
+[`research/questions.md`](research/questions.md). No se atribuye aquí una
+pregunta que todavía no haya sido validada por el autor.
+
+## Hipótesis central
+
+La hipótesis central está pendiente de formulación y validación por el
+investigador. Su estado y relación con las fuentes y argumentos deberán quedar
+registrados antes de presentarla como tesis defendida.
+
+## Contribución original: «Soberanía de la hospitalidad»
+
+«Soberanía de la hospitalidad» nombra la contribución original que orienta el
+proyecto. Su definición, alcance y defensa se desarrollarán mediante fuentes y
+argumentos verificables; la infraestructura documental no anticipa resultados.
+
+## Marco filosófico y autores principales
+
+El marco filosófico y el corpus de autores están pendientes de selección y
+justificación documental. Las obras efectivamente consultadas se registrarán en
+[`research/sources/bibliography.bib`](research/sources/bibliography.bib), sin
+inventar atribuciones ni presentar fuentes secundarias como lecturas directas.
+
+## Objetivos de investigación
+
+Los objetivos general y específicos están pendientes de validación. Cuando se
+formulen, deberán corresponder a las preguntas, el método y el alcance real del
+corpus.
+
+## Arquitectura provisional de la tesis
+
+El esquema capitular provisional se mantiene en
+[`thesis/outline.md`](thesis/outline.md). Cada sección futura indicará las
+preguntas y los argumentos que aborda. La estructura no se poblará con contenido
+sustantivo ficticio.
+
+## Qué es este repositorio
+
+Es el entorno versionado de trabajo de la investigación doctoral: organiza
+preguntas, metadatos de fuentes, notas verificables, argumentos, borradores,
+revisiones y decisiones de gobernanza. Los originales protegidos, bibliotecas
+privadas, OCR y transcripciones permanecen fuera del control de versiones.
+
+## Metodología de investigación
+
+El flujo va de preguntas y fuentes comprobadas hacia análisis, escritura y
+revisión. Las fichas distinguen metadatos, citas verificadas, paráfrasis e
+interpretaciones; el registro de argumentos enlaza preguntas y fuentes mediante
+identificadores estables. Las incertidumbres y limitaciones se declaran, no se
+resuelven mediante inferencias no comprobadas. Véanse
+[`METHODOLOGY.md`](METHODOLOGY.md) y
+[`RESEARCH-WORKFLOW.md`](RESEARCH-WORKFLOW.md).
+
+## Investigación asistida por IA y autoría humana
+
+La IA puede apoyar búsqueda exploratoria, clasificación, comparación, resumen,
+revisión de estilo y automatización. Nunca constituye evidencia, y sus salidas
+no acreditan una lectura ni sustituyen la comprobación de fuentes. La selección
+de evidencia, interpretación filosófica, evaluación de argumentos, redacción
+final y conclusiones son responsabilidad del investigador. Todo uso material se
+registra y verifica según el
+[`AI-RESEARCH-PROTOCOL.md`](AI-RESEARCH-PROTOCOL.md); no se cargan materiales
+restringidos, confidenciales o personales sin autorización.
 
 ## Arquitectura del repositorio
 
-El flujo de conocimiento va de las preguntas y fuentes hacia el análisis, la
-escritura y la revisión:
-
 ```text
-00-gobernanza/   normas, decisiones, auditorías y uso de IA
-01-investigacion/ preguntas, conceptos y metodología
-02-fuentes/      bibliografía y fichas verificables
-03-analisis/     mapas argumentales y casos
-04-escritura/    esquema, capítulos y anexos
-05-revision/     retroalimentación y control de calidad
-assets/          figuras y otros recursos del manuscrito
-plantillas/      formatos reutilizables
-scripts/         comprobaciones automatizadas
-library/         biblioteca doctoral local y materiales de trabajo no versionados
-tools/library/   herramientas y salidas generadas para procesar la biblioteca
+governance/                reglas, auditorías y decisiones
+research/                  preguntas, método, fuentes, análisis y argumentos
+research/sources/          bibliografía y fichas verificables
+research/argument-ledger/  registro trazable de argumentos
+thesis/                    esquema, capítulos y revisión
+ai/                        política y registros de apoyo automatizado
+templates/                 formatos reutilizables
+assets/                    recursos autorizados del manuscrito
+scripts/                   validaciones automatizadas
+library/                   biblioteca privada local (no versionada)
+tools/library/output/      productos automatizados (no versionados)
 ```
 
-Cada directorio documental contiene un `README.md` que define su alcance. La
-explicación de las capas, sus dependencias y las convenciones de trazabilidad
-está en [`00-gobernanza/arquitectura.md`](00-gobernanza/arquitectura.md). La
-biblioteca local complementa esas capas: conserva los documentos de consulta y
-sus derivados operativos, mientras que `02-fuentes/` mantiene los metadatos y
-las fichas que sí forman parte del registro académico versionado.
+La explicación de capas y trazabilidad está en
+[`governance/architecture.md`](governance/architecture.md). Esta arquitectura
+semántica única reemplaza las anteriores carpetas numeradas sin perder sus
+contenidos.
 
-## Biblioteca doctoral y flujo de OCR
+## Política de fuentes y citas
 
-Cuando se utilice `library/`, cada obra puede disponer de un espacio propio para
-el original en `source/`, resultados de OCR en `ocr/` y transcripciones en
-`transcription/` o `transcriptions/`. Estos materiales son insumos locales, no
-evidencia validada por el mero hecho de haber sido procesados. Las salidas
-automatizadas de las herramientas se guardan en `tools/library/output/`.
+Cada obra se registra en el catálogo BibTeX y dispone, cuando corresponda, de
+una ficha analítica. Toda cita textual exige localizador y cotejo con el
+original. Una salida de OCR, transcripción, resumen o IA no es evidencia validada
+por sí sola. No se versionan copias protegidas sin permiso. Consulte
+[`CONTRIBUTING.md`](CONTRIBUTING.md).
 
-Los originales, los textos protegidos, los archivos privados y los derivados de
-OCR o transcripción no se versionan. Las reglas de `.gitignore` protegen esas
-rutas, pero no reemplazan la comprobación de derechos, confidencialidad y
-permisos antes de incorporar cualquier material. El flujo recomendado es:
+## Estado actual
 
-1. Conservar el original autorizado en la carpeta local `source/` de la obra.
-2. Ejecutar OCR o transcripción sin modificar el original y mantener la salida
-   en las rutas privadas correspondientes.
-3. Revisar el resultado contra el documento fuente; registrar errores,
-   paginación y decisiones de corrección relevantes.
-4. Registrar los metadatos en `02-fuentes/bibliografia.bib` y elaborar una ficha
-   verificable en `02-fuentes/fichas/`, sin copiar material restringido.
-5. Citar y analizar la fuente comprobada, no una salida automática sin revisar.
-
-## Metodología y trazabilidad
-
-Las preguntas de investigación orientan la selección de fuentes; las fichas
-distinguen datos bibliográficos, notas de lectura y citas verificadas; y los
-argumentos enlazan preguntas y fuentes mediante identificadores estables. Los
-borradores integran esos argumentos y la revisión documenta observaciones y
-respuestas. Las incertidumbres, limitaciones y desacuerdos se registran en vez
-de resolverse mediante inferencias no comprobadas.
-
-El diseño metodológico se mantiene en
-[`01-investigacion/metodologia.md`](01-investigacion/metodologia.md), y las
-convenciones completas de trazabilidad se describen en el documento de
-arquitectura. La presencia de una fuente en la biblioteca, una transcripción o
-un resumen no acredita por sí sola su lectura, pertinencia ni validez.
-
-## Flujo de investigación asistido por IA
-
-La IA puede facilitar búsquedas exploratorias, clasificación, comparación,
-resumen, revisión de estilo y automatización. Toda contribución material debe
-registrarse y verificarse contra fuentes fiables. No se deben cargar a servicios
-externos textos restringidos, datos personales ni material confidencial sin
-autorización.
-
-La interpretación filosófica, la selección de evidencia, la evaluación de
-argumentos, la redacción final y las conclusiones corresponden al investigador.
-Consulte la [`política de IA`](00-gobernanza/politica-ia.md) y documente los usos
-relevantes con `plantillas/registro-ia.md`.
-
-## Inicio rápido
-
-1. Formular o actualizar preguntas en `01-investigacion/preguntas.md`.
-2. Registrar cada obra en `02-fuentes/bibliografia.bib` y crear su ficha desde
-   `plantillas/ficha-fuente.md`.
-3. Vincular los argumentos con sus fuentes y preguntas de investigación.
-4. Redactar en `04-escritura/capitulos/`, sin incorporar texto generado por IA
-   sin revisión y registro.
-5. Ejecutar la auditoría estructural antes de integrar cambios:
-
-   ```bash
-   python3 scripts/auditar_repositorio.py
-   ```
-
-## Contribución y responsabilidad
-
-Consulte [`CONTRIBUTING.md`](CONTRIBUTING.md) antes de proponer cambios. No deben
-versionarse datos personales, material protegido sin permiso, exportaciones
-completas de gestores bibliográficos, archivos temporales de editores ni
-productos privados o generados de la biblioteca doctoral.
+La infraestructura documental y la auditoría automatizada están preparadas; las
+preguntas, hipótesis, objetivos, corpus, método sustantivo y capítulos requieren
+trabajo y validación del investigador. La auditoría inicial y los riesgos
+pendientes constan en
+[`governance/initial-audit.md`](governance/initial-audit.md).

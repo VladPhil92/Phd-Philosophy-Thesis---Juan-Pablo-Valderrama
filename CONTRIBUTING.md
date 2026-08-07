@@ -1,35 +1,62 @@
 # Guía de contribución
 
-## Principios
+## Autoría y responsabilidad
 
-- Conservar la voz y la responsabilidad autoral del investigador.
-- Diferenciar evidencia, interpretación propia y texto provisional.
-- No inventar referencias, citas, paginación ni datos editoriales.
-- Mantener trazabilidad entre pregunta, fuente, argumento y capítulo.
-- Respetar derechos de autor, privacidad y requisitos institucionales.
+La tesis es obra y responsabilidad del investigador. Toda contribución debe
+preservar su voz, distinguir evidencia, interpretación y texto provisional, y
+respetar derechos de autor, privacidad y normas institucionales. La IA no puede
+figurar como autora ni decidir la interpretación, la argumentación o las
+conclusiones.
 
-## Flujo de trabajo
+## Fuentes, evidencia y citas
 
-1. Trabajar en una rama con un cambio acotado.
-2. Usar las plantillas del repositorio para nuevas fuentes, argumentos y
-   registros de IA.
-3. Emplear nombres de archivo en minúsculas, sin espacios y separados por
-   guiones; conservar las claves bibliográficas en formato
-   `apellido-anio-palabra`.
-4. Enlazar rutas relativas y marcar contenidos incompletos con `PENDIENTE:`.
-5. Ejecutar `python3 scripts/auditar_repositorio.py`.
-6. Explicar en la propuesta qué cambió, qué evidencia lo respalda y cómo se
-   verificó. Si hubo IA, enlazar su registro.
+- No invente referencias, citas, paginación, traducciones ni datos editoriales.
+- Registre cada obra en `research/sources/bibliography.bib` y use una ficha en
+  `research/sources/notes/` para la lectura analítica.
+- Coteje toda cita textual con el original e incluya página, sección o párrafo.
+- Distinga fuentes primarias de secundarias; no atribuya lectura directa de una
+  obra a partir de un resumen, una cita indirecta, OCR o transcripción.
+- Enlace cada afirmación sustantiva con una fuente comprobada o identifíquela
+  claramente como hipótesis, interpretación u objeción.
 
-## Citas y fuentes
+Una salida de IA nunca es evidencia. Una referencia o afirmación sugerida por
+IA solo puede utilizarse después de su verificación en una fuente fiable.
 
-Cada ficha debe corresponder a una entrada de `02-fuentes/bibliografia.bib`.
-Las citas textuales requieren localizador (página, sección o párrafo) y una
-comprobación contra el original. Las fuentes secundarias no deben presentarse
-como lectura directa de una fuente primaria.
+## Transparencia del uso de IA
 
-## Revisión
+Registre todo uso que influya materialmente en el corpus, análisis, estructura,
+texto o código con `templates/registro-ia.md`. Indique herramienta y versión si
+se conocen, propósito, salida utilizada, verificación humana, cambios y archivos
+afectados. No cargue a servicios externos material protegido, privado,
+confidencial o con datos personales sin autorización. Consulte
+[`AI-RESEARCH-PROTOCOL.md`](AI-RESEARCH-PROTOCOL.md) y
+[`ai/policy.md`](ai/policy.md).
 
-No se integra un cambio si contiene referencias no verificadas, datos sensibles
-o afirmaciones sustantivas sin fuente o justificación. Los borradores pueden
-estar incompletos, pero deben declarar su estado.
+## Flujo de trabajo del repositorio
+
+1. Cree una rama y mantenga el cambio acotado.
+2. Use nombres de archivo en minúsculas, sin espacios y separados por guiones;
+   use claves bibliográficas `apellido-anio-palabra`.
+3. Use las plantillas para fuentes, argumentos y registros de IA; conserve la
+   trazabilidad `PI-*` → fuente → `ARG-*` → capítulo.
+4. Use enlaces relativos y marque lo no resuelto con `PENDIENTE:`; no complete
+   vacíos académicos mediante conjeturas.
+5. No versione fuentes protegidas, bibliotecas privadas, OCR, transcripciones,
+   secretos, datos sensibles o productos generados.
+6. Ejecute las validaciones indicadas abajo antes de solicitar integración.
+7. Describa qué cambió, su justificación o evidencia, cómo se verificó y todo
+   uso relevante de IA.
+
+## Validación y revisión
+
+Ejecute:
+
+```bash
+python3 scripts/auditar_repositorio.py
+```
+
+Además, revise `git diff --check`, los enlaces Markdown, la sintaxis YAML y la
+ausencia de binarios restringidos. No se integra un cambio con referencias sin
+verificar, datos sensibles, conflictos sin resolver, enlaces rotos o
+afirmaciones sustantivas sin fuente o justificación. Los borradores incompletos
+son admisibles solo si declaran su estado.

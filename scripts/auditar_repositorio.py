@@ -12,19 +12,28 @@ ROOT = Path(__file__).resolve().parents[1]
 REQUIRED_PATHS = (
     "README.md",
     "CONTRIBUTING.md",
-    "00-gobernanza/arquitectura.md",
-    "00-gobernanza/politica-ia.md",
-    "01-investigacion/preguntas.md",
-    "01-investigacion/metodologia.md",
-    "02-fuentes/bibliografia.bib",
-    "02-fuentes/fichas/README.md",
-    "03-analisis/README.md",
-    "04-escritura/esquema.md",
-    "04-escritura/capitulos/README.md",
-    "05-revision/lista-control.md",
-    "plantillas/ficha-fuente.md",
-    "plantillas/ficha-argumento.md",
-    "plantillas/registro-ia.md",
+    "PROJECT.md",
+    "METHODOLOGY.md",
+    "RESEARCH-WORKFLOW.md",
+    "AI-RESEARCH-PROTOCOL.md",
+    "CITATION.cff",
+    "LICENSE",
+    "governance/architecture.md",
+    "governance/initial-audit.md",
+    "governance/decision-log.md",
+    "ai/policy.md",
+    "research/questions.md",
+    "research/methodology.md",
+    "research/sources/bibliography.bib",
+    "research/sources/notes/README.md",
+    "research/analysis/README.md",
+    "research/argument-ledger/README.md",
+    "thesis/outline.md",
+    "thesis/chapters/README.md",
+    "thesis/review/checklist.md",
+    "templates/ficha-fuente.md",
+    "templates/ficha-argumento.md",
+    "templates/registro-ia.md",
 )
 MARKDOWN_LINK = re.compile(r"(?<!!)\[[^]]+\]\(([^)]+)\)")
 
@@ -59,7 +68,7 @@ def validate_readmes() -> list[str]:
         path for path in ROOT.iterdir() if path.is_dir() and not path.name.startswith(".")
     ]
     for directory in governed_directories:
-        if not (directory / "README.md").is_file() and directory.name not in {"plantillas", "scripts"}:
+        if not (directory / "README.md").is_file() and directory.name not in {"scripts"}:
             errors.append(f"El directorio {directory.name} no define su alcance en README.md")
     return errors
 

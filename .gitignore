@@ -34,7 +34,7 @@ htmlcov/
 *.out
 *.synctex.gz
 *.toc
-04-escritura/manuscrito.pdf
+thesis/manuscrito.pdf
 
 # Archivos temporales y copias locales
 *.bak
@@ -74,3 +74,21 @@ library/**/transcriptions/
 library/**/private-ocr/
 library/**/private-transcription/
 tools/library/output/
+
+# Material fuente protegido y bibliotecas privadas (en cualquier ubicación)
+**/source/
+**/sources/
+**/copyrighted/
+**/copyrighted-sources/
+**/private-library/
+**/ocr/
+**/private-ocr/
+**/transcription/
+**/transcriptions/
+**/private-transcription/
+
+# Productos generados y material de trabajo local
+generated/
+output/
+outputs/
+*.pdf

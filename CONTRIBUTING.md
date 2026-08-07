@@ -55,6 +55,11 @@ Ejecute:
 python3 scripts/auditar_repositorio.py
 ```
 
+La auditoría también impide versionar cachés, archivos temporales, copias de
+respaldo y residuos habituales del sistema operativo o del editor. Antes de
+confirmar cambios, revise además `git status --short --ignored`: los archivos
+ignorados deben permanecer locales y no deben forzarse con `git add -f`.
+
 Además, revise `git diff --check`, los enlaces Markdown, la sintaxis YAML y la
 ausencia de binarios restringidos. No se integra un cambio con referencias sin
 verificar, datos sensibles, conflictos sin resolver, enlaces rotos o

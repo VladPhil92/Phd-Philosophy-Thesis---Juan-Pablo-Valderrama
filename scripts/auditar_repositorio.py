@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import re
+import subprocess
 import sys
 from pathlib import Path
 
@@ -36,11 +37,52 @@ REQUIRED_PATHS = (
     "templates/registro-ia.md",
 )
 MARKDOWN_LINK = re.compile(r"(?<!!)\[[^]]+\]\(([^)]+)\)")
+JUNK_NAMES = {
+    ".DS_Store",
+    "Desktop.ini",
+    "Thumbs.db",
+    ".eslintcache",
+    ".stylelintcache",
+}
+JUNK_PARTS = {
+    "__pycache__",
+    ".cache",
+    ".mypy_cache",
+    ".pytest_cache",
+    ".ruff_cache",
+    "node_modules",
+}
+JUNK_SUFFIXES = (".bak", ".orig", ".pyc", ".rej", ".swp", ".swo", ".temp", ".tmp")
 
 
 def markdown_files() -> list[Path]:
     """Return tracked-style Markdown documents, excluding Git internals."""
     return sorted(path for path in ROOT.rglob("*.md") if ".git" not in path.parts)
+
+
+def tracked_files() -> list[Path]:
+    """Return paths known to Git, which are the files CI can reliably audit."""
+    result = subprocess.run(
+        ["git", "ls-files", "-z"],
+        cwd=ROOT,
+        check=True,
+        capture_output=True,
+    )
+    return [Path(item.decode("utf-8")) for item in result.stdout.split(b"\0") if item]
+
+
+def validate_tracked_files() -> list[str]:
+    """Reject editor, operating-system, cache and merge leftovers in Git."""
+    errors: list[str] = []
+    for path in tracked_files():
+        if (
+            path.name in JUNK_NAMES
+            or any(part in JUNK_PARTS for part in path.parts)
+            or path.name.startswith("~$")
+            or path.name.endswith(JUNK_SUFFIXES)
+        ):
+            errors.append(f"Archivo residual versionado: {path.as_posix()}")
+    return errors
 
 
 def validate_required_paths() -> list[str]:
@@ -74,7 +116,12 @@ def validate_readmes() -> list[str]:
 
 
 def main() -> int:
-    errors = validate_required_paths() + validate_readmes() + validate_links()
+    errors = (
+        validate_required_paths()
+        + validate_readmes()
+        + validate_links()
+        + validate_tracked_files()
+    )
     if errors:
         print("Auditoría fallida:")
         for error in errors:

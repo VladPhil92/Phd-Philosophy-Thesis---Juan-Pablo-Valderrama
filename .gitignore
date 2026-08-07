@@ -1,7 +1,11 @@
 # Sistema operativo
 .DS_Store
+.AppleDouble
+.LSOverride
 Thumbs.db
 Desktop.ini
+$RECYCLE.BIN/
+.Trash-*/
 
 # Editores e IDE
 *.swp
@@ -9,6 +13,7 @@ Desktop.ini
 *~
 .vscode/
 .idea/
+*.code-workspace
 
 # Python, entornos y cachés
 __pycache__/
@@ -18,6 +23,8 @@ venv/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+.tox/
+.nox/
 
 # Compilación, cobertura y artefactos generados
 build/
@@ -34,6 +41,12 @@ htmlcov/
 *.out
 *.synctex.gz
 *.toc
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+*.xdv
 thesis/manuscrito.pdf
 
 # Archivos temporales y copias locales
@@ -42,8 +55,17 @@ thesis/manuscrito.pdf
 *.temp
 *.orig
 *.rej
+.#*
+~$*
 .cache/
 tmp/
+
+# Informes y residuos de herramientas
+.eslintcache
+.stylelintcache
+.sass-cache/
+node_modules/
+coverage/
 
 # Secretos, credenciales y configuración local
 .env

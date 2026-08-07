@@ -66,6 +66,10 @@ datos-sensibles/
 
 # Biblioteca doctoral: originales y derivados privados
 # Se versionan únicamente metadatos, fichas y materiales cuya licencia lo permita.
+library/**/original/
+library/**/originals/
+library/**/raw/
+library/**/raw-ocr/
 library/**/source/
 library/**/sources/
 library/**/ocr/
@@ -77,7 +81,8 @@ tools/library/output/
 
 # Material fuente protegido y bibliotecas privadas (en cualquier ubicación)
 **/source/
-**/sources/
+**/source-originals/
+**/local-sources/
 **/copyrighted/
 **/copyrighted-sources/
 **/private-library/
@@ -86,6 +91,12 @@ tools/library/output/
 **/transcription/
 **/transcriptions/
 **/private-transcription/
+
+# Formatos habituales de libros, escaneos y documentos fuente
+*.epub
+*.djvu
+*.djv
+*.mobi
 
 # Productos generados y material de trabajo local
 generated/

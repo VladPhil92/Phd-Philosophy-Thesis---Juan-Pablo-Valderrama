@@ -22,3 +22,15 @@
   sustantivos de las capas numeradas.
 - **Consecuencias:** existe una sola ubicación por función; se actualizaron
   enlaces, auditoría y documentación sin alterar los identificadores.
+
+## DEC-003 — Biblioteca versionable de metadatos
+
+- **Fecha:** 2026-08-07
+- **Estado:** aceptada
+- **Contexto:** la arquitectura consolidada protegía originales privados, pero
+  no conservaba los protocolos ni los marcadores verificables del corpus.
+- **Decisión:** incorporar `library/` como capa de metadatos y control, con 28
+  IDs provisionales y sin inventar obras o datos bibliográficos.
+- **Consecuencias:** originales, OCR y transcripciones siguen fuera de Git; el
+  auditor comprueba IDs, índice, nueve ubicaciones capitulares, duplicados
+  arquitectónicos, binarios documentales y marcadores de conflicto.

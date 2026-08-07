@@ -213,7 +213,8 @@ ai/                        política y registros de apoyo automatizado
 templates/                 formatos reutilizables
 assets/                    recursos autorizados del manuscrito
 scripts/                   validaciones automatizadas
-library/                   biblioteca privada local (no versionada)
+library/                   protocolos y metadatos; originales privados no versionados
+tools/                     utilidades y salidas locales ignoradas
 tools/library/output/      productos automatizados (no versionados)
 ```
 

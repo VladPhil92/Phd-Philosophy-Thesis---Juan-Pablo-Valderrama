@@ -15,13 +15,14 @@ decisión analítica.
    duplica metadatos bibliográficos.
 4. **`ai/`** conserva política y registros del apoyo automatizado; no contiene
    evidencia de la tesis.
-5. **`templates/`**, `assets/` y `scripts/` proporcionan formatos, recursos
+5. **`library/`** versiona exclusivamente metadatos, protocolos y estados de
+   verificación; sus originales y derivados privados quedan fuera de Git.
+6. **`templates/`**, `tools/`, `assets/` y `scripts/` proporcionan formatos, recursos
    autorizados y validaciones.
 
 El flujo normal va de `research/` a `thesis/`; gobernanza y controles son
-transversales. `library/` y `tools/library/output/` son espacios locales
-ignorados para originales privados y derivados, no capas de evidencia
-versionada.
+transversales. Las rutas materiales privadas dentro de `library/` y
+`tools/library/output/` están ignoradas y no son capas de evidencia versionada.
 
 ## Unidad de trazabilidad
 

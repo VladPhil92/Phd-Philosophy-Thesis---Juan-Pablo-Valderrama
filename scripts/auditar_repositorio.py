@@ -28,6 +28,19 @@ REQUIRED_PATHS = (
     "research/sources/notes/README.md",
     "research/analysis/README.md",
     "research/argument-ledger/README.md",
+    "library/README.md",
+    "library/LIBRARY-METHODOLOGY.md",
+    "library/OCR-PROTOCOL.md",
+    "library/TRANSCRIPTION-PROTOCOL.md",
+    "library/SOURCE-VERIFICATION-PROTOCOL.md",
+    "library/COPYRIGHT-POLICY.md",
+    "library/AI-LIBRARY-ACCESS-RULES.md",
+    "library/library-index.md",
+    "library/indexes/README.md",
+    "library/templates/source-metadata-template.md",
+    "library/templates/reading-note-template.md",
+    "library/templates/quotation-record-template.md",
+    "library/templates/source-record-scaffold.md",
     "thesis/outline.md",
     "thesis/chapters/README.md",
     "thesis/review/checklist.md",
@@ -36,6 +49,9 @@ REQUIRED_PATHS = (
     "templates/registro-ia.md",
 )
 MARKDOWN_LINK = re.compile(r"(?<!!)\[[^]]+\]\(([^)]+)\)")
+SOURCE_ID = re.compile(r"^LIB-[A-Z]+-\d{3}$")
+OBSOLETE_ROOTS = ("00-gobernanza", "01-investigacion", "04-escritura", "plantillas")
+FORBIDDEN_SUFFIXES = {".pdf", ".epub", ".djvu", ".djv", ".mobi"}
 
 
 def markdown_files() -> list[Path]:
@@ -73,8 +89,46 @@ def validate_readmes() -> list[str]:
     return errors
 
 
+def validate_consolidation() -> list[str]:
+    errors = [f"Permanece una arquitectura obsoleta: {name}/" for name in OBSOLETE_ROOTS if (ROOT / name).exists()]
+    records = sorted((ROOT / "library/records").glob("LIB-*/README.md"))
+    ids = [record.parent.name for record in records]
+    if len(ids) != 28:
+        errors.append(f"Se esperaban 28 registros de fuente y se encontraron {len(ids)}")
+    if len(ids) != len(set(ids)):
+        errors.append("Hay IDs de fuente duplicados")
+    errors.extend(f"ID de fuente inválido: {source_id}" for source_id in ids if not SOURCE_ID.fullmatch(source_id))
+    index = (ROOT / "library/library-index.md").read_text(encoding="utf-8")
+    errors.extend(f"El índice no contiene {source_id}" for source_id in ids if f"`{source_id}`" not in index)
+    for chapter in range(1, 10):
+        path = ROOT / f"thesis/chapters/{chapter:02d}/README.md"
+        if not path.is_file():
+            errors.append(f"Falta la ubicación del capítulo {chapter:02d}")
+    return errors
+
+
+def validate_safety() -> list[str]:
+    errors: list[str] = []
+    for path in ROOT.rglob("*"):
+        if ".git" in path.parts or not path.is_file():
+            continue
+        if path.suffix.lower() in FORBIDDEN_SUFFIXES:
+            errors.append(f"Binario documental presente: {path.relative_to(ROOT)}")
+        if path.suffix.lower() in {".md", ".yml", ".yaml", ".py", ".bib", ".cff"}:
+            text = path.read_text(encoding="utf-8")
+            if "<" * 7 in text or ">" * 7 in text:
+                errors.append(f"Marcador de conflicto presente: {path.relative_to(ROOT)}")
+    return errors
+
+
 def main() -> int:
-    errors = validate_required_paths() + validate_readmes() + validate_links()
+    errors = (
+        validate_required_paths()
+        + validate_readmes()
+        + validate_links()
+        + validate_consolidation()
+        + validate_safety()
+    )
     if errors:
         print("Auditoría fallida:")
         for error in errors:

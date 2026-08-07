@@ -31,6 +31,15 @@ referencia (Bodin, Hobbes, Schmitt, Kant, Lévinas, Derrida, Heidegger,
 Agamben, Nancy, Esposito, Donaldson y Kymlicka), pero **eso no constituye
 todavía un criterio de selección justificado por escrito**.
 
+Existe una propuesta de arquitectura de corpus (200 candidatos, seis
+categorías funcionales más una ampliación 2020–2026) en
+[`research/sources/corpus-map.md`](sources/corpus-map.md). Es un punto de
+partida para esta decisión, no su resolución: ningún candidato de ese mapa
+ha sido verificado en edición ni leído, y los criterios de inclusión que
+implícitamente usa (centralidad en el «giro político» animal, cercanía a
+Derrida, recencia 2020–2026) siguen pendientes de ratificación explícita
+por el investigador.
+
 ## 3. Fuentes primarias y secundarias
 
 **DECISIÓN HUMANA REQUERIDA.** Regla explícita para distinguir lectura

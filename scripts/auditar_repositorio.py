@@ -58,6 +58,7 @@ PI_HEADING = re.compile(r"^#{2,6}\s+(PI-\d+)\b", re.MULTILINE)
 ARG_FRONTMATTER = re.compile(r"\A---\n(.*?)\n---\n", re.DOTALL)
 ARG_ID_FIELD = re.compile(r"^argument_id:\s*(\S+)\s*$", re.MULTILINE)
 ARG_ID_PATTERN = re.compile(r"^ARG-\d{3,}$")
+SRC_ID_TABLE_CELL = re.compile(r"^\|\s*(SRC-\d{3,})\s*\|", re.MULTILINE)
 ARG_STATUS_FIELD = re.compile(r"^status:\s*(\S+)\s*$", re.MULTILINE)
 ARG_VALIDATION_FIELD = re.compile(r"^human_validation:\s*(\S+)\s*$", re.MULTILINE)
 VALID_ARGUMENT_STATUSES = {
@@ -189,6 +190,23 @@ def validate_research_questions() -> list[str]:
     return errors
 
 
+def validate_corpus_map() -> list[str]:
+    """Detect duplicate SRC-* identifiers in research/sources/corpus-map.md."""
+    errors: list[str] = []
+    corpus_map = ROOT / "research" / "sources" / "corpus-map.md"
+    if not corpus_map.is_file():
+        return errors
+    content = corpus_map.read_text(encoding="utf-8")
+    seen: dict[str, int] = {}
+    for match in SRC_ID_TABLE_CELL.finditer(content):
+        identifier = match.group(1)
+        seen[identifier] = seen.get(identifier, 0) + 1
+    for identifier, count in seen.items():
+        if count > 1:
+            errors.append(f"Identificador duplicado en research/sources/corpus-map.md: {identifier} ({count} veces)")
+    return errors
+
+
 def validate_argument_ledger() -> list[str]:
     """Check ARG-* frontmatter: duplicate IDs, valid status, and human_validation safeguard."""
     errors: list[str] = []
@@ -252,6 +270,7 @@ def main() -> int:
         + validate_obsolete_architecture_roots()
         + validate_research_questions()
         + validate_argument_ledger()
+        + validate_corpus_map()
     )
     if errors:
         print("Auditoría fallida:")

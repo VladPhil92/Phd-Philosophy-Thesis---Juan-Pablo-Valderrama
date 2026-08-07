@@ -109,6 +109,15 @@ tools/library/output/
 **/transcriptions/
 **/private-transcription/
 
+# Excepción: research/sources/ es el catálogo canónico versionado
+# (bibliography.bib, fichas de fuente, corpus-map.md), no una carpeta de
+# material fuente protegido. **/sources/ (arriba) la excluía por accidente
+# desde la codificación original del .gitignore, bloqueando en silencio
+# cualquier archivo nuevo dentro de ella. Véase research/sources/README.md
+# y governance/decision-log.md (DEC-003).
+!research/sources/
+!research/sources/**
+
 # Productos generados y material de trabajo local
 generated/
 output/

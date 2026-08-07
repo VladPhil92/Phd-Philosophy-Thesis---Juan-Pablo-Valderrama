@@ -5,7 +5,7 @@
 1. **Autoría humana:** el investigador decide, contrasta, reescribe y responde
    por todo el contenido.
 2. **Transparencia:** todo uso que influya materialmente en el trabajo se
-   registra mediante `plantillas/registro-ia.md`.
+   registra mediante `templates/registro-ia.md`.
 3. **Verificación:** ninguna referencia, cita o afirmación producida por IA se
    acepta sin contrastarla con una fuente accesible y fiable.
 4. **Minimización de datos:** no se introducen datos personales, material

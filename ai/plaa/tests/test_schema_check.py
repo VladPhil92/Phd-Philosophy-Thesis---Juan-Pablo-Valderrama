@@ -39,6 +39,18 @@ class ValidateArgumentFrontmatterTests(unittest.TestCase):
         )
         self.assertEqual(errors, [])
 
+    def test_malformed_argument_id_is_rejected(self) -> None:
+        errors = schema_check.validate_argument_frontmatter(
+            {"argument_id": "banana", "status": "IDEA", "human_validation": "pending"}
+        )
+        self.assertTrue(any("argument_id con formato inválido" in error for error in errors))
+
+    def test_well_formed_argument_id_passes(self) -> None:
+        errors = schema_check.validate_argument_frontmatter(
+            {"argument_id": "ARG-042", "status": "IDEA", "human_validation": "pending"}
+        )
+        self.assertEqual(errors, [])
+
 
 class ValidateAnalysisReportFrontmatterTests(unittest.TestCase):
     def _valid_report(self) -> dict[str, str]:
@@ -71,6 +83,54 @@ class ValidateAnalysisReportFrontmatterTests(unittest.TestCase):
         report["module"] = "made_up_module"
         errors = schema_check.validate_analysis_report_frontmatter(report)
         self.assertTrue(any("module inválido" in error for error in errors))
+
+
+class ValidateAnalysisReportBodyTests(unittest.TestCase):
+    def test_missing_headings_are_reported(self) -> None:
+        errors = schema_check.validate_analysis_report_body({})
+        self.assertTrue(any("Problemas detectados" in error for error in errors))
+        self.assertTrue(any("Referencias del repositorio" in error for error in errors))
+
+    def test_references_heading_without_list_items_is_rejected(self) -> None:
+        sections = {
+            "Problemas detectados": "Sin problemas detectados en este análisis.",
+            "Referencias del repositorio": "(sin referencias todavía)",
+        }
+        errors = schema_check.validate_analysis_report_body(sections)
+        self.assertTrue(any("repository_references no puede estar vacío" in error for error in errors))
+
+    def test_references_heading_with_list_items_passes(self) -> None:
+        sections = {
+            "Problemas detectados": "Sin problemas detectados en este análisis.",
+            "Referencias del repositorio": "- research/argument-ledger/ARG-900001.md",
+        }
+        self.assertEqual(schema_check.validate_analysis_report_body(sections), [])
+
+
+class ValidateAnalysisReportFileEndToEndTests(unittest.TestCase):
+    def test_report_without_references_section_fails_even_with_valid_frontmatter(self) -> None:
+        content = (
+            "---\n"
+            "argument_id: ARG-900001\n"
+            "module: fallacy_analyzer\n"
+            "logical_status: INCOMPLETE\n"
+            "confidence: UNLIKELY\n"
+            "human_review_required: true\n"
+            "report_status: DEVELOPMENT_REQUIRED\n"
+            "---\n\n"
+            "# Informe incompleto (sin secciones obligatorias del cuerpo)\n"
+        )
+        import tempfile
+
+        with tempfile.NamedTemporaryFile("w", suffix=".md", delete=False) as handle:
+            handle.write(content)
+            path = handle.name
+        try:
+            errors = schema_check.validate_analysis_report_file(path)
+        finally:
+            Path(path).unlink()
+        self.assertTrue(any("Problemas detectados" in error for error in errors))
+        self.assertTrue(any("Referencias del repositorio" in error for error in errors))
 
 
 if __name__ == "__main__":

@@ -9,17 +9,17 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from plaa.report import AnalysisReport, DetectedProblem  # noqa: E402
-from plaa.schema_check import validate_analysis_report_frontmatter  # noqa: E402
-from plaa.miner import parse_frontmatter  # noqa: E402
+from plaa.schema_check import validate_analysis_report_body, validate_analysis_report_frontmatter  # noqa: E402
+from plaa.miner import parse_frontmatter, parse_sections  # noqa: E402
 
 
 def _valid_report() -> AnalysisReport:
     return AnalysisReport(
-        argument_id="ARG-EXAMPLE-000",
+        argument_id="ARG-900001",
         module="fallacy_analyzer",
         logical_status="INCOMPLETE",
         confidence="UNLIKELY",
-        repository_references=["research/argument-ledger/ARG-EXAMPLE-000.md"],
+        repository_references=["research/argument-ledger/ARG-900001.md"],
     )
 
 
@@ -59,7 +59,7 @@ class AnalysisReportValidationTests(unittest.TestCase):
         report.detected_problems = [
             DetectedProblem(
                 description="posible circularidad",
-                evidence_location="research/argument-ledger/ARG-EXAMPLE-000.md#Inferencia",
+                evidence_location="research/argument-ledger/ARG-900001.md#Inferencia",
                 confidence="POSSIBLE",
                 reviewed_as_possible_aporia=True,
             )
@@ -72,7 +72,7 @@ class AnalysisReportRenderingTests(unittest.TestCase):
         report = _valid_report()
         rendered = report.to_markdown()
         frontmatter = parse_frontmatter(rendered)
-        self.assertEqual(frontmatter["argument_id"], "ARG-EXAMPLE-000")
+        self.assertEqual(frontmatter["argument_id"], "ARG-900001")
         self.assertEqual(frontmatter["module"], "fallacy_analyzer")
         self.assertEqual(validate_analysis_report_frontmatter(frontmatter), [])
 
@@ -80,6 +80,14 @@ class AnalysisReportRenderingTests(unittest.TestCase):
         report = _valid_report()
         rendered = report.to_markdown()
         self.assertNotIn("report_status: VALIDATED", rendered)
+
+    def test_rendered_markdown_satisfies_body_section_validation(self) -> None:
+        # Regression check: schema_check validates detected_problems/repository_references
+        # from the Markdown body, not just the frontmatter — a rendered report must
+        # actually satisfy that, not just look complete.
+        report = _valid_report()
+        rendered = report.to_markdown()
+        self.assertEqual(validate_analysis_report_body(parse_sections(rendered)), [])
 
 
 if __name__ == "__main__":

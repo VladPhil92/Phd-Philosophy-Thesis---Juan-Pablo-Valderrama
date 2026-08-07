@@ -13,15 +13,17 @@ faithful to the original text.
 
 from __future__ import annotations
 
+import re
 from pathlib import Path
 
-from .miner import parse_frontmatter
+from .miner import parse_frontmatter, parse_sections
 
 VALID_ARGUMENT_STATUSES = frozenset(
     {"IDEA", "DEVELOPING", "SUPPORTED", "CONTESTED", "READY_FOR_HUMAN_REVIEW", "VALIDATED", "REJECTED"}
 )
 VALID_HUMAN_VALIDATION_VALUES = frozenset({"pending", "validated"})
 REQUIRED_ARGUMENT_FIELDS = ("argument_id", "status", "human_validation")
+ARGUMENT_ID_PATTERN = re.compile(r"^ARG-\d{3,}$")
 
 VALID_MODULES = frozenset(
     {"miner", "graph", "formalizer", "validator", "fallacy_analyzer", "concept_consistency", "stress_test"}
@@ -32,6 +34,13 @@ VALID_LOGICAL_STATUSES = frozenset(
 VALID_CONFIDENCE_VALUES = frozenset({"POSSIBLE", "LIKELY", "UNLIKELY", "NOT_DETECTED"})
 VALID_REPORT_STATUSES = frozenset({"NOT_READY", "DEVELOPMENT_REQUIRED", "READY_FOR_HUMAN_REVIEW"})
 REQUIRED_ANALYSIS_REPORT_FIELDS = ("argument_id", "module", "logical_status", "confidence", "human_review_required")
+# Required by analysis-report.schema.* but stored in the Markdown body
+# (as a table / bullet list), not in the frontmatter — see
+# templates/analysis-report.md. "Referencias del repositorio" mirrors the
+# schema's repository_references (minItems: 1); "Problemas detectados"
+# mirrors detected_problems (required key, may legitimately be an empty
+# list, so only presence of the heading is checked, not its content).
+REQUIRED_ANALYSIS_REPORT_BODY_HEADINGS = ("Problemas detectados", "Referencias del repositorio")
 
 
 def validate_argument_frontmatter(frontmatter: dict[str, str]) -> list[str]:
@@ -40,6 +49,13 @@ def validate_argument_frontmatter(frontmatter: dict[str, str]) -> list[str]:
     for field_name in REQUIRED_ARGUMENT_FIELDS:
         if not frontmatter.get(field_name):
             errors.append(f"Falta el campo obligatorio '{field_name}' en la cabecera.")
+
+    argument_id = frontmatter.get("argument_id")
+    if argument_id and not ARGUMENT_ID_PATTERN.match(argument_id):
+        errors.append(
+            f"argument_id con formato inválido: {argument_id!r} "
+            f"(se esperaba el patrón {ARGUMENT_ID_PATTERN.pattern})."
+        )
 
     status = frontmatter.get("status")
     if status is not None and status not in VALID_ARGUMENT_STATUSES:
@@ -105,6 +121,28 @@ def validate_analysis_report_frontmatter(frontmatter: dict[str, str]) -> list[st
     return errors
 
 
+def validate_analysis_report_body(sections: dict[str, str]) -> list[str]:
+    """Validate the Markdown-body fields required by analysis-report.schema.*
+    that are not part of the frontmatter (see REQUIRED_ANALYSIS_REPORT_BODY_HEADINGS).
+    """
+    errors: list[str] = []
+    for heading in REQUIRED_ANALYSIS_REPORT_BODY_HEADINGS:
+        if heading not in sections or not sections[heading].strip():
+            errors.append(f"Falta o está vacía la sección obligatoria '{heading}' del informe.")
+
+    references_text = sections.get("Referencias del repositorio", "")
+    reference_items = [line for line in references_text.splitlines() if line.strip().startswith(("-", "*"))]
+    if not reference_items:
+        errors.append(
+            "repository_references no puede estar vacío: la sección 'Referencias del repositorio' "
+            "no contiene ningún elemento de lista (Principio 7: no claim without traceability)."
+        )
+
+    return errors
+
+
 def validate_analysis_report_file(path: str | Path) -> list[str]:
     content = Path(path).read_text(encoding="utf-8")
-    return validate_analysis_report_frontmatter(parse_frontmatter(content))
+    errors = validate_analysis_report_frontmatter(parse_frontmatter(content))
+    errors += validate_analysis_report_body(parse_sections(content))
+    return errors

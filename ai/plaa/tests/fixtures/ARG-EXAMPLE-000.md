@@ -1,11 +1,11 @@
 ---
-argument_id: ARG-EXAMPLE-000
+argument_id: ARG-900001
 status: DEVELOPING
 human_validation: pending
 target_chapter: ""
 ---
 
-# ARG-EXAMPLE-000: [ficha ficticia usada solo para probar el paquete ai/plaa]
+# ARG-900001: [ficha ficticia usada solo para probar el paquete ai/plaa; ID fuera de rango deliberadamente para no confundirse con un ARG-* real]
 
 > Este archivo es un fixture de prueba. No corresponde a un argumento real
 > de la tesis y no debe copiarse a `research/argument-ledger/`.

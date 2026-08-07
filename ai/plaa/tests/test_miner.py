@@ -38,7 +38,7 @@ class MineArgumentFileTests(unittest.TestCase):
         self.document = mine_argument_file(FIXTURE)
 
     def test_reads_frontmatter(self) -> None:
-        self.assertEqual(self.document.argument_id, "ARG-EXAMPLE-000")
+        self.assertEqual(self.document.argument_id, "ARG-900001")
         self.assertEqual(self.document.status, "DEVELOPING")
 
     def test_extracts_claim_node(self) -> None:

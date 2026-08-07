@@ -5,8 +5,8 @@
 > ninguna posición filosófica atribuida a Juan Pablo Valderrama. Su único
 > propósito es mostrar la forma que debe tener un análisis PLAA completo
 > antes de que exista el primer argumento sustantivo real. Corresponde a
-> la ficha ficticia `ARG-EXAMPLE-000` usada también en
-> `tests/fixtures/ARG-EXAMPLE-000.md`.
+> la ficha ficticia `ARG-900001` (identificador fuera de rango a propósito)
+> usada también en `tests/fixtures/ARG-EXAMPLE-000.md`.
 
 ## Argumento auditado (ficticio)
 
@@ -33,7 +33,7 @@ Producido de forma determinista por `plaa.miner.mine_argument_file`.
 ## Módulo 5 — Fallacy Analyzer (informe de análisis)
 
 ```yaml
-argument_id: ARG-EXAMPLE-000
+argument_id: ARG-900001
 module: fallacy_analyzer
 logical_status: INCOMPLETE
 confidence: POSSIBLE

@@ -54,9 +54,10 @@ JUNK_PARTS = {
 }
 JUNK_SUFFIXES = (".bak", ".orig", ".pyc", ".rej", ".swp", ".swo", ".temp", ".tmp")
 MERGE_MARKER_PATTERN = re.compile(r"^(?:<{7}|={7}|>{7})(?!\S)", re.MULTILINE)
-PI_HEADING = re.compile(r"^##\s+(PI-\d+)\b", re.MULTILINE)
+PI_HEADING = re.compile(r"^#{2,6}\s+(PI-\d+)\b", re.MULTILINE)
 ARG_FRONTMATTER = re.compile(r"\A---\n(.*?)\n---\n", re.DOTALL)
 ARG_ID_FIELD = re.compile(r"^argument_id:\s*(\S+)\s*$", re.MULTILINE)
+ARG_ID_PATTERN = re.compile(r"^ARG-\d{3,}$")
 ARG_STATUS_FIELD = re.compile(r"^status:\s*(\S+)\s*$", re.MULTILINE)
 ARG_VALIDATION_FIELD = re.compile(r"^human_validation:\s*(\S+)\s*$", re.MULTILINE)
 VALID_ARGUMENT_STATUSES = {
@@ -211,6 +212,11 @@ def validate_argument_ledger() -> list[str]:
         if not argument_id:
             errors.append(f"Ficha de argumento sin argument_id: {location}")
         else:
+            if not ARG_ID_PATTERN.match(argument_id):
+                errors.append(
+                    f"argument_id con formato inválido en {location}: {argument_id!r} "
+                    f"(se esperaba el patrón ARG-### tal como {ARG_ID_PATTERN.pattern})"
+                )
             seen_ids.setdefault(argument_id, []).append(location)
 
         status_match = ARG_STATUS_FIELD.search(frontmatter)

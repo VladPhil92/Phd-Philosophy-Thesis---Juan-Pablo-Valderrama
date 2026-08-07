@@ -1,0 +1,10 @@
+# Copyright-safe doctoral library exclusions
+library/**/source/*.pdf
+library/**/source/*.epub
+library/**/source/*.djvu
+library/**/source/*.mobi
+library/**/private/
+library/**/transcription/raw-ocr-private.md
+library/**/transcription/full-text-private.md
+library/**/transcription/sections-private/
+tools/library/output/

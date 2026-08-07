@@ -1,0 +1,60 @@
+source_id: SRC-LEVINAS-TOTALITE-INFINI-FR
+
+author: Emmanuel Lévinas
+title: Totalité et Infini
+original_title: Totalité et Infini
+publication_year: TODO — VERIFY
+
+edition: TODO — VERIFY
+publisher: TODO — VERIFY
+publication_place: TODO — VERIFY
+translator: TODO — VERIFY
+language: TODO — VERIFY
+original_language: TODO — VERIFY
+
+source_type: TODO — VERIFY
+# scanned_pdf | digital_pdf | epub | physical_book | journal_article | court_decision | other
+bibliographic_status: pending
+copyright_status: unknown
+repository_distribution: public_metadata_only
+private_source_available: TODO — VERIFY
+public_full_text_available: false
+
+original_file:
+  stored_in_repo: false
+  filename: TODO — VERIFY
+  checksum: TODO — VERIFY
+
+transcription:
+  exists: false
+  method: TODO — VERIFY
+  date: TODO — VERIFY
+  software: TODO — VERIFY
+  language_model_assistance: TODO — VERIFY
+  status: OCR_RAW
+
+ocr:
+  performed: false
+  engine: TODO — VERIFY
+  status: OCR_RAW
+  estimated_quality: TODO — VERIFY
+
+pagination:
+  original_pages_preserved: false
+  page_marker_format: "<!-- SOURCE_PAGE: n -->"
+
+human_verification:
+  status: OCR_RAW
+  verified_by: TODO — VERIFY
+  date: TODO — VERIFY
+  scope: []
+
+philosophical_terms_reviewed:
+  status: TODO — VERIFY
+
+dissertation_relevance:
+  chapters: []
+  concepts: []
+
+notes: "Source placeholder derived from proposal; verify edition before use."
+last_updated: 2026-08-07

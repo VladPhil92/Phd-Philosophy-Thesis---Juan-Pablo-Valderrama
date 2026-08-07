@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Si utiliza este proyecto, cite esta versión del repositorio."
+title: "Soberanía de la Hospitalidad: repositorio de investigación doctoral"
+type: generic
+authors:
+  - family-names: Valderrama
+    given-names: Juan Pablo
+date-released: 2026-08-07
+license: LicenseRef-Proprietary

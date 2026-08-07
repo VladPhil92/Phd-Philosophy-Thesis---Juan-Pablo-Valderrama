@@ -1,18 +1,30 @@
-# Sistema operativo y editores
+# Sistema operativo
 .DS_Store
 Thumbs.db
+Desktop.ini
+
+# Editores e IDE
 *.swp
 *.swo
 *~
 .vscode/
 .idea/
 
-# Python
+# Python, entornos y cachés
 __pycache__/
 *.py[cod]
 .venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
-# LaTeX y documentos compilados
+# Compilación, cobertura y artefactos generados
+build/
+dist/
+*.egg-info/
+.coverage
+htmlcov/
 *.aux
 *.bbl
 *.blg
@@ -24,7 +36,41 @@ __pycache__/
 *.toc
 04-escritura/manuscrito.pdf
 
-# Datos locales o sensibles
+# Archivos temporales y copias locales
+*.bak
+*.tmp
+*.temp
+*.orig
+*.rej
+.cache/
+tmp/
+
+# Secretos, credenciales y configuración local
 .env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials.json
+secrets.*
+
+# Bases de datos y datos locales o sensibles
+*.db
+*.sqlite
+*.sqlite3
 privado/
+private/
 datos-sensibles/
+**/privado/
+**/private/
+
+# Biblioteca doctoral: originales y derivados privados
+# Se versionan únicamente metadatos, fichas y materiales cuya licencia lo permita.
+library/**/source/
+library/**/sources/
+library/**/ocr/
+library/**/transcription/
+library/**/transcriptions/
+library/**/private-ocr/
+library/**/private-transcription/
+tools/library/output/

@@ -1,0 +1,43 @@
+# Configuración de PLAA.
+#
+# Archivo plano deliberadamente: sin listas anidadas profundas ni anclas
+# YAML, para poder leerse con el analizador mínimo de
+# plaa/schema_check.py sin depender de PyYAML (véase ARCHITECTURE.md,
+# "Sin dependencias nuevas"). Si necesitas anidamiento real, es señal de
+# que este archivo debe dividirse, no de que hay que añadir una
+# dependencia de parsing.
+
+# Módulos deterministas, siempre disponibles como código.
+module_miner_enabled: true
+module_graph_enabled: true
+
+# Módulos de juicio: existen como prompts en prompts/, no como código que
+# decide automáticamente. Este flag documenta que están definidos, no que
+# se ejecutan sin supervisión humana.
+module_formalizer_enabled: true
+module_fallacy_analyzer_enabled: true
+module_concept_consistency_enabled: true
+module_stress_test_enabled: true
+
+# Módulo 4: validador lógico simbólico.
+# "none" es el único valor soportado hoy. Cambiarlo a otro motor requiere
+# implementar plaa.validator_interfaces.LogicalValidatorEngine y
+# documentar la decisión en governance/decision-log.md antes de activarlo.
+symbolic_engine: none
+
+# Vocabulario de confianza obligatorio para todo hallazgo (módulo 5, y por
+# extensión cualquier módulo de juicio). No editable sin actualizar
+# schemas/analysis-report.schema.yaml y plaa/fallacy_checklist.py a la vez.
+confidence_vocabulary: POSSIBLE,LIKELY,UNLIKELY,NOT_DETECTED
+
+# Ciclo de estado global de un informe de análisis.
+report_status_vocabulary: NOT_READY,DEVELOPMENT_REQUIRED,READY_FOR_HUMAN_REVIEW
+
+# La capa de seguridad hermenéutica (módulo 8) es obligatoria y no
+# desactivable: no existe módulo separado que la implemente porque es una
+# regla transversal aplicada dentro de los módulos 3, 4, 5 y 7.
+hermeneutic_safety_layer_enabled: true
+hermeneutic_safety_layer_mandatory: true
+
+# Ningún módulo escribe VALIDATED de forma autónoma. No configurable.
+autonomous_validation_forbidden: true

@@ -1,0 +1,33 @@
+# Concept Object — espejo legible en YAML de concept.schema.json.
+# No parseado en tiempo de ejecución; ver DEVELOPER-GUIDE.md.
+
+title: Concept Object
+description: >
+  Un término filosófico rastreado por el módulo 6 (Concept Consistency
+  Engine) a través de fichas de fuente y de argumento. Se referencia por su
+  forma textual normalizada, no por un ID propio: el corpus actual (cero
+  argumentos, cero fuentes) es demasiado pequeño para justificar un
+  catálogo canónico de conceptos separado. Ver ROADMAP.md.
+
+required_fields:
+  - term          # forma canónica en minúsculas, p. ej. "soberanía"
+  - occurrences   # lista, mínimo 1 elemento
+
+optional_fields:
+  aliases: lista de variantes/traducciones tratadas como el mismo concepto
+  possible_drift: POSSIBLE | LIKELY | UNLIKELY | NOT_DETECTED
+  drift_justification: obligatorio si possible_drift != NOT_DETECTED
+  human_review_required: booleano, true por defecto
+
+occurrence_fields:
+  # cada elemento de "occurrences" requiere:
+  - location        # archivo + sección, p. ej. research/argument-ledger/ARG-014.md#Afirmación
+  - quoted_context   # fragmento literal citado
+  # opcional:
+  - apparent_sense   # descripción breve y no normativa del sentido aparente
+
+regla_de_evidencia: >
+  Ninguna afirmación de deriva conceptual (possible_drift distinto de
+  NOT_DETECTED) se acepta sin al menos dos "occurrences" con
+  quoted_context distinto que la justifiquen. Esto implementa el
+  Principio 6 de README.md: la evidencia precede a la inferencia.

@@ -1,0 +1,52 @@
+# Argument Object — espejo legible en YAML de argument.schema.json.
+#
+# Este archivo es documentación para personas; PLAA no lo parsea en
+# tiempo de ejecución (ver DEVELOPER-GUIDE.md). La fuente de verdad
+# ejecutable de las mismas reglas vive en plaa/schema_check.py, como
+# constantes que deben mantenerse sincronizadas con ambos archivos de
+# esquema. Si divergen, corrige los tres a la vez.
+
+title: Argument Object
+description: >
+  Especificación estructural de una ficha ARG-* (research/argument-ledger/**),
+  tal como la produce templates/ficha-argumento.md. No especifica ni valida
+  contenido filosófico, solo forma.
+
+required_fields:
+  - argument_id      # ARG-### — identificador estable, único en el repositorio
+  - status           # ciclo epistémico, ver enum status_values
+  - human_validation # pending | validated
+
+status_values:
+  - IDEA
+  - DEVELOPING
+  - SUPPORTED
+  - CONTESTED
+  - READY_FOR_HUMAN_REVIEW
+  - VALIDATED   # solo el investigador puede escribir este valor
+  - REJECTED
+
+human_validation_values:
+  - pending
+  - validated   # solo el investigador puede escribir este valor
+
+optional_fields:
+  target_chapter: string, ruta en thesis/chapters/
+  related_questions: lista de PI-##, al menos una si el argumento no es IDEA
+  sources: lista de claves BibTeX de research/sources/bibliography.bib
+  ai_interactions: lista de IA-AAAA-MM-DD-NN de ai/templates/registro-ia.md
+
+sections:
+  # Corresponde 1:1 a los encabezados de templates/ficha-argumento.md.
+  # Ver plaa/miner.py:SECTION_HEADINGS para el mapeo español -> canónico.
+  - claim                          # Afirmación (claim)
+  - premises                       # Premisas
+  - source_support                 # Respaldo de fuentes
+  - textual_evidence                # Evidencia textual
+  - inference                      # Inferencia
+  - alternative_interpretations    # Interpretaciones alternativas
+  - objections_and_responses       # Objeciones y respuestas
+  - scope_and_limits               # Alcance y límites
+  - ai_use                         # Uso de IA
+  - revision_history               # Historial de revisión
+  - manuscript_use                 # Uso previsto en el manuscrito

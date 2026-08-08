@@ -508,7 +508,9 @@ argumentos teóricos.
   pp. 40, 368–380) es la conexión más directa de esta fuente con esta
   pregunta.
 
-Ningún `ARG-*` cita todavía esta ficha. La homología bestia/soberano
+`ARG-001` (`research/argument-ledger/ARG-001.md`, estado `DEVELOPING`,
+`human_validation: pending`) cita esta ficha (cita 7, p. 306/352) junto
+con `derrida-2008-animal` y `derrida-2023-hospitality`. La homología bestia/soberano
 (PI-02/PI-04), el "yo puedo"/"quizás"/Bataille en triangulación con
 `derrida-2023-hospitality.md` (PI-07) y el cierre aristotélico (PI-03)
 son las candidatas más fuertes que aporta esta fuente.

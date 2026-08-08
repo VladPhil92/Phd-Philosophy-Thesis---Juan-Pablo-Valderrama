@@ -30,7 +30,7 @@ plazo?* Si la respuesta es no, no se implementa.
 Evaluación honesta contra el modelo de madurez (sección siguiente), no
 aspiracional:
 
-- **Nivel alcanzado: 2** (fuentes registradas y leídas). Tres fuentes en
+- **Nivel alcanzado: 3** (argumentos producidos). Tres fuentes en
   `bibliography.bib` con edición verificada y ficha en
   `research/sources/notes/`: `SRC-004` (Derrida, *The Animal That
   Therefore I Am*, 58 citas cotejadas), `SRC-002` (Derrida, *Hospitality,
@@ -40,21 +40,35 @@ aspiracional:
   respaldo textual más directo hasta ahora para `PI-02`/`PI-04`, cierre
   aristotélico del volumen (primer respaldo textual directo para
   `PI-03`), y el elefante de Luis XIV como caso histórico concreto de
-  co-presencia bestia/soberano).
-- **Nivel 3 (argumentos producidos) todavía no alcanzado**: cero fichas en
-  `research/argument-ledger/` más allá del `README.md`. Candidatas ya
-  identificadas: distinción dominio/nombrar y límite de la hospitalidad
-  levinasiana (`derrida-2008-animal.md`); la aporía ley/leyes de la
-  hospitalidad y la coimplicación soberanía/hospitalidad vía ipseidad
-  (`derrida-2023-hospitality.md`, esta última la más madura). Ningún
-  `ARG-*` construido todavía.
+  co-presencia bestia/soberano). Además, una nota de lectura de segundo
+  orden que las compara (`research/sources/notes/sintesis-tres-
+  seminarios-derrida.md`).
+- **`ARG-001` — primer argumento del repositorio** (`research/argument-
+  ledger/ARG-001.md`, estado `DEVELOPING`, `human_validation: pending`):
+  la soberanía como tránsito de la potencia ilimitada ("yo puedo", *La
+  bestia y el soberano*, p. 306/352) a la no-potencia que obliga ("no
+  puedo, por tanto debo", *Hospitality*, p. 232; "a possibility without
+  power", *The Animal That Therefore I Am*, p. 27) — triangula las tres
+  fuentes primarias del corpus. Pendiente de lectura manual del
+  investigador y de paso por `epistemic-auditor` antes de poder avanzar
+  de estado. Candidatas adicionales todavía sin desarrollar: distinción
+  dominio/nombrar y límite de la hospitalidad levinasiana
+  (`derrida-2008-animal.md`); homología bestia/soberano
+  (`derrida-2010-bestia-soberano-1.md`).
+- **Nivel 4 (argumentos validados) todavía no alcanzado**: `ARG-001`
+  requiere `status: VALIDATED` y `human_validation: validated`, decisión
+  exclusiva del investigador, no alcanzable de forma autónoma por
+  ninguna sesión de IA.
 - **Gate A (Repository Ready) cruzada** (2026-08-08, DEC-006): Fase 1
   cerrada, incluida la protección de `main`.
 - Fase activa: **Fase 4 (Investigación sustantiva)**, con la Fase 3
   (Biblioteca de investigación) todavía abierta en paralelo — el corpus se
   construye de forma progresiva, no por lote.
-- Puerta más próxima a cruzar: **Gate D (Research Ready)**, no antes de
-  tener 3–5 fuentes en Nivel 2, no solo una.
+- Puerta más próxima a cruzar: **Gate D (Research Ready)** — sus tres
+  criterios verificables ya están cumplidos (véase checklist de cierre
+  de la Fase 4 más abajo); falta únicamente que el investigador la
+  declare formalmente cruzada, decisión que ninguna sesión de IA puede
+  tomar por sí sola (DEC-004).
 
 ## Modelo de madurez de investigación
 
@@ -219,12 +233,21 @@ cuando el volumen lo requiera, siguiendo el mismo criterio que
   ficha.
 - **Checklist de cierre (para declarar Gate D):**
   - [x] Al menos 1 fuente con lectura crítica profunda.
-  - [ ] Al menos 3–5 fuentes con lectura crítica profunda y candidatas a
-        argumento identificadas.
-  - [ ] Al menos 2 conceptos centrales (p. ej. soberanía, hospitalidad)
-        con apariciones rastreadas en más de una fuente — insumo directo
-        para el Módulo 6 de PLAA cuando haya suficiente material.
-- **Madurez estimada:** en curso, un ciclo completo ya ejecutado.
+  - [x] Al menos 3–5 fuentes con lectura crítica profunda y candidatas a
+        argumento identificadas — tres fuentes (`SRC-004`, `SRC-002`,
+        `SRC-005`) con «Paráfrasis e interpretación» sustantiva y al
+        menos una candidata a argumento cada una; `ARG-001` ya
+        construido a partir de las tres.
+  - [x] Al menos 2 conceptos centrales (soberanía, hospitalidad,
+        animalidad) con apariciones rastreadas en más de una fuente —
+        hecho explícitamente en
+        `research/sources/notes/sintesis-tres-seminarios-derrida.md`.
+  - Los tres criterios verificables están cumplidos; declarar Gate D
+    formalmente cruzada sigue siendo decisión exclusiva del
+    investigador (`governance/authority-policy.md`, DEC-004), no algo
+    que esta sesión pueda marcar por sí sola.
+- **Madurez estimada:** en curso, criterios de cierre cumplidos,
+  pendiente de declaración formal del investigador.
 
 ### Fase 5 — Desarrollo argumental
 

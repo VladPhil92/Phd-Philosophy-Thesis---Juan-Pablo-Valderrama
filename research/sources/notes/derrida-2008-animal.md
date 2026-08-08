@@ -394,10 +394,13 @@ ni la indiferencia de la piedra ni la apertura del mundo humano.
   soberanía puede quedar normativamente obligada por aquello que no
   domina, más allá del rostro humano.
 
-Ningún `ARG-*` cita todavía esta ficha. Las correspondencias anteriores
-son candidatas para argumentos futuros, no argumentos en sí: construirlas
-como `ARG-*` requiere premisas explícitas, inferencia y al menos una
-objeción, siguiendo `templates/ficha-argumento.md`.
+`ARG-001` (`research/argument-ledger/ARG-001.md`, estado `DEVELOPING`,
+`human_validation: pending`) cita esta ficha (cita de Bentham, p. 27)
+junto con `derrida-2023-hospitality` y `derrida-2010-bestia-soberano-1`.
+Las demás correspondencias anteriores siguen siendo candidatas para
+argumentos futuros, no argumentos en sí: construirlas como `ARG-*`
+requiere premisas explícitas, inferencia y al menos una objeción,
+siguiendo `templates/ficha-argumento.md`.
 
 ## Objeciones y límites
 

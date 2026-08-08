@@ -396,8 +396,11 @@ tesis ya esté hecha por Derrida.
   aquello que no domina por completo — candidatas de respaldo textual
   fuerte para esta pregunta.
 
-Ningún `ARG-*` cita todavía esta ficha. Las correspondencias anteriores
-son candidatas para argumentos futuros, no argumentos en sí.
+`ARG-001` (`research/argument-ledger/ARG-001.md`, estado `DEVELOPING`,
+`human_validation: pending`) cita esta ficha (cita 56, p. 232) junto con
+`derrida-2008-animal` y `derrida-2010-bestia-soberano-1`. Las demás
+correspondencias anteriores siguen siendo candidatas para argumentos
+futuros, no argumentos en sí.
 
 ## Objeciones y límites
 

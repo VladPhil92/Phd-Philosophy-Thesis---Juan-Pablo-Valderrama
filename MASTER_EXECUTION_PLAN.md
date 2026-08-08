@@ -34,7 +34,7 @@ aspiracional:
   `bibliography.bib` con edición verificada y ficha en
   `research/sources/notes/`: `SRC-004` (Derrida, *The Animal That
   Therefore I Am*, 58 citas cotejadas) y `SRC-002` (Derrida, *Hospitality,
-  Volume I*, 9 citas cotejadas — la de conexión más directa con `PI-01`
+  Volume I*, 60 citas cotejadas — la de conexión más directa con `PI-01`
   hasta ahora).
 - **Nivel 3 (argumentos producidos) todavía no alcanzado**: cero fichas en
   `research/argument-ledger/` más allá del `README.md`. Candidatas ya

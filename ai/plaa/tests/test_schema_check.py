@@ -106,6 +106,45 @@ class ValidateAnalysisReportBodyTests(unittest.TestCase):
         }
         self.assertEqual(schema_check.validate_analysis_report_body(sections), [])
 
+    def test_module_none_does_not_require_conditional_headings(self) -> None:
+        sections = {
+            "Problemas detectados": "Sin problemas detectados en este análisis.",
+            "Referencias del repositorio": "- research/argument-ledger/ARG-900001.md",
+        }
+        self.assertEqual(schema_check.validate_analysis_report_body(sections, module=None), [])
+
+    def test_formalizer_module_requires_formalizacion_heading(self) -> None:
+        sections = {
+            "Problemas detectados": "Sin problemas detectados en este análisis.",
+            "Referencias del repositorio": "- research/argument-ledger/ARG-900001.md",
+        }
+        errors = schema_check.validate_analysis_report_body(sections, module="formalizer")
+        self.assertTrue(any("Formalización" in error and "formalizer" in error for error in errors))
+
+    def test_formalizer_module_with_formalizacion_heading_passes(self) -> None:
+        sections = {
+            "Problemas detectados": "Sin problemas detectados en este análisis.",
+            "Referencias del repositorio": "- research/argument-ledger/ARG-900001.md",
+            "Formalización": "Nivel: propositional\n\nP1, P2 |- C",
+        }
+        self.assertEqual(schema_check.validate_analysis_report_body(sections, module="formalizer"), [])
+
+    def test_concept_consistency_module_requires_ambiguedad_conceptual_heading(self) -> None:
+        sections = {
+            "Problemas detectados": "Sin problemas detectados en este análisis.",
+            "Referencias del repositorio": "- research/argument-ledger/ARG-900001.md",
+        }
+        errors = schema_check.validate_analysis_report_body(sections, module="concept_consistency")
+        self.assertTrue(any("Ambigüedad conceptual" in error for error in errors))
+
+    def test_fallacy_analyzer_module_requires_falacias_posibles_heading(self) -> None:
+        sections = {
+            "Problemas detectados": "Sin problemas detectados en este análisis.",
+            "Referencias del repositorio": "- research/argument-ledger/ARG-900001.md",
+        }
+        errors = schema_check.validate_analysis_report_body(sections, module="fallacy_analyzer")
+        self.assertTrue(any("Falacias posibles" in error for error in errors))
+
 
 class ValidateAnalysisReportFileEndToEndTests(unittest.TestCase):
     def test_report_without_references_section_fails_even_with_valid_frontmatter(self) -> None:

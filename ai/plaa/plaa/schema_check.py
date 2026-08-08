@@ -41,6 +41,15 @@ REQUIRED_ANALYSIS_REPORT_FIELDS = ("argument_id", "module", "logical_status", "c
 # mirrors detected_problems (required key, may legitimately be an empty
 # list, so only presence of the heading is checked, not its content).
 REQUIRED_ANALYSIS_REPORT_BODY_HEADINGS = ("Problemas detectados", "Referencias del repositorio")
+# Sections that are only meaningful (and only required) for a specific
+# module, per templates/analysis-report.md's own "Solo si module: ..."
+# notes and the schema's formalization/concept_ambiguity/possible_fallacies
+# properties. Keyed by the module value that requires the heading.
+MODULE_CONDITIONAL_BODY_HEADINGS = {
+    "formalizer": "Formalización",
+    "concept_consistency": "Ambigüedad conceptual",
+    "fallacy_analyzer": "Falacias posibles",
+}
 
 
 def validate_argument_frontmatter(frontmatter: dict[str, str]) -> list[str]:
@@ -121,14 +130,27 @@ def validate_analysis_report_frontmatter(frontmatter: dict[str, str]) -> list[st
     return errors
 
 
-def validate_analysis_report_body(sections: dict[str, str]) -> list[str]:
+def validate_analysis_report_body(sections: dict[str, str], module: str | None = None) -> list[str]:
     """Validate the Markdown-body fields required by analysis-report.schema.*
-    that are not part of the frontmatter (see REQUIRED_ANALYSIS_REPORT_BODY_HEADINGS).
+    that are not part of the frontmatter (see REQUIRED_ANALYSIS_REPORT_BODY_HEADINGS
+    and MODULE_CONDITIONAL_BODY_HEADINGS).
+
+    ``module`` is optional so this function stays usable on a bare ``sections``
+    dict (e.g. in a unit test) without requiring the caller to also parse
+    frontmatter; pass it whenever available for the full check.
     """
     errors: list[str] = []
     for heading in REQUIRED_ANALYSIS_REPORT_BODY_HEADINGS:
         if heading not in sections or not sections[heading].strip():
             errors.append(f"Falta o está vacía la sección obligatoria '{heading}' del informe.")
+
+    required_module, heading = None, MODULE_CONDITIONAL_BODY_HEADINGS.get(module or "")
+    if heading is not None:
+        required_module = module
+        if heading not in sections or not sections[heading].strip():
+            errors.append(
+                f"Falta o está vacía la sección '{heading}', obligatoria cuando module: {required_module}."
+            )
 
     references_text = sections.get("Referencias del repositorio", "")
     reference_items = [line for line in references_text.splitlines() if line.strip().startswith(("-", "*"))]
@@ -143,6 +165,7 @@ def validate_analysis_report_body(sections: dict[str, str]) -> list[str]:
 
 def validate_analysis_report_file(path: str | Path) -> list[str]:
     content = Path(path).read_text(encoding="utf-8")
-    errors = validate_analysis_report_frontmatter(parse_frontmatter(content))
-    errors += validate_analysis_report_body(parse_sections(content))
+    frontmatter = parse_frontmatter(content)
+    errors = validate_analysis_report_frontmatter(frontmatter)
+    errors += validate_analysis_report_body(parse_sections(content), module=frontmatter.get("module"))
     return errors

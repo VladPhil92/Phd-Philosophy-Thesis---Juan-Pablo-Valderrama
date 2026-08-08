@@ -69,6 +69,12 @@ aspiracional:
   de la Fase 4 más abajo); falta únicamente que el investigador la
   declare formalmente cruzada, decisión que ninguna sesión de IA puede
   tomar por sí sola (DEC-004).
+- **Research Phase 1 declarada** (2026-08-08, `DEC-009`), tras auditoría
+  crítica sin hallazgos estructurales graves: el trabajo prioritario deja
+  de ser infraestructura y pasa a ser leer, interpretar, argumentar y
+  escribir. Ninguna sesión de IA debe crear herramientas, subagentes,
+  carpetas, módulos o protocolos nuevos sin una necesidad de
+  investigación real y explícita.
 
 ## Modelo de madurez de investigación
 

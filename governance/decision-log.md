@@ -218,3 +218,40 @@
   esa comprobación queda fuera del alcance de la IA de este repositorio.
   Ninguna herramienta de detección probabilística de IA se adopta ni se
   planea adoptar.
+
+## DEC-009 — Cierre de auditoría crítica y entrada en Research Phase 1
+
+- **Fecha:** 2026-08-08
+- **Estado:** aceptada
+- **Contexto:** el investigador pidió una auditoría crítica de 12 frentes
+  (PR #12, fichas de lectura, citas, argument-ledger, corpus,
+  metodología, repositorio completo) antes de iniciar una etapa
+  intensiva de investigación filosófica, con la regla explícita de
+  corregir solo lo mínimo indispensable y reportar —no decidir— todo lo
+  que requiriera juicio humano (`ai/log/IA-2026-08-08-12.md`).
+- **Decisión:** auditoría completada. Se corrigieron dos hallazgos
+  concretos y menores: una afirmación desactualizada en `README.md`
+  sobre el estado del corpus (ya no es cierto que "ninguna entrada" del
+  mapa fue leída o citada — tres fuentes lo están) y la descripción del
+  PR #12 en GitHub (documentaba solo 2 de 15 commits). No se encontraron
+  identificadores duplicados, citas huérfanas, enlaces rotos,
+  contradicciones metodológicas internas, ni registros de IA
+  incompletos. El duplicado ya conocido `SRC-037`/`SRC-185` en
+  `corpus-map.md` sigue correctamente documentado en el propio archivo,
+  sin acción adicional requerida mientras ambos permanezcan
+  `CANDIDATE`.
+- **Consecuencias:** se **reporta sin ejecutar** un conflicto real: el
+  encargo de auditoría pedía clasificar retroactivamente las 184 citas
+  ya integradas con un campo `QUALITY` nuevo, lo cual contradice
+  directamente `DEC-007` (misma fecha, horas antes), que decidió que la
+  auditoría de citas es opt-in y no retroactiva. Queda pendiente de que
+  el investigador decida entre mantener `DEC-007`, reabrirlo, o aplicar
+  clasificación solo incremental (ya soportado sin cambios). Se declara
+  el cierre de esta ronda de auditoría/infraestructura: el repositorio
+  entra en **Research Phase 1**, cuyo objetivo es producir conocimiento
+  filosófico (leer, interpretar, argumentar, escribir) y no seguir
+  ampliando infraestructura. Ningún agente de esta sesión debe crear
+  nuevas herramientas, subagentes, carpetas, módulos o protocolos sin
+  que una necesidad de investigación real y explícita lo justifique
+  (mismo criterio ya vigente desde `DEC-003`, reafirmado aquí como
+  cierre de esta fase de consolidación).

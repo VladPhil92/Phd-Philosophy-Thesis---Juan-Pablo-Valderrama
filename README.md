@@ -295,8 +295,12 @@ estado del arte del giro político animal, contexto de soberanía y
 biopolítica, profundización posthumanista y multiespecie, metodología, y una
 ampliación 2020–2026— clasificadas por prioridad y con su estado de
 verificación declarado. Es un punto de partida para la selección, no una
-lista de lectura cerrada ni fuentes ya incorporadas: ninguna entrada de ese
-mapa ha sido leída, verificada en su edición ni citada todavía.
+lista de lectura cerrada: la gran mayoría de sus entradas permanece sin
+leer ni verificar en edición. Tres han sido promovidas a
+`bibliography.bib` con edición verificada, ficha de lectura y citas
+cotejadas (`SRC-002`, `SRC-004`, `SRC-005` — véase
+[`research/sources/corpus-map.md`](research/sources/corpus-map.md) para
+el estado detallado de cada una).
 
 Toda obra efectivamente consultada debe incorporarse a
 [`research/sources/bibliography.bib`](research/sources/bibliography.bib) y contar,

@@ -18,7 +18,7 @@ PI  →  SRC  →  NOTE  →  QUOTE  →  ARG  →  OBJ  →  AI  →  REV  → 
 | Pregunta de investigación | `PI-*` | `research/questions.md` | Implementado (PI-01…PI-07) |
 | Fuente | clave BibTeX `apellido-anio-palabra` (`SRC` conceptual) | `research/sources/bibliography.bib` | Implementado, catálogo vacío |
 | Ficha de fuente / nota de lectura | nombre de archivo = clave BibTeX | `research/sources/notes/` (`templates/ficha-fuente.md`) | Implementado, sin fichas aún |
-| Cita verificada | sección «Citas verificadas» dentro de la ficha de fuente, con localizador | `research/sources/notes/<clave>.md` | Implementado como sección, no como ID propio |
+| Cita verificada | sección «Citas verificadas» dentro de la ficha de fuente, con localizador; opcionalmente, un `quote_id` propio (`clave-bibtex#cNN`) cuando la cita se somete a auditoría (véase `ai/quote-audit/`) | `research/sources/notes/<clave>.md`, sección opcional «Auditoría de citas» | Implementado como sección; `quote_id` es un identificador opcional para citas auditadas, no obligatorio para toda cita |
 | Argumento | `ARG-*` | `research/argument-ledger/` (`templates/ficha-argumento.md`) | Implementado, sin fichas aún |
 | Objeción | subsección «Objeciones y respuestas» dentro del `ARG-*` | `research/argument-ledger/<ARG>.md` | Implementado como sección, no como ID propio |
 | Intervención de IA | `IA-AAAA-MM-DD-NN` | `ai/` (`templates/registro-ia.md`) | Implementado, sin registros aún |
@@ -82,3 +82,13 @@ por ejemplo: decenas de `ARG-*` con objeciones cruzadas difíciles de
 rastrear en Markdown plano, o la necesidad recurrente de citar la misma
 `QUOTE` desde múltiples argumentos. Hasta entonces, Markdown, BibTeX,
 frontmatter YAML ligero y Git bastan.
+
+**Nota (2026-08-08):** el segundo disparador citado arriba —auditar la
+misma cita con criterios de relevancia/contexto/soporte argumentativo,
+potencialmente reutilizables desde más de un `ARG-*`— ya ocurrió, y se
+resolvió de la forma más pequeña posible: un `quote_id` **opcional**
+dentro de la misma ficha de fuente (`ai/quote-audit/`, sin archivo
+independiente por cita, sin base de datos). No es una reconsideración de
+la convención, es la extensión mínima que la propia convención preveía;
+si en el futuro se necesita más que eso, aplica el mismo criterio de esta
+sección antes de construirlo.

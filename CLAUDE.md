@@ -104,9 +104,11 @@ arquitectónica.
 Delega en el subagente `epistemic-auditor`
 (`.claude/agents/epistemic-auditor.md`) cuando debas evaluar un argumento,
 prepararlo para integración al manuscrito, auditar procedencia de fuentes,
-revisar respaldo de citas, comprobar material de investigación generado por
-IA, o verificar trazabilidad. Ese agente audita; no redacta la tesis ni
-decide validez filosófica.
+revisar respaldo de citas —incluida su integridad contextual, pertinencia
+filosófica y fuerza argumentativa real, no solo su autenticidad y
+localizador, véase `ai/quote-audit/`—, comprobar material de investigación
+generado por IA, o verificar trazabilidad. Ese agente audita; no redacta la
+tesis ni decide validez filosófica.
 
 ## No hay escritor de tesis autónomo
 

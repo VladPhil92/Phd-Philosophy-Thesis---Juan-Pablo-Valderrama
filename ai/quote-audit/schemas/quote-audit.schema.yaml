@@ -1,0 +1,114 @@
+# Quote Audit Object — espejo legible en YAML de quote-audit.schema.json.
+#
+# Documentación para personas; quote_audit no lo parsea en tiempo de
+# ejecución. La fuente de verdad ejecutable vive en
+# quote_audit/schema_check.py como constantes Python, sincronizadas a
+# mano con este archivo y con el .json. Si divergen, corrige los tres a
+# la vez (misma disciplina que ai/plaa/schemas/).
+
+title: Quote Audit Object
+description: >
+  Registro de auditoría de una cita ya localizada y cotejada por el
+  investigador (research/sources/notes/**, sección "Citas verificadas").
+  No especifica ni valida autenticidad textual (responsabilidad humana,
+  ver .claude/rules/sources.md); especifica y valida forma: campos,
+  vocabulario cerrado, candados de estado.
+
+required_fields:
+  - quote_id            # identificador estable de la cita dentro de su ficha (p. ej. derrida-2023-hospitality#c56)
+  - source               # clave BibTeX de research/sources/bibliography.bib
+  - locator               # p. ej. "p. 232" o "pp. 232-233"
+  - recommended_status   # ver recommended_status_vocabulary
+
+recommended_status_vocabulary:
+  - CANDIDATE
+  - SOURCE_LOCATED
+  - HUMAN_VERIFIED           # requiere human_verified: true explícito
+  - CONTEXT_AUDITED
+  - RELEVANCE_AUDITED
+  - APA7_READY
+  - READY_FOR_ARGUMENT_USE   # requiere human_verified: true explícito
+  - REJECTED_FOR_USE
+
+fields_required_from_context_audited_onward:
+  - context_status        # ver context_status_vocabulary
+  - philosophical_function # ver philosophical_function_vocabulary
+
+fields_required_from_relevance_audited_onward:
+  - relevance_status       # ver relevance_status_vocabulary
+  - reasoning_summary       # texto breve, no vacío
+
+context_status_vocabulary:
+  - SELF_CONTAINED
+  - CONTEXT_REQUIRED
+  - CONTEXT_CRITICAL
+  - POSSIBLY_MISLEADING     # exige human_review_required: true
+
+philosophical_function_vocabulary:
+  - DEFINITION
+  - TEXTUAL_EVIDENCE
+  - CONCEPTUAL_DISTINCTION
+  - AUTHOR_CLAIM
+  - ARGUMENT_PREMISE
+  - COUNTERARGUMENT
+  - INTERPRETIVE_SUPPORT
+  - HISTORICAL_CONTEXT
+  - EXAMPLE
+  - METHODOLOGICAL_STATEMENT
+  - RHETORICAL_ONLY
+  - UNDETERMINED
+
+relevance_status_vocabulary:
+  - HIGH
+  - MEDIUM
+  - LOW
+  - NONE
+  - UNDETERMINED
+
+optional_fields:
+  related_PI: lista de PI-##
+  related_ARG: lista de ARG-###
+  primary_evidence: boolean — true si la cita se usa como evidencia principal (no solo ilustrativa) de un related_ARG
+  argumentative_support: ver argumentative_support_vocabulary; obligatorio si related_ARG no está vacío
+  apa7: objeto, ver apa7_object
+  risks: lista de valores de known_risk_vocabulary (CONFIG.yaml)
+  confidence: uno de confidence_vocabulary (compartido con ai/plaa/CONFIG.yaml)
+  human_review_required: boolean
+  human_verified: boolean — SOLO el investigador puede escribir `true`
+  classification: ver classification_vocabulary (CONFIG.yaml)
+
+argumentative_support_vocabulary:
+  - DIRECT_SUPPORT
+  - PARTIAL_SUPPORT
+  - CONTEXTUAL_SUPPORT
+  - ILLUSTRATIVE_ONLY
+  - NO_SUPPORT           # si se usa igual como evidencia principal de un ARG-*, es CONFLICT
+  - CONTRADICTS_CLAIM
+  - UNDETERMINED
+
+apa7_object:
+  compliant: "true | false | partial"
+  quote_type: "short | block"   # block si la cita tiene 40+ palabras (regla estructural)
+  locator_present: boolean
+  bibliography_entry_found: boolean
+  issues: lista de strings
+
+rule_no_support_as_primary_evidence: >
+  Si argumentative_support es NO_SUPPORT o CONTRADICTS_CLAIM y la cita
+  está declarada como evidencia principal en la sección "Evidencia
+  textual" de un ARG-*, esto es un CONFLICT que schema_check.py reporta
+  como error, no como advertencia silenciosa.
+
+rule_block_quote_threshold: >
+  Si el texto citado tiene 40 palabras o más (APA 7), apa7.quote_type
+  debe ser "block"; si es "short" con 40+ palabras, es un error de
+  apa7.compliant.
+
+sections:
+  # Bloque Markdown opcional en templates/ficha-fuente.md, distinto de
+  # "Citas verificadas" (que no cambia). Ver quote_audit/parser.py para
+  # el formato exacto de key: value que se parsea.
+  - texto_citado                     # cita original, nunca reescrita
+  - contexto_minimo                  # párrafo anterior/posterior o resumen
+  - nota_interpretativa_investigador # separada estrictamente de la cita
+  - resultado_de_auditoria            # el bloque de campos de este esquema

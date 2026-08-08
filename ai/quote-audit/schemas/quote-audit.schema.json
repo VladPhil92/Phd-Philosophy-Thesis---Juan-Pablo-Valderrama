@@ -1,0 +1,132 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/VladPhil92/Phd-Philosophy-Thesis---Juan-Pablo-Valderrama/ai/quote-audit/schemas/quote-audit.schema.json",
+  "title": "Quote Audit Object",
+  "description": "Registro de auditoría de una cita ya localizada y cotejada por el investigador. No especifica ni valida autenticidad textual (responsabilidad humana); especifica y valida forma.",
+  "type": "object",
+  "required": ["quote_id", "source", "locator", "recommended_status"],
+  "properties": {
+    "quote_id": {
+      "type": "string",
+      "description": "Identificador estable de la cita dentro de su ficha, p. ej. derrida-2023-hospitality#c56."
+    },
+    "source": {
+      "type": "string",
+      "description": "Clave BibTeX de research/sources/bibliography.bib."
+    },
+    "locator": {
+      "type": "string",
+      "description": "p. ej. \"p. 232\" o \"pp. 232-233\"."
+    },
+    "recommended_status": {
+      "type": "string",
+      "enum": [
+        "CANDIDATE",
+        "SOURCE_LOCATED",
+        "HUMAN_VERIFIED",
+        "CONTEXT_AUDITED",
+        "RELEVANCE_AUDITED",
+        "APA7_READY",
+        "READY_FOR_ARGUMENT_USE",
+        "REJECTED_FOR_USE"
+      ],
+      "description": "HUMAN_VERIFIED y READY_FOR_ARGUMENT_USE requieren human_verified: true explícito, nunca escrito por una sesión de IA."
+    },
+    "context_status": {
+      "type": "string",
+      "enum": ["SELF_CONTAINED", "CONTEXT_REQUIRED", "CONTEXT_CRITICAL", "POSSIBLY_MISLEADING"],
+      "description": "Requerido desde CONTEXT_AUDITED en adelante. POSSIBLY_MISLEADING exige human_review_required: true."
+    },
+    "philosophical_function": {
+      "type": "string",
+      "enum": [
+        "DEFINITION",
+        "TEXTUAL_EVIDENCE",
+        "CONCEPTUAL_DISTINCTION",
+        "AUTHOR_CLAIM",
+        "ARGUMENT_PREMISE",
+        "COUNTERARGUMENT",
+        "INTERPRETIVE_SUPPORT",
+        "HISTORICAL_CONTEXT",
+        "EXAMPLE",
+        "METHODOLOGICAL_STATEMENT",
+        "RHETORICAL_ONLY",
+        "UNDETERMINED"
+      ],
+      "description": "Requerido desde CONTEXT_AUDITED en adelante."
+    },
+    "relevance_status": {
+      "type": "string",
+      "enum": ["HIGH", "MEDIUM", "LOW", "NONE", "UNDETERMINED"],
+      "description": "Requerido desde RELEVANCE_AUDITED en adelante, junto con reasoning_summary."
+    },
+    "related_PI": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^PI-[0-9]{2,}$" }
+    },
+    "related_ARG": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^ARG-[0-9]{3,}$" }
+    },
+    "primary_evidence": {
+      "type": "boolean",
+      "description": "true si la cita se usa como evidencia principal (no solo ilustrativa) de un related_ARG."
+    },
+    "argumentative_support": {
+      "type": "string",
+      "enum": [
+        "DIRECT_SUPPORT",
+        "PARTIAL_SUPPORT",
+        "CONTEXTUAL_SUPPORT",
+        "ILLUSTRATIVE_ONLY",
+        "NO_SUPPORT",
+        "CONTRADICTS_CLAIM",
+        "UNDETERMINED"
+      ],
+      "description": "Obligatorio si related_ARG no está vacío. NO_SUPPORT/CONTRADICTS_CLAIM usados como evidencia principal es CONFLICT."
+    },
+    "apa7": {
+      "type": "object",
+      "properties": {
+        "compliant": { "enum": [true, false, "partial"] },
+        "quote_type": { "type": "string", "enum": ["short", "block"] },
+        "locator_present": { "type": "boolean" },
+        "bibliography_entry_found": { "type": "boolean" },
+        "issues": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "risks": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "p. ej. POSSIBLE_QUOTE_MINING, INFERENTIAL_GAP, APA7_HUMAN_REVIEW. Nunca una afirmación de intención fraudulenta."
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["POSSIBLE", "LIKELY", "UNLIKELY", "NOT_DETECTED"],
+      "description": "Vocabulario compartido con ai/plaa/CONFIG.yaml."
+    },
+    "human_review_required": { "type": "boolean" },
+    "human_verified": {
+      "type": "boolean",
+      "description": "true SOLO si el investigador lo marcó explícitamente. Ninguna sesión de IA escribe este campo como true."
+    },
+    "classification": {
+      "type": "string",
+      "enum": [
+        "VERIFIED_RELEVANT",
+        "VERIFIED_CONTEXT_NEEDED",
+        "VERIFIED_WEAK_RELEVANCE",
+        "CANDIDATE_ONLY",
+        "MISLEADING_FRAGMENT",
+        "UNVERIFIED",
+        "APA_NONCOMPLIANT",
+        "REJECTED_FOR_USE"
+      ]
+    },
+    "reasoning_summary": {
+      "type": "string",
+      "description": "Explicación breve, verificable, sin razonamiento interno extenso. Obligatorio desde RELEVANCE_AUDITED."
+    }
+  },
+  "additionalProperties": true
+}

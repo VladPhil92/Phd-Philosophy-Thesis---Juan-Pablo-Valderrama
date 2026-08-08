@@ -143,3 +143,43 @@
   sesión (la API de branch protection de GitHub no está disponible entre
   las herramientas de este agente); esta entrada documenta la decisión y
   su justificación, no ejecuta el cambio.
+
+## DEC-007 — Auditoría filosófica de citas (`ai/quote-audit/`)
+
+- **Fecha:** 2026-08-08
+- **Estado:** aceptada
+- **Contexto:** el investigador pidió explícitamente ampliar
+  `epistemic-auditor` para que una cita pudiera auditarse más allá de su
+  autenticidad y localizador: integridad contextual, pertinencia
+  filosófica, riesgo de extracción engañosa (*quote mining*) y si
+  realmente sostiene el argumento al que se asocia — distinguiendo
+  siempre `AUTHENTIC QUOTATION ≠ RELEVANT QUOTATION ≠ INTERPRETIVE
+  EVIDENCE ≠ ARGUMENTATIVE SUPPORT`. Es un cambio de infraestructura de
+  investigación real (no capricho arquitectónico), por lo que requiere
+  esta entrada antes de tocar la arquitectura congelada por DEC-003.
+- **Decisión:** se creó `ai/quote-audit/`, un paquete hermano de
+  `ai/plaa/` que replica su mismo patrón de diseño ya probado —capa
+  determinista en Python (`quote_audit/schema_check.py`,
+  `quote_audit/parser.py`: campos, vocabulario cerrado, candados de
+  estado) separada de capa de juicio en *prompts* (`prompts/*.md`:
+  integridad contextual, pertinencia, *quote mining*, soporte
+  argumentativo — siempre `AI_ASSISTED_JUDGMENT` sujeto a revisión
+  humana). No se crea un segundo subagente de Claude Code:
+  `.claude/agents/epistemic-auditor.md` se extiende con una sección
+  nueva («Auditoría de citas»); sigue siendo el único punto de auditoría
+  epistémica del repositorio. `templates/ficha-fuente.md` gana una
+  sección **opcional** «Auditoría de citas» (opt-in, no retroactiva).
+  `governance/provenance.md` registra un `quote_id` opcional para citas
+  auditadas, sin crear un identificador obligatorio nuevo.
+- **Consecuencias:** las ~184 citas ya verificadas en
+  `research/sources/notes/**` no se migran ni se modifican — siguen
+  siendo válidas para su uso actual sin este bloque adicional. Se
+  auditaron, como demostración y sin tocar las fichas reales, las 3
+  citas de evidencia de `ARG-001`
+  (`ai/quote-audit/examples/ARG-001-quotes-audit.md`): confirmó, con
+  herramientas distintas, la misma cautela que `ARG-001.md` ya se había
+  impuesto sobre su cita más débil. `scripts/auditar_repositorio.py` no
+  se modifica (misma separación de responsabilidades que ya existe entre
+  ese script y `ai/plaa/`, que tampoco está enganchado ahí). Tests:
+  `python3 -m unittest discover -s ai/quote-audit/tests -p "test_*.py"`
+  → 27/27.

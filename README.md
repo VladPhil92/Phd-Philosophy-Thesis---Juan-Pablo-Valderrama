@@ -360,6 +360,11 @@ resuelven mediante inferencias no comprobadas. Véanse
 [`METHODOLOGY.md`](METHODOLOGY.md) y
 [`RESEARCH-WORKFLOW.md`](RESEARCH-WORKFLOW.md).
 
+La hoja de ruta ejecutiva del proyecto —fases, modelo de madurez, puertas
+de decisión e indicadores, desde el estado actual hasta el manuscrito
+completo— se mantiene en
+[`MASTER_EXECUTION_PLAN.md`](MASTER_EXECUTION_PLAN.md).
+
 ## Investigación asistida por IA y autoría humana
 
 La IA puede apoyar la búsqueda exploratoria, clasificación, comparación,

@@ -88,3 +88,32 @@
   esta autoridad ya se seguía implícitamente de ellas—; se formaliza en un
   solo lugar citable. `CLAUDE.md` y `README.md` enlazan a este documento en
   vez de duplicar su contenido.
+
+## DEC-005 — Master Execution Plan
+
+- **Fecha:** 2026-08-08
+- **Estado:** aceptada
+- **Contexto:** el repositorio tenía gobernanza, provenance, política de
+  IA y metodología documentadas por separado, pero ningún documento único
+  respondía qué debe hacerse ahora, en qué orden, bajo qué condiciones y
+  qué constituye el cierre de cada etapa del proyecto doctoral completo
+  (desde la infraestructura actual hasta el manuscrito).
+- **Decisión:** adoptar `MASTER_EXECUTION_PLAN.md` como hoja de ruta
+  ejecutiva: seis fases (consolidación y seguridad, metodología,
+  biblioteca de investigación, investigación sustantiva, desarrollo
+  argumental, manuscrito doctoral), un modelo de madurez de investigación
+  de siete niveles (0–6) definido sobre los estados ya existentes de
+  fuentes y argumentos, seis puertas de decisión (A–F) que solo el
+  investigador puede declarar cruzadas, y una especificación de KPI sin
+  automatización nueva. Se añaden cuatro plantillas ejecutivas
+  (`templates/checklist-fase.md`, `revision-semanal.md`,
+  `revision-mensual.md`, `revision-trimestral.md`). No se crea ninguna
+  política, cadena de procedencia o autoridad paralela: el plan enlaza y
+  reutiliza `governance/authority-policy.md`, `governance/provenance.md`,
+  `CLAUDE.md`, `ai/policy.md` y `research/methodology.md`.
+- **Consecuencias:** `scripts/auditar_repositorio.py` añade
+  `MASTER_EXECUTION_PLAN.md` y las cuatro plantillas nuevas a
+  `REQUIRED_PATHS`. El plan deja explícitamente pendiente, sin resolverla
+  de forma autónoma, la decisión sobre proteger técnicamente la rama
+  `main` (reglas exactas a confirmar por el investigador). Ningún
+  contenido filosófico ni fecha límite se fabricó para poblar el plan.

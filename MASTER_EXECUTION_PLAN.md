@@ -299,7 +299,10 @@ cuando el volumen lo requiera, siguiendo el mismo criterio que
 - **Riesgos:** redactar prosa capitular sobre un argumento todavía
   `DEVELOPING`; que la escritura presione a validar argumentos antes de
   tiempo — el principio ejecutivo de este documento existe precisamente
-  para resistir esa presión.
+  para resistir esa presión. Además, desde `DEC-008`: que un fragmento
+  alcance `thesis/chapters/` sin procedencia de escritura humana
+  documentada (`governance/provenance.md`, «Modelo de procedencia de
+  escritura») — ningún capítulo entra como `AI_GENERATED_FINAL`.
 - **Indicadores de éxito:** proporción de secciones de
   `thesis/outline.md` con al menos un `ARG-*` `VALIDATED` que las respalde
   antes de escribirse.
@@ -311,6 +314,9 @@ cuando el volumen lo requiera, siguiendo el mismo criterio que
         prevista.
   - [ ] Al menos un capítulo con argumentos suficientes para un primer
         borrador completo.
+  - [ ] Cada capítulo integrado declara estado de procedencia de
+        escritura `HUMAN_DRAFT` o posterior (`DEC-008`), nunca
+        `AI_GENERATED_FINAL`.
 - **Madurez estimada:** no iniciada.
 
 ## Puertas de decisión (Decision Gates)

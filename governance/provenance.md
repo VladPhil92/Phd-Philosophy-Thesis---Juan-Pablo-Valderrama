@@ -23,7 +23,7 @@ PI  →  SRC  →  NOTE  →  QUOTE  →  ARG  →  OBJ  →  AI  →  REV  → 
 | Objeción | subsección «Objeciones y respuestas» dentro del `ARG-*` | `research/argument-ledger/<ARG>.md` | Implementado como sección, no como ID propio |
 | Intervención de IA | `IA-AAAA-MM-DD-NN` | `ai/` (`templates/registro-ia.md`) | Implementado, sin registros aún |
 | Revisión | referencia de commit de Git + entrada en `thesis/review/` | `thesis/review/` | Implementado de forma ligera (checklist), sin ID propio |
-| Capítulo | ruta en `thesis/chapters/` (p. ej. `01-introduccion.md`) | `thesis/chapters/` | Implementado, sin capítulos aún |
+| Capítulo | ruta en `thesis/chapters/` (p. ej. `01-introduccion.md`) + estado de procedencia de escritura (ver «Modelo de procedencia de escritura» más abajo) | `thesis/chapters/` | Implementado, sin capítulos aún |
 
 No se crean identificadores nuevos para `QUOTE`, `OBJ` y `REV` como
 archivos separados: dado el volumen actual de investigación (cero fuentes,
@@ -65,6 +65,57 @@ sección «Cuándo reconsiderar» más abajo).
 - ¿Fue validado el argumento por el investigador? → campo
   `human_validation` en la cabecera del `ARG-*`.
 - ¿Dónde aparece en el manuscrito? → campo «Capítulo de destino» del `ARG-*`.
+
+## Modelo de procedencia de escritura (Writing Provenance Model)
+
+Extiende el último eslabón de la cadena (`CHAPTER`) con un estado de
+procedencia de escritura, independiente del estado de los `ARG-*` que
+integra. Rige el *Human Manuscript Principle* y el *Positive Authorship
+Evidence Principle* de `ai/policy.md` («Principios de autoría del
+manuscrito»).
+
+```text
+OUTLINE
+    ↓
+HUMAN_DRAFT
+    ↓
+AI_REVIEWED            (opcional, puede repetirse)
+    ↓
+HUMAN_REVISED_AFTER_AI
+    ↓
+HUMAN_REVISION          (ronda(s) de revisión humana adicional)
+    ↓
+SUPERVISOR_REVIEWED     (si aplica)
+    ↓
+MANUSCRIPT_READY
+```
+
+**Nunca** son estados válidos: `AI_GENERATED_FINAL`, `AI_DRAFT_TO_FINAL`,
+ni ningún estado que implique que la prosa final se originó como salida
+generativa de IA sin redacción humana intermedia. Un fragmento no puede
+alcanzar `MANUSCRIPT_READY` sin haber pasado por al menos un
+`HUMAN_DRAFT`.
+
+**Cómo se documenta hoy:** sin infraestructura nueva, mientras
+`thesis/chapters/` esté vacío — el historial de Git de cada archivo de
+capítulo (evolución en varios commits, no una sola inserción masiva) es
+la señal principal, complementado por los `IA-*` referenciados en la
+sección «Uso de IA» de cada `ARG-*` que el capítulo integra. El
+historial de commits es **evidencia adicional, nunca prueba única ni
+patrón obligatorio**: no se exige un número mínimo de commits ni una
+cadencia artificial como condición de autoría (véase
+`.claude/agents/epistemic-auditor.md`, «Auditoría de autoría»).
+
+**Deliberadamente fuera de alcance por ahora** (véase la conversación que
+originó esta sección, `ai/log/`): un generador automático de "Authorship
+Evidence Bundle" por capítulo, y cualquier comparación textual algorítmica
+contra el corpus (*Source Appropriation Audit*) — esto último además
+choca con `.claude/rules/sources.md` («los originales protegidos por
+derechos de autor permanecen fuera del repositorio público»: no hay
+texto fuente completo localmente contra el cual comparar). Ambas
+quedan pendientes de que exista contenido real de manuscrito y de que el
+investigador decida cómo resolver esa tensión, no como tarea de esta
+sesión.
 
 ## Regla de autoridad
 

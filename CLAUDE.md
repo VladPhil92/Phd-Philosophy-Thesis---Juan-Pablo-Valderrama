@@ -120,6 +120,14 @@ objetar, auditar, sugerir, transformar formato y detectar posibles
 relaciones o contradicciones. El investigador lee, interpreta, juzga,
 acepta, rechaza, argumenta, concluye y firma como autor.
 
+Esta regla se formaliza como el *Human Manuscript Principle* y el
+*Positive Authorship Evidence Principle* en
+[`ai/policy.md`](ai/policy.md) ("Principios de autoría del manuscrito"):
+la autoría humana se demuestra con procedencia documentada
+(`governance/provenance.md`, "Modelo de procedencia de escritura"),
+nunca con detectores probabilísticos de IA — este repositorio no usa
+esas herramientas como prueba.
+
 ## Validación antes de finalizar
 
 Antes de terminar cualquier tarea que modifique el repositorio, ejecuta:

@@ -183,3 +183,38 @@
   ese script y `ai/plaa/`, que tampoco está enganchado ahí). Tests:
   `python3 -m unittest discover -s ai/quote-audit/tests -p "test_*.py"`
   → 27/27.
+
+## DEC-008 — Integridad de autoría del manuscrito (Fase A)
+
+- **Fecha:** 2026-08-08
+- **Estado:** aceptada (parcial — ver «Consecuencias»)
+- **Contexto:** el investigador propuso reencuadrar `epistemic-auditor`
+  como auditor de tres dominios (Evidence / Argument / Authorship
+  Integrity), con el principio explícito de exigir evidencia positiva de
+  autoría humana en vez de detectores probabilísticos de IA. La propuesta
+  completa incluía además herramientas de comparación textual contra el
+  corpus (*Source Appropriation Audit*) y generación automática de
+  *Authorship Evidence Bundle* por capítulo.
+- **Decisión:** se acepta y se implementa únicamente la capa de
+  principios y convenciones ("Fase A"), sin infraestructura de código
+  nueva: dos principios en `ai/policy.md` (*Human Manuscript Principle*,
+  *Positive Authorship Evidence Principle*), una matriz de operaciones
+  permitidas a la IA, el "Modelo de procedencia de escritura" (`OUTLINE →
+  HUMAN_DRAFT → ... → MANUSCRIPT_READY`, con `AI_GENERATED_FINAL` y
+  `AI_DRAFT_TO_FINAL` explícitamente prohibidos) en
+  `governance/provenance.md`, y una tercera sección de criterios en
+  `.claude/agents/epistemic-auditor.md` ("Auditoría de autoría"). No se
+  cambia el nombre de archivo del subagente ni se crea uno segundo.
+- **Consecuencias:** se **difiere explícitamente** ("Fase B"), pendiente
+  de que exista contenido real de manuscrito que auditar —hoy
+  `thesis/chapters/` está vacío y `research/argument-ledger/` tiene un
+  solo `ARG-*`—: el generador de *Authorship Evidence Bundle* y el
+  *Originality Dossier*. Se **bloquea** hasta decisión explícita del
+  investigador: cualquier comparación textual algorítmica contra el
+  corpus (*Source Appropriation Audit*), porque choca con
+  `.claude/rules/sources.md` (no hay texto fuente completo almacenado
+  localmente contra el cual comparar) — el investigador debe decidir si
+  existe un corpus local privado, fuera de Git, para ese propósito, o si
+  esa comprobación queda fuera del alcance de la IA de este repositorio.
+  Ninguna herramienta de detección probabilística de IA se adopta ni se
+  planea adoptar.

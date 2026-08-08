@@ -27,7 +27,8 @@ Derrida revisó parcialmente en vida antes de morir en 2004 — estatuto
 textual a confirmar contra la propia nota de los editores cuando el
 investigador tenga la edición en mano; no verificado de forma
 independiente por esta sesión. Véase registro de intervención de IA
-[`ai/log/IA-2026-08-08-06.md`](../../../ai/log/IA-2026-08-08-06.md).
+[`ai/log/IA-2026-08-08-06.md`](../../../ai/log/IA-2026-08-08-06.md) y
+[`ai/log/IA-2026-08-08-07.md`](../../../ai/log/IA-2026-08-08-07.md).
 
 ## Tesis y propósito de la obra
 
@@ -59,8 +60,9 @@ trabajada en *The Animal That Therefore I Am*.
 ## Citas verificadas
 
 > Cotejadas por el investigador contra su edición Manantial 2010 antes de
-> incorporarse aquí (véase `ai/log/IA-2026-08-08-06.md`). Cita en la
-> traducción castellana de Cristina de Peretti y Delmiro Rocha.
+> incorporarse aquí (véase `ai/log/IA-2026-08-08-06.md` y
+> `ai/log/IA-2026-08-08-07.md`). Cita en la traducción castellana de
+> Cristina de Peretti y Delmiro Rocha.
 
 1. Sobre la homología estructural: el animal, el criminal y el soberano
    **"están fuera de la ley, a distancia o por encima de la ley"**
@@ -90,6 +92,134 @@ trabajada en *The Animal That Therefore I Am*.
    los **"Rogue States"** (Estados canallas) y a la crítica de Chomsky,
    situando el curso en la coyuntura posterior al 11 de septiembre de
    2001 (p. 38).
+
+**Primera Sesión — ampliación (pp. 21–51)**
+
+10. Sobre el afuera-de-la-ley como fórmula-síntesis: la bestia se
+    acopla al soberano mediante una **"cópula ontológica,
+    onto-zoo-antropo-teológico-política"** (p. 36) — complementa la
+    cita 1, misma sesión.
+11. Continuación directa de la cita 4 (mismo pasaje, p. 22): al lobo
+    **"se lo nombra ahí *in absentia*... aún está ausente, salvo su
+    nombre"** — junto con la cita 4, deja completa la frase sobre el
+    nombramiento del lobo en su ausencia.
+12. Sobre lobos reales y sus figuras: **"los lobos reales son los
+    mismos más acá o más allá de los Pirineos... pero las figuras del
+    lobo pertenecen... a culturas, naciones, lenguas"** (p. 22) —
+    distingue el animal empírico de su construcción discursiva.
+13. Cita de Nietzsche (*Así habló Zaratustra*), traducida por el propio
+    Derrida: **"tienes el poder (Macht) y no quieres reinar (du willst
+    nicht herrschen)"** (p. 22) — poder no ejercido como figura de
+    apertura del seminario.
+14. Referencia irónica a la exigencia kantiana de exposición progresiva
+    ("vamos a mostrarlo enseguida"), p. 20, nota 3.
+
+**Segunda Sesión — Hobbes, el miedo y el Leviatán (pp. 55–88)**
+
+15. Sobre el miedo como condición de la soberanía: **"la soberanía
+    reclama, implica, provoca el miedo como su condición"** (p. 62) —
+    vía la lectura del *Leviatán*, cap. XXVII.
+16. Sobre el Leviatán como figura técnica: **"Leviatán es el nombre de
+    un animal-máquina para meter miedo"** (p. 62).
+17. Sobre el 11 de septiembre: **"esa desaparición de los cuerpos...
+    se habrá convertido... en una estructura esencial del trauma"**
+    (p. 62) — sitúa el seminario explícitamente en esa coyuntura.
+18. Sobre el terror como saber-hacer: **"se trata siempre de saber
+    meter miedo, de saber aterrorizar el hacer saber"** (p. 62).
+
+**Tercera Sesión — el zorro, la dictadura (pp. 89–126)**
+
+19. Sobre el zorro maquiavélico: **"el zorro está más cerca de la
+    verdad del hombre... es más humano que el león"** (p. 118).
+20. Sobre el poder de mentir como rasgo atribuido a lo humano: **"el
+    poder de mentir y de borrar sus huellas"** (p. 118).
+21. Sobre la libertad soberana del ciudadano: **"su libertad soberana
+    (por ejemplo cuando vota o deposita su papeleta)"** (p. 94).
+22. Sobre la dictadura: **"el momento... en donde el dictator es el
+    magistrado supremo y extraordinario"** (p. 94).
+
+**Cuarta Sesión — crítica a Agamben (pp. 127–168)**
+
+23. Sobre el estado de excepción: se cuestiona **"el estado de
+    excepción como una excepción cuyo estatus"** que, según Derrida,
+    Agamben no termina de estabilizar (pp. 72, 122).
+24. Sobre la deuda de Agamben con Schmitt: Derrida señala que Agamben
+    sigue **"las huellas de Schmitt"** al tratar la indistinción entre
+    derecho y violencia (p. 122).
+25. Sobre Hegel en la lectura de Agamben: Agamben retoma un nudo entre
+    soberanía y vida que atribuye a que **"Hegel fue el primero
+    en..."** identificarlo (p. 122, cita indirecta).
+26. Sobre el estado de excepción permanente: se declara **"que no hay
+    fuera-de-la-ley"** en sentido pleno, solo grados de excepción
+    (p. 122).
+
+**Quinta Sesión — Deleuze y el devenir-animal (pp. 169–198)**
+
+27. Sobre Deleuze/Guattari (*Mil mesetas*), comentado por Derrida:
+    **"han masacrado el devenir-animal en el hombre y en el niño. No
+    se han percatado de nada"** (p. 176).
+28. Sobre las pulsiones en la lectura deleuziana: **"no hay más
+    pulsiones que los ensamblajes mismos"** (p. 176).
+29. Sobre Deleuze y el psicoanálisis: Derrida señala que Deleuze **"se
+    ríe del psicoanálisis"** al hablar de los animales en términos no
+    edípicos (p. 94 según el documento de origen — nota: esta página
+    coincide con la de las citas 21–22, de la Tercera Sesión; no se
+    verificó de forma independiente a qué sesión pertenece realmente
+    este pasaje, ver «Tareas pendientes»).
+
+**Sexta Sesión — traducción (pp. 199–224)**
+
+30. Sobre un juego de palabras intraducible: **"traducida al inglés,
+    enseguida verán el problema, esto da: 'I am...'"** (p. 198) —
+    Derrida muestra en vivo la pérdida de sentido al traducir un juego
+    sobre "ser/seguir".
+
+**Séptima Sesión — Celan y lo *Unheimliche* (pp. 225–244)**
+
+31. Sobre lo ominoso como expulsión activa: **"hay algo que nos
+    expulsa"** (p. 314 según el documento de origen — nota: página
+    fuera del rango de esta sesión; no verificada de forma
+    independiente, ver «Tareas pendientes»).
+32. Sobre el *Meridiano* de Celan: **"ese mismo terreno... vuelto hacia
+    lo humano y lo ominoso"** (p. 222) — complementa la cita 8.
+33. Sobre la soberanía como marioneta: **"una marioneta tan superior y
+    tan soberanamente inteligente"** (p. 226, alusión a Kleist).
+
+**Octava Sesión — Robinson Crusoe, la isla (pp. 245–276)**
+
+34. Sobre la soledad radical: **"su corazón es una isla desierta"**
+    (p. 242).
+35. Sobre la recepción de lo ajeno: cita de Valéry, **"la 'recibimos'"**
+    —entre comillas irónicas— como se recibe algo inasimilable
+    (p. 240).
+
+**Novena Sesión — el lobo, el método (pp. 277–298)**
+
+36. Sobre la ambivalencia afectiva hacia el lobo: **"amamos el amor
+    del lobo. Amamos el miedo del lobo"** (p. 250).
+37. Sobre el método del propio seminario: Derrida busca **"con un dedo
+    sin duda muy impreciso porque tiembla"** (p. 278) — autodescripción
+    de su método tentativo.
+
+**Duodécima Sesión — Heidegger, el cadáver (pp. 357–388)**
+
+38. Sobre el cadáver como tercer tipo de ente: junto al viviente humano
+    y el animal, Heidegger distingue **"el cadáver del ser vivo, del
+    animal"** como categoría ontológica propia (p. 330).
+39. Sobre la revolución y lo modal: Derrida vincula la posibilidad de
+    una revolución política con la estructura del **"quizás"** y el
+    **"quién sabe"** (p. 330).
+
+**Decimotercera Sesión — Aristóteles, cierre del volumen (pp. 389–416)**
+
+40. Sobre la vida desnuda como diferencia específica: se discute si
+    remite a **"vida sin cualidades, sin cualificación"** (p. 380) —
+    objeción filológica de Derrida a esa lectura de Aristóteles;
+    complementa la cita 6.
+41. Sobre el animal político aristotélico, cierre del volumen: **"zôon
+    politikón"**, el **"ser vivo político"** (p. 40, retomado
+    pp. 368–380 como síntesis final) — primera cita verificada de esta
+    ficha directamente pertinente a `PI-03`.
 
 ## Paráfrasis e interpretación
 
@@ -151,11 +281,51 @@ pendiente de localizar el pasaje exacto donde lo hace) — de confirmarse,
 sería intertextualidad derridiana verificada, no hipótesis de lectura de
 esta sesión.
 
+**El miedo como condición de la soberanía, no efecto colateral (Segunda
+Sesión, p. 62).** Vía Hobbes, Derrida sostiene que la soberanía no solo
+puede usar el miedo instrumentalmente: lo *reclama* y lo *provoca* como
+su condición de posibilidad — el Leviatán es, literalmente, un
+"animal-máquina para meter miedo". Esto complementa, desde otro ángulo,
+la definición de la soberanía como "yo puedo" sin límite (cita 7): el
+poder soberano no es solo capacidad, es capacidad que se sostiene
+generando temor en quien la reconoce. Relevante para pensar qué afectos
+tendría que movilizar (o evitar movilizar) una "Ciudad Hospitalaria" que
+no reproduzca esa misma lógica.
+
+**El zorro maquiavélico como variante de la fábula política (Tercera
+Sesión, p. 118).** Se suma al recorrido La Fontaine → Hobbes → Rousseau
+ya registrado arriba: el zorro, no el león, "más cerca de la verdad del
+hombre" por su astucia y su poder de mentir, es otra figura animal que
+la teoría política usa para pensar (aquí, la simulación y el engaño como
+rasgos "propiamente humanos" atribuidos vía un animal). Mismo punto
+metodológico que la fábula del lobo: la teoría política piensa lo
+humano a través de animales sin reconocerlo como tal.
+
+**El "quizás" como estructura modal de la decisión (Duodécima Sesión,
+p. 330).** Derrida liga la posibilidad de una revolución política a la
+modalidad del "quizás" y el "quién sabe" — no a la certeza. Es una tercera
+formulación, junto con "no puedo, por tanto debo" (`derrida-2023-
+hospitality.md`) y el "yo puedo" sin límite (cita 7 de esta ficha), de
+cómo Derrida piensa la relación entre decisión soberana y lo que la
+excede: aquí no es finitud ni potencia, es incertidumbre modal.
+Candidato adicional para `PI-07`.
+
+**Cierre del volumen con Aristóteles: el animal político como último
+horizonte, no punto de partida (Decimotercera Sesión, pp. 40, 368–380).**
+Que el seminario cierre discutiendo el "zôon politikón" aristotélico
+—después de trece sesiones sobre lobos, Leviatán, Agamben, Celan,
+Robinson Crusoe— sugiere que toda la reflexión sobre la bestia y el
+soberano desemboca, para Derrida, en una pregunta por la animalidad
+constitutiva de la propia definición clásica de lo político. Es la
+cita con la conexión más directa hasta ahora, en toda esta fuente, con
+`PI-03`.
+
 ## Relación con preguntas y argumentos
 
 - **PI-02** (soberanía, frontera, producción de alteridad): la homología
   estructural bestia/soberano (citas 1–2) es la fuente con el respaldo
-  textual más directo hasta ahora para esta pregunta.
+  textual más directo hasta ahora para esta pregunta; el miedo como
+  condición de la soberanía (cita 15) la complementa.
 - **PI-04** (deconstrucción de la frontera humano/animal): toda la
   fuente es pertinente; en particular la homología estructural y la
   discusión de Agamben.
@@ -163,16 +333,17 @@ esta sesión.
   sin límite (cita 7) es el mismo hallazgo, desde otra fuente, ya
   registrado en `derrida-2023-hospitality.md` a partir de "no puedo, por
   tanto debo" — candidato fuerte a triangulación entre dos fuentes
-  primarias distintas para un mismo argumento.
-- **PI-03** (antropología de la comunidad política): pertinente vía la
-  discusión de Agamben y la referencia a Aristóteles (*zôon politikón*,
-  Decimotercera Sesión, según la tabla de sesiones del documento de
-  origen) — sin cita verificada todavía para este punto específico.
+  primarias distintas para un mismo argumento. El "quizás"/"quién sabe"
+  de la revolución (cita 39) aporta una tercera formulación modal.
+- **PI-03** (antropología de la comunidad política): ahora con cita
+  verificada — el cierre del volumen sobre "zôon politikón" (cita 41,
+  pp. 40, 368–380) es la conexión más directa de esta fuente con esta
+  pregunta.
 
 Ningún `ARG-*` cita todavía esta ficha. La homología bestia/soberano
-(PI-02/PI-04) y el "yo puedo" sin límite en triangulación con
-`derrida-2023-hospitality.md` (PI-07) son las dos candidatas más fuertes
-que aporta esta fuente.
+(PI-02/PI-04), el "yo puedo"/"quizás" en triangulación con
+`derrida-2023-hospitality.md` (PI-07) y el cierre aristotélico (PI-03)
+son las candidatas más fuertes que aporta esta fuente.
 
 ## Objeciones y límites
 
@@ -203,6 +374,12 @@ que aporta esta fuente.
 - Localizar el pasaje exacto donde Derrida vincula explícitamente este
   seminario con la discusión de *Weltarm* en *The Animal That Therefore
   I Am*, antes de tratarlo como intertextualidad confirmada.
+- Confirmar la página exacta de las citas 29 (p. 94, atribuida a la
+  Quinta Sesión pero coincidente con la página de las citas 21–22 de la
+  Tercera) y 31 (p. 314, atribuida a la Séptima Sesión cuyo rango
+  documentado es pp. 225–244) — el documento de origen no aclaró si son
+  erratas de paginación o referencias cruzadas legítimas a otra parte
+  del volumen; no se completó por conjetura.
 - Programar el análisis de *La bestia y el soberano, Volumen II*
   (`SRC-006`, 2002–2003) como continuación natural.
 - Actualizar `research/sources/corpus-map.md` (`SRC-005`) reflejando el

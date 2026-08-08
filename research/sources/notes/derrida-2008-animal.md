@@ -20,7 +20,8 @@ Follow)", pp. 1–51; (2) "But as for me, who am I (following)?", pp.
 119–140; (4) "'I don't know why we are doing this'" (transcripción de
 improvisación oral sobre Heidegger), pp. 141–160. Precede un Prefacio de
 Marie-Louise Mallet (pp. ix–xiii). Véase registro de intervención de IA
-[`ai/log/IA-2026-08-08-01.md`](../../../ai/log/IA-2026-08-08-01.md).
+[`ai/log/IA-2026-08-08-01.md`](../../../ai/log/IA-2026-08-08-01.md) y
+[`ai/log/IA-2026-08-08-02.md`](../../../ai/log/IA-2026-08-08-02.md).
 
 ## Tesis y propósito de la obra
 
@@ -53,32 +54,86 @@ sostiene, con variantes, que al animal le falta lo propiamente humano
 
 ## Citas verificadas
 
-> Cotejadas por el investigador contra la edición Fordham UP 2008 antes de
-> incorporarse aquí (véase `ai/log/IA-2026-08-08-01.md`). Cita en la
-> traducción inglesa de David Wills; el tratamiento de traducciones frente
-> al original francés (Galilée, 2006) queda pendiente en
-> `research/methodology.md` §6.
+> Cotejadas por el investigador contra su edición/PDF de Fordham UP 2008
+> antes de incorporarse aquí (véase `ai/log/IA-2026-08-08-01.md` y
+> `ai/log/IA-2026-08-08-02.md`). Cita en la traducción inglesa de David
+> Wills; el tratamiento de traducciones frente al original francés
+> (Galilée, 2006) queda pendiente en `research/methodology.md` §6.
+> Organizadas por capítulo. Se excluye deliberadamente una supuesta cita
+> de la p. 27 ("we are not undermining the [...]") que en el documento de
+> origen aparecía truncada con corchetes: no es una cita verificable tal
+> como está, ver «Tareas pendientes».
 
-1. Sobre el punto de partida ético (retomando a Bentham): **"Can they
-   suffer?"** (p. 27; también p. 161).
-2. Sobre el neologismo: **"Ecce animot."** (pp. 40, 47).
-3. Sobre la homogeneización del término "animal": **"a crime... against
-   the animals"** (p. 47).
-4. Sobre el carnofalogocentrismo: **"a single phenomenon and a single
-   law, of carnophallogocentrism"** (p. 103).
-5. Sobre el odio kantiano a la animalidad (vía Adorno): el kantiano no
-   tolera **"the memory of a resemblance or affinity between human and
-   animality"** (p. 102).
-6. Sobre la escena inaugural de la vergüenza: Derrida se describe
-   **"naked in front of this cat, but also ashamed for being ashamed"**
-   (p. 3).
-7. Sobre la tesis heideggeriana del capítulo 4: **"the stone is worldless
-   [weltlos], the animal is poor in world [weltarm]"** frente al hombre
-   formador de mundo (p. 150; ver también p. 155 para la crítica de
-   Derrida a esa misma tesis).
-8. Sobre el gesto metodológico general (Prefacio de Mallet, no cita
-   directa de Derrida): la deconstrucción **"patiently multiplies the
-   differences"** en vez de invertir la jerarquía (p. x).
+**Prefacio (Mallet)**
+
+- Sobre el gesto metodológico general: la deconstrucción **"patiently
+  multiplies the differences"** en vez de invertir la jerarquía (p. x).
+
+**Capítulo 1 — "The Animal That Therefore I Am (More to Follow)" (pp. 1–51)**
+
+- Escena inaugural: **"caught naked, in silence, by the gaze of an
+  animal"** (p. 2).
+- **"naked in front of this cat, but also ashamed for being ashamed"**
+  (p. 3).
+- Retomada explícitamente como estructura estable: **"being ashamed of
+  being ashamed"** (p. 20).
+- Punto de partida ético (retomando a Bentham): **"Can they suffer?"**
+  (p. 27; también p. 161).
+- Sobre Descartes: Derrida lo señala como quien **"waits for us with his
+  animal-machines"** (p. 21).
+- Sobre la distinción respuesta/reacción: el **"right and power to
+  'respond'"** que la tradición reserva al humano (p. 31).
+- Sobre el relato de Génesis (traducción que usa Derrida, según Dhormes/
+  Chouraqui): orden de **"authority"** [dominio] sobre "every living thing
+  that moves on the earth" (p. 14); sobre la desnudez previa a la
+  serpiente, **"they don't blanch on account of it"** (p. 15).
+- Sobre el neologismo: **"Ecce animot."** (pp. 40, 47).
+- Sobre la homogeneización del término "animal": **"a crime... against
+  the animals"** (p. 47).
+- Sobre la Quimera: **"a chimera waiting to be put to death by its
+  Bellerophon"** (p. 40).
+
+**Capítulo 2 — "But as for me, who am I (following)?" (pp. 52–118)**
+
+- **"the animot is more naked than the human, who is more naked than the
+  animot"** (p. 52).
+- Vía Adorno, sobre el sujeto kantiano: nada más **"abhorrent, more
+  hateful, more odious"** que **"the memory of a resemblance or affinity
+  between human and animality"** (p. 102).
+- Adorno, retomado por Derrida (con matización explícita, no asumido sin
+  reservas): **"animals virtually play the same role as Jews did for a
+  fascist system"** (p. 102).
+- Sobre el carnofalogocentrismo: **"a single phenomenon and a single law,
+  of carnophallogocentrism"** (p. 103); Derrida lo presenta como
+  progresión metodológica de su propio corpus (logocentrismo →
+  falogocentrismo → carnofalogocentrismo), no como hallazgo puntual de
+  este texto.
+- Sobre Levinas (paráfrasis directa del argumento derridiano, no cita
+  textual): el animot **"is not an other"** en el sentido pleno del
+  rostro (p. 87).
+
+**Capítulo 3 — "And Say the Animal Responded?" (dedicado a Lacan) (pp. 119–140)**
+
+- Distinción lacaniana retomada por Derrida: **"pretense without pretense
+  of pretense"** frente al **"feigned feint"** reservado al humano (pp.
+  127, 130).
+- Sobre la posición lacaniana signo/significante: **"the deception of
+  speech"** [*la tromperie de la parole*] (p. 126).
+
+**Capítulo 4 — "'I don't know why we are doing this'" (transcripción sobre Heidegger, pp. 141–160)**
+
+> Transcripción oral no revisada por Derrida — Mallet la señala como
+> "sketch" en el Prefacio (p. xii). Citar con esa salvedad.
+
+- Las tres tesis heideggerianas (1929–30): **"the stone is worldless
+  [weltlos]"**, **"the animal is poor in world [weltarm]"**, frente al
+  hombre formador de mundo (p. 150).
+- Términos heideggerianos retomados por Derrida para el modo de ser del
+  animal: **"encirclement"**, **"absorbed"**, **"captivation
+  [Benommenheit]"** (p. 155).
+- Conclusión crítica de Derrida sobre la tesis "pobre de mundo": decir
+  que el animal es *weltarm* **"is to demonstrate that it has world"**
+  (p. 155).
 
 ## Paráfrasis e interpretación
 
@@ -130,6 +185,31 @@ animales" pero tampoco lo descarta (p. 86 y ss.); el capítulo 4 es
 formalmente distinto —transcripción oral no revisada por el autor— lo que
 explica su carácter digresivo ("sketch", según Mallet, Prefacio p. xii).
 
+**Dominio y nombrar como dos operaciones de soberanía distintas (Génesis,
+p. 14–15).** Derrida separa cuidadosamente dos momentos del relato
+bíblico: la orden de *autoridad/dominio* sobre los vivientes (primer
+relato) y el acto de *nombrar* a los animales (segundo relato,
+posterior). Son dos operaciones de soberanía de naturaleza distinta —una
+jurídico-política (autoridad), la otra lingüístico-simbólica (el
+nombre)— que conviene no confundir al construir el concepto de Soberanía
+de la Hospitalidad: la hospitalidad podría cuestionar el dominio sin
+necesariamente cuestionar del mismo modo la nominación, o viceversa.
+
+**Reflexividad de segundo orden como patrón recurrente.** El mismo patrón
+estructural —una operación que se repite sobre sí misma, no solo el
+fingimiento sino "fingir que se finge" (cap. 3, vía Lacan, pp. 127, 130),
+no solo la vergüenza sino la vergüenza de la vergüenza (cap. 1, pp. 3,
+20)— aparece dos veces en el libro. Derrida usa esa reflexividad de
+segundo orden tanto para describir lo que la tradición reserva al humano
+como para desmontar esa misma reserva desde dentro.
+
+**Límite de la hospitalidad levinasiana (cap. 2, p. 87).** Derrida señala
+que, para Levinas, el animot "no es un otro" en el sentido pleno del
+rostro: el rostro levinasiano permanece antropocéntrico pese a su apertura
+ética. Es el límite explícito que una comunidad política interespecie
+tendría que superar si pretende extender la hospitalidad levinasiana más
+allá de lo humano — Derrida lo señala pero no lo resuelve en este texto.
+
 ## Relación con preguntas y argumentos
 
 - **PI-04** (deconstrucción de la frontera humano/animal): fuente
@@ -147,6 +227,11 @@ explica su carácter digresivo ("sketch", según Mallet, Prefacio p. xii).
   clasificar), aunque este libro no desarrolla "hospitalidad" como
   categoría explícita — esa conexión es una lectura propia a justificar,
   no una tesis del texto.
+- **PI-07** (decisión y responsabilidad): el límite que Derrida señala en
+  la hospitalidad levinasiana (el animot "no es un otro" en el sentido
+  del rostro, p. 87) es un antecedente directo para preguntar si una
+  soberanía puede quedar normativamente obligada por aquello que no
+  domina, más allá del rostro humano.
 
 Ningún `ARG-*` cita todavía esta ficha. Las correspondencias anteriores
 son candidatas para argumentos futuros, no argumentos en sí: construirlas
@@ -179,11 +264,19 @@ objeción, siguiendo `templates/ficha-argumento.md`.
 - Decidir el tratamiento de traducciones (`research/methodology.md` §6):
   ¿se cita la traducción de Wills, el original francés con traducción
   propia, o ambos con nota de discrepancia?
+- **Resolver la cita truncada de la p. 27** ("we are not undermining the
+  [...]", con corchete de omisión en el documento de origen): localizar el
+  texto exacto en la edición antes de poder citarla; hasta entonces no
+  figura en «Citas verificadas».
 - Si se construye un `ARG-*` a partir de las correspondencias de la
   sección "Relación con preguntas y argumentos", documentar allí premisas,
   objeciones y fuentes de respaldo adicionales — no basta esta ficha.
 - Evaluar si conviene leer directamente los pasajes citados en el original
   francés (Galilée, 2006) para el tratamiento de *animot*, dado que el
   juego lingüístico es parcialmente intraducible.
+- La distinción dominio/nombrar (Génesis, p. 14–15) y el límite de la
+  hospitalidad levinasiana (p. 87) son candidatas fuertes para el primer
+  `ARG-*` de este proyecto — más maduras que el resto por su conexión
+  directa con PI-02/PI-05/PI-07.
 - Actualizar `research/sources/corpus-map.md` (SRC-004) reflejando el
   nuevo estado de esta fuente.

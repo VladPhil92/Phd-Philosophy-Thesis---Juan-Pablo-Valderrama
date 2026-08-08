@@ -64,3 +64,27 @@
   explícita; se extiende `scripts/auditar_repositorio.py` con comprobaciones
   de invariantes documentales adicionales. Ningún contenido filosófico nuevo
   se fabricó para poblar estas estructuras.
+
+## DEC-004 — Repository Authority Policy
+
+- **Fecha:** 2026-08-08
+- **Estado:** aceptada
+- **Contexto:** la autoridad exclusiva del investigador sobre el contenido
+  canónico del repositorio estaba implícita y dispersa en `CLAUDE.md`,
+  `ai/policy.md` y `CONTRIBUTING.md`, sin un documento único que la
+  formalizara como referencia canónica.
+- **Decisión:** adoptar `governance/authority-policy.md`, redactada y
+  aprobada directamente por Juan Pablo Valderrama Pino (VladPhil92), como
+  autoridad exclusiva sobre aprobar, modificar, integrar, rechazar o
+  validar cambios en el repositorio de investigación canónico. Terceros
+  pueden leer, citar, hacer fork, proponer issues y pull requests, y
+  ofrecer crítica académica; no pueden modificar contenido de investigación
+  directamente, fusionar cambios, validar argumentos, modificar preguntas
+  de investigación, alterar la hipótesis, cambiar decisiones metodológicas
+  ni modificar las reglas de gobernanza de IA. Los agentes de IA tienen
+  capacidades técnicas delegadas únicamente, sin autoridad propia sobre el
+  repositorio ni autoridad académica.
+- **Consecuencias:** no se modifica ninguna regla epistémica existente —
+  esta autoridad ya se seguía implícitamente de ellas—; se formaliza en un
+  solo lugar citable. `CLAUDE.md` y `README.md` enlazan a este documento en
+  vez de duplicar su contenido.

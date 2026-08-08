@@ -16,7 +16,12 @@ distinción humano/animal, reconocimiento interespecie. Véase
 
 Juan Pablo Valderrama es el **único autor** de la tesis. La IA nunca figura
 como autora, coautora ni fuente de autoridad epistémica. Ninguna salida de
-IA equivale a una decisión académica.
+IA equivale a una decisión académica. La autoridad exclusiva del
+investigador sobre aprobar, modificar, integrar, rechazar o validar
+cambios en el repositorio está formalizada en
+[`governance/authority-policy.md`](governance/authority-policy.md)
+(DEC-004): los agentes de IA tienen capacidades técnicas delegadas
+únicamente, nunca autoridad propia sobre el repositorio.
 
 ## Reglas epistémicas — nunca
 

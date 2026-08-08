@@ -366,7 +366,12 @@ La IA puede apoyar la búsqueda exploratoria, clasificación, comparación,
 resumen, revisión de estilo y automatización. Nunca constituye evidencia, y sus
 salidas no acreditan una lectura ni sustituyen la comprobación de fuentes. La
 selección de evidencia, interpretación filosófica, evaluación de argumentos,
-redacción final y conclusiones son responsabilidad del investigador.
+redacción final y conclusiones son responsabilidad del investigador. La
+autoridad exclusiva de Juan Pablo Valderrama Pino (VladPhil92) para aprobar,
+modificar, integrar, rechazar o validar cambios en el repositorio canónico,
+y los límites correspondientes para terceros y para agentes de IA, están
+formalizados en
+[`governance/authority-policy.md`](governance/authority-policy.md).
 
 Todo uso material se registra y verifica según el
 [`AI-RESEARCH-PROTOCOL.md`](AI-RESEARCH-PROTOCOL.md). No se cargan materiales

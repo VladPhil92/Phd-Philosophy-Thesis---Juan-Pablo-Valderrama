@@ -27,8 +27,9 @@ Derrida revisó parcialmente en vida antes de morir en 2004 — estatuto
 textual a confirmar contra la propia nota de los editores cuando el
 investigador tenga la edición en mano; no verificado de forma
 independiente por esta sesión. Véase registro de intervención de IA
-[`ai/log/IA-2026-08-08-06.md`](../../../ai/log/IA-2026-08-08-06.md) y
-[`ai/log/IA-2026-08-08-07.md`](../../../ai/log/IA-2026-08-08-07.md).
+[`ai/log/IA-2026-08-08-06.md`](../../../ai/log/IA-2026-08-08-06.md),
+[`ai/log/IA-2026-08-08-07.md`](../../../ai/log/IA-2026-08-08-07.md) y
+[`ai/log/IA-2026-08-08-08.md`](../../../ai/log/IA-2026-08-08-08.md).
 
 ## Tesis y propósito de la obra
 
@@ -60,9 +61,9 @@ trabajada en *The Animal That Therefore I Am*.
 ## Citas verificadas
 
 > Cotejadas por el investigador contra su edición Manantial 2010 antes de
-> incorporarse aquí (véase `ai/log/IA-2026-08-08-06.md` y
-> `ai/log/IA-2026-08-08-07.md`). Cita en la traducción castellana de
-> Cristina de Peretti y Delmiro Rocha.
+> incorporarse aquí (véase `ai/log/IA-2026-08-08-06.md`,
+> `ai/log/IA-2026-08-08-07.md` y `ai/log/IA-2026-08-08-08.md`). Cita en
+> la traducción castellana de Cristina de Peretti y Delmiro Rocha.
 
 1. Sobre la homología estructural: el animal, el criminal y el soberano
    **"están fuera de la ley, a distancia o por encima de la ley"**
@@ -221,6 +222,125 @@ trabajada en *The Animal That Therefore I Am*.
     pp. 368–380 como síntesis final) — primera cita verificada de esta
     ficha directamente pertinente a `PI-03`.
 
+**Primera Sesión — el aparato bíblico Behemot/Leviatán y las orejas del
+soberano (pp. 44–51)**
+
+42. Sobre Behemot en el Libro de Job: **"He aquí el Animal: Behemoth /
+    lo hice contigo / pasta como un buey / he aquí la fuerza de sus
+    riñones"** (p. 44, Job 40).
+43. Sobre el desafío divino respecto a Leviatán: **"¿Puedes arponear a
+    Leviatán? / ¿atarle la lengua / ponerle un aro en la nariz?"**
+    (p. 44, Job 40) — origen bíblico de la figura del soberano-monstruo
+    que Hobbes retomará secularizada.
+44. Sobre el límite del enfrentamiento con la bestia: **"la esperanza
+    que deja es engañosa / verlo basta para caer fulminado / ningún
+    bruto lo provoca"** (p. 44, Job 40).
+45. Sobre Isaías y el combate final: **"ese día Yahvé se cebará... con
+    Leviatán, serpiente furtiva, con Leviatán, serpiente deforme"**
+    (p. 44, Isaías 27,1).
+46. Sobre las cuatro bestias de Daniel: **"esas cuatro enormes bestias
+    que son cuatro reyes que se alzarán de la tierra"** (p. 44,
+    Daniel 7,1).
+47. Sobre el secreto animal del rey: los carrizos susurran **"¡El rey
+    Midas tiene orejas de asno!"** (p. 44, Ovidio).
+48. Sobre la fábula como forma inaugural del seminario: **"¿qué
+    relación puede haber entre un seminario y una fábula... y del tipo
+    'como si' que se denomina una fábula?"** (p. 44).
+49. Nota editorial sobre la traducción *bête*/*bêtise* → "bestia"/"bobo":
+    **"'bobo'... 'conserva una referencia al menos implícita a la
+    bestia animal'"**, citando el DRAE, **"(Por la facilidad con que se
+    deja atrapar)"** (p. 44) — nota metodológica de traducción relevante
+    si la tesis trabaja sobre esta edición en español.
+50. Sobre "la razón del más fuerte", verso inicial de la fábula de La
+    Fontaine que abre el seminario: **"la razón del más fuerte es
+    siempre la mejor"** (p. 44).
+
+**Segunda Sesión — Montaigne, Hobbes (p. 84)**
+
+> El documento de origen atribuye estas tres citas a un rango impreciso
+> ("Primera–Tercera Sesión"); se ubican aquí porque p. 84 cae dentro del
+> rango ya documentado para la Segunda Sesión (pp. 55–88).
+
+51. Sobre la doble figura hobbesiana del hombre: **"un hombre es un
+    dios para otro hombre... [y] un hombre es también un lobo para otro
+    hombre"** (p. 84, cita de Hobbes comentada por Derrida) — amplía la
+    genealogía *homo homini lupus* ya registrada en la cita 5.
+52. Sobre el matrimonio como jaula (Montaigne, *Ensayos* III): **"la
+    conyugalidad... es como una jaula... los pájaros que están fuera
+    anhelan entrar en ella; y con el mismo anhelo, salir aquellos que
+    están dentro"** (p. 84) — figura animal aplicada a una institución
+    humana.
+53. Sobre la domesticación como convención mixta: **"esa
+    domesticación... una de esas convenciones a la vez humanas y
+    animales que doblegan a un ser vivo a la ley de la casa"** (p. 84).
+
+**Cuarta Sesión — Uexküll y el *Umwelt* (p. 162)**
+
+54. Sobre la relación del animal con su entorno: el animal **"mantiene
+    con su *Umwelt* unas 'relaciones exteriores' sensiblemente más
+    estrechas que las nuestras"** (p. 162) — Uexküll en diálogo con
+    Lacan y el psicoanálisis.
+55. Sobre la huella y su borradura en prácticas animales: **"la
+    estructura de la huella supone que trazar viene a ser borrar una
+    huella... toda clase de prácticas animales... asocian... la
+    experiencia de la huella a la de la borradura de la huella"**
+    (p. 162).
+
+**Bataille y la soberanía del exceso (p. 272)**
+
+> El documento de origen atribuye estas dos citas a la "Novena Sesión",
+> pero p. 272 cae dentro del rango ya documentado para la Octava Sesión
+> (pp. 245–276), no de la Novena (pp. 277–298). No se resolvió por
+> conjetura; ver «Tareas pendientes».
+
+56. Sobre la soberanía bataillana como exceso: en Bataille, **"la
+    soberanía... excede la soberanía clásica, a saber, el dominio, el
+    señorío, el poder absoluto"** (p. 272) — Derrida marca
+    explícitamente la diferencia entre su propio análisis y el concepto
+    bataillano.
+57. Sobre la majestad del presente: homenaje **"a una majestad del
+    presente, que da testimonio"**, no a la monarquía histórica
+    (p. 272).
+
+**Décima Sesión — el elefante de Luis XIV y la marioneta (pp. 296–300)**
+
+58. Sobre la disección del elefante ante la corte (1681): **"quizá
+    nunca una disección anatómica fue más brillante, sea por lo grande
+    que era el animal... sea finalmente por la calidad y el número de
+    asistentes"** (p. 296, cita de época leída por Derrida).
+59. Sobre la presencia del Rey Sol en la escena: entre los asistentes a
+    la disección se hallaba **"un gran, un inmenso soberano, el
+    mismísimo Luis el Grande, el Rey-Sol"** (p. 300) — la bestia
+    disecada y el soberano co-presentes en la misma escena histórica.
+60. Sobre la marioneta como figura técnica: **"¿Quién negará que la
+    marioneta sea algo técnico, e incluso una suerte de personificación
+    alegórica de la potencia técnica misma?"** (p. 300).
+61. Sobre el estatuto ambiguo de la marioneta: **"¿es qué o quién?,
+    ¿algo o alguien?... ¿Algo vivo animal o algo vivo humano?"**
+    (p. 296) — abre un tercer término (la máquina) en la indecidibilidad
+    bestia/soberano.
+62. Sobre el exergo como figura metodológica: Derrida explica que
+    inscribe una fecha **"para designar algo fuera-de-la-obra"**, como
+    los exergos en las medallas regias (p. 296).
+
+**Undécima Sesión — genealogía del zoológico moderno (p. 326)**
+
+63. Sobre la crítica revolucionaria a las casas de fieras: la
+    *Enciclopedia* declaraba que **"es preciso destruir las casas de
+    fieras cuando los pueblos no tienen pan, porque es vergonzoso
+    alimentar a las bestias por todo lo alto"** (p. 326).
+64. Sobre el informe fundacional del nuevo zoológico (1792): una casa
+    de fieras sin lujo cortesano **"puede ser extremadamente útil para
+    la historia natural, la fisiología y la economía"** (p. 326) — el
+    animal reclasificado de objeto de lujo a objeto de ciencia.
+65. Sobre la curiosidad como tema de la sesión: **"la apuesta será
+    justamente una curiosidad... la curiosidad misma, si tal cosa
+    existe. ¿Cabe plantearse una cuestión sobre la curiosidad sin
+    curiosidad?"** (p. 326).
+66. Sobre Frédéric Cuvier: se le menciona como quien **"realizó allí
+    numerosas observaciones sobre la psicología animal, de la cual fue
+    un pionero demasiado olvidado hoy en día"** (p. 326).
+
 ## Paráfrasis e interpretación
 
 > Interpretación y síntesis (parcialmente asistida por IA, véase
@@ -320,28 +440,76 @@ constitutiva de la propia definición clásica de lo político. Es la
 cita con la conexión más directa hasta ahora, en toda esta fuente, con
 `PI-03`.
 
+**El Behemot/Leviatán bíblico como origen del soberano-monstruo, antes
+de Hobbes (Primera Sesión, p. 44).** Las citas de Job, Isaías y Daniel
+muestran que la figura del soberano como bestia irreductible a la ley
+—que Hobbes secularizará como Leviatán— tiene un origen bíblico
+explícito que Derrida lee antes de llegar a la teoría política moderna.
+Esto profundiza la genealogía ya registrada arriba (La Fontaine → Hobbes
+→ Rousseau): la fábula política moderna no inventa la figura animal de
+la soberanía, hereda y seculariza una figura teológico-política previa.
+Relevante para un eventual capítulo genealógico que no empiece la
+historia en Hobbes.
+
+**Bataille como tercera formulación de la soberanía, distinta de la
+derridiana (p. 272).** Frente al "yo puedo" sin límite (cita 7) y el
+miedo como condición (cita 15), Bataille ofrece una soberanía que
+*excede* la soberanía clásica —no dominio ni poder absoluto, sino
+exceso improductivo. Derrida marca explícitamente la distancia con su
+propio análisis: no la adopta sin más. Para la tesis, es una tercera
+tradición de pensar la soberanía además de la jurídico-política clásica
+y de la derridiana, que conviene no fundir con ninguna de las otras dos
+sin justificación propia.
+
+**El elefante de Luis XIV: la homología bestia/soberano hecha escena
+histórica concreta (Décima Sesión, pp. 296–300).** La disección pública
+del elefante ante la corte, con el propio Rey Sol como asistente, es un
+caso empírico, fechado y documentado, de co-presencia física entre la
+bestia y el soberano — no ya una homología estructural abstracta (citas
+1–2) sino un acontecimiento histórico que la ilustra literalmente.
+Útil como ejemplo concreto si la tesis necesita algo más que la
+homología teórica.
+
+**La genealogía del zoológico moderno como caso de "vida desnuda"
+reclasificada, no liberada (Undécima Sesión, p. 326).** El animal pasa
+de objeto de lujo cortesano a objeto de ciencia (historia natural,
+fisiología), pero sigue siendo objeto en ambos casos — no sujeto. Es un
+caso histórico concreto, posterior a la Revolución, de lo que la crítica
+a Agamben (cita 6 de esta ficha) señala en abstracto: la "vida desnuda"
+no se supera por cambiar de régimen político, se reclasifica. Pertinente
+para `PI-04`/`PI-06` si la tesis busca ejemplos históricos, no solo
+argumentos teóricos.
+
 ## Relación con preguntas y argumentos
 
 - **PI-02** (soberanía, frontera, producción de alteridad): la homología
   estructural bestia/soberano (citas 1–2) es la fuente con el respaldo
   textual más directo hasta ahora para esta pregunta; el miedo como
-  condición de la soberanía (cita 15) la complementa.
+  condición de la soberanía (cita 15) y el origen bíblico del
+  soberano-monstruo (citas 42–46) la complementan; el elefante de Luis
+  XIV (citas 58–59) le da un caso histórico concreto.
 - **PI-04** (deconstrucción de la frontera humano/animal): toda la
-  fuente es pertinente; en particular la homología estructural y la
-  discusión de Agamben.
+  fuente es pertinente; en particular la homología estructural, la
+  discusión de Agamben y la genealogía del zoológico moderno (citas
+  63–66).
+- **PI-06** (reconocimiento interespecie): la genealogía del zoológico
+  (citas 63–66) — el animal reclasificado de lujo a ciencia, nunca a
+  sujeto — es un caso histórico concreto pertinente.
 - **PI-07** (decisión y responsabilidad): la soberanía como "yo puedo"
   sin límite (cita 7) es el mismo hallazgo, desde otra fuente, ya
   registrado en `derrida-2023-hospitality.md` a partir de "no puedo, por
   tanto debo" — candidato fuerte a triangulación entre dos fuentes
   primarias distintas para un mismo argumento. El "quizás"/"quién sabe"
-  de la revolución (cita 39) aporta una tercera formulación modal.
+  de la revolución (cita 39) y la soberanía del exceso en Bataille
+  (citas 56–57) aportan una tercera y cuarta formulación, distintas
+  entre sí, que no conviene fundir sin justificación propia.
 - **PI-03** (antropología de la comunidad política): ahora con cita
   verificada — el cierre del volumen sobre "zôon politikón" (cita 41,
   pp. 40, 368–380) es la conexión más directa de esta fuente con esta
   pregunta.
 
 Ningún `ARG-*` cita todavía esta ficha. La homología bestia/soberano
-(PI-02/PI-04), el "yo puedo"/"quizás" en triangulación con
+(PI-02/PI-04), el "yo puedo"/"quizás"/Bataille en triangulación con
 `derrida-2023-hospitality.md` (PI-07) y el cierre aristotélico (PI-03)
 son las candidatas más fuertes que aporta esta fuente.
 
@@ -380,6 +548,19 @@ son las candidatas más fuertes que aporta esta fuente.
   documentado es pp. 225–244) — el documento de origen no aclaró si son
   erratas de paginación o referencias cruzadas legítimas a otra parte
   del volumen; no se completó por conjetura.
+- Confirmar si las citas 56–57 (Bataille, p. 272) pertenecen realmente a
+  la Novena Sesión (como las atribuye el documento de origen) o a la
+  Octava (pp. 245–276, rango en el que cae la página citada); no se
+  completó por conjetura.
+- El investigador indicó eliminar la segunda aparición de "vamos a
+  mostrarlo enseguida" (aportada en p. 44 por el tercer documento de
+  citas): se conservó únicamente la referencia ya registrada (p. 20,
+  nota 3, en «Ideas complementarias» del documento de análisis
+  original). Queda pendiente para el investigador aclarar, si lo
+  considera relevante, si se trata de una frase que Derrida repite en
+  ambos puntos del seminario o de un error de paginación en uno de los
+  dos documentos de origen — no se investigó más allá de lo que el
+  investigador pidió.
 - Programar el análisis de *La bestia y el soberano, Volumen II*
   (`SRC-006`, 2002–2003) como continuación natural.
 - Actualizar `research/sources/corpus-map.md` (`SRC-005`) reflejando el

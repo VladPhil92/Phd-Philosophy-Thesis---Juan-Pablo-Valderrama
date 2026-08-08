@@ -30,14 +30,19 @@ plazo?* Si la respuesta es no, no se implementa.
 Evaluación honesta contra el modelo de madurez (sección siguiente), no
 aspiracional:
 
-- **Nivel alcanzado: 2** (fuentes registradas y leídas). `SRC-004`
-  (Derrida, *The Animal That Therefore I Am*) es la primera y única fuente
-  en `bibliography.bib` con edición verificada, ficha en
-  `research/sources/notes/` y 58 citas cotejadas por el investigador.
+- **Nivel alcanzado: 2** (fuentes registradas y leídas). Dos fuentes en
+  `bibliography.bib` con edición verificada y ficha en
+  `research/sources/notes/`: `SRC-004` (Derrida, *The Animal That
+  Therefore I Am*, 58 citas cotejadas) y `SRC-002` (Derrida, *Hospitality,
+  Volume I*, 9 citas cotejadas — la de conexión más directa con `PI-01`
+  hasta ahora).
 - **Nivel 3 (argumentos producidos) todavía no alcanzado**: cero fichas en
-  `research/argument-ledger/` más allá del `README.md`. Hay candidatas
-  identificadas (distinción dominio/nombrar, límite de la hospitalidad
-  levinasiana) pero ningún `ARG-*` construido.
+  `research/argument-ledger/` más allá del `README.md`. Candidatas ya
+  identificadas: distinción dominio/nombrar y límite de la hospitalidad
+  levinasiana (`derrida-2008-animal.md`); la aporía ley/leyes de la
+  hospitalidad y la coimplicación soberanía/hospitalidad vía ipseidad
+  (`derrida-2023-hospitality.md`, esta última la más madura). Ningún
+  `ARG-*` construido todavía.
 - **Gate A (Repository Ready) cruzada** (2026-08-08, DEC-006): Fase 1
   cerrada, incluida la protección de `main`.
 - Fase activa: **Fase 4 (Investigación sustantiva)**, con la Fase 3

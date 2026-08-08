@@ -29,6 +29,9 @@ Se emplean identificadores estables: preguntas `PI-*`, argumentos `ARG-*`, usos
 de IA `IA-AAAA-MM-DD-NN` y claves BibTeX `apellido-anio-palabra`. Una ficha de
 argumento enlaza al menos una pregunta y enumera fuentes verificadas; un capítulo
 remite a argumentos. Los cambios de ruta actualizan enlaces, no identificadores.
+La cadena completa `PI → fuente → nota → cita → ARG → objeción → IA → revisión
+→ capítulo` y sus reglas de enlace se documentan en
+[`governance/provenance.md`](provenance.md).
 
 ## Estados documentales
 

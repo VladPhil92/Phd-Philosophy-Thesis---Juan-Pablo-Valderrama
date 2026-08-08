@@ -1,0 +1,58 @@
+# PLAA Analysis Report — espejo legible en YAML de analysis-report.schema.json.
+# No parseado en tiempo de ejecución; ver DEVELOPER-GUIDE.md.
+
+title: PLAA Analysis Report
+description: >
+  Formato de salida obligatorio para cualquier módulo de juicio de PLAA
+  (3 formalizer, 4 validator, 5 fallacy_analyzer, 6 concept_consistency,
+  7 stress_test). Un informe que no cumple esta forma no se considera un
+  informe PLAA válido, sin importar la calidad de su contenido.
+
+required_fields:
+  - argument_id            # ARG-###
+  - module                 # miner | graph | formalizer | validator | fallacy_analyzer | concept_consistency | stress_test
+  - logical_status          # ver logical_status_values
+  - detected_problems       # lista, puede estar vacía
+  - confidence               # POSSIBLE | LIKELY | UNLIKELY | NOT_DETECTED — nunca ausente (Principio 3)
+  - human_review_required    # siempre true (Principio 4)
+  - repository_references    # lista no vacía (Principio 7)
+
+logical_status_values:
+  - VALID
+  - INVALID
+  - SATISFIABLE
+  - UNSATISFIABLE
+  - UNKNOWN
+  - INCOMPLETE
+  - MISSING_PREMISE
+  - NOT_APPLICABLE
+
+confidence_vocabulary:
+  - POSSIBLE
+  - LIKELY
+  - UNLIKELY
+  - NOT_DETECTED
+
+report_status_values:
+  # nunca VALIDATED — esa palabra pertenece solo al investigador
+  - NOT_READY
+  - DEVELOPMENT_REQUIRED
+  - READY_FOR_HUMAN_REVIEW
+
+detected_problem_fields:
+  # cada elemento de "detected_problems" requiere:
+  - description
+  - evidence_location            # sección o cita concreta del ARG-* (Principio 6/7)
+  - confidence                    # vocabulario de confianza
+  - reviewed_as_possible_aporia   # booleano — capa de seguridad hermenéutica (módulo 8), obligatorio
+
+formalization_fields:
+  # presente solo si module: formalizer
+  - level          # propositional | predicate | modal | deontic
+  - notation
+  - provisional     # siempre true hasta aprobación humana explícita
+
+nota_sobre_formalization: >
+  El campo "formalization" nunca sustituye ni sobrescribe el texto
+  original del ARG-*. Se guarda como reconstrucción separada
+  (ver templates/formal-reconstruction.md).

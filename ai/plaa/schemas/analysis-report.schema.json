@@ -1,0 +1,100 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/VladPhil92/Phd-Philosophy-Thesis---Juan-Pablo-Valderrama/ai/plaa/schemas/analysis-report.schema.json",
+  "title": "PLAA Analysis Report",
+  "description": "Formato de salida obligatorio para cualquier módulo de juicio de PLAA (3, 4, 5, 6, 7), tal como exige el encargo original. Un informe que no cumple esta forma no se considera un informe PLAA válido, independientemente de la calidad de su contenido.",
+  "type": "object",
+  "required": [
+    "argument_id",
+    "module",
+    "logical_status",
+    "detected_problems",
+    "confidence",
+    "human_review_required",
+    "repository_references"
+  ],
+  "properties": {
+    "argument_id": { "type": "string", "pattern": "^ARG-[0-9]{3,}$" },
+    "module": {
+      "type": "string",
+      "enum": ["miner", "graph", "formalizer", "validator", "fallacy_analyzer", "concept_consistency", "stress_test"]
+    },
+    "source": {
+      "type": "string",
+      "description": "Ruta del archivo ARG-*.md auditado."
+    },
+    "premises": { "type": "array", "items": { "type": "string" } },
+    "conclusion": { "type": "string" },
+    "formalization": {
+      "type": "object",
+      "description": "Presente solo si module=formalizer. Nunca sobrescribe el texto original.",
+      "properties": {
+        "level": { "type": "string", "enum": ["propositional", "predicate", "modal", "deontic"] },
+        "notation": { "type": "string" },
+        "provisional": { "const": true, "description": "Siempre true hasta aprobación humana explícita." }
+      }
+    },
+    "logical_status": {
+      "type": "string",
+      "enum": ["VALID", "INVALID", "SATISFIABLE", "UNSATISFIABLE", "UNKNOWN", "INCOMPLETE", "MISSING_PREMISE", "NOT_APPLICABLE"]
+    },
+    "detected_problems": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["description", "evidence_location", "confidence", "reviewed_as_possible_aporia"],
+        "properties": {
+          "description": { "type": "string" },
+          "evidence_location": {
+            "type": "string",
+            "description": "Sección o cita concreta del ARG-* en la que se basa el hallazgo. Obligatorio (Principio 6/7)."
+          },
+          "confidence": { "type": "string", "enum": ["POSSIBLE", "LIKELY", "UNLIKELY", "NOT_DETECTED"] },
+          "reviewed_as_possible_aporia": {
+            "type": "boolean",
+            "description": "Capa de seguridad hermenéutica (módulo 8). Obligatorio antes de aceptar el hallazgo como bien formado."
+          }
+        }
+      }
+    },
+    "missing_premises": { "type": "array", "items": { "type": "string" } },
+    "concept_ambiguity": {
+      "type": "array",
+      "items": { "$ref": "concept.schema.json" }
+    },
+    "possible_fallacies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["fallacy", "verdict", "justification"],
+        "properties": {
+          "fallacy": { "type": "string" },
+          "verdict": { "type": "string", "enum": ["POSSIBLE", "LIKELY", "UNLIKELY", "NOT_DETECTED"] },
+          "justification": { "type": "string" }
+        }
+      }
+    },
+    "counterargument": { "type": "string" },
+    "confidence": {
+      "type": "string",
+      "enum": ["POSSIBLE", "LIKELY", "UNLIKELY", "NOT_DETECTED"],
+      "description": "Confianza global del informe, nunca ausente (Principio 3)."
+    },
+    "human_review_required": {
+      "const": true,
+      "description": "Siempre true (Principio 4). Un informe PLAA nunca se autocertifica como definitivo."
+    },
+    "report_status": {
+      "type": "string",
+      "enum": ["NOT_READY", "DEVELOPMENT_REQUIRED", "READY_FOR_HUMAN_REVIEW"],
+      "description": "Nunca VALIDATED: esa palabra pertenece solo a la decisión del investigador."
+    },
+    "repository_references": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string" },
+      "description": "Rutas o identificadores del repositorio en los que se apoya el informe (Principio 7: no claim without traceability)."
+    }
+  },
+  "additionalProperties": false
+}

@@ -288,8 +288,17 @@ preexistente de ciudadanía animal, sino en retroceder un nivel conceptual:
 **preguntar qué debe significar soberanía antes de determinar quién puede ser
 incorporado a ella**.
 
-La selección del corpus permanece pendiente de justificación documental. Toda
-obra efectivamente consultada debe incorporarse a
+La selección del corpus permanece pendiente de justificación documental.
+[`research/sources/corpus-map.md`](research/sources/corpus-map.md) reúne una
+propuesta de 200 obras candidatas —corpus primario, bibliografía secundaria,
+estado del arte del giro político animal, contexto de soberanía y
+biopolítica, profundización posthumanista y multiespecie, metodología, y una
+ampliación 2020–2026— clasificadas por prioridad y con su estado de
+verificación declarado. Es un punto de partida para la selección, no una
+lista de lectura cerrada ni fuentes ya incorporadas: ninguna entrada de ese
+mapa ha sido leída, verificada en su edición ni citada todavía.
+
+Toda obra efectivamente consultada debe incorporarse a
 [`research/sources/bibliography.bib`](research/sources/bibliography.bib) y contar,
 cuando corresponda, con una ficha analítica. Las fuentes secundarias, los
 resúmenes y las salidas automatizadas no se presentan como lectura directa.

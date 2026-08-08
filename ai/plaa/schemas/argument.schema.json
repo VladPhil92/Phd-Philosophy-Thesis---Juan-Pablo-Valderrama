@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/VladPhil92/Phd-Philosophy-Thesis---Juan-Pablo-Valderrama/ai/plaa/schemas/argument.schema.json",
+  "title": "Argument Object",
+  "description": "Especificación estructural de una ficha ARG-* (research/argument-ledger/**), tal como la produce templates/ficha-argumento.md. No especifica ni valida contenido filosófico, solo forma.",
+  "type": "object",
+  "required": ["argument_id", "status", "human_validation"],
+  "properties": {
+    "argument_id": {
+      "type": "string",
+      "pattern": "^ARG-[0-9]{3,}$",
+      "description": "Identificador estable, único en todo el repositorio."
+    },
+    "status": {
+      "type": "string",
+      "enum": ["IDEA", "DEVELOPING", "SUPPORTED", "CONTESTED", "READY_FOR_HUMAN_REVIEW", "VALIDATED", "REJECTED"],
+      "description": "Ciclo epistémico. Solo el investigador puede escribir VALIDATED."
+    },
+    "human_validation": {
+      "type": "string",
+      "enum": ["pending", "validated"],
+      "description": "pending hasta que el investigador lo cambie explícitamente."
+    },
+    "target_chapter": {
+      "type": "string",
+      "description": "Ruta o identificador del capítulo de destino en thesis/chapters/, si ya se decidió."
+    },
+    "related_questions": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^PI-[0-9]{2,}$" },
+      "minItems": 1,
+      "description": "Al menos una pregunta de investigación de research/questions.md."
+    },
+    "sources": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Claves BibTeX de research/sources/bibliography.bib."
+    },
+    "sections": {
+      "type": "object",
+      "description": "Correspondencia con los encabezados de templates/ficha-argumento.md. Ver plaa/miner.py:SECTION_HEADINGS.",
+      "properties": {
+        "claim": { "type": "string" },
+        "premises": { "type": "array", "items": { "type": "string" } },
+        "source_support": { "type": "string" },
+        "textual_evidence": { "type": "string" },
+        "inference": { "type": "string" },
+        "alternative_interpretations": { "type": "string" },
+        "objections_and_responses": { "type": "string" },
+        "scope_and_limits": { "type": "string" },
+        "ai_use": { "type": "string" },
+        "revision_history": { "type": "string" },
+        "manuscript_use": { "type": "string" }
+      }
+    },
+    "ai_interactions": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^IA-[0-9]{4}-[0-9]{2}-[0-9]{2}-[0-9]{2}$" },
+      "description": "Identificadores de ai/ (templates/registro-ia.md) que influyeron materialmente en este argumento."
+    }
+  },
+  "additionalProperties": true
+}

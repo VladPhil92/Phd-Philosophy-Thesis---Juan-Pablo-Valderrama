@@ -117,3 +117,29 @@
   de forma autónoma, la decisión sobre proteger técnicamente la rama
   `main` (reglas exactas a confirmar por el investigador). Ningún
   contenido filosófico ni fecha límite se fabricó para poblar el plan.
+
+## DEC-006 — Protección técnica de la rama `main`
+
+- **Fecha:** 2026-08-08
+- **Estado:** aceptada
+- **Contexto:** `governance/authority-policy.md` (DEC-004) declara que
+  terceros no pueden fusionar cambios en el repositorio canónico, pero esa
+  autoridad no estaba reforzada técnicamente en la configuración de
+  GitHub — solo era una norma documental. `MASTER_EXECUTION_PLAN.md`
+  (DEC-005) dejó explícitamente pendiente esta decisión en el checklist de
+  cierre de la Fase 1, a la espera de que el investigador eligiera las
+  reglas exactas.
+- **Decisión:** el investigador aplicó protección de rama sobre `main`
+  bloqueando force-push y borrado de la rama (`allow_force_pushes: false`,
+  `allow_deletions: false`), sin exigir pull request ni checks de CI antes
+  de fusionar (`enforce_admins: false`, sin
+  `required_pull_request_reviews` ni `required_status_checks`). Confirmado
+  directamente por Juan Pablo Valderrama Pino (VladPhil92) el 2026-08-08.
+- **Consecuencias:** el checklist de cierre de la Fase 1 en
+  `MASTER_EXECUTION_PLAN.md` queda completo. Nadie puede reescribir el
+  historial de `main` ni borrarla por accidente o de forma maliciosa; el
+  investigador conserva flujo de trabajo sin fricción (push y merge
+  directos siguen permitidos). Esta configuración se aplicó fuera de esta
+  sesión (la API de branch protection de GitHub no está disponible entre
+  las herramientas de este agente); esta entrada documenta la decisión y
+  su justificación, no ejecuta el cambio.

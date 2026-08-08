@@ -38,6 +38,8 @@ aspiracional:
   `research/argument-ledger/` más allá del `README.md`. Hay candidatas
   identificadas (distinción dominio/nombrar, límite de la hospitalidad
   levinasiana) pero ningún `ARG-*` construido.
+- **Gate A (Repository Ready) cruzada** (2026-08-08, DEC-006): Fase 1
+  cerrada, incluida la protección de `main`.
 - Fase activa: **Fase 4 (Investigación sustantiva)**, con la Fase 3
   (Biblioteca de investigación) todavía abierta en paralelo — el corpus se
   construye de forma progresiva, no por lote.
@@ -86,10 +88,11 @@ cuando el volumen lo requiera, siguiendo el mismo criterio que
   - Auditoría automatizada (`scripts/auditar_repositorio.py`,
     `.github/workflows/auditoria.yml`) verificando invariantes
     documentales. **Hecho.**
-  - Rama `main` protegida contra push directo y force-push, coherente con
-    `governance/authority-policy.md`. **Pendiente — requiere decisión
-    explícita del investigador sobre las reglas exactas (ver más abajo);
-    no se configura de forma autónoma.**
+  - Rama `main` protegida contra force-push y borrado, coherente con
+    `governance/authority-policy.md`. **Hecho** (DEC-006,
+    `governance/decision-log.md`): `allow_force_pushes: false`,
+    `allow_deletions: false`; sin exigencia de PR ni de CI antes de
+    fusionar, para no introducir fricción sobre el flujo del investigador.
   - Checklist de seguridad (secretos, material protegido fuera de
     versión, `.gitignore` sin agujeros). **Hecho** (incluida la corrección
     del agujero en `research/sources/` detectada en esta sesión).
@@ -103,8 +106,9 @@ cuando el volumen lo requiera, siguiendo el mismo criterio que
   - [x] Arquitectura congelada y documentada.
   - [x] Autoridad formalizada.
   - [x] Auditoría automatizada en verde.
-  - [ ] `main` protegida según reglas acordadas explícitamente.
-- **Madurez estimada:** operativa salvo el punto de protección de rama.
+  - [x] `main` protegida según reglas acordadas explícitamente (DEC-006).
+- **Madurez estimada:** operativa. Fase 1 cerrada — **Gate A cruzada**
+  (2026-08-08).
 
 ### Fase 2 — Metodología de investigación
 

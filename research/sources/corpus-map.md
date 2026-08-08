@@ -93,7 +93,7 @@ decisión cerrada.
 | SRC-001 | Derrida, J. | Of Hospitality / De l'hospitalité | 1997/2000 | PRIMARY_CORE | ALTA | PI-01, PI-05 | CANDIDATE |
 | SRC-002 | Derrida, J. | Hospitality, Volume I (University of Chicago Press) | 2023 | PRIMARY_CORE | ALTA | PI-01, PI-05 | CANDIDATE |
 | SRC-003 | Derrida, J. | Hospitality, Volume II (University of Chicago Press) | 2024 | PRIMARY_CORE | ALTA | PI-01, PI-05 | CANDIDATE |
-| SRC-004 | Derrida, J. | The Animal That Therefore I Am | 2006/2008 | PRIMARY_CORE | ALTA | PI-04 | CANDIDATE |
+| SRC-004 | Derrida, J. | The Animal That Therefore I Am | 2006/2008 | PRIMARY_CORE | ALTA | PI-04 | CITED — véase `bibliography.bib:derrida-2008-animal` y `notes/derrida-2008-animal.md` |
 | SRC-005 | Derrida, J. | The Beast and the Sovereign, Vol. I | 2009 | PRIMARY_CORE | ALTA | PI-02, PI-04 | CANDIDATE |
 | SRC-006 | Derrida, J. | The Beast and the Sovereign, Vol. II | 2011/2017 | PRIMARY_CORE | ALTA | PI-02, PI-04 | CANDIDATE |
 | SRC-007 | Derrida, J. | Rogues: Two Essays on Reason | 2003/2005 | PRIMARY_CORE | ALTA | PI-02, PI-07 | CANDIDATE |

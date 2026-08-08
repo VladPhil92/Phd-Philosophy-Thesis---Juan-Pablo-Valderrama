@@ -20,8 +20,9 @@ Follow)", pp. 1–51; (2) "But as for me, who am I (following)?", pp.
 119–140; (4) "'I don't know why we are doing this'" (transcripción de
 improvisación oral sobre Heidegger), pp. 141–160. Precede un Prefacio de
 Marie-Louise Mallet (pp. ix–xiii). Véase registro de intervención de IA
-[`ai/log/IA-2026-08-08-01.md`](../../../ai/log/IA-2026-08-08-01.md) y
-[`ai/log/IA-2026-08-08-02.md`](../../../ai/log/IA-2026-08-08-02.md).
+[`ai/log/IA-2026-08-08-01.md`](../../../ai/log/IA-2026-08-08-01.md),
+[`ai/log/IA-2026-08-08-02.md`](../../../ai/log/IA-2026-08-08-02.md) y
+[`ai/log/IA-2026-08-08-03.md`](../../../ai/log/IA-2026-08-08-03.md).
 
 ## Tesis y propósito de la obra
 
@@ -51,18 +52,23 @@ sostiene, con variantes, que al animal le falta lo propiamente humano
   mundo (*weltbildend*).
 - Juego *je suis* (soy/sigo): bisagra entre ontología y
   persecución/seguimiento que reescribe el cogito cartesiano.
+- **Guerra de especies** (vía Kant, *intuitus derivativus*): la razón
+  práctica kantiana funda, según Derrida, algo que puede nombrarse como
+  una guerra entre especies, con el animal reducido a "livestock, tool,
+  meat, body, or experimental life form" (p. 101).
 
 ## Citas verificadas
 
 > Cotejadas por el investigador contra su edición/PDF de Fordham UP 2008
-> antes de incorporarse aquí (véase `ai/log/IA-2026-08-08-01.md` y
-> `ai/log/IA-2026-08-08-02.md`). Cita en la traducción inglesa de David
-> Wills; el tratamiento de traducciones frente al original francés
-> (Galilée, 2006) queda pendiente en `research/methodology.md` §6.
-> Organizadas por capítulo. Se excluye deliberadamente una supuesta cita
-> de la p. 27 ("we are not undermining the [...]") que en el documento de
-> origen aparecía truncada con corchetes: no es una cita verificable tal
-> como está, ver «Tareas pendientes».
+> antes de incorporarse aquí (véase `ai/log/IA-2026-08-08-01.md`,
+> `ai/log/IA-2026-08-08-02.md` y `ai/log/IA-2026-08-08-03.md`). Cita en la
+> traducción inglesa de David Wills; el tratamiento de traducciones frente
+> al original francés (Galilée, 2006) queda pendiente en
+> `research/methodology.md` §6. Organizadas por capítulo y, dentro de
+> cada capítulo largo, por núcleo temático. Se excluye deliberadamente una
+> supuesta cita de la p. 27 ("we are not undermining the [...]") que en un
+> documento de origen aparecía truncada con corchetes: no es una cita
+> verificable tal como está, ver «Tareas pendientes».
 
 **Prefacio (Mallet)**
 
@@ -71,23 +77,79 @@ sostiene, con variantes, que al animal le falta lo propiamente humano
 
 **Capítulo 1 — "The Animal That Therefore I Am (More to Follow)" (pp. 1–51)**
 
+*Escena, desnudez y "lo propio del hombre"*
+
 - Escena inaugural: **"caught naked, in silence, by the gaze of an
   animal"** (p. 2).
+- **"They wouldn't be naked because they are naked."** (p. 4) — inversión
+  de la lógica de la desnudez: no hay desnudez "en la naturaleza".
+- **"Clothing would be proper to man, one of the 'properties' of man."**
+  (p. 4)
+- **"We would therefore have to think shame and technicity together."**
+  (p. 4)
+- **"The animal, therefore, is not naked because it is naked."** (p. 4)
 - **"naked in front of this cat, but also ashamed for being ashamed"**
   (p. 3).
 - Retomada explícitamente como estructura estable: **"being ashamed of
   being ashamed"** (p. 20).
-- Punto de partida ético (retomando a Bentham): **"Can they suffer?"**
-  (p. 27; también p. 161).
+- **"I am like a child ready for the apocalypse."** (p. 11)
+- **"I am (following) it, the apocalypse ... after its whole zoo-logy."**
+  (p. 11)
+- Primera mención de Levinas, anuncia la crítica del capítulo 2: **"In
+  looking at the gaze of the other, Levinas..."** (p. 11).
+- **"Autobiography becomes confession."** (p. 20)
+
+*Bentham, sufrimiento, guerra por la compasión*
+
+- Punto de partida ético: **"Can they suffer?"** (p. 27; también p. 161).
+- **"'Can they suffer?' amounts to asking 'Can they not be able?'"**
+  (p. 27)
+- **"Being able to suffer is no longer a power; it is a possibility
+  without power."** (p. 27)
+- **"a possibility of the impossible"** (p. 27)
+- **"War is waged over the matter of pity."** (p. 28)
+- **"The animal looks at us, and we are naked before it. Thinking perhaps
+  begins there."** (p. 28)
+- **"the unprecedented proportions of this subjection of the animal"**
+  (p. 24)
+- **"some would compare to the worst cases of genocide"** (p. 25) — ver
+  cautela en «Objeciones y límites».
+- **"One should neither abuse the figure of genocide nor too quickly
+  consider it explained away."** (p. 25) — matización explícita de
+  Derrida sobre la cita anterior.
+- **"Animals are my concern."** (p. 34)
+
+*Génesis: nombrar y dominio*
+
+- **"Let us make man in our image ... have authority over the fish of the
+  sea..."** (p. 14, cita bíblica según la traducción de Dhormes) — orden
+  de dominio sobre "every living thing that moves on the earth".
+- **"The husbandman cried out the name of each beast."** (p. 14, cita
+  según la traducción de Chouraqui) — el acto de nombrar.
+- **"That is the first narrative. God commands man-woman to command the
+  animals, but not yet to name them."** (p. 15) — distinción explícita de
+  Derrida entre dominar y nombrar.
+- **"under the gaze of Jehovah, who does not, for all that, intervene."**
+  (p. 15)
+- Sobre la desnudez previa a la serpiente: **"they don't blanch on
+  account of it"** (p. 15).
+
+*Descartes, respuesta/reacción, autobiografía*
+
 - Sobre Descartes: Derrida lo señala como quien **"waits for us with his
   animal-machines"** (p. 21).
-- Sobre la distinción respuesta/reacción: el **"right and power to
-  'respond'"** que la tradición reserva al humano (p. 31).
-- Sobre el relato de Génesis (traducción que usa Derrida, según Dhormes/
-  Chouraqui): orden de **"authority"** [dominio] sobre "every living thing
-  that moves on the earth" (p. 14); sobre la desnudez previa a la
-  serpiente, **"they don't blanch on account of it"** (p. 15).
-- Sobre el neologismo: **"Ecce animot."** (pp. 40, 47).
+- Sobre la distinción respuesta/reacción: **"the right and power to
+  'respond'... without a word with which to respond"** que la tradición
+  reserva al humano (p. 31).
+- **"the animal seems to speak French here"** (p. 31) — ironía sobre cómo
+  la tradición filosófica atribuye lenguaje al animal solo dentro del
+  propio discurso del filósofo.
+- **"a trace can always be erased ... in no way means..."** (p. 32) —
+  apertura de la discusión sobre la huella, retomada en el capítulo 3.
+
+*Animot y homogeneización*
+
+- **"Ecce animot."** (pp. 40, 47).
 - Sobre la homogeneización del término "animal": **"a crime... against
   the animals"** (p. 47).
 - Sobre la Quimera: **"a chimera waiting to be put to death by its
@@ -95,30 +157,89 @@ sostiene, con variantes, que al animal le falta lo propiamente humano
 
 **Capítulo 2 — "But as for me, who am I (following)?" (pp. 52–118)**
 
+*Kant, guerra de especies*
+
+- **"single example of intuitus derivativus"** (p. 102) — término técnico
+  kantiano que marca la excepcionalidad del sujeto racional finito.
+- **"confirms the waging of a kind of species war"** (p. 101)
+- **"a world without animals ... living for something other than to
+  become a means for man"** (p. 101) — horizonte final de esa guerra
+  según Derrida.
+- **"livestock, tool, meat, body, or experimental life form"** (p. 101)
+  — destinos del animal bajo ese régimen.
+
+*Animot, desnudez comparada, autobiografía*
+
 - **"the animot is more naked than the human, who is more naked than the
   animot"** (p. 52).
-- Vía Adorno, sobre el sujeto kantiano: nada más **"abhorrent, more
-  hateful, more odious"** que **"the memory of a resemblance or affinity
-  between human and animality"** (p. 102).
-- Adorno, retomado por Derrida (con matización explícita, no asumido sin
-  reservas): **"animals virtually play the same role as Jews did for a
-  fascist system"** (p. 102).
+- **"Autobiography, the writing of the self as living, the trace of the
+  living for..."** (p. 46)
+- **"a chimerical word that sounded as though it contravened the laws of
+  the French language"** (p. 40) — sobre la extrañeza gramatical
+  deliberada de "animot".
+
+*Levinas*
+
+- **"Levinas, in this Cartesian tradition I just mentioned"** (p. 54) —
+  Derrida sitúa a Levinas dentro, no fuera, de la tradición cartesiana
+  que critica.
+- **"defines the death of the face in Levinas, to which we will return"**
+  (p. 84)
+- Sobre Levinas (paráfrasis directa del argumento derridiano, no cita
+  textual): el animot **"is not an other"** en el sentido pleno del
+  rostro (p. 87).
+
+*Adorno y el odio kantiano a la animalidad*
+
+- Nada más **"abhorrent, more hateful, more odious"** que **"the memory
+  of a resemblance or affinity between human and animality"** (p. 102).
+- **"a fascization of the subject"** (p. 102)
+- **"the taboo of this animality that is both forbidden and held in
+  respect"** (p. 102)
+- **"Authentic idealism ... consists in insulting the animal in the
+  human"** (p. 102)
+- Adorno, retomado por Derrida con matización explícita, no asumido sin
+  reservas: **"animals virtually play the same role as Jews did for a
+  fascist system"** (p. 102) — ver cautela en «Objeciones y límites».
+- **"The animal's problem [mal] is the male."** (p. 103) — juego de
+  palabras *mal*/*mâle* sobre la masculinidad de la violencia hacia el
+  animal.
+- **"it was Adam whom God charged with establishing his dominion over the
+  beasts"** (p. 103) — enlaza explícitamente con Génesis (cap. 1).
 - Sobre el carnofalogocentrismo: **"a single phenomenon and a single law,
   of carnophallogocentrism"** (p. 103); Derrida lo presenta como
   progresión metodológica de su propio corpus (logocentrismo →
   falogocentrismo → carnofalogocentrismo), no como hallazgo puntual de
   este texto.
-- Sobre Levinas (paráfrasis directa del argumento derridiano, no cita
-  textual): el animot **"is not an other"** en el sentido pleno del
-  rostro (p. 87).
+
+*Narcisismo, mirada, espejo*
+
+- **"already involved in the technical stage of mirroring, of
+  narcissistic or echo-..."** (p. 59)
+- **"captivated before a mirror, for however enraged she may be"** (p. 68)
+  — antecedente del *Benommenheit* heideggeriano del capítulo 4.
 
 **Capítulo 3 — "And Say the Animal Responded?" (dedicado a Lacan) (pp. 119–140)**
 
+- Cita de Lacan reportada por Derrida: **"this Other, which is
+  distinguished as the locus of Speech, imposes itself no less as witness
+  to the Truth"** (p. 126).
+- Sobre la posición lacaniana signo/significante: **"the deception of
+  speech"** [*la tromperie de la parole*] (p. 126).
+- Cita directa de Lacan, fórmula que Derrida somete a crítica: **"an
+  animal does not pretend to pretend"** (p. 127).
+- Neologismo lacaniano (concesión parcial a la capacidad animal de
+  fingir), confirmado además por literatura secundaria independiente
+  (Direk, "Animality in Lacan and Derrida"): **"dancity" [dansité] with
+  an a** (p. 127).
+- **"he holds ... that the animal keeps itself in such captivity,
+  speaking about it in terms of 'imaginary capture'"** (p. 127)
 - Distinción lacaniana retomada por Derrida: **"pretense without pretense
   of pretense"** frente al **"feigned feint"** reservado al humano (pp.
   127, 130).
-- Sobre la posición lacaniana signo/significante: **"the deception of
-  speech"** [*la tromperie de la parole*] (p. 126).
+- **"incapable of an authentic relation to death or of testifying to an
+  equally essential mortality"** (p. 128) — límite final que, según
+  Lacan, separa al animal del sujeto humano.
 
 **Capítulo 4 — "'I don't know why we are doing this'" (transcripción sobre Heidegger, pp. 141–160)**
 
@@ -127,10 +248,19 @@ sostiene, con variantes, que al animal le falta lo propiamente humano
 
 - Las tres tesis heideggerianas (1929–30): **"the stone is worldless
   [weltlos]"**, **"the animal is poor in world [weltarm]"**, frente al
-  hombre formador de mundo (p. 150).
+  hombre formador de mundo (p. 150; formulación más compacta en p. 152:
+  **"the stone (material object) is worldless; [2.] the animal is poor in
+  world; [3.] man is world-forming."**).
+- La pregunta crítica que Derrida (transcrito en vivo) le plantea a la
+  tesis heideggeriana: **"why 'poor' when poor means less rich, all the
+  same?"** (p. 154)
 - Términos heideggerianos retomados por Derrida para el modo de ser del
   animal: **"encirclement"**, **"absorbed"**, **"captivation
   [Benommenheit]"** (p. 155).
+- **"the animal has a world in the mode of 'not having.'"** (p. 155)
+- **"a sentiment of privation that shows that the animal can feel
+  something, whereas the stone cannot."** (p. 155) — lectura más generosa
+  de Heidegger antes de la objeción de Derrida.
 - Conclusión crítica de Derrida sobre la tesis "pobre de mundo": decir
   que el animal es *weltarm* **"is to demonstrate that it has world"**
   (p. 155).
@@ -210,6 +340,37 @@ rostro: el rostro levinasiano permanece antropocéntrico pese a su apertura
 tendría que superar si pretende extender la hospitalidad levinasiana más
 allá de lo humano — Derrida lo señala pero no lo resuelve en este texto.
 
+**Vergüenza, técnica y hospitalidad (cap. 1, p. 4).** Derrida vincula
+explícitamente pudor y tecnicidad ("we would therefore have to think
+shame and technicity together"). Es un hilo poco explotado por la
+recepción crítica reseñada más abajo (Wolfe, Calarco, Haraway) y
+potencialmente fértil para pensar la hospitalidad *tecnológica* —no solo
+interespecie— dentro de la Soberanía de la Hospitalidad.
+
+**Vocabulario de la "posibilidad imposible" (cap. 1, p. 27).** Que "poder
+sufrir" sea "una posibilidad sin poder" y "una posibilidad de lo
+imposible" hace explícito el eco con el vocabulario derridiano tardío del
+don, el perdón y la hospitalidad incondicional —también pensados como
+"posibilidades de lo imposible" en otros textos de Derrida (no
+verificado en esta ficha; requeriría cotejo contra esas otras obras antes
+de afirmarlo como intertextualidad literal). Es la conexión conceptual
+más directa entre este libro y el eje de hospitalidad de la tesis.
+
+**Guerra de especies como radicalización kantiana (cap. 2, pp. 101–103).**
+Antes de la fórmula "carnofalogocentrismo", Derrida ya nombra una "guerra
+de especies" derivada de la razón práctica kantiana, con el animal
+reducido a mercancía, herramienta o forma de vida experimental. Es un
+paso intermedio argumental que conviene no saltarse: carnofalogocentrismo
+no aparece de la nada, se construye sobre este diagnóstico kantiano
+previo.
+
+**Espejo y Benommenheit: un hilo entre capítulos.** La "captura
+especular" narcisista del capítulo 2 (pp. 59, 68) anticipa
+temáticamente —no es lo mismo, pero comparte estructura— la
+*Benommenheit* (aturdimiento/captación) heideggeriana del capítulo 4
+(p. 155): en ambos casos, un modo de estar absorto o capturado que no es
+ni la indiferencia de la piedra ni la apertura del mundo humano.
+
 ## Relación con preguntas y argumentos
 
 - **PI-04** (deconstrucción de la frontera humano/animal): fuente
@@ -258,6 +419,13 @@ objeción, siguiendo `templates/ficha-argumento.md`.
 - **Límite señalado en esta ficha**: la analogía animal/judío (pp.
   102–103) es delicada y controvertida en la recepción; su uso en la tesis
   requiere tratamiento cuidadoso y explícito, no una cita suelta.
+- **Misma cautela para la comparación con el genocidio (p. 25)**: Derrida
+  reporta que "algunos" comparan la industrialización de la ganadería con
+  "los peores casos de genocidio", pero matiza explícitamente que no debe
+  abusarse de esa figura ni descartarse sin más. Ambos pasajes (p. 25 y
+  pp. 102–103) deben tratarse juntos en la tesis como el mismo tipo de
+  problema retórico-político, no citarse por separado sin la matización
+  del propio Derrida.
 
 ## Tareas pendientes
 
@@ -278,5 +446,14 @@ objeción, siguiendo `templates/ficha-argumento.md`.
   hospitalidad levinasiana (p. 87) son candidatas fuertes para el primer
   `ARG-*` de este proyecto — más maduras que el resto por su conexión
   directa con PI-02/PI-05/PI-07.
+- Verificar, si se usa en la tesis, si "posibilidad de lo imposible" (p.
+  27) es efectivamente una fórmula recurrente en otros textos de Derrida
+  sobre el don/perdón/hospitalidad, antes de presentarla como
+  intertextualidad — por ahora es una hipótesis de lectura, no un dato
+  verificado.
+- Este documento cubrió los cuatro capítulos; quedan sin explotar el
+  aparato de Notas finales (pp. 161ss., con referencias cruzadas a
+  "Geschlecht" y *Aporias*) y los pasajes sobre Porfirio y el veganismo
+  antiguo (p. 86) — pendientes si se decide una cuarta ronda de lectura.
 - Actualizar `research/sources/corpus-map.md` (SRC-004) reflejando el
   nuevo estado de esta fuente.

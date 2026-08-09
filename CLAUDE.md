@@ -6,10 +6,13 @@ software. Léelo antes de modificar cualquier archivo.
 
 ## Identidad del proyecto
 
-Investigación doctoral de **Juan Pablo Valderrama** sobre la **soberanía de
-la hospitalidad** y las condiciones de una **comunidad política
-interespecie**. Campos: soberanía, hospitalidad, comunidad política,
-distinción humano/animal, reconocimiento interespecie. Véase
+Investigación doctoral de **Juan Pablo Valderrama** titulada *Soberanía de la
+hospitalidad: los límites antropológicos de la comunidad política*. El concepto
+principal en elaboración es la **soberanía de la hospitalidad**; el problema
+central son los **límites antropológicos de la comunidad política**, y la
+cuestión animal y la frontera humano/animal constituyen su campo crítico
+privilegiado. «Comunidad política interespecie» solo puede tratarse como una
+posibilidad pendiente de justificación, no como conclusión validada. Véase
 [`README.md`](README.md) y [`research/questions.md`](research/questions.md).
 
 ## Autoría académica

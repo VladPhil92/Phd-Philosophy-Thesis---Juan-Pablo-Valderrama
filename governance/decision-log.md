@@ -1,5 +1,26 @@
 # Registro de decisiones
 
+## DEC-004 — Refinamiento del título y de la jerarquía conceptual
+
+- **Fecha:** 2026-08-09
+- **Estado:** aceptada
+- **Contexto:** el título provisional coordinaba dos formulaciones que la
+  arquitectura intelectual actual sitúa en niveles distintos.
+- **Decisión:** refinar el título de *Soberanía de la hospitalidad y comunidad
+  política interespecie* a *Soberanía de la hospitalidad: los límites
+  antropológicos de la comunidad política*.
+- **Justificación:** el nuevo título refleja mejor la jerarquía de la
+  investigación, conserva la centralidad de soberanía y hospitalidad, y sitúa
+  la cuestión animal dentro del problema más fundamental de los límites
+  antropológicos de la pertenencia política. Así evita presuponer una comunidad
+  interespecie como conclusión, sin excluirla como posibilidad pendiente de
+  justificación.
+- **Consecuencias:** «comunidad política interespecie» deja de ser parte del
+  título y se usa solo como categoría exploratoria, horizonte normativo,
+  interlocución con teoría política animal, hipótesis derivada o formulación
+  por justificar. No se modifican las preguntas canónicas ni la hipótesis
+  central.
+
 ## DEC-001 — Arquitectura por función epistémica
 
 - **Fecha:** 2026-08-07

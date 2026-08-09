@@ -6,6 +6,35 @@ La arquitectura separa el material por función epistémica para reconstruir có
 una afirmación del manuscrito se relaciona con una pregunta, una fuente y una
 decisión analítica.
 
+## Jerarquía conceptual del proyecto
+
+```text
+SOBERANÍA DE LA HOSPITALIDAD
+           │
+           ↓
+LÍMITES DE LA COMUNIDAD POLÍTICA
+           │
+           ↓
+PRESUPUESTOS ANTROPOLÓGICOS
+           │
+           ↓
+FRONTERA HUMANO / ANIMAL
+           │
+           ↓
+CUESTIÓN ANIMAL
+           │
+           ↓
+POSIBLES FORMAS DE PERTENENCIA
+MÁS ALLÁ DE LA EXCEPCIONALIDAD HUMANA
+```
+
+Esta secuencia distingue el concepto en elaboración, el problema central, el
+campo crítico y las consecuencias por establecer. «Comunidad política
+interespecie» puede usarse como categoría exploratoria, horizonte normativo,
+interlocución con la teoría política animal, hipótesis derivada o formulación
+pendiente de justificación. No designa por ahora un resultado validado, una
+definición canónica, una conclusión ni el objeto central oficial de la tesis.
+
 ## Capas y dependencias
 
 1. **`governance/`** define reglas transversales, auditorías y decisiones.

@@ -1,4 +1,4 @@
-# Soberanía de la hospitalidad y comunidad política interespecie
+# Soberanía de la hospitalidad: los límites antropológicos de la comunidad política
 
 ## Investigación doctoral en Filosofía
 

@@ -10,6 +10,27 @@
 
 ## Presentación de la investigación
 
+La investigación estudia si la soberanía puede reconstruirse desde la
+hospitalidad y qué ocurre con la comunidad política cuando sus criterios de
+pertenencia dejan de descansar exclusivamente sobre una determinada definición
+de humanidad. La cuestión animal no constituye un segundo objeto independiente:
+es una prueba filosófica decisiva de los presupuestos antropológicos que ordenan
+la pertenencia política.
+
+```text
+soberanía
+↓
+hospitalidad
+↓
+límites políticos
+↓
+criterios de pertenencia
+↓
+presupuestos antropológicos
+↓
+frontera humano/animal
+```
+
 La tradición moderna de la soberanía ha pensado el poder político, bajo
 formulaciones distintas, a partir de una determinada capacidad de producir
 unidad, decidir, establecer límites y determinar pertenencias. Desde la
@@ -85,10 +106,12 @@ la hospitalidad política, en cambio, requiere reglas, instituciones y
 condiciones. Lejos de cancelar la política, la tensión entre ambas introduce una
 exigencia permanente de revisión de sus límites.
 
-La tesis traslada esta aporía al problema de la comunidad interespecie: ¿qué
-ocurre cuando aquel ante quien debe responder la comunidad no es necesariamente
-un sujeto humano capaz de reciprocidad jurídica, lenguaje político o
-representación institucional?
+La tesis examina esta aporía en los límites antropológicos de la comunidad
+política: ¿qué ocurre cuando aquel ante quien debe responder la comunidad no es
+necesariamente un sujeto humano capaz de reciprocidad jurídica, lenguaje
+político o representación institucional? La cuestión animal permite someter a
+prueba esos límites y la soberanía de la hospitalidad, sin presuponer que el
+resultado deba ser una «comunidad política interespecie».
 
 Esta pregunta obliga a reconsiderar una larga tradición filosófica que ha
 construido la singularidad humana mediante la atribución diferencial de
@@ -150,17 +173,19 @@ sobre las que sus decisiones producen efectos.
 El problema de la hospitalidad deja así de reducirse a la entrada del extranjero
 humano en un territorio y adquiere una dimensión ontológica y política más amplia:
 **quién puede comparecer como otro ante la comunidad y obligarla a justificar
-sus límites**. La comunidad interespecie constituye el campo en el cual esta
-hipótesis será puesta a prueba.
+sus límites**. La problematización de los límites antropológicos de la comunidad
+política constituye uno de los campos decisivos en los que esta hipótesis será
+puesta a prueba.
 
 ## Contribución original: soberanía de la hospitalidad
 
-*Soberanía de la hospitalidad* nombra el concepto original que el proyecto se
-propone desarrollar. La expresión desplaza el centro de gravedad desde la
-facultad de excluir hacia la responsabilidad de justificar cómo se constituye,
-se abre y se transforma una comunidad. El concepto no equivale a negar toda
-decisión política ni anticipa por sí solo un modelo institucional: esas
-implicaciones deberán argumentarse y contrastarse durante la tesis.
+*Soberanía de la hospitalidad* nombra el concepto cuya elaboración y eventual
+originalidad el proyecto se propone establecer. La expresión desplaza el centro
+de gravedad desde la facultad de excluir hacia la responsabilidad de justificar
+cómo se constituye, se abre y se transforma una comunidad. El concepto no
+equivale a negar toda decisión política ni anticipa por sí solo un modelo
+institucional: esas implicaciones deberán argumentarse y contrastarse durante
+la tesis.
 
 La expresión contiene deliberadamente una tensión. La soberanía remite a
 decisión, autoridad, delimitación y capacidad efectiva de actuar. La
@@ -182,7 +207,7 @@ sino también:
 
 > **¿Ante quién debe responder quien decide?**
 
-Y, en el contexto interespecie:
+Y, al examinar la frontera humano/animal:
 
 > **¿Por qué la pertenencia a la especie humana habría de constituir por sí sola
 > el límite último de esa responsabilidad política?**
@@ -272,7 +297,7 @@ hospitalidad: toda comunidad necesita protegerse, pero la inmunización absoluta
 terminaría produciendo una comunidad cerrada a aquello que la constituye desde
 fuera.
 
-### 5. Comunidad política interespecie
+### 5. Cuestión animal y posibilidad de una comunidad política interespecie
 
 La investigación dialogará también con desarrollos contemporáneos que han
 intentado trasladar la cuestión animal desde la ética individual hacia la teoría
@@ -308,8 +333,9 @@ resúmenes y las salidas automatizadas no se presentan como lectura directa.
 ### Objetivo general
 
 Desarrollar y evaluar filosóficamente el concepto de soberanía de la
-hospitalidad como posible fundamento normativo para pensar una comunidad
-política interespecie.
+hospitalidad frente al problema de los límites antropológicos de la comunidad
+política y las formas de pertenencia que podrían pensarse más allá de la
+excepcionalidad humana.
 
 ### Objetivos específicos
 

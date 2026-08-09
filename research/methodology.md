@@ -9,6 +9,12 @@ que ninguna quede implícita o se presuponga por defecto. Cada sección marca
 investigador, con fecha y justificación, idealmente registrada también como
 entrada en `governance/decision-log.md` si afecta a todo el corpus.
 
+La investigación no presupone de entrada una comunidad política interespecie;
+examina primero los límites antropológicos que estructuran la pertenencia
+política y evalúa qué consecuencias se derivan de su problematización. Esta
+delimitación conceptual no resuelve ninguna de las decisiones metodológicas
+pendientes que siguen.
+
 ## 1. Método filosófico general
 
 **DECISIÓN HUMANA REQUERIDA.** ¿Qué combinación de los siguientes enfoques

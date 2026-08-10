@@ -40,3 +40,10 @@ no validación filosófica. `SOURCE_RECHECK_REQUIRED` sigue aplicando a
 interpretaciones o citas que aún no hayan sido cotejadas contextualmente contra
 el PDF. Ninguna interpretación sustantiva de este dossier ha recibido
 validación doctoral automática.
+
+## Contexto intelectual y supervisión
+
+La relación documentada con el asesor Kenneth Moreno May, la cronología de sus
+publicaciones candidatas y los límites entre influencia, convergencia y
+dependencia se registran en
+[`intellectual-context.md`](intellectual-context.md).

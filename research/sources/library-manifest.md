@@ -328,6 +328,31 @@ decisión cerrada.
 | SRC-199 | España — Ley del Mar Menor | Personalidad jurídica del Mar Menor — caso, no fuente filosófica | 2022 | CONTEXT | PI-06 | búsqueda web | IDENTITY_VERIFIED |
 | SRC-200 | Corte de Justicia de Perú (caso Kukama / Canaquiri Murayari) | Personalidad jurídica del río Marañón — caso, no fuente filosófica | 2024 | CONTEXT | PI-06 | búsqueda web | IDENTITY_VERIFIED |
 
+
+## H. Contexto de formación: Kenneth Moreno May (SRC-201–SRC-209)
+
+> Candidatos registrados por la operación de genealogía intelectual. La red
+> externa estuvo bloqueada durante esta ejecución: ninguna fila está
+> `IDENTITY_VERIFIED`, ninguna acredita lectura y ninguna entra al corpus. Los
+> años entre paréntesis son datos reportados que requieren cotejo.
+
+| SRC | Autor | Título | Año reportado | Clasificación | PI relacionadas | Nota de verificación | Estado |
+|---|---|---|---|---|---|---|---|
+| SRC-201 | Moreno May, K. | «La biopolítica de Foucault y la filosofía política contemporánea (Agamben y Esposito)» | ca. 2013 | CONTEXT | PI-02, PI-04, PI-07 | `METADATA_AND_FULL_TEXT_REVIEW_REQUIRED` | CANDIDATE |
+| SRC-202 | Moreno May, K. | «El discurso veraz como condición de la comunidad humana: de Kant a Peter Winch» | 2013 | CONTEXT | PI-03, PI-06 | `METADATA_AND_FULL_TEXT_REVIEW_REQUIRED` | CANDIDATE |
+| SRC-203 | Moreno May, K. | «Wittgenstein y la naturalización de la mente» | 2011 | CONTEXT | PI-03, PI-04 | `METADATA_AND_FULL_TEXT_REVIEW_REQUIRED` | CANDIDATE |
+| SRC-204 | Moreno May, K. | «Benjamin y Wittgenstein en torno al lenguaje de los hombres» | 2015 | CONTEXT | PI-03, PI-04 | `CHRONOLOGY_AND_FULL_TEXT_REVIEW_REQUIRED` | CANDIDATE |
+| SRC-205 | Moreno May, K. | «Entre la lógica, el entendimiento y el lenguaje» | por confirmar | CONTEXT | PI-03 | `EXACT_METADATA_REQUIRED` | CANDIDATE |
+| SRC-206 | Moreno May, K. | «Algunas anotaciones sobre la dimensión ética del concepto de Forma de Vida» | por confirmar | CONTEXT | PI-03, PI-06 | `PUBLICATION_AND_FULL_TEXT_REVIEW_REQUIRED` | CANDIDATE |
+| SRC-207 | Moreno May, K. | «Sobre la différance I» / «Sobre la différance II» (textos públicos; dos piezas por autenticar) | por confirmar | CONTEXT | PI-01, PI-04, PI-05 | `AUTHORSHIP_DATE_AND_MEDIUM_REQUIRED` | CANDIDATE |
+| SRC-208 | Moreno May, K. | «Introducción a Fuerza de Ley» (texto público por autenticar) | por confirmar | CONTEXT | PI-01, PI-02, PI-05 | `AUTHORSHIP_DATE_AND_MEDIUM_REQUIRED` | CANDIDATE |
+| SRC-209 | Moreno May, K. | «Heidegger y Derrida: nazismo y nacionalismo» (texto público por autenticar) | por confirmar | CONTEXT | PI-03, PI-05, PI-06 | `AUTHORSHIP_DATE_AND_MEDIUM_REQUIRED` | CANDIDATE |
+
+Estos candidatos se explican en el
+[`contexto intelectual y de supervisión`](../background/undergraduate-thesis/intellectual-context.md).
+No se promovieron a `bibliography.bib`: registrar descubrimiento o una identidad
+por verificar no equivale a incorporar una fuente doctoral.
+
 ## Duplicados y observaciones de calidad ya detectados
 
 - **SRC-037** es el único registro canónico de Naas, *Threshold Phenomena*.

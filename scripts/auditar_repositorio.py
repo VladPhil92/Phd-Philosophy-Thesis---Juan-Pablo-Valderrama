@@ -247,7 +247,7 @@ def validate_research_background_separation() -> list[str]:
                 "La tesis de maestría debe tener una única entrada @mastersthesis "
                 f"con clave {prior_work_key}"
             )
-        for classification in ("RESEARCH_BACKGROUND", "PREVIOUS_RESEARCH", "AUTHOR_PRIOR_WORK"):
+        for classification in ("RESEARCH_BACKGROUND", "AUTHOR_PREVIOUS_RESEARCH"):
             if classification not in content:
                 errors.append(f"Falta la clasificación {classification} en la entrada de trabajo previo")
 
@@ -257,7 +257,7 @@ def validate_research_background_separation() -> list[str]:
 
     ledger_dir = ROOT / "research" / "argument-ledger"
     if ledger_dir.is_dir():
-        forbidden_markers = (prior_work_key, "HIST-2020-", "PREVIOUS_RESEARCH")
+        forbidden_markers = (prior_work_key, "HIST-2020-", "AUTHOR_PREVIOUS_RESEARCH")
         for path in sorted(ledger_dir.glob("*.md")):
             if path.name == "README.md":
                 continue

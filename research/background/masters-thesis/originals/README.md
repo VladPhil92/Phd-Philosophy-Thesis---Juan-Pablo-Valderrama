@@ -1,12 +1,12 @@
-# Original archivístico
+# Archival originals
 
-Aquí puede conservarse una copia autorizada del PDF histórico. Actualmente no
-hay original. El documento de 2020 **no representa automáticamente la posición
-doctoral actual** y se preservará sin corregir redacción, citas, argumentos o
-conclusiones; las críticas viven fuera del PDF.
+This directory preserves archival copies of previous research by the author.
+These works are preserved for provenance and intellectual history. They are not
+automatically considered valid doctoral conclusions and are not part of the
+doctoral corpus.
 
-Antes de incorporar una copia: confirmar autorización; registrar nombre,
-tamaño, páginas, procedencia y acceso público; calcular `sha256sum` sobre el
-archivo real; y crear un registro nuevo si cambia un byte, sin sobrescribirlo.
-Los campos están en [`../metadata.md`](../metadata.md). Un hash identifica una
-copia, pero no certifica por sí solo autoridad textual.
+The PDF in this directory is an immutable archival artifact: do not edit,
+replace, optimize, or annotate it in place. Its filename, size, page count,
+SHA-256 digest, cover-page metadata, and classification are recorded in
+[`../metadata.md`](../metadata.md). If a different binary copy is ever
+preserved, add a distinct record rather than silently replacing this one.

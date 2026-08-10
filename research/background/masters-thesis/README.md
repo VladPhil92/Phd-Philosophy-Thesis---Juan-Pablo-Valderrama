@@ -3,8 +3,9 @@
 Esta carpeta analiza históricamente *En torno al «Animal»: Una pregunta por la
 soberanía humana*. No contiene ni reescribe el original.
 
-**Estatuto:** `RESEARCH_BACKGROUND`, `PREVIOUS_RESEARCH`, `AUTHOR_PRIOR_WORK` y
-`DOCTORAL_REEXAMINATION_REQUIRED`; nunca `PRIMARY_PHILOSOPHICAL_SOURCE`.
+**Estatuto archivístico:** `RESEARCH_BACKGROUND` y `AUTHOR_PREVIOUS_RESEARCH`;
+nunca `PRIMARY_SOURCE`, `DOCTORAL_ARGUMENT` ni
+`VALIDATED_DOCTORAL_POSITION`. No pertenece al corpus doctoral.
 
 - [`metadata.md`](metadata.md): procedencia y verificación.
 - [`analytical-summary.md`](analytical-summary.md): problema por reconstruir.
@@ -15,6 +16,6 @@ soberanía humana*. No contiene ni reescribe el original.
 - [`originals/`](originals/): protocolo archivístico.
 
 `SOURCE-DERIVED` exige original y localizador. `AI-ASSISTED RECONSTRUCTION` no
-es evidencia. No se ejecutó PLAA sin el texto; cualquier análisis futuro será
-selectivo, `HISTORICALLY_SIGNIFICANT` y `RETROSPECTIVE_ANALYSIS`, nunca
-validación doctoral.
+es evidencia. Esta integración solo indexó el PDF y sus metadatos; cualquier
+análisis futuro será selectivo, `HISTORICALLY_SIGNIFICANT` y
+`RETROSPECTIVE_ANALYSIS`, nunca validación doctoral.

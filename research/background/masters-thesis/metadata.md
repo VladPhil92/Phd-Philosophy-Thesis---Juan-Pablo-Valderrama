@@ -1,30 +1,56 @@
 # Metadata and provenance
 
-| Campo | Valor comunicado | Estado |
-|---|---|---|
-| Autor | Juan Pablo Valderrama Pino | `PENDING COVER VERIFICATION` |
-| Título | *En torno al «Animal»: Una pregunta por la soberanía humana* | `PENDING COVER VERIFICATION` |
-| Institución | Universidad del Norte | `PENDING COVER VERIFICATION` |
-| Programa | Maestría en Filosofía | `PENDING COVER VERIFICATION` |
-| Año | 2020 | `PENDING COVER VERIFICATION` |
-| Ciudad | Barranquilla, Colombia | `PENDING COVER VERIFICATION` |
-| Asesora | Sara Alicia Martínez Vega | `PENDING COVER VERIFICATION` |
+## Document metadata
 
-**Verificación, 2026-08-10:** no hay PDF ni imagen de portada local. Estos datos
-fueron comunicados para la integración, no cotejados. Una persona deberá
-comparar grafía, rol, programa, lugar y fecha antes de retirar las marcas.
+| Field | Verified value |
+|---|---|
+| Document title | *En torno al «Animal»: Una pregunta por la soberanía humana* |
+| Author | Juan Pablo Valderrama Pino |
+| Institution | Universidad del Norte |
+| Degree | Maestría en Filosofía |
+| Year | 2020 |
+| Language | Spanish |
+| Pages | 165 |
+| Repository location | `research/background/masters-thesis/originals/Valderrama-Pino_2020_En-torno-al-Animal_UniNorte_MA-Philosophy.pdf` |
+| SHA256 | `bdf90ce31bbe7bcaa270ab78b671432ed15464ba265835b665061ebc9bde4de3` |
+| Index date | 2026-08-10 |
+| Processing status | `INDEXED; METADATA_EXTRACTED; PROVENANCE_RECORDED; NOT_ANALYZED` |
+
+The archived file is 1,561,017 bytes. Its page count, readability, size, and
+SHA-256 digest were checked against the repository copy on the index date. The
+PDF was not modified.
+
+## Cover-page verification
+
+| Cover field | Verified transcription |
+|---|---|
+| Author | Juan Pablo Valderrama Pino |
+| Title | *En torno al «Animal»: Una pregunta por la soberanía humana* |
+| University | Universidad del Norte |
+| Faculty | Not stated on the cover page |
+| Degree | Maestría en Filosofía |
+| Advisor | Sara Alicia Martínez Vega (listed as “Asesora”) |
+| City | Barranquilla |
+| Country | Colombia |
+| Year | 2020 (cover dated November 2020) |
+
+Only the cover page was consulted for the fields in this section. A faculty is
+not inferred from the university's organizational structure.
+
+## Repository classification
 
 ```yaml
-file_name: PENDING_FILE
-sha256: PENDING_ACTUAL_FILE
-file_size: PENDING_ACTUAL_FILE
-page_count: PENDING_ACTUAL_FILE
-archival_status: NOT_YET_IN_REPOSITORY
-public_repository_copy: NOT_DETERMINED
-source_role: [RESEARCH_BACKGROUND, PREVIOUS_RESEARCH, AUTHOR_PRIOR_WORK]
-excluded_role: PRIMARY_PHILOSOPHICAL_SOURCE
-doctoral_evidentiary_status: INSUFFICIENT_ON_ITS_OWN
+source_role:
+  - RESEARCH_BACKGROUND
+  - AUTHOR_PREVIOUS_RESEARCH
+excluded_role:
+  - PRIMARY_SOURCE
+  - DOCTORAL_ARGUMENT
+  - VALIDATED_DOCTORAL_POSITION
+doctoral_corpus: false
 ```
 
-No se inventarán valores. La entrada única está en
+This artifact documents provenance and intellectual history. Its archival
+presence does not validate its claims as doctoral conclusions. The canonical
+bibliographic record is
 [`../../sources/bibliography.bib`](../../sources/bibliography.bib).

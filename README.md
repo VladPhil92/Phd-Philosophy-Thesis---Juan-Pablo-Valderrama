@@ -386,6 +386,16 @@ resuelven mediante inferencias no comprobadas. Véanse
 [`METHODOLOGY.md`](METHODOLOGY.md) y
 [`RESEARCH-WORKFLOW.md`](RESEARCH-WORKFLOW.md).
 
+## Investigador
+
+Juan Pablo Valderrama Pino es un filósofo e investigador colombiano. La
+Universidad de Cartagena le otorgó el título de Filósofo en 2015 y distinguió
+su trabajo de grado como meritorio; la Universidad del Norte le otorgó el
+título de Magíster en Filosofía en 2021. Su trayectoria documentada aborda
+subjetividad, alteridad, hospitalidad, animalidad y soberanía. El expediente
+académico, su matriz de evidencia y las cautelas de privacidad se encuentran en
+[`RESEARCHER.md`](RESEARCHER.md).
+
 ## Research Background
 
 El proyecto doctoral se inserta en una línea investigativa previa del autor.
@@ -394,6 +404,7 @@ corpus: no representa automáticamente la posición actual ni valida por sí sol
 ningún argumento doctoral.
 
 - [Research lineage e historia intelectual](research/background/research-lineage.md)
+- [Dossier de la tesis de grado](research/background/undergraduate-thesis/README.md)
 - [Dossier de la tesis de maestría](research/background/masters-thesis/README.md)
 
 ## Investigación asistida por IA y autoría humana

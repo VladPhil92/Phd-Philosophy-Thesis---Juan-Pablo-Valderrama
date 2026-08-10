@@ -2,7 +2,7 @@
 
 > Esta auditoría no valida ni invalida personalmente al autor. Define preguntas
 > para el cotejo del texto de 2015 y sus fuentes. Todo hallazgo sustantivo está
-> `SOURCE_RECHECK_REQUIRED` mientras falte el PDF.
+> `SOURCE_RECHECK_REQUIRED` hasta completar el cotejo textual con el PDF archivado.
 
 | Núcleo histórico reportado | Clasificación | Problema para reexaminar antes de cualquier reutilización |
 |---|---|---|

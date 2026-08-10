@@ -25,9 +25,8 @@ comunidad política.
 - [`continuity-with-masters.md`](continuity-with-masters.md): comparación dedicada.
 - [`continuity-with-phd.md`](continuity-with-phd.md): genealogía doctoral no teleológica.
 - [`historical-passage-index.md`](historical-passage-index.md): 15 pasajes
-  candidatos; ninguno está verificado mientras falte el PDF.
+  candidatos; ninguno se usa como cita hasta completar el cotejo textual.
 - [`originals/`](originals/): destino y protocolo del original.
 
-`RESEARCHER_REPORTED` identifica información comunicada por el investigador;
-`SOURCE_RECHECK_REQUIRED` exige cotejo con el PDF. Ninguna interpretación
+`INSTITUTIONALLY_VERIFIED` identifica hechos respaldados por documentos o registros oficiales; la distinción meritoria tiene ese estado por la Resolución No. 017 de 2015. `SOURCE_RECHECK_REQUIRED` exige cotejo textual con el PDF. Ninguna interpretación
 sustantiva de este dossier ha recibido validación humana.

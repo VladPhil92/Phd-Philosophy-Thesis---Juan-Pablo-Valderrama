@@ -1,13 +1,15 @@
-# Original archivístico pendiente
+# Original archivístico
 
-**`ORIGINAL PDF NOT YET AVAILABLE IN WORKTREE`.**
+El PDF autorizado se conserva sin editar en este directorio:
 
-El investigador debe colocar una copia autorizada, sin editar, en:
+`Una mirada a la idea de sujeto desde la perspectiva de Jacques Derrida - Juan Pablo Valderrama Pino.pdf`
 
-`research/background/undergraduate-thesis/originals/2015-Valderrama-Identidad-Sujeto-Derrida.pdf`
+- SHA-256: `aadaa9d2c6908a5333cef9de1906557ee859f87bba04b8012d0adee99029ee8a`.
+- Tamaño: 561.154 bytes.
+- Conteo técnico: 83 páginas.
 
-No optimizar, anotar, recomprimir ni «corregir» el binario. Antes y después de
-cualquier traslado se debe comparar SHA-256. Después, actualizar
-[`../metadata.md`](../metadata.md) con hash, bytes, conteo técnico de páginas y
-campos cotejados con la portada. La presencia de la tesis no verifica por sí
-sola la mención meritoria; para ello se requiere constancia institucional.
+No se debe optimizar, anotar, recomprimir ni «corregir» el binario. Antes y
+después de cualquier traslado se compara SHA-256. La presencia de la tesis no
+acredita por sí sola la distinción: la verificación institucional de esta última
+procede de la Resolución No. 017 de 2015 de la Universidad de Cartagena, cuyo
+original no se publica aquí.

@@ -2,7 +2,7 @@
 
 Este índice contiene **15 candidatos** elegidos por su función genealógica. No
 son evidencia doctoral ni entradas del `quote-ledger`. Debido a que el PDF de
-2015 no está en el *worktree*, la página es `PENDING`, incluso cuando la
+2015 está archivado, pero la localización y transcripción aún no se han cotejado; la página es `PENDING`, incluso cuando la
 instrucción aportó una formulación breve. **Ningún registro tiene estado
 `HISTORICAL_QUOTE_VERIFIED`**: se requiere cotejo visual con el original para
 transcribir ortografía, contexto y localizador.

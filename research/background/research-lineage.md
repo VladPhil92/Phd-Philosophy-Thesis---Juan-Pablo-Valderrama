@@ -4,10 +4,30 @@ Este registro documenta continuidad histórica, no originalidad, prioridad,
 identidad conceptual ni validez doctoral. La secuencia es un modelo analítico
 provisional, sujeto a cotejo textual y revisión de Juan Pablo Valderrama Pino.
 
+## Contexto de formación no determinista
+
+La secuencia autoral se inscribe en un ambiente institucional e intelectual,
+pero ese contexto no convierte semejanzas en derivación. Kenneth Moreno May fue
+el asesor formal de la tesis de 2015 y es reconocido por Valderrama Pino entre
+los profesores que influyeron en sus reflexiones. Su lugar, límites probatorios
+y publicaciones candidatas se auditan en el
+[`contexto intelectual y de supervisión`](undergraduate-thesis/intellectual-context.md).
+
+```text
+Universidad de Cartagena / profesores / debates / autores
+  → Moreno May: asesoría documentada e influencia reconocida
+  → tesis de 2015 → desarrollo posterior independiente o por demostrar
+  → maestría de 2020 → doctorado actual
+```
+
+`ADVISOR_RELATION + ACKNOWLEDGED_INFLUENCE + THEMATIC_CONVERGENCE`
+`!= TEXTUAL_DEPENDENCE != CONCEPTUAL_ORIGIN`.
+
 ## Tres momentos diferenciados
 
 | Momento | Artefacto y problema principal | Recorrido histórico reconstruido | Límite de la atribución |
 |---|---|---|---|
+| 2015 | Tesis de grado, *Identidad: Una mirada a la idea de sujeto desde la perspectiva de Jacques Derrida*: identidad/subjetividad. | sujeto → alteridad → hospitalidad → soberanía subjetiva | `PREVIOUS_RESEARCH_BY_AUTHOR`; el PDF está archivado, pero las atribuciones sustantivas siguen `SOURCE_RECHECK_REQUIRED` hasta su cotejo contextual. |
 | 2015 | Tesis de grado, *Identidad: Una mirada a la idea de sujeto desde la perspectiva de Jacques Derrida*: identidad/subjetividad. | sujeto → alteridad → hospitalidad → soberanía subjetiva | `PREVIOUS_RESEARCH_BY_AUTHOR`; PDF archivado, metadatos verificados y mención meritoria `INSTITUTIONALLY_VERIFIED`. Las interpretaciones sustantivas siguen `SOURCE_RECHECK_REQUIRED` hasta su cotejo textual. |
 | 2020 | Tesis de maestría, *En torno al «Animal»: Una pregunta por la soberanía humana*: animalidad/soberanía humana. | animalidad → soberanía humana → hospitalidad → «Soberanía de la Hospitalidad» | Trabajo histórico separado; sus formulaciones no son conclusiones doctorales. |
 | Actual | *Soberanía de la hospitalidad: los límites antropológicos de la comunidad política*. | soberanía → hospitalidad → límites antropológicos → comunidad política | Proyecto vigente; «comunidad política interespecie» es un horizonte posible por justificar, no una conclusión. |

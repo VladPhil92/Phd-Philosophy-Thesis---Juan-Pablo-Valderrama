@@ -25,6 +25,16 @@ REQUIRED_PATHS = (
     "ai/policy.md",
     "research/questions.md",
     "research/methodology.md",
+    "research/background/README.md",
+    "research/background/research-lineage.md",
+    "research/background/masters-thesis/README.md",
+    "research/background/masters-thesis/metadata.md",
+    "research/background/masters-thesis/analytical-summary.md",
+    "research/background/masters-thesis/concept-evolution.md",
+    "research/background/masters-thesis/argument-evolution.md",
+    "research/background/masters-thesis/critical-audit.md",
+    "research/background/masters-thesis/continuity-with-phd.md",
+    "research/background/masters-thesis/originals/README.md",
     "research/sources/bibliography.bib",
     "research/sources/notes/README.md",
     "research/analysis/README.md",
@@ -61,6 +71,7 @@ ARG_ID_PATTERN = re.compile(r"^ARG-\d{3,}$")
 SRC_ID_TABLE_CELL = re.compile(r"^\|\s*(SRC-\d{3,})\s*\|", re.MULTILINE)
 ARG_STATUS_FIELD = re.compile(r"^status:\s*(\S+)\s*$", re.MULTILINE)
 ARG_VALIDATION_FIELD = re.compile(r"^human_validation:\s*(\S+)\s*$", re.MULTILINE)
+BIBTEX_KEY = re.compile(r"^@\w+\s*\{\s*([^,\s]+)\s*,", re.MULTILINE)
 VALID_ARGUMENT_STATUSES = {
     "IDEA",
     "DEVELOPING",
@@ -207,6 +218,58 @@ def validate_corpus_map() -> list[str]:
     return errors
 
 
+def validate_bibliography() -> list[str]:
+    """Detect duplicate BibTeX keys, including the prior-work record."""
+    bibliography = ROOT / "research" / "sources" / "bibliography.bib"
+    if not bibliography.is_file():
+        return []
+    content = bibliography.read_text(encoding="utf-8")
+    seen: dict[str, int] = {}
+    for key in BIBTEX_KEY.findall(content):
+        normalized_key = key.casefold()
+        seen[normalized_key] = seen.get(normalized_key, 0) + 1
+    return [
+        f"Clave BibTeX duplicada: {key} ({count} veces)"
+        for key, count in seen.items()
+        if count > 1
+    ]
+
+
+def validate_research_background_separation() -> list[str]:
+    """Keep the master's thesis in lineage records and out of the live corpus/ledger."""
+    errors: list[str] = []
+    prior_work_key = "valderrama-pino-2020-animal"
+    bibliography = ROOT / "research" / "sources" / "bibliography.bib"
+    if bibliography.is_file():
+        content = bibliography.read_text(encoding="utf-8")
+        if len(re.findall(rf"^@mastersthesis\s*\{{\s*{prior_work_key}\s*,", content, re.MULTILINE)) != 1:
+            errors.append(
+                "La tesis de maestría debe tener una única entrada @mastersthesis "
+                f"con clave {prior_work_key}"
+            )
+        for classification in ("RESEARCH_BACKGROUND", "PREVIOUS_RESEARCH", "AUTHOR_PRIOR_WORK"):
+            if classification not in content:
+                errors.append(f"Falta la clasificación {classification} en la entrada de trabajo previo")
+
+    corpus_map = ROOT / "research" / "sources" / "corpus-map.md"
+    if corpus_map.is_file() and prior_work_key in corpus_map.read_text(encoding="utf-8"):
+        errors.append("La tesis de maestría aparece mezclada en research/sources/corpus-map.md")
+
+    ledger_dir = ROOT / "research" / "argument-ledger"
+    if ledger_dir.is_dir():
+        forbidden_markers = (prior_work_key, "HIST-2020-", "PREVIOUS_RESEARCH")
+        for path in sorted(ledger_dir.glob("*.md")):
+            if path.name == "README.md":
+                continue
+            content = path.read_text(encoding="utf-8")
+            if any(marker in content for marker in forbidden_markers):
+                errors.append(
+                    "Trabajo previo copiado al argument ledger sin reexamen doctoral: "
+                    f"{path.relative_to(ROOT).as_posix()}"
+                )
+    return errors
+
+
 def validate_argument_ledger() -> list[str]:
     """Check ARG-* frontmatter: duplicate IDs, valid status, and human_validation safeguard."""
     errors: list[str] = []
@@ -271,6 +334,8 @@ def main() -> int:
         + validate_research_questions()
         + validate_argument_ledger()
         + validate_corpus_map()
+        + validate_bibliography()
+        + validate_research_background_separation()
     )
     if errors:
         print("Auditoría fallida:")

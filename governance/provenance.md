@@ -104,3 +104,12 @@ fuentes, comparación conceptual, auditoría de influencia y reconstrucción de
 contexto. Los registros `SRC-201`–`SRC-209` permanecen candidatos; la
 interpretación requiere revisión humana. En esta cadena, supervisión e
 influencia reconocida no autorizan inferir dependencia ni origen conceptual.
+
+## Dossier público del investigador
+
+La investigación y organización del dossier público de identidad académica se
+documenta en
+[`ai/IA-2026-08-10-04.md`](../ai/IA-2026-08-10-04.md). Su resultado canónico es
+[`RESEARCHER.md`](../RESEARCHER.md), permanece `HUMAN_REVIEW_REQUIRED` y no
+modifica la procedencia archivística de los trabajos previos ni crea un sistema
+paralelo.

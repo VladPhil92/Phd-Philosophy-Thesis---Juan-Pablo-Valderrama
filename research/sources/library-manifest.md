@@ -160,12 +160,12 @@ decisión cerrada.
 
 | SRC | Autor(es) | Título | Año | Clasificación | Prioridad | PI relacionadas | Estado |
 |---|---|---|---|---|---|---|---|
-| SRC-061 | Donaldson, S. & Kymlicka, W. | Zoopolis: A Political Theory of Animal Rights | 2011 | STATE_OF_ART | ALTA | PI-06 | CANDIDATE |
+| SRC-061 | Donaldson, S. & Kymlicka, W. | Zoopolis: A Political Theory of Animal Rights | 2011 | STATE_OF_ART | ALTA | PI-02, PI-04, PI-06 | CANDIDATE |
 | SRC-062 | Donaldson, S. & Kymlicka, W. | "Animals and the Frontiers of Citizenship" | 2014 | STATE_OF_ART | MEDIA | PI-06 | CANDIDATE |
 | SRC-063 | Donaldson, S. & Kymlicka, W. | "A Defense of Animal Citizens and Sovereigns" | 2013 | STATE_OF_ART | MEDIA | PI-06 | CANDIDATE |
 | SRC-064 | Donaldson, S. & Kymlicka, W. | "Unruly Beasts: Animal Citizens and the Threat of Tyranny" | 2014 | STATE_OF_ART | MEDIA | PI-06 | CANDIDATE |
 | SRC-065 | Donaldson, S. & Kymlicka, W. | "Animals in Political Theory" (Oxford Handbook of Animal Studies) | — | STATE_OF_ART | MEDIA | PI-06 | CANDIDATE |
-| SRC-066 | Cochrane, A. | Sentientist Politics: A Theory of Global Inter-Species Justice | 2018 | STATE_OF_ART | ALTA | PI-06 | CANDIDATE |
+| SRC-066 | Cochrane, A. | Sentientist Politics: A Theory of Global Inter-Species Justice | 2018 | STATE_OF_ART | ALTA | PI-02, PI-06 | CANDIDATE |
 | SRC-067 | Cochrane, A. | Animal Rights Without Liberation | 2012 | STATE_OF_ART | MEDIA | PI-06 | CANDIDATE |
 | SRC-068 | Cochrane, A. | An Introduction to Animals and Political Theory | 2010 | STATE_OF_ART | MEDIA | PI-06 | CANDIDATE |
 | SRC-069 | Garner, R. | A Theory of Justice for Animals: Animal Rights in a Nonideal World | 2013 | STATE_OF_ART | MEDIA | PI-06 | CANDIDATE |
@@ -173,7 +173,7 @@ decisión cerrada.
 | SRC-071 | Garner, R. & O'Sullivan, S. (eds.) | The Political Turn in Animal Ethics | 2016 | STATE_OF_ART | MEDIA | PI-06 | CANDIDATE |
 | SRC-072 | O'Sullivan, S. | Animals, Equality and Democracy | 2011 | STATE_OF_ART | MEDIA | PI-06 | CANDIDATE |
 | SRC-073 | Smith, K. K. | Governing Animals: Animal Welfare and the Liberal State | 2012 | STATE_OF_ART | BAJA | PI-06 | CANDIDATE |
-| SRC-074 | Meijer, E. | When Animals Speak: Toward an Interspecies Democracy | 2019 | STATE_OF_ART | ALTA | PI-06 | CANDIDATE |
+| SRC-074 | Meijer, E. | When Animals Speak: Toward an Interspecies Democracy | 2019 | STATE_OF_ART | ALTA | PI-04, PI-06 | CANDIDATE |
 | SRC-075 | Meijer, E. | Animal Languages: The Secret Conversations of the Living World | 2019 | STATE_OF_ART | MEDIA | PI-06 | CANDIDATE |
 | SRC-076 | Nussbaum, M. C. | Frontiers of Justice: Disability, Nationality, Species Membership | 2006 | STATE_OF_ART | MEDIA | PI-06 | CANDIDATE |
 | SRC-077 | Nussbaum, M. C. | Justice for Animals: Our Collective Responsibility | 2022 | STATE_OF_ART | MEDIA | PI-06 | CANDIDATE |
@@ -190,6 +190,29 @@ decisión cerrada.
 | SRC-088 | Gruen, L. | Entangled Empathy: An Alternative Ethic for Our Relationships with Animals | 2015 | STATE_OF_ART | BAJA | PI-06 | CANDIDATE |
 | SRC-089 | Gruen, L. | Ethics and Animals: An Introduction | 2011 | STATE_OF_ART | BAJA | PI-06 | CANDIDATE |
 | SRC-090 | Donovan, J. & Adams, C. J. (eds.) | The Feminist Care Tradition in Animal Ethics | 2007 | STATE_OF_ART | BAJA | PI-06 | CANDIDATE |
+| SRC-201 | Donaldson, S. & Kymlicka, W. | Animals and the Right to Politics | 2025 | STATE_OF_ART | ALTA | PI-02, PI-04, PI-06 | CANDIDATE |
+
+### Auditoría focal del giro político (2026-08-10)
+
+La auditoría identificó los catálogos editoriales oficiales contra los cuales
+deben cotejarse autoría, título, año y editorial. El entorno bloqueó el acceso
+automatizado a esos catálogos; por ello no se declara una confirmación que no
+pudo completarse y los seis registros permanecen `CANDIDATE`. Tampoco se
+confirmaron la edición que usará el investigador, ISBN/DOI, adquisición, lectura
+o interpretación.
+
+| Obra | Editorial por cotejar | Fuente oficial identificada | Observación |
+|---|---|---|---|
+| *Zoopolis* | Oxford University Press | [Oxford Academic](https://academic.oup.com/search-results?q=Zoopolis%3A%20A%20Political%20Theory%20of%20Animal%20Rights) | Estatutos diferenciados por verificar mediante lectura directa. |
+| *Sentientist Politics* | Oxford University Press | [Oxford Academic](https://academic.oup.com/search-results?q=Sentientist%20Politics) | Capítulos sobre democracia y soberanía pendientes de lectura directa. |
+| *A Theory of Justice for Animals* | Oxford University Press | [Oxford Academic](https://academic.oup.com/search-results?q=A%20Theory%20of%20Justice%20for%20Animals) | Relación con teoría no ideal pendiente de lectura directa. |
+| *Animals, Equality and Democracy* | Palgrave Macmillan | [Springer Nature](https://link.springer.com/book/10.1057/9780230349186) | Análisis institucional pendiente de lectura directa. |
+| *When Animals Speak* | New York University Press | [NYU Press](https://nyupress.org/9781479863136/when-animals-speak/) | Agencia y democracia interespecie pendientes de lectura directa. |
+| *Animals and the Right to Politics* | Oxford University Press | [Oxford Academic](https://academic.oup.com/search-results?q=Animals%20and%20the%20Right%20to%20Politics) | Desarrollo contemporáneo pendiente de lectura directa. |
+
+El capítulo panorámico «Animals in Political Theory» ya estaba registrado y se conserva como
+`CANDIDATE`: puede orientar el estado del arte, pero no sustituye las monografías
+ni se promueve sin verificación adicional.
 
 ## D. Contexto: soberanía, frontera, comunidad, ciudadanía, biopolítica (SRC-091–SRC-115)
 

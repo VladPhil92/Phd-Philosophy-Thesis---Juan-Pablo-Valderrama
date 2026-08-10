@@ -306,23 +306,43 @@ fuera.
 
 ### 5. Cuestión animal y posibilidad de una comunidad política interespecie
 
-La investigación dialogará también con desarrollos contemporáneos que han
-intentado trasladar la cuestión animal desde la ética individual hacia la teoría
-política. La propuesta de Sue Donaldson y Will Kymlicka en *Zoopolis*, por
-ejemplo, resulta relevante porque sustituye la pregunta exclusiva por el trato
-moral de los animales por problemas de membresía, ciudadanía, soberanía
-territorial, dependencia y coexistencia política.
+La investigación dialogará con el llamado giro político de la cuestión animal,
+que desplaza y amplía parte del debate desde el estatuto moral y el trato debido
+hacia problemas de justicia, instituciones, membresía, representación,
+ciudadanía, soberanía y democracia. En este campo provisional, Robert Garner y
+Siobhan O'Sullivan sitúan la cuestión animal en los lenguajes de la justicia, la
+igualdad y las instituciones democráticas, mientras que *Zoopolis*, de Sue
+Donaldson y Will Kymlicka, constituye un punto de entrada para examinar
+relaciones políticas diferenciadas de ciudadanía, residencia y soberanía, no una
+comunidad humano-animal homogénea.
 
-Estos debates permiten examinar hasta dónde puede llegar la traducción de
-categorías políticas humanas al mundo interespecie y dónde aparecen sus límites.
-La propuesta de esta tesis no consiste simplemente en adoptar un modelo
-preexistente de ciudadanía animal, sino en retroceder un nivel conceptual:
-**preguntar qué debe significar soberanía antes de determinar quién puede ser
-incorporado a ella**.
+Este desplazamiento no produce una posición única. *Sentientist Politics*, de
+Alasdair Cochrane, ofrece un contrapunto para investigar si la soberanía es la
+categoría adecuada y cómo se relaciona con democracia y representación;
+*When Animals Speak*, de Eva Meijer, abre preguntas sobre agencia política y
+democracia interespecie. *Animals and the Right to Politics* (2025) exige,
+además, no tratar *Zoopolis* (2011) como la última formulación del programa de
+Donaldson y Kymlicka. El alcance y los desacuerdos precisos de estas propuestas
+permanecen pendientes de lectura directa.
+
+Estas obras son interlocutoras y campo de prueba, no premisas doctrinales. El
+proyecto no adopta una teoría preexistente de ciudadanía animal o democracia
+interespecie ni presupone que extender categorías humanas baste. Propone
+retroceder un nivel conceptual y preguntar qué debe significar soberanía, qué
+frontera antropológica presupone y qué relación mantiene con pertenencia, límite,
+alteridad y hospitalidad antes de determinar quién —o qué forma de vida— puede
+contar como miembro de una comunidad política.
+
+La expresión «comunidad política interespecie» permanece, por tanto,
+conceptualmente abierta: no equivale sin más a ciudadanía animal, representación
+democrática, agencia política, soberanía de comunidades animales o recepción de
+justicia. La selección y jerarquización final de este corpus está sometida a
+verificación de edición, lectura y evaluación filosófica; registrar una obra como
+candidata no acredita que haya sido leída ni que su posición haya sido adoptada.
 
 La selección del corpus permanece pendiente de justificación documental.
 [`research/sources/library-manifest.md`](research/sources/library-manifest.md) reúne una
-propuesta de 200 obras candidatas —corpus primario, bibliografía secundaria,
+propuesta de 201 obras candidatas —corpus primario, bibliografía secundaria,
 estado del arte del giro político animal, contexto de soberanía y
 biopolítica, profundización posthumanista y multiespecie, metodología, y una
 ampliación 2020–2026— clasificadas por prioridad y con su estado de

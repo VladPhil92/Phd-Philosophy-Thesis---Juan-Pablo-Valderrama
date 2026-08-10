@@ -388,17 +388,13 @@ resuelven mediante inferencias no comprobadas. Véanse
 
 ## Research Background
 
-La tesis de maestría de 2020, *En torno al «Animal»: Una pregunta por la
-soberanía humana*, se registra exclusivamente como **antecedente histórico** de
-la investigación. No pertenece al corpus ni al manuscrito doctoral. El
-repositorio no conserva el texto completo: almacena metadatos, reconstrucciones
-históricas y mapas conceptuales, todos señalados como trabajo asistido por IA y
-pendientes de validación humana.
+El proyecto doctoral se inserta en una línea investigativa previa del autor.
+La tesis de maestría de 2020 se registra como memoria histórica separada del
+corpus: no representa automáticamente la posición actual ni valida por sí sola
+ningún argumento doctoral.
 
-- [Evolución desde la tesis de maestría](research/background/master-thesis-evolution.md)
-- [Genealogía de conceptos](research/background/concept-evolution.md)
-- [Síntesis del trasfondo histórico](research/background/background-summary.md)
-- [Continuidad de la investigación (2015–proyecto doctoral)](research/background/research-continuity.md)
+- [Research lineage e historia intelectual](research/background/research-lineage.md)
+- [Dossier de la tesis de maestría](research/background/masters-thesis/README.md)
 
 ## Investigación asistida por IA y autoría humana
 

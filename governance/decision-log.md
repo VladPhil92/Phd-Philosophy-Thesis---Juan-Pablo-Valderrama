@@ -85,3 +85,20 @@
   explícita; se extiende `scripts/auditar_repositorio.py` con comprobaciones
   de invariantes documentales adicionales. Ningún contenido filosófico nuevo
   se fabricó para poblar estas estructuras.
+
+## DEC-004 — Capa canónica de research lineage
+
+- **Fecha:** 2026-08-10
+- **Estado:** aceptada, pendiente de revisión humana sustantiva
+- **Contexto:** cuatro notas planas de `research/background/` ofrecían una
+  reconstrucción preliminar, pero no separaban ficha, original archivístico,
+  argumentos históricos y auditoría, y contenían inferencias incompatibles con
+  nuevos datos reportados sobre hospitalidad en 2020.
+- **Decisión:** mantener `research/background/` como única capa histórica,
+  consolidar un mapa `research-lineage.md` y aislar el dossier en
+  `masters-thesis/`. No crear `research/intellectual-history/` ni mezclar el
+  antecedente con el corpus o el *argument ledger*.
+- **Consecuencias:** toda atribución interna queda pendiente hasta recibir el
+  PDF; la posición previa se distingue de la doctoral; el original futuro se
+  identifica por hash y se preserva sin corrección; las rutas planas anteriores
+  se sustituyen por documentos con una sola función epistémica.

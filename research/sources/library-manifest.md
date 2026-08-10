@@ -363,3 +363,4 @@ category and reading stage; explanatory limitations remain in the archival files
 | ID | Work | Category | Reading stage | Bibliographic key |
 |---|---|---|---|---|
 | SRC-PR-001 | Valderrama Pino, *En torno al «Animal»* (2020) | PREVIOUS_RESEARCH_BY_AUTHOR | ARCHIVED | valderrama-pino-2020-animal |
+| SRC-PR-002 | Valderrama Pino, *Identidad: Una mirada a la idea de sujeto desde la perspectiva de Jacques Derrida* (2015) | PREVIOUS_RESEARCH_BY_AUTHOR | ARCHIVED | valderrama-pino-2015-identidad |

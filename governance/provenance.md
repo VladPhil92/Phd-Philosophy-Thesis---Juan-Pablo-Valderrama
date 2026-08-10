@@ -82,3 +82,14 @@ por ejemplo: decenas de `ARG-*` con objeciones cruzadas difíciles de
 rastrear en Markdown plano, o la necesidad recurrente de citar la misma
 `QUOTE` desde múltiples argumentos. Hasta entonces, Markdown, BibTeX,
 frontmatter YAML ligero y Git bastan.
+
+## Investigación previa del autor
+
+Los artefactos `PREVIOUS_RESEARCH_BY_AUTHOR` usan `SRC-PR-*` en el manifiesto y
+una clave BibTeX canónica, pero permanecen fuera del corpus doctoral. Sus
+análisis viven únicamente en `research/background/`; una autocita puede probar
+cronología autoral, no una afirmación filosófica. La integración de la tesis de
+grado de 2015 (`SRC-PR-002`) fue asistida por IA y está registrada en
+[`ai/IA-2026-08-10-03.md`](../ai/IA-2026-08-10-03.md). Al faltar el PDF, sus
+pasajes candidatos no ingresaron al `quote-ledger` y permanecen
+`SOURCE_RECHECK_REQUIRED`.

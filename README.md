@@ -314,16 +314,12 @@ preexistente de ciudadanía animal, sino en retroceder un nivel conceptual:
 incorporado a ella**.
 
 La selección del corpus permanece pendiente de justificación documental.
-[`research/sources/corpus-map.md`](research/sources/corpus-map.md) reúne una
-propuesta de 200 obras candidatas —corpus primario, bibliografía secundaria,
-estado del arte del giro político animal, contexto de soberanía y
-biopolítica, profundización posthumanista y multiespecie, metodología, y una
-ampliación 2020–2026— clasificadas por prioridad y con su estado de
-verificación declarado. Es un punto de partida para la selección, no una
-lista de lectura cerrada ni fuentes ya incorporadas: ninguna entrada de ese
-mapa ha sido leída, verificada en su edición ni citada todavía.
+[`research/sources/library-manifest.md`](research/sources/library-manifest.md)
+es el único registro de obras, categoría y progreso. Reúne 199 candidatos
+únicos y el antecedente de maestría; ningún candidato se presenta como leído,
+adquirido o listo para uso doctoral.
 
-Toda obra efectivamente consultada debe incorporarse a
+Toda edición efectivamente consultada debe incorporarse a
 [`research/sources/bibliography.bib`](research/sources/bibliography.bib) y contar,
 cuando corresponda, con una ficha analítica. Las fuentes secundarias, los
 resúmenes y las salidas automatizadas no se presentan como lectura directa.
@@ -428,9 +424,14 @@ PI-* → fuente bibliográfica y ficha → ARG-* → sección o capítulo → re
 
 - `PI-*` identifica preguntas registradas en
   [`research/questions.md`](research/questions.md).
-- Las fuentes se catalogan en
-  [`research/sources/bibliography.bib`](research/sources/bibliography.bib) y se
-  analizan con [`templates/ficha-fuente.md`](templates/ficha-fuente.md).
+- Las obras y su progreso se registran en el
+  [`manifiesto de biblioteca`](research/sources/library-manifest.md); las
+  ediciones citables se representan en
+  [`bibliography.bib`](research/sources/bibliography.bib) y se analizan con
+  [`templates/ficha-fuente.md`](templates/ficha-fuente.md).
+- Los conceptos y citas se indexan, sin duplicar prosa o transcripciones, en
+  [`concept-registry.md`](research/concept-registry.md) y
+  [`quote-ledger.md`](research/sources/quote-ledger.md).
 - `ARG-*` identifica fichas construidas con
   [`templates/ficha-argumento.md`](templates/ficha-argumento.md), incluidas sus
   inferencias, objeciones, fuentes y límites.
@@ -480,7 +481,8 @@ particular:
 
 ## Estado actual
 
-La infraestructura documental y la auditoría automatizada están preparadas. La
+La infraestructura documental está **READY FOR INFRASTRUCTURE FREEZE**, según la
+[`auditoría final`](governance/architecture-audit-2026-08-10.md). La
 pregunta, hipótesis, objetivos, principios, selección de autores, corpus, método
 sustantivo y arquitectura capitular aquí presentados requieren desarrollo y
 validación por el investigador. La auditoría inicial y los riesgos pendientes

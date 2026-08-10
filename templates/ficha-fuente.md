@@ -1,8 +1,9 @@
 # Ficha de fuente: [clave BibTeX]
 
-**Estado:** idea
+**Obra:** SRC-000
+**Etapa de lectura:** REGISTERED
 **Referencia verificada:** sí/no
-**Tipo de lectura:** primaria/secundaria
+**Categoría:** [categoría exclusiva de `library-manifest.md`]
 **Fecha de consulta:** AAAA-MM-DD
 
 ## Tesis y propósito de la obra
@@ -11,7 +12,8 @@
 
 ## Citas verificadas
 
-> Incluir localizador exacto y distinguir la cita de la traducción propia.
+> Transcribir cada pasaje una sola vez, incluir localizador exacto, distinguir
+> la cita de la traducción propia y enlazar su `QUOTE-*` de `quote-ledger.md`.
 
 ## Paráfrasis e interpretación
 

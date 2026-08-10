@@ -10,18 +10,18 @@
 | Ciudad | Barranquilla, Colombia | `PENDING COVER VERIFICATION` |
 | Asesora | Sara Alicia Martínez Vega | `PENDING COVER VERIFICATION` |
 
-**Verificación, 2026-08-10:** no hay PDF ni imagen de portada local. Estos datos
-fueron comunicados para la integración, no cotejados. Una persona deberá
-comparar grafía, rol, programa, lugar y fecha antes de retirar las marcas.
+**Verificación, 2026-08-10:** existe una copia archivística local, pero sus datos
+de portada todavía no han sido cotejados por una persona. La presencia del PDF
+no retira las marcas de verificación ni acredita la posición doctoral actual.
 
 ```yaml
-file_name: PENDING_FILE
-sha256: PENDING_ACTUAL_FILE
-file_size: PENDING_ACTUAL_FILE
-page_count: PENDING_ACTUAL_FILE
-archival_status: NOT_YET_IN_REPOSITORY
+file_name: Valderrama-Pino_2020_En-torno-al-Animal_UniNorte_MA-Philosophy.pdf
+sha256: bdf90ce31bbe7bcaa270ab78b671432ed15464ba265835b665061ebc9bde4de3
+file_size_bytes: 1561017
+page_count: PENDING_HUMAN_VERIFICATION
+archival_status: LOCAL_AUTHORIZED_COPY_PRESENT
 public_repository_copy: NOT_DETERMINED
-source_role: [RESEARCH_BACKGROUND, PREVIOUS_RESEARCH, AUTHOR_PRIOR_WORK]
+source_role: [PREVIOUS_RESEARCH_BY_AUTHOR, AUTHOR_BACKGROUND]
 excluded_role: PRIMARY_PHILOSOPHICAL_SOURCE
 doctoral_evidentiary_status: INSUFFICIENT_ON_ITS_OWN
 ```

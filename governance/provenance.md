@@ -16,20 +16,21 @@ PI  →  SRC  →  NOTE  →  QUOTE  →  ARG  →  OBJ  →  AI  →  REV  → 
 | Eslabón | Identificador | Dónde vive | Estado actual |
 |---|---|---|---|
 | Pregunta de investigación | `PI-*` | `research/questions.md` | Implementado (PI-01…PI-07) |
-| Fuente | clave BibTeX `apellido-anio-palabra` (`SRC` conceptual) | `research/sources/bibliography.bib` | Implementado, catálogo vacío |
+| Obra | `SRC-*` | `research/sources/library-manifest.md` | Implementado |
+| Edición citable | clave BibTeX `apellido-anio-palabra`, enlazada a `SRC-*` | `research/sources/bibliography.bib` | Implementado |
 | Ficha de fuente / nota de lectura | nombre de archivo = clave BibTeX | `research/sources/notes/` (`templates/ficha-fuente.md`) | Implementado, sin fichas aún |
-| Cita verificada | sección «Citas verificadas» dentro de la ficha de fuente, con localizador | `research/sources/notes/<clave>.md` | Implementado como sección, no como ID propio |
+| Cita verificada | `QUOTE-*` | `research/sources/quote-ledger.md`; texto único en la ficha enlazada | Implementado |
+| Concepto | `CON-*` | `research/concept-registry.md` | Implementado |
 | Argumento | `ARG-*` | `research/argument-ledger/` (`templates/ficha-argumento.md`) | Implementado, sin fichas aún |
 | Objeción | subsección «Objeciones y respuestas» dentro del `ARG-*` | `research/argument-ledger/<ARG>.md` | Implementado como sección, no como ID propio |
 | Intervención de IA | `IA-AAAA-MM-DD-NN` | `ai/` (`templates/registro-ia.md`) | Implementado, sin registros aún |
 | Revisión | referencia de commit de Git + entrada en `thesis/review/` | `thesis/review/` | Implementado de forma ligera (checklist), sin ID propio |
 | Capítulo | ruta en `thesis/chapters/` (p. ej. `01-introduccion.md`) | `thesis/chapters/` | Implementado, sin capítulos aún |
 
-No se crean identificadores nuevos para `QUOTE`, `OBJ` y `REV` como
-archivos separados: dado el volumen actual de investigación (cero fuentes,
-cero argumentos), representarlos como secciones dentro de la ficha de fuente
-o de argumento es suficiente y evita una base de datos prematura (véase la
-sección «Cuándo reconsiderar» más abajo).
+`QUOTE`, `OBJ` y `REV` no generan archivos separados: las citas reciben un ID
+en un ledger transversal, mientras objeciones y revisiones permanecen dentro de
+su argumento o documento. Así una cita puede respaldar varios argumentos sin
+duplicar su transcripción y sin introducir una base de datos.
 
 ## Cómo se enlazan los eslabones
 
@@ -76,8 +77,8 @@ propia sesión donde se aplica (véase `CLAUDE.md`).
 ## Cuándo reconsiderar esta convención
 
 Esta convención deliberadamente no usa una base de datos, un grafo formal ni
-identificadores de archivo independientes para citas, objeciones o
-revisiones. Reconsidérese solo cuando exista evidencia real de necesidad,
+identificadores de archivo independientes para citas, objeciones o revisiones.
+Reconsidérese solo cuando exista evidencia real de necesidad,
 por ejemplo: decenas de `ARG-*` con objeciones cruzadas difíciles de
 rastrear en Markdown plano, o la necesidad recurrente de citar la misma
 `QUOTE` desde múltiples argumentos. Hasta entonces, Markdown, BibTeX,

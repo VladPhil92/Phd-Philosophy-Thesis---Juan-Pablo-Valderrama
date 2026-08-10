@@ -22,9 +22,11 @@ REQUIRED_PATHS = (
     "governance/architecture.md",
     "governance/initial-audit.md",
     "governance/decision-log.md",
+    "governance/architecture-audit-2026-08-10.md",
     "ai/policy.md",
     "research/questions.md",
     "research/methodology.md",
+    "research/concept-registry.md",
     "research/background/README.md",
     "research/background/research-lineage.md",
     "research/background/masters-thesis/README.md",
@@ -36,6 +38,8 @@ REQUIRED_PATHS = (
     "research/background/masters-thesis/continuity-with-phd.md",
     "research/background/masters-thesis/originals/README.md",
     "research/sources/bibliography.bib",
+    "research/sources/library-manifest.md",
+    "research/sources/quote-ledger.md",
     "research/sources/notes/README.md",
     "research/analysis/README.md",
     "research/argument-ledger/README.md",
@@ -68,7 +72,7 @@ PI_HEADING = re.compile(r"^#{2,6}\s+(PI-\d+)\b", re.MULTILINE)
 ARG_FRONTMATTER = re.compile(r"\A---\n(.*?)\n---\n", re.DOTALL)
 ARG_ID_FIELD = re.compile(r"^argument_id:\s*(\S+)\s*$", re.MULTILINE)
 ARG_ID_PATTERN = re.compile(r"^ARG-\d{3,}$")
-SRC_ID_TABLE_CELL = re.compile(r"^\|\s*(SRC-\d{3,})\s*\|", re.MULTILINE)
+SRC_ID_TABLE_CELL = re.compile(r"^\|\s*(SRC-(?:\d{3,}|PR-\d{3,}))\s*\|", re.MULTILINE)
 ARG_STATUS_FIELD = re.compile(r"^status:\s*(\S+)\s*$", re.MULTILINE)
 ARG_VALIDATION_FIELD = re.compile(r"^human_validation:\s*(\S+)\s*$", re.MULTILINE)
 BIBTEX_KEY = re.compile(r"^@\w+\s*\{\s*([^,\s]+)\s*,", re.MULTILINE)
@@ -201,20 +205,43 @@ def validate_research_questions() -> list[str]:
     return errors
 
 
-def validate_corpus_map() -> list[str]:
-    """Detect duplicate SRC-* identifiers in research/sources/corpus-map.md."""
+def validate_library_manifest() -> list[str]:
+    """Check unique IDs, exclusive categories, and canonical reading stages."""
     errors: list[str] = []
-    corpus_map = ROOT / "research" / "sources" / "corpus-map.md"
-    if not corpus_map.is_file():
+    manifest = ROOT / "research" / "sources" / "library-manifest.md"
+    if not manifest.is_file():
         return errors
-    content = corpus_map.read_text(encoding="utf-8")
+    content = manifest.read_text(encoding="utf-8")
     seen: dict[str, int] = {}
     for match in SRC_ID_TABLE_CELL.finditer(content):
         identifier = match.group(1)
         seen[identifier] = seen.get(identifier, 0) + 1
     for identifier, count in seen.items():
         if count > 1:
-            errors.append(f"Identificador duplicado en research/sources/corpus-map.md: {identifier} ({count} veces)")
+            errors.append(f"Identificador duplicado en library-manifest.md: {identifier} ({count} veces)")
+
+    categories = {
+        "PRIMARY_PHILOSOPHICAL_SOURCE", "SECONDARY_LITERATURE",
+        "CONTEXTUAL_LITERATURE", "HISTORICAL_BACKGROUND",
+        "PREVIOUS_RESEARCH_BY_AUTHOR", "METHODOLOGICAL_SOURCE",
+        "REFERENCE_WORK", "UNCLASSIFIED",
+    }
+    stages = {
+        "NOT_REGISTERED", "REGISTERED", "ACQUIRED", "READING",
+        "NOTES_CREATED", "QUOTES_VERIFIED", "CONCEPTS_INDEXED",
+        "ARGUMENTS_IDENTIFIED", "READY_FOR_DOCTORAL_USE",
+    }
+    for line in content.splitlines():
+        if not re.match(r"^\|\s*SRC-(?:\d{3,}|PR-\d{3,})\s*\|", line):
+            continue
+        cells = [cell.strip() for cell in line.strip().strip("|").split("|")]
+        if len(cells) != 18:
+            errors.append(f"Fila incompleta en library-manifest.md: {cells[0]}")
+            continue
+        if cells[8] not in categories:
+            errors.append(f"Categoría no canónica en {cells[0]}: {cells[8]}")
+        if cells[10] not in stages:
+            errors.append(f"Etapa de lectura no canónica en {cells[0]}: {cells[10]}")
     return errors
 
 
@@ -247,13 +274,16 @@ def validate_research_background_separation() -> list[str]:
                 "La tesis de maestría debe tener una única entrada @mastersthesis "
                 f"con clave {prior_work_key}"
             )
-        for classification in ("RESEARCH_BACKGROUND", "PREVIOUS_RESEARCH", "AUTHOR_PRIOR_WORK"):
+        for classification in ("PREVIOUS_RESEARCH_BY_AUTHOR", "AUTHOR_BACKGROUND"):
             if classification not in content:
                 errors.append(f"Falta la clasificación {classification} en la entrada de trabajo previo")
 
-    corpus_map = ROOT / "research" / "sources" / "corpus-map.md"
-    if corpus_map.is_file() and prior_work_key in corpus_map.read_text(encoding="utf-8"):
-        errors.append("La tesis de maestría aparece mezclada en research/sources/corpus-map.md")
+    manifest = ROOT / "research" / "sources" / "library-manifest.md"
+    if manifest.is_file():
+        content = manifest.read_text(encoding="utf-8")
+        matching = [line for line in content.splitlines() if line.startswith("| SRC-PR-001 ")]
+        if len(matching) != 1 or "PREVIOUS_RESEARCH_BY_AUTHOR" not in matching[0]:
+            errors.append("La tesis de maestría debe figurar una vez como PREVIOUS_RESEARCH_BY_AUTHOR")
 
     ledger_dir = ROOT / "research" / "argument-ledger"
     if ledger_dir.is_dir():
@@ -333,7 +363,7 @@ def main() -> int:
         + validate_obsolete_architecture_roots()
         + validate_research_questions()
         + validate_argument_ledger()
-        + validate_corpus_map()
+        + validate_library_manifest()
         + validate_bibliography()
         + validate_research_background_separation()
     )

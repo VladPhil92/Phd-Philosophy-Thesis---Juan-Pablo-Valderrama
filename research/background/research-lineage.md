@@ -36,7 +36,7 @@ en Filosofía, 2020. Barranquilla, Colombia, y Sara Alicia Martínez Vega como
 asesora también fueron comunicados. **Nada está verificado contra la portada**:
 no hay PDF local. Véase [`masters-thesis/metadata.md`](masters-thesis/metadata.md).
 
-La obra es `RESEARCH_BACKGROUND`, `PREVIOUS_RESEARCH` y `AUTHOR_PRIOR_WORK`,
+La obra es `PREVIOUS_RESEARCH_BY_AUTHOR` y `AUTHOR_BACKGROUND`,
 nunca `PRIMARY_PHILOSOPHICAL_SOURCE`.
 
 ## 4. Transición conceptual

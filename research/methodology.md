@@ -39,7 +39,7 @@ todavía un criterio de selección justificado por escrito**.
 
 Existe una propuesta de arquitectura de corpus (200 candidatos, seis
 categorías funcionales más una ampliación 2020–2026) en
-[`research/sources/corpus-map.md`](sources/corpus-map.md). Es un punto de
+[`research/sources/library-manifest.md`](sources/library-manifest.md). Es un punto de
 partida para esta decisión, no su resolución: ningún candidato de ese mapa
 ha sido verificado en edición ni leído, y los criterios de inclusión que
 implícitamente usa (centralidad en el «giro político» animal, cercanía a

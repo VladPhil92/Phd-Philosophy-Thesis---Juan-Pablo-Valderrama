@@ -3,7 +3,7 @@
 Esta carpeta analiza históricamente *En torno al «Animal»: Una pregunta por la
 soberanía humana*. No contiene ni reescribe el original.
 
-**Estatuto:** `RESEARCH_BACKGROUND`, `PREVIOUS_RESEARCH`, `AUTHOR_PRIOR_WORK` y
+**Estatuto:** `PREVIOUS_RESEARCH_BY_AUTHOR`, `AUTHOR_BACKGROUND` y
 `DOCTORAL_REEXAMINATION_REQUIRED`; nunca `PRIMARY_PHILOSOPHICAL_SOURCE`.
 
 - [`metadata.md`](metadata.md): procedencia y verificación.

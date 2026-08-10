@@ -1,5 +1,32 @@
 # Registro de decisiones
 
+Cada entrada registra únicamente decisiones metodológicas o arquitectónicas con
+efectos duraderos; este archivo no es un diario. La forma mínima es: ID, fecha,
+problema, alternativas consideradas, decisión y razón, consecuencias y estado.
+
+## DEC-006 — Canonicalización final e Infrastructure Freeze
+
+- **Fecha:** 2026-08-10
+- **Problema:** el mapa de candidatos competía parcialmente con el catálogo
+  bibliográfico; las citas y los conceptos carecían de un índice transversal;
+  y la procedencia aún describía las citas solo como secciones sin ID.
+- **Alternativas consideradas:** conservar el doble registro; crear una base de
+  datos o una carpeta por entidad; o consolidar los registros mínimos en
+  Markdown y mantener BibTeX exclusivamente como formato de citación.
+- **Decisión y razón:** adoptar un solo `library-manifest.md` para identidad,
+  clasificación y progreso de cada obra; un `concept-registry.md` y un
+  `quote-ledger.md` como índices ligeros; mantener preguntas, argumentos,
+  decisiones, antecedentes e intervenciones de IA en sus ubicaciones actuales.
+  Se elige Markdown para evitar software, profundidad y metadatos paralelos.
+- **Consecuencias:** `corpus-map.md` queda sustituido; cada fuente tiene una
+  categoría de gobernanza y un flujo de lectura explícitos; las citas adquieren
+  IDs reutilizables. `bibliography.bib` conserva solo los registros citables de
+  ediciones verificadas y referencia el ID de obra, sin asumir la función de
+  inventario. No se crean fichas especulativas ni prosa doctoral.
+- **Estado:** aceptada. **READY FOR INFRASTRUCTURE FREEZE**; cualquier cambio
+  estructural posterior requiere una necesidad investigativa demostrada y una
+  nueva decisión.
+
 ## DEC-004 — Refinamiento del título y de la jerarquía conceptual
 
 - **Fecha:** 2026-08-09
@@ -86,7 +113,7 @@
   de invariantes documentales adicionales. Ningún contenido filosófico nuevo
   se fabricó para poblar estas estructuras.
 
-## DEC-004 — Capa canónica de research lineage
+## DEC-005 — Capa canónica de research lineage
 
 - **Fecha:** 2026-08-10
 - **Estado:** aceptada, pendiente de revisión humana sustantiva

@@ -33,6 +33,12 @@ incorporada.
   confirmó que la obra/artículo existe con ese autor, título y año
   aproximado, **no** que su edición, DOI/ISBN exactos o contenido hayan sido
   verificados, y mucho menos que hayan sido leídos.
+- **SRC-201 a SRC-209** corresponden al contexto intelectual de Kenneth Moreno
+  May y permanecen `CANDIDATE`: fueron registrados como candidatos de
+  recuperación y requieren verificación bibliográfica, cronológica y textual.
+- **SRC-210** corresponde a Donaldson y Kymlicka, *Animals and the Right to
+  Politics* (2025), incorporado como candidato del estado del arte y pendiente
+  de verificación de edición y lectura directa.
 - Ninguna entrada de este documento se marca `EDITION_VERIFIED`,
   `ACQUIRED`, `READING`, `READ` ni `CITED`. Esos estados solo los asigna el
   investigador cuando adquiere y verifica la edición real que va a citar.
@@ -156,7 +162,7 @@ decisión cerrada.
 | SRC-059 | Direk, Z. & Lawlor, L. (eds.) | A Companion to Derrida | 2014 | SECONDARY_CORE | MEDIA | PI-01 | CANDIDATE |
 | SRC-060 | Borradori, G. | Philosophy in a Time of Terror: Dialogues with Habermas and Derrida | 2003 | SECONDARY_CORE | BAJA | PI-02 | CANDIDATE |
 
-## C. Comunidad política interespecie y "political turn" (SRC-061–SRC-090)
+## C. Comunidad política interespecie y "political turn" (SRC-061–SRC-090; SRC-210)
 
 | SRC | Autor(es) | Título | Año | Clasificación | Prioridad | PI relacionadas | Estado |
 |---|---|---|---|---|---|---|---|
@@ -190,7 +196,7 @@ decisión cerrada.
 | SRC-088 | Gruen, L. | Entangled Empathy: An Alternative Ethic for Our Relationships with Animals | 2015 | STATE_OF_ART | BAJA | PI-06 | CANDIDATE |
 | SRC-089 | Gruen, L. | Ethics and Animals: An Introduction | 2011 | STATE_OF_ART | BAJA | PI-06 | CANDIDATE |
 | SRC-090 | Donovan, J. & Adams, C. J. (eds.) | The Feminist Care Tradition in Animal Ethics | 2007 | STATE_OF_ART | BAJA | PI-06 | CANDIDATE |
-| SRC-201 | Donaldson, S. & Kymlicka, W. | Animals and the Right to Politics | 2025 | STATE_OF_ART | ALTA | PI-02, PI-04, PI-06 | CANDIDATE |
+| SRC-210 | Donaldson, S. & Kymlicka, W. | Animals and the Right to Politics | 2025 | STATE_OF_ART | ALTA | PI-02, PI-04, PI-06 | CANDIDATE |
 
 ### Auditoría focal del giro político (2026-08-10)
 
@@ -351,7 +357,6 @@ ni se promueve sin verificación adicional.
 | SRC-199 | España — Ley del Mar Menor | Personalidad jurídica del Mar Menor — caso, no fuente filosófica | 2022 | CONTEXT | PI-06 | búsqueda web | IDENTITY_VERIFIED |
 | SRC-200 | Corte de Justicia de Perú (caso Kukama / Canaquiri Murayari) | Personalidad jurídica del río Marañón — caso, no fuente filosófica | 2024 | CONTEXT | PI-06 | búsqueda web | IDENTITY_VERIFIED |
 
-
 ## H. Contexto de formación: Kenneth Moreno May (SRC-201–SRC-209)
 
 > Candidatos registrados por la operación de genealogía intelectual. La red
@@ -381,6 +386,10 @@ por verificar no equivale a incorporar una fuente doctoral.
 - **SRC-037** es el único registro canónico de Naas, *Threshold Phenomena*.
   El duplicado histórico `SRC-185` fue retirado durante la migración; no debe
   reutilizarse como una segunda clave para la misma obra.
+- **SRC-210** es el identificador canónico de Donaldson y Kymlicka, *Animals
+  and the Right to Politics* (2025). Se renumeró desde el `SRC-201` propuesto
+  inicialmente para evitar colisión con el bloque `SRC-201`–`SRC-209` de
+  Kenneth Moreno May.
 - SRC-197–SRC-200 no son fuentes filosóficas sino desarrollos jurídicos
   (personalidad jurídica de ríos y ecosistemas). Se registran aquí porque son
   directamente pertinentes al eje C (comunidad política interespecie) como
@@ -394,7 +403,7 @@ por verificar no equivale a incorporar una fuente doctoral.
 
 ## Próximo paso recomendado
 
-No es crear 200 fichas (`templates/ficha-fuente.md`) de una vez — eso
+No es crear 209 fichas (`templates/ficha-fuente.md`) de una vez — eso
 recrearía exactamente el problema que `governance/decision-log.md` (DEC-003)
 identificó en las ramas de PR históricas #2 y #9 (bibliotecas especulativas).
 El siguiente paso es que el investigador seleccione, de la columna

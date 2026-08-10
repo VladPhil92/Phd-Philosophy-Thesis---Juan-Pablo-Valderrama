@@ -1,8 +1,9 @@
 # Critical retrospective audit
 
 > Esta auditoría no valida ni invalida personalmente al autor. Define preguntas
-> para el cotejo del texto de 2015 y sus fuentes. Todo hallazgo sustantivo está
-> `SOURCE_RECHECK_REQUIRED` mientras falte el PDF.
+> para el cotejo del texto de 2015 y sus fuentes. Aunque el PDF está archivado,
+> todo hallazgo sustantivo permanece `SOURCE_RECHECK_REQUIRED` hasta completar
+> su verificación textual y contextual.
 
 | Núcleo histórico reportado | Clasificación | Problema para reexaminar antes de cualquier reutilización |
 |---|---|---|

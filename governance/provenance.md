@@ -95,3 +95,12 @@ archivado y su integridad binaria fue verificada; esto cierra la procedencia
 documental, pero no promueve automáticamente los pasajes históricos al
 `quote-ledger`. Cada candidato conserva `SOURCE_RECHECK_REQUIRED` hasta que sea
 cotejado textual y contextualmente por el investigador.
+
+## Dossier público del investigador
+
+La investigación y organización del dossier público de identidad académica se
+documenta en
+[`ai/IA-2026-08-10-04.md`](../ai/IA-2026-08-10-04.md). Su resultado canónico es
+[`RESEARCHER.md`](../RESEARCHER.md), permanece `HUMAN_REVIEW_REQUIRED` y no
+modifica la procedencia archivística de los trabajos previos ni crea un sistema
+paralelo.

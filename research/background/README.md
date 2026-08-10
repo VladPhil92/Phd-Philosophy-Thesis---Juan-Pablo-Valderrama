@@ -1,8 +1,9 @@
 # Research background
 
 Esta es la capa canónica de historia intelectual. Su mapa central es
-[`research-lineage.md`](research-lineage.md) y la tesis de 2020 se estudia en
-[`masters-thesis/`](masters-thesis/).
+[`research-lineage.md`](research-lineage.md). La tesis de grado de 2015 se
+documenta en [`undergraduate-thesis/`](undergraduate-thesis/) y la tesis de
+maestría de 2020 se estudia en [`masters-thesis/`](masters-thesis/).
 
 ## Separación epistémica
 

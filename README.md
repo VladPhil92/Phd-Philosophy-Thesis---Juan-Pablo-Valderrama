@@ -314,7 +314,7 @@ preexistente de ciudadanía animal, sino en retroceder un nivel conceptual:
 incorporado a ella**.
 
 La selección del corpus permanece pendiente de justificación documental.
-[`research/sources/corpus-map.md`](research/sources/corpus-map.md) reúne una
+[`research/sources/library-manifest.md`](research/sources/library-manifest.md) reúne una
 propuesta de 200 obras candidatas —corpus primario, bibliografía secundaria,
 estado del arte del giro político animal, contexto de soberanía y
 biopolítica, profundización posthumanista y multiespecie, metodología, y una

@@ -1,6 +1,7 @@
 # Archival originals
 
 This directory preserves archival copies of previous research by the author.
+Its canonical machine-readable category is `PREVIOUS_RESEARCH_BY_AUTHOR`.
 These works are preserved for provenance and intellectual history. They are not
 automatically considered valid doctoral conclusions and are not part of the
 doctoral corpus.

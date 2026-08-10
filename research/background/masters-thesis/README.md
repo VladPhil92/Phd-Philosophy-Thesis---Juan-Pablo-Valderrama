@@ -3,7 +3,8 @@
 Esta carpeta analiza históricamente *En torno al «Animal»: Una pregunta por la
 soberanía humana*. No contiene ni reescribe el original.
 
-**Estatuto archivístico:** `RESEARCH_BACKGROUND` y `AUTHOR_PREVIOUS_RESEARCH`;
+**Categoría canónica:** `PREVIOUS_RESEARCH_BY_AUTHOR`. En términos descriptivos,
+es trasfondo de investigación y trabajo previo del autor;
 nunca `PRIMARY_SOURCE`, `DOCTORAL_ARGUMENT` ni
 `VALIDATED_DOCTORAL_POSITION`. No pertenece al corpus doctoral.
 

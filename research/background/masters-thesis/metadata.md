@@ -40,9 +40,7 @@ not inferred from the university's organizational structure.
 ## Repository classification
 
 ```yaml
-source_role:
-  - RESEARCH_BACKGROUND
-  - AUTHOR_PREVIOUS_RESEARCH
+category: PREVIOUS_RESEARCH_BY_AUTHOR
 excluded_role:
   - PRIMARY_SOURCE
   - DOCTORAL_ARGUMENT

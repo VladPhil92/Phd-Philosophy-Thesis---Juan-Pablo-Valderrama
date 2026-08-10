@@ -20,10 +20,16 @@ verified against its cover page and are recorded with file-level provenance in
 [`masters-thesis/metadata.md`](masters-thesis/metadata.md).
 
 The repository's current doctoral project postdates that master's thesis and
-preserves it as `RESEARCH_BACKGROUND` and `AUTHOR_PREVIOUS_RESEARCH`. This
+preserves it under the canonical category `PREVIOUS_RESEARCH_BY_AUTHOR`: it is
+research background and previous work by the author. This
 chronological relationship is the only continuity asserted here. The archived
 work is not a `PRIMARY_SOURCE`, `DOCTORAL_ARGUMENT`, or
 `VALIDATED_DOCTORAL_POSITION`, and it is not part of the doctoral corpus.
 
 No analytical processing of the master's thesis was performed as part of this
 archival integration.
+
+Historical continuity is not doctoral validation and is not an international
+originality claim. Any later conceptual comparison must be supported by the
+archived text and recorded as retrospective analysis rather than silently
+imported into the doctoral argument.

@@ -1,11 +1,11 @@
-# Mapa de corpus (candidatos bibliográficos)
+# Library manifest / registro canónico de fuentes
 
-**Estado:** `CANDIDATE` en bloque — ningún registro de este documento ha sido
+**Estado de lectura:** `CANDIDATE` en bloque — ningún registro de este documento ha sido
 promovido a `bibliography.bib`.
 
 ## Qué es este documento y qué NO es
 
-Este documento es un **mapa de candidatos** para la selección progresiva del
+Este documento es el **manifest canónico de fuentes y candidatos** para la selección progresiva del
 corpus. Registra qué obras podrían ser pertinentes y por qué, con su nivel de
 verificación declarado honestamente. **No es** el catálogo bibliográfico
 canónico (eso es [`bibliography.bib`](bibliography.bib)), no acredita lectura
@@ -15,7 +15,7 @@ verificada.
 
 Esta distinción es la misma que exige `.claude/rules/sources.md`: «no crees
 fichas de fuentes especulativas para obras que el investigador aún no ha
-incorporado realmente al corpus». Un candidato en este mapa no es una fuente
+incorporado realmente al corpus». Un candidato en este manifest no es una fuente
 incorporada.
 
 ### Origen de las entradas y su nivel real de verificación
@@ -74,7 +74,7 @@ al investigador con el objeto físico o la edición digital autorizada en mano.
 ## Relación con `research/methodology.md`
 
 La selección final de corpus sigue marcada `DECISIÓN HUMANA REQUERIDA` en
-`research/methodology.md` §2. Este mapa es una propuesta de partida para esa
+`research/methodology.md` §2. Este manifest es una propuesta de partida para esa
 decisión, no su resolución. Ningún criterio de selección se considera
 adoptado hasta que el investigador lo registre allí.
 
@@ -276,65 +276,63 @@ decisión cerrada.
 > deben confirmarse antes de avanzar de estado, nunca completarse por
 > inferencia.
 
-| SRC | Autor(es) | Título | Año | Clasificación | PI relacionadas | Fuente de verificación |
-|---|---|---|---|---|---|---|
-| SRC-151 | Youatt, R. | Interspecies Politics: Nature, Borders, States (Univ. of Michigan Press) | 2020 | STATE_OF_ART | PI-06 | [press.umich.edu](https://press.umich.edu/Books/I/Interspecies-Politics) |
-| SRC-152 | Chao, S. et al. (eds.) | The Promise of Multispecies Justice (Duke UP) | 2022 | STATE_OF_ART | PI-06 | [read.dukeupress.edu](https://read.dukeupress.edu/books/book/3093/The-Promise-of-Multispecies-Justice) |
-| SRC-153 | Donaldson, S. & Kymlicka, W. | "Realizing Interspecies Democracy" (Democratic Theory 8/1) | 2021 | STATE_OF_ART | PI-06 | búsqueda web (PhilPapers/citas cruzadas) |
-| SRC-154 | Donaldson, S. & Kymlicka, W. | "Membership Rights for Animals" (Philosophy, supl. 91) | 2022 | STATE_OF_ART | PI-06 | [willkymlicka.ca](https://willkymlicka.ca/publications/articles-chapters) |
-| SRC-155 | Donaldson, S. & Kymlicka, W. | "Doing Politics with Animals" (Social Research 90/4) | 2023 | STATE_OF_ART | PI-06 | [willkymlicka.ca](https://willkymlicka.ca/publications/articles-chapters) |
-| SRC-156 | Donaldson, S., Kymlicka, W. & Janara, L. | "Animal Ghosts at Canadian Universities" (Animals 13(24)) | 2023 | STATE_OF_ART | PI-06 | búsqueda web |
-| SRC-157 | Kymlicka, W. | "Rethinking Human Rights for a More-than-Human World" (More Than Human Rights, NYU Press) | 2024 | STATE_OF_ART | PI-06 | [willkymlicka.ca](https://willkymlicka.ca/publications/articles-chapters) |
-| SRC-158 | Garner, R. | "The Case for an Interspecies Theory of Democracy" (Journal of Animal Ethics) | 2022 | STATE_OF_ART | PI-06 | búsqueda web |
-| SRC-159 | Cochrane, A. & Cojocaru, M.-D. | "Solidarity with Wild Animals" (Ethics, Policy and Environment) | 2023 | STATE_OF_ART | PI-06 | búsqueda web |
-| SRC-160 | Cochrane, A. | "Cosmozoopolis: The Case Against Group-Differentiated Animal Rights" (dato por confirmar: año) | (por confirmar) | STATE_OF_ART | PI-06 | [PhilPapers](https://philpapers.org/rec/ALACTC-3) |
-| SRC-161 | Garner, R. | "Animals and Democratic Theory: Beyond an Anthropocentric Account" (dato por confirmar: año) | (por confirmar) | STATE_OF_ART | PI-06 | [PhilPapers](https://philpapers.org/rec/GARAAD-6) |
-| SRC-162 | Meijer, E. | "Global injustice and animals: towards a multispecies social connection model" | 2023 | STATE_OF_ART | PI-06 | [pure.uva.nl](https://pure.uva.nl/ws/files/169637559/meijer-2023-global-injustice-and-animals-towards-a-multispecies-social-connection-model.pdf) |
-| SRC-163 | Meijer, E. | "A Daoist-inspired Approach to Multispecies Relations" (Environmental Philosophy) | 2024 | STATE_OF_ART | PI-06 | búsqueda web |
-| SRC-164 | Meijer, E. | Multispecies Dialogues: Doing Philosophy with Animals, Children, the Sea and Others (Amsterdam UP) | 2025 | STATE_OF_ART | PI-06 | búsqueda web |
-| SRC-165 | Narayanan, Y. | "Animal-state relations: A critical multispecies geopolitics of animality" | 2025 | STATE_OF_ART | PI-02, PI-06 | [journals.sagepub.com](https://journals.sagepub.com/doi/10.1177/03091325251348611) |
-| SRC-166 | Narayanan, Y. | "For multispecies liberatory futures: Three principles..." | 2023 | STATE_OF_ART | PI-06 | búsqueda web (doi.org/10.1177/27539687231183449) |
-| SRC-167 | Narayanan, Y. & Srinivasan, K. | "Theme issue introduction: The species turn in Indian identity politics" | 2023 | STATE_OF_ART | PI-06 | búsqueda web |
-| SRC-168 | Narayanan, Y. | "Mother Cow, Mother India: A Multispecies Politics of Dairy in India" | 2023/2024 | STATE_OF_ART | PI-06 | [tandfonline.com](https://www.tandfonline.com/doi/full/10.1080/2325548X.2023.2277938) |
-| SRC-169 | Faria, C. | Animal Ethics in the Wild: Wild Animal Suffering and Intervention in Nature (Cambridge UP) | 2022 | STATE_OF_ART | PI-06 | [cambridge.org](https://www.cambridge.org/core/books/animal-ethics-in-the-wild/F9FF5F7415D62DA32C859F581B1E0C8A) |
-| SRC-170 | Johannsen, K. (ed.) | Positive Duties to Wild Animals (Routledge) | 2024 | STATE_OF_ART | PI-06 | búsqueda web |
-| SRC-171 | Browning, H. & Veit, W. | "Positive Wild Animal Welfare" (Biology & Philosophy) | 2023 | STATE_OF_ART | PI-06 | [link.springer.com](https://link.springer.com/article/10.1007/s10539-023-09901-5) |
-| SRC-172 | Horta, O. & Teran, D. | "Reducing Wild Animal Suffering Effectively..." (Ethics, Policy and Environment) | 2023 | STATE_OF_ART | PI-06 | búsqueda web |
-| SRC-173 | (autor por confirmar) | "Indigenizing wild animal sovereignty" (PMC) | (~2022–2024) | STATE_OF_ART | PI-02, PI-06 | [ncbi.nlm.nih.gov/pmc/articles/PMC10947386](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10947386/) |
-| SRC-174 | Milburn, J. | Food, Justice, and Animals: Feeding the World Respectfully (Oxford UP) | 2023 | STATE_OF_ART | PI-06 | búsqueda web |
-| SRC-175 | Adams, C. J., Gruen, L. & Crary, A. (eds.) | The Good It Promises, the Harm It Does: Critical Essays on Effective Altruism (Oxford UP) | 2023 | SECONDARY_CORE | PI-06 | búsqueda web |
-| SRC-176 | Fasel, R. N. & Butler, S. C. | Animal Rights Law (Hart Publishing) | 2023 | CONTEXT | PI-06 | búsqueda web |
-| SRC-177 | Adenitire, J. O. & Fasel, R. | Animals and the Constitution (dato por confirmar: año, editorial) | (por confirmar) | CONTEXT | PI-06 | búsqueda web |
-| SRC-178 | Deckha, M. | Animals as Legal Beings (Univ. of Toronto Press) (dato por confirmar: año) | (por confirmar) | CONTEXT | PI-06 | [utppublishing.com](https://utppublishing.com/doi/book/10.3138/9781487525873) |
-| SRC-179 | Bernet Kempers, E. | What Are Animal Rights For? | 2024 | STATE_OF_ART | PI-06 | [ncbi.nlm.nih.gov/pmc/articles/PMC11418069](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11418069/) |
-| SRC-180 | Braidotti, R. | Posthuman Feminism (Polity) | 2022 | DEEPENING | PI-04 | búsqueda web |
-| SRC-181 | Ferrando, F. | The Art of Being Posthuman: Who are we in the 21st century? | 2023 | DEEPENING | PI-04 | búsqueda web |
-| SRC-182 | Calarco, M. | The Three Ethologies: A Positive Vision for Rebuilding Human-Animal Relationships (Univ. of Chicago Press) | 2024 | DEEPENING | PI-04 | [press.uchicago.edu](https://press.uchicago.edu/ucp/books/book/chicago/T/bo212929943.html) |
-| SRC-183 | Cimatti, F. & Salzani, C. (eds.) | The Biopolitical Animal (Edinburgh UP) | 2024 | CONTEXT | PI-02, PI-04 | [progressivegeographies.com](https://progressivegeographies.com/2024/11/17/felice-cimatti-and-carlo-salzani-eds-the-biopolitical-animal-edinburgh-university-press-november-2024/) |
-| SRC-184 | Piskorski, R. | Derrida and Textual Animality: For a Zoogrammatology of Literature (Palgrave) | 2020 | SECONDARY_CORE | PI-04 | búsqueda web |
-| SRC-185 | Naas, M. | Threshold Phenomena: Derrida and the Question of Hospitality (Fordham UP) | 2024 | SECONDARY_CORE | PI-01, PI-05 | [academic.oup.com](https://academic.oup.com/fordham-scholarship-online/book/59077) (duplica SRC-037; conservar un solo registro al promover) |
-| SRC-186 | (autor por confirmar) | "Jacques Derrida on the Aporias of Hospitality" | 2024 | SECONDARY_CORE | PI-01, PI-05 | [researchgate.net](https://www.researchgate.net/publication/380893056_Jacques_Derrida_on_the_Aporias_of_Hospitality) |
-| SRC-187 | (autor por confirmar) | "Paradise Lost in Derrida and Agamben: onto-theology of animal life" | 2024 | SECONDARY_CORE | PI-04 | [tandfonline.com](https://www.tandfonline.com/doi/full/10.1080/21692327.2024.2439852) |
-| SRC-188 | Di Cesare, D. | Resident Foreigners: A Philosophy of Migration (Polity) | 2020 | CONTEXT | PI-05 | búsqueda web |
-| SRC-189 | Lejeune, C., Pagès-El Karoui, D., Schmoll, C. & Thiollet, H. (eds.) | Migration, Urbanity and Cosmopolitanism in a Globalized World (Springer) | 2021 | CONTEXT | PI-05 | [link.springer.com](https://link.springer.com/chapter/10.1007/978-3-030-67365-9_1) |
-| SRC-190 | Piasentier, M. & Raimondi, S. (eds.) | Debating Biopolitics: New Perspectives on the Government of Life (Edward Elgar) | 2022 | CONTEXT | PI-02 | [michel-foucault.com](https://michel-foucault.com/2023/03/13/marco-piasentier-and-sara-raimondi-debating-biopolitics-new-perspectives-on-the-government-of-life-2022/) |
-| SRC-191 | Esposito, R. | "Oltre la biopolitica" / "Beyond Biopolitics" (formato por confirmar: ¿libro, conferencia o ensayo?) | 2024 | CONTEXT | PI-02, PI-07 | [michel-foucault.com](https://michel-foucault.com/2024/06/02/roberto-esposito-oltre-la-biopolitica-beyond-biopolitics-2024/) |
-| SRC-192 | (autor por confirmar) | "Algorithmic Governmentality, Digital Sovereignty, and Agency" (Weizenbaum Journal) | (por confirmar) | METHODOLOGY | PI-02 | [ojs.weizenbaum-institut.de](https://ojs.weizenbaum-institut.de/index.php/wjds/article/view/87/80) |
-| SRC-193 | (autor por confirmar) | "Algorithmic sovereignty and democratic resilience: rethinking AI governance in the age of generative AI" (AI and Ethics, Springer) | 2025 | METHODOLOGY | PI-02 | [link.springer.com](https://link.springer.com/article/10.1007/s43681-025-00739-z) |
-| SRC-194 | (autor por confirmar) | "Reproducibility and explainability in digital humanities" (Intl. Journal of Digital Humanities, Springer) | 2023 | METHODOLOGY | — | [link.springer.com](https://link.springer.com/article/10.1007/s42803-023-00083-w) |
-| SRC-195 | (autor por confirmar) | "Reproducibility, verifiability, and computational historical research" (Intl. Journal of Digital Humanities, Springer) | 2023 | METHODOLOGY | — | [link.springer.com](https://link.springer.com/article/10.1007/s42803-023-00068-9) |
-| SRC-196 | Kymlicka, W. (entrevista) | "Will Kymlicka on Animal Denizens and Foreigners in the Wilderness" (GBS Schweiz; fuente divulgativa, no académica revisada por pares) | (por confirmar) | STATE_OF_ART | PI-06 | [gbs-schweiz.org](https://gbs-schweiz.org/blog/will-kymlicka-on-animal-denizens-and-foreigners-in-the-wilderness-interview-part-2/) |
-| SRC-197 | Innu Council of Ekuanitshit & Minganie RCM | Resoluciones de personalidad jurídica del río Magpie (Québec) — desarrollo jurídico, no fuente filosófica; relevante como caso de estudio | 2021 | CONTEXT | PI-06 | búsqueda web (Columbia/Sabin Center y prensa especializada) |
-| SRC-198 | Corte Constitucional de Ecuador | Sentencia sobre el bosque Los Cedros (derechos de la naturaleza) — caso, no fuente filosófica | 2021 | CONTEXT | PI-06 | búsqueda web |
-| SRC-199 | España — Ley del Mar Menor | Personalidad jurídica del Mar Menor — caso, no fuente filosófica | 2022 | CONTEXT | PI-06 | búsqueda web |
-| SRC-200 | Corte de Justicia de Perú (caso Kukama / Canaquiri Murayari) | Personalidad jurídica del río Marañón — caso, no fuente filosófica | 2024 | CONTEXT | PI-06 | búsqueda web |
+| SRC | Autor(es) | Título | Año | Clasificación | PI relacionadas | Fuente de verificación | Estado |
+|---|---|---|---|---|---|---|---|
+| SRC-151 | Youatt, R. | Interspecies Politics: Nature, Borders, States (Univ. of Michigan Press) | 2020 | STATE_OF_ART | PI-06 | [press.umich.edu](https://press.umich.edu/Books/I/Interspecies-Politics) | IDENTITY_VERIFIED |
+| SRC-152 | Chao, S. et al. (eds.) | The Promise of Multispecies Justice (Duke UP) | 2022 | STATE_OF_ART | PI-06 | [read.dukeupress.edu](https://read.dukeupress.edu/books/book/3093/The-Promise-of-Multispecies-Justice) | IDENTITY_VERIFIED |
+| SRC-153 | Donaldson, S. & Kymlicka, W. | "Realizing Interspecies Democracy" (Democratic Theory 8/1) | 2021 | STATE_OF_ART | PI-06 | búsqueda web (PhilPapers/citas cruzadas) | IDENTITY_VERIFIED |
+| SRC-154 | Donaldson, S. & Kymlicka, W. | "Membership Rights for Animals" (Philosophy, supl. 91) | 2022 | STATE_OF_ART | PI-06 | [willkymlicka.ca](https://willkymlicka.ca/publications/articles-chapters) | IDENTITY_VERIFIED |
+| SRC-155 | Donaldson, S. & Kymlicka, W. | "Doing Politics with Animals" (Social Research 90/4) | 2023 | STATE_OF_ART | PI-06 | [willkymlicka.ca](https://willkymlicka.ca/publications/articles-chapters) | IDENTITY_VERIFIED |
+| SRC-156 | Donaldson, S., Kymlicka, W. & Janara, L. | "Animal Ghosts at Canadian Universities" (Animals 13(24)) | 2023 | STATE_OF_ART | PI-06 | búsqueda web | IDENTITY_VERIFIED |
+| SRC-157 | Kymlicka, W. | "Rethinking Human Rights for a More-than-Human World" (More Than Human Rights, NYU Press) | 2024 | STATE_OF_ART | PI-06 | [willkymlicka.ca](https://willkymlicka.ca/publications/articles-chapters) | IDENTITY_VERIFIED |
+| SRC-158 | Garner, R. | "The Case for an Interspecies Theory of Democracy" (Journal of Animal Ethics) | 2022 | STATE_OF_ART | PI-06 | búsqueda web | IDENTITY_VERIFIED |
+| SRC-159 | Cochrane, A. & Cojocaru, M.-D. | "Solidarity with Wild Animals" (Ethics, Policy and Environment) | 2023 | STATE_OF_ART | PI-06 | búsqueda web | IDENTITY_VERIFIED |
+| SRC-160 | Cochrane, A. | "Cosmozoopolis: The Case Against Group-Differentiated Animal Rights" (dato por confirmar: año) | (por confirmar) | STATE_OF_ART | PI-06 | [PhilPapers](https://philpapers.org/rec/ALACTC-3) | IDENTITY_VERIFIED |
+| SRC-161 | Garner, R. | "Animals and Democratic Theory: Beyond an Anthropocentric Account" (dato por confirmar: año) | (por confirmar) | STATE_OF_ART | PI-06 | [PhilPapers](https://philpapers.org/rec/GARAAD-6) | IDENTITY_VERIFIED |
+| SRC-162 | Meijer, E. | "Global injustice and animals: towards a multispecies social connection model" | 2023 | STATE_OF_ART | PI-06 | [pure.uva.nl](https://pure.uva.nl/ws/files/169637559/meijer-2023-global-injustice-and-animals-towards-a-multispecies-social-connection-model.pdf) | IDENTITY_VERIFIED |
+| SRC-163 | Meijer, E. | "A Daoist-inspired Approach to Multispecies Relations" (Environmental Philosophy) | 2024 | STATE_OF_ART | PI-06 | búsqueda web | IDENTITY_VERIFIED |
+| SRC-164 | Meijer, E. | Multispecies Dialogues: Doing Philosophy with Animals, Children, the Sea and Others (Amsterdam UP) | 2025 | STATE_OF_ART | PI-06 | búsqueda web | IDENTITY_VERIFIED |
+| SRC-165 | Narayanan, Y. | "Animal-state relations: A critical multispecies geopolitics of animality" | 2025 | STATE_OF_ART | PI-02, PI-06 | [journals.sagepub.com](https://journals.sagepub.com/doi/10.1177/03091325251348611) | IDENTITY_VERIFIED |
+| SRC-166 | Narayanan, Y. | "For multispecies liberatory futures: Three principles..." | 2023 | STATE_OF_ART | PI-06 | búsqueda web (doi.org/10.1177/27539687231183449) | IDENTITY_VERIFIED |
+| SRC-167 | Narayanan, Y. & Srinivasan, K. | "Theme issue introduction: The species turn in Indian identity politics" | 2023 | STATE_OF_ART | PI-06 | búsqueda web | IDENTITY_VERIFIED |
+| SRC-168 | Narayanan, Y. | "Mother Cow, Mother India: A Multispecies Politics of Dairy in India" | 2023/2024 | STATE_OF_ART | PI-06 | [tandfonline.com](https://www.tandfonline.com/doi/full/10.1080/2325548X.2023.2277938) | IDENTITY_VERIFIED |
+| SRC-169 | Faria, C. | Animal Ethics in the Wild: Wild Animal Suffering and Intervention in Nature (Cambridge UP) | 2022 | STATE_OF_ART | PI-06 | [cambridge.org](https://www.cambridge.org/core/books/animal-ethics-in-the-wild/F9FF5F7415D62DA32C859F581B1E0C8A) | IDENTITY_VERIFIED |
+| SRC-170 | Johannsen, K. (ed.) | Positive Duties to Wild Animals (Routledge) | 2024 | STATE_OF_ART | PI-06 | búsqueda web | IDENTITY_VERIFIED |
+| SRC-171 | Browning, H. & Veit, W. | "Positive Wild Animal Welfare" (Biology & Philosophy) | 2023 | STATE_OF_ART | PI-06 | [link.springer.com](https://link.springer.com/article/10.1007/s10539-023-09901-5) | IDENTITY_VERIFIED |
+| SRC-172 | Horta, O. & Teran, D. | "Reducing Wild Animal Suffering Effectively..." (Ethics, Policy and Environment) | 2023 | STATE_OF_ART | PI-06 | búsqueda web | IDENTITY_VERIFIED |
+| SRC-173 | (autor por confirmar) | "Indigenizing wild animal sovereignty" (PMC) | (~2022–2024) | STATE_OF_ART | PI-02, PI-06 | [ncbi.nlm.nih.gov/pmc/articles/PMC10947386](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10947386/) | IDENTITY_VERIFIED |
+| SRC-174 | Milburn, J. | Food, Justice, and Animals: Feeding the World Respectfully (Oxford UP) | 2023 | STATE_OF_ART | PI-06 | búsqueda web | IDENTITY_VERIFIED |
+| SRC-175 | Adams, C. J., Gruen, L. & Crary, A. (eds.) | The Good It Promises, the Harm It Does: Critical Essays on Effective Altruism (Oxford UP) | 2023 | SECONDARY_CORE | PI-06 | búsqueda web | IDENTITY_VERIFIED |
+| SRC-176 | Fasel, R. N. & Butler, S. C. | Animal Rights Law (Hart Publishing) | 2023 | CONTEXT | PI-06 | búsqueda web | IDENTITY_VERIFIED |
+| SRC-177 | Adenitire, J. O. & Fasel, R. | Animals and the Constitution (dato por confirmar: año, editorial) | (por confirmar) | CONTEXT | PI-06 | búsqueda web | IDENTITY_VERIFIED |
+| SRC-178 | Deckha, M. | Animals as Legal Beings (Univ. of Toronto Press) (dato por confirmar: año) | (por confirmar) | CONTEXT | PI-06 | [utppublishing.com](https://utppublishing.com/doi/book/10.3138/9781487525873) | IDENTITY_VERIFIED |
+| SRC-179 | Bernet Kempers, E. | What Are Animal Rights For? | 2024 | STATE_OF_ART | PI-06 | [ncbi.nlm.nih.gov/pmc/articles/PMC11418069](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11418069/) | IDENTITY_VERIFIED |
+| SRC-180 | Braidotti, R. | Posthuman Feminism (Polity) | 2022 | DEEPENING | PI-04 | búsqueda web | IDENTITY_VERIFIED |
+| SRC-181 | Ferrando, F. | The Art of Being Posthuman: Who are we in the 21st century? | 2023 | DEEPENING | PI-04 | búsqueda web | IDENTITY_VERIFIED |
+| SRC-182 | Calarco, M. | The Three Ethologies: A Positive Vision for Rebuilding Human-Animal Relationships (Univ. of Chicago Press) | 2024 | DEEPENING | PI-04 | [press.uchicago.edu](https://press.uchicago.edu/ucp/books/book/chicago/T/bo212929943.html) | IDENTITY_VERIFIED |
+| SRC-183 | Cimatti, F. & Salzani, C. (eds.) | The Biopolitical Animal (Edinburgh UP) | 2024 | CONTEXT | PI-02, PI-04 | [progressivegeographies.com](https://progressivegeographies.com/2024/11/17/felice-cimatti-and-carlo-salzani-eds-the-biopolitical-animal-edinburgh-university-press-november-2024/) | IDENTITY_VERIFIED |
+| SRC-184 | Piskorski, R. | Derrida and Textual Animality: For a Zoogrammatology of Literature (Palgrave) | 2020 | SECONDARY_CORE | PI-04 | búsqueda web | IDENTITY_VERIFIED |
+| SRC-186 | (autor por confirmar) | "Jacques Derrida on the Aporias of Hospitality" | 2024 | SECONDARY_CORE | PI-01, PI-05 | [researchgate.net](https://www.researchgate.net/publication/380893056_Jacques_Derrida_on_the_Aporias_of_Hospitality) | IDENTITY_VERIFIED |
+| SRC-187 | (autor por confirmar) | "Paradise Lost in Derrida and Agamben: onto-theology of animal life" | 2024 | SECONDARY_CORE | PI-04 | [tandfonline.com](https://www.tandfonline.com/doi/full/10.1080/21692327.2024.2439852) | IDENTITY_VERIFIED |
+| SRC-188 | Di Cesare, D. | Resident Foreigners: A Philosophy of Migration (Polity) | 2020 | CONTEXT | PI-05 | búsqueda web | IDENTITY_VERIFIED |
+| SRC-189 | Lejeune, C., Pagès-El Karoui, D., Schmoll, C. & Thiollet, H. (eds.) | Migration, Urbanity and Cosmopolitanism in a Globalized World (Springer) | 2021 | CONTEXT | PI-05 | [link.springer.com](https://link.springer.com/chapter/10.1007/978-3-030-67365-9_1) | IDENTITY_VERIFIED |
+| SRC-190 | Piasentier, M. & Raimondi, S. (eds.) | Debating Biopolitics: New Perspectives on the Government of Life (Edward Elgar) | 2022 | CONTEXT | PI-02 | [michel-foucault.com](https://michel-foucault.com/2023/03/13/marco-piasentier-and-sara-raimondi-debating-biopolitics-new-perspectives-on-the-government-of-life-2022/) | IDENTITY_VERIFIED |
+| SRC-191 | Esposito, R. | "Oltre la biopolitica" / "Beyond Biopolitics" (formato por confirmar: ¿libro, conferencia o ensayo?) | 2024 | CONTEXT | PI-02, PI-07 | [michel-foucault.com](https://michel-foucault.com/2024/06/02/roberto-esposito-oltre-la-biopolitica-beyond-biopolitics-2024/) | IDENTITY_VERIFIED |
+| SRC-192 | (autor por confirmar) | "Algorithmic Governmentality, Digital Sovereignty, and Agency" (Weizenbaum Journal) | (por confirmar) | METHODOLOGY | PI-02 | [ojs.weizenbaum-institut.de](https://ojs.weizenbaum-institut.de/index.php/wjds/article/view/87/80) | IDENTITY_VERIFIED |
+| SRC-193 | (autor por confirmar) | "Algorithmic sovereignty and democratic resilience: rethinking AI governance in the age of generative AI" (AI and Ethics, Springer) | 2025 | METHODOLOGY | PI-02 | [link.springer.com](https://link.springer.com/article/10.1007/s43681-025-00739-z) | IDENTITY_VERIFIED |
+| SRC-194 | (autor por confirmar) | "Reproducibility and explainability in digital humanities" (Intl. Journal of Digital Humanities, Springer) | 2023 | METHODOLOGY | — | [link.springer.com](https://link.springer.com/article/10.1007/s42803-023-00083-w) | IDENTITY_VERIFIED |
+| SRC-195 | (autor por confirmar) | "Reproducibility, verifiability, and computational historical research" (Intl. Journal of Digital Humanities, Springer) | 2023 | METHODOLOGY | — | [link.springer.com](https://link.springer.com/article/10.1007/s42803-023-00068-9) | IDENTITY_VERIFIED |
+| SRC-196 | Kymlicka, W. (entrevista) | "Will Kymlicka on Animal Denizens and Foreigners in the Wilderness" (GBS Schweiz; fuente divulgativa, no académica revisada por pares) | (por confirmar) | STATE_OF_ART | PI-06 | [gbs-schweiz.org](https://gbs-schweiz.org/blog/will-kymlicka-on-animal-denizens-and-foreigners-in-the-wilderness-interview-part-2/) | IDENTITY_VERIFIED |
+| SRC-197 | Innu Council of Ekuanitshit & Minganie RCM | Resoluciones de personalidad jurídica del río Magpie (Québec) — desarrollo jurídico, no fuente filosófica; relevante como caso de estudio | 2021 | CONTEXT | PI-06 | búsqueda web (Columbia/Sabin Center y prensa especializada) | IDENTITY_VERIFIED |
+| SRC-198 | Corte Constitucional de Ecuador | Sentencia sobre el bosque Los Cedros (derechos de la naturaleza) — caso, no fuente filosófica | 2021 | CONTEXT | PI-06 | búsqueda web | IDENTITY_VERIFIED |
+| SRC-199 | España — Ley del Mar Menor | Personalidad jurídica del Mar Menor — caso, no fuente filosófica | 2022 | CONTEXT | PI-06 | búsqueda web | IDENTITY_VERIFIED |
+| SRC-200 | Corte de Justicia de Perú (caso Kukama / Canaquiri Murayari) | Personalidad jurídica del río Marañón — caso, no fuente filosófica | 2024 | CONTEXT | PI-06 | búsqueda web | IDENTITY_VERIFIED |
 
 ## Duplicados y observaciones de calidad ya detectados
 
-- **SRC-037 y SRC-185** son el mismo libro (Naas, *Threshold Phenomena*),
-  encontrado independientemente en la propuesta original y en la búsqueda de
-  ampliación. Al promover cualquiera de los dos a `bibliography.bib`, debe
-  eliminarse el duplicado, no conservarse dos claves para la misma obra.
+- **SRC-037** es el único registro canónico de Naas, *Threshold Phenomena*.
+  El duplicado histórico `SRC-185` fue retirado durante la migración; no debe
+  reutilizarse como una segunda clave para la misma obra.
 - SRC-197–SRC-200 no son fuentes filosóficas sino desarrollos jurídicos
   (personalidad jurídica de ríos y ecosistemas). Se registran aquí porque son
   directamente pertinentes al eje C (comunidad política interespecie) como
@@ -355,3 +353,13 @@ El siguiente paso es que el investigador seleccione, de la columna
 `PRIORIDAD: ALTA`, la primera obra que realmente va a leer, verifique su
 edición exacta, y solo entonces se cree su entrada en `bibliography.bib` y su
 ficha en `research/sources/notes/`.
+
+## Previous research by author
+
+This class is archival background, not part of the doctoral source corpus. It is
+kept here so that one machine-readable source identifier has one canonical
+category and reading stage; explanatory limitations remain in the archival files.
+
+| ID | Work | Category | Reading stage | Bibliographic key |
+|---|---|---|---|---|
+| SRC-PR-001 | Valderrama Pino, *En torno al «Animal»* (2020) | PREVIOUS_RESEARCH_BY_AUTHOR | ARCHIVED | valderrama-pino-2020-animal |

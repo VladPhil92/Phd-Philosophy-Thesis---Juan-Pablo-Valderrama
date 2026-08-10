@@ -6,6 +6,8 @@ de Jacques Derrida*. No representa una posición doctoral actual.
 
 **Clasificación canónica:** `PREVIOUS_RESEARCH_BY_AUTHOR`.
 **Clasificación conceptual:** `UNDERGRADUATE_RESEARCH_BACKGROUND`.
+**Estado archivístico:** `ARCHIVED`.
+
 No es `PRIMARY_CORE`, `PRIMARY_PHILOSOPHICAL_SOURCE`,
 `CURRENT_DOCTORAL_POSITION`, `VALIDATED_DOCTORAL_ARGUMENT` ni prueba de
 originalidad o prioridad.
@@ -16,18 +18,25 @@ la emergencia de preguntas que después se desplazan hacia soberanía humana,
 cuestión animal, soberanía de la hospitalidad y límites antropológicos de la
 comunidad política.
 
+El PDF original de 2015 ya está archivado en [`originals/`](originals/) y su
+integridad binaria, tamaño y conteo de páginas están registrados en
+[`metadata.md`](metadata.md). La mención meritoria del trabajo está además
+`INSTITUTIONALLY_VERIFIED` mediante la Resolución No. 017 de 2015 de la
+Universidad de Cartagena.
+
 ## Navegación y estados
 
-- [`metadata.md`](metadata.md): metadatos, clasificación y disponibilidad.
-- [`analytical-summary.md`](analytical-summary.md): reconstrucción provisional.
+- [`metadata.md`](metadata.md): metadatos documentales, integridad binaria y clasificación.
+- [`analytical-summary.md`](analytical-summary.md): reconstrucción histórica provisional.
 - [`critical-audit.md`](critical-audit.md): riesgos y agenda de reexamen.
 - [`concept-evolution.md`](concept-evolution.md): comparación 2015/2020/doctorado.
 - [`continuity-with-masters.md`](continuity-with-masters.md): comparación dedicada.
 - [`continuity-with-phd.md`](continuity-with-phd.md): genealogía doctoral no teleológica.
-- [`historical-passage-index.md`](historical-passage-index.md): 15 pasajes
-  candidatos; ninguno está verificado mientras falte el PDF.
-- [`originals/`](originals/): destino y protocolo del original.
+- [`historical-passage-index.md`](historical-passage-index.md): 15 pasajes candidatos cuya reutilización exige cotejo textual/contextual.
+- [`originals/`](originals/): original archivado y protocolo de preservación.
 
-`RESEARCHER_REPORTED` identifica información comunicada por el investigador;
-`SOURCE_RECHECK_REQUIRED` exige cotejo con el PDF. Ninguna interpretación
-sustantiva de este dossier ha recibido validación humana.
+`DOCUMENT_VERIFIED` y `INSTITUTIONALLY_VERIFIED` describen hechos documentales,
+no validación filosófica. `SOURCE_RECHECK_REQUIRED` sigue aplicando a
+interpretaciones o citas que aún no hayan sido cotejadas contextualmente contra
+el PDF. Ninguna interpretación sustantiva de este dossier ha recibido
+validación doctoral automática.

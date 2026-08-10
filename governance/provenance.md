@@ -90,6 +90,8 @@ una clave BibTeX canónica, pero permanecen fuera del corpus doctoral. Sus
 análisis viven únicamente en `research/background/`; una autocita puede probar
 cronología autoral, no una afirmación filosófica. La integración de la tesis de
 grado de 2015 (`SRC-PR-002`) fue asistida por IA y está registrada en
-[`ai/IA-2026-08-10-03.md`](../ai/IA-2026-08-10-03.md). Al faltar el PDF, sus
-pasajes candidatos no ingresaron al `quote-ledger` y permanecen
-`SOURCE_RECHECK_REQUIRED`.
+[`ai/IA-2026-08-10-03.md`](../ai/IA-2026-08-10-03.md). El PDF original ya está
+archivado y su integridad binaria fue verificada; esto cierra la procedencia
+documental, pero no promueve automáticamente los pasajes históricos al
+`quote-ledger`. Cada candidato conserva `SOURCE_RECHECK_REQUIRED` hasta que sea
+cotejado textual y contextualmente por el investigador.

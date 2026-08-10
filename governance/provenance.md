@@ -95,10 +95,11 @@ archivado y su integridad binaria fue verificada; esto cierra la procedencia
 documental, pero no promueve automáticamente los pasajes históricos al
 `quote-ledger`. Cada candidato conserva `SOURCE_RECHECK_REQUIRED` hasta que sea
 cotejado textual y contextualmente por el investigador.
+
 ## Genealogía intelectual del asesor de grado
 
 La operación `INTELLECTUAL_GENEALOGY_RESEARCH` sobre Kenneth Moreno May está
-registrada en [`IA-2026-08-10-04`](../ai/IA-2026-08-10-04.md). Sus actividades
+registrada en [`IA-2026-08-10-06`](../ai/IA-2026-08-10-06.md). Sus actividades
 fueron recuperación bibliográfica, reconstrucción cronológica, clasificación de
 fuentes, comparación conceptual, auditoría de influencia y reconstrucción de
 contexto. Los registros `SRC-201`–`SRC-209` permanecen candidatos; la

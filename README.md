@@ -4,6 +4,13 @@
 
 **Juan Pablo Valderrama**
 
+## Investigador
+
+La identidad académica, trayectoria documentada y límites de verificación de
+**Juan Pablo Valderrama Pino** se registran en el
+[`dossier canónico del investigador`](RESEARCHER.md). El dossier permanece
+`HUMAN_REVIEW_REQUIRED` y no sustituye la validación humana de sus datos.
+
 > ¿Puede existir soberanía allí donde la comunidad política deja de definirse
 > primordialmente por la potestad de excluir y comienza a pensarse desde la
 > responsabilidad frente a aquello que no domina?
@@ -394,6 +401,7 @@ corpus: no representa automáticamente la posición actual ni valida por sí sol
 ningún argumento doctoral.
 
 - [Research lineage e historia intelectual](research/background/research-lineage.md)
+- [Dossier de la tesis de grado](research/background/undergraduate-thesis/README.md)
 - [Dossier de la tesis de maestría](research/background/masters-thesis/README.md)
 
 ## Investigación asistida por IA y autoría humana

@@ -409,6 +409,16 @@ Todo uso material se registra y verifica según el
 restringidos, confidenciales, personales o protegidos a servicios externos sin
 autorización. La IA no figura como autora ni decide el contenido filosófico.
 
+## Publicaciones científicas derivadas
+
+El repositorio está diseñado no solo para apoyar la tesis doctoral, sino también
+para generar publicaciones científicas evaluadas por pares derivadas del mismo
+proceso de investigación. Son productos de preguntas, fuentes, conceptos y
+argumentos doctorales validados, no proyectos independientes. El
+[`marco de publicaciones`](research/publications/README.md) registra propuestas
+y condiciones de preparación; no afirma que existan artículos antes de su
+escritura y aprobación humanas.
+
 ## Flujo de biblioteca y OCR
 
 Los originales autorizados y la biblioteca privada se conservan localmente y

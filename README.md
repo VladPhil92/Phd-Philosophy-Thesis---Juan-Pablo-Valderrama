@@ -386,6 +386,20 @@ resuelven mediante inferencias no comprobadas. Véanse
 [`METHODOLOGY.md`](METHODOLOGY.md) y
 [`RESEARCH-WORKFLOW.md`](RESEARCH-WORKFLOW.md).
 
+## Research Background
+
+La tesis de maestría de 2020, *En torno al «Animal»: Una pregunta por la
+soberanía humana*, se registra exclusivamente como **antecedente histórico** de
+la investigación. No pertenece al corpus ni al manuscrito doctoral. El
+repositorio no conserva el texto completo: almacena metadatos, reconstrucciones
+históricas y mapas conceptuales, todos señalados como trabajo asistido por IA y
+pendientes de validación humana.
+
+- [Evolución desde la tesis de maestría](research/background/master-thesis-evolution.md)
+- [Genealogía de conceptos](research/background/concept-evolution.md)
+- [Síntesis del trasfondo histórico](research/background/background-summary.md)
+- [Continuidad de la investigación (2015–proyecto doctoral)](research/background/research-continuity.md)
+
 ## Investigación asistida por IA y autoría humana
 
 La IA puede apoyar la búsqueda exploratoria, clasificación, comparación,

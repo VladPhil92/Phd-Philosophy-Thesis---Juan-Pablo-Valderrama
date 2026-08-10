@@ -1,11 +1,15 @@
 # Selective historical passage index
 
 Este índice contiene **15 candidatos** elegidos por su función genealógica. No
-son evidencia doctoral ni entradas del `quote-ledger`. Debido a que el PDF de
-2015 no está en el *worktree*, la página es `PENDING`, incluso cuando la
-instrucción aportó una formulación breve. **Ningún registro tiene estado
-`HISTORICAL_QUOTE_VERIFIED`**: se requiere cotejo visual con el original para
-transcribir ortografía, contexto y localizador.
+son evidencia doctoral ni entradas del `quote-ledger`.
+
+El PDF original de 2015 ya está archivado y su integridad binaria fue verificada.
+Sin embargo, las páginas y transcripciones de este índice **no se promueven
+automáticamente** por la mera presencia del archivo: cada candidato requiere
+cotejo textual/contextual con el original antes de recibir estado
+`HISTORICAL_QUOTE_VERIFIED`. Por esa razón se conserva `PENDING` en los
+localizadores todavía no revisados y `SOURCE_RECHECK_REQUIRED` en los pasajes
+que aún no han sido cotejados individualmente.
 
 | ID | Página | Formulación breve aportada / objeto a localizar | Contexto | Función histórica | Concepto | Relación con 2020 | Relación doctoral | Riesgo anacrónico | Estado |
 |---|---:|---|---|---|---|---|---|---|---|
@@ -25,11 +29,12 @@ transcribir ortografía, contexto y localizador.
 | HQ-2015-14 | PENDING | «la ficción de la identidad» / «la ficción de la singularidad» | Conclusión | Balance del problema del sujeto. | identidad/singularidad | Trasfondo desplazado. | No es conclusión actual. | Equiparar ficción e inexistencia. | `RESEARCHER_SUPPLIED_QUOTE; SOURCE_RECHECK_REQUIRED` |
 | HQ-2015-15 | PENDING | «a future reflection on a concept of sovereignty based on alterity» en la formulación aportada. | Final del resumen | Apertura explícita de investigación futura. | soberanía/alteridad | Precursor cronológico de fórmula 2020. | Relevancia para dossier de originalidad solo interna. | Traducirlo en concepto idéntico o prioridad mundial. | `RESEARCHER_SUPPLIED_QUOTE; LANGUAGE_AND_SOURCE_RECHECK_REQUIRED` |
 
-## Protocolo de verificación futura
+## Protocolo de verificación
 
-Al ingresar el PDF: (1) localizar cada candidato; (2) cotejar visualmente la
-página impresa y la página PDF; (3) sustituir paráfrasis por una cita breve solo
-cuando sea necesaria; (4) registrar contexto suficiente; (5) marcar
-`HISTORICAL_QUOTE_VERIFIED`; (6) conservar el índice aquí. Su paso al
-`quote-ledger` requeriría una decisión explícita de usarlo como evidencia de
-historia autoral, nunca como evidencia de una tesis filosófica doctoral.
+Ahora que el PDF está archivado, cada candidato puede verificarse de forma
+controlada: (1) localizar el pasaje; (2) cotejar la página impresa y la página
+PDF; (3) sustituir paráfrasis por una cita breve solo cuando sea necesaria;
+(4) registrar contexto suficiente; (5) marcar `HISTORICAL_QUOTE_VERIFIED` solo
+tras revisión humana; (6) conservar el índice aquí. Su paso al `quote-ledger`
+requeriría una decisión explícita de usarlo como evidencia de historia autoral,
+nunca como evidencia suficiente de una tesis filosófica doctoral.

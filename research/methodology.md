@@ -210,10 +210,33 @@ Registrada también en `governance/decision-log.md` (`DEC-018`).
 
 Ya existe una regla operativa mínima: toda cita textual requiere localizador
 exacto y cotejo con el original antes de usarse como evidencia (véase
-`RESEARCH-WORKFLOW.md`, `.claude/rules/sources.md`). **DECISIÓN HUMANA
-REQUERIDA** solo en el detalle del procedimiento de cotejo: ¿verificación
-directa sobre el original físico o edición digital autorizada, doble
-verificación en citas centrales, etc.?
+`RESEARCH-WORKFLOW.md`, `.claude/rules/sources.md`). **Decisión (2026-08-11).**
+El detalle del procedimiento de cotejo queda fijado así:
+
+- **Edición física frente a digital.** Cuando el investigador tiene acceso a
+  la edición física de una fuente, esa edición prevalece sobre el PDF para
+  el cotejo; su uso debe declararse explícitamente en la ficha de fuente
+  (`**Edición cotejada:**` en `templates/ficha-fuente.md`), no darse por
+  supuesto. Si no se declara, se asume cotejo contra edición digital (PDF),
+  como en las tres fichas ya existentes.
+- **Nivel de verificación uniforme.** Toda cita, sin distinción entre
+  evidencia central y de apoyo, requiere cotejo humano directo del
+  investigador contra la edición declarada antes de usarse como evidencia.
+  No hay un nivel reducido para citas secundarias ni uno reforzado aparte
+  para citas centrales: el cotejo humano directo es, en todos los casos, el
+  estándar único.
+- **El corpus doctoral no admite el patrón de autorización usado para el
+  trasfondo.** Para el documento oficial de la tesis y cualquier artículo
+  derivado (`research/publications/`), solo se acepta y verifica
+  construcción **100% humana**. El patrón usado en `research/background/**`
+  (lectura de IA seguida de autorización explícita del investigador,
+  `ai/log/IA-2026-08-11-24.md`) es exclusivo del material de trasfondo, que
+  no es evidencia doctoral — no se extiende al corpus doctoral ni a sus
+  citas: ahí el cotejo debe ser siempre el propio investigador leyendo y
+  comparando directamente contra la edición declarada, sin que una
+  autorización general lo sustituya.
+
+Registrada también en `governance/decision-log.md` (`DEC-019`).
 
 Existe además, desde 2026-08-08, herramienta (opcional, no obligatoria)
 para auditar una cita ya cotejada más allá de su autenticidad —integridad

@@ -4,6 +4,9 @@
 **Referencia verificada:** sí
 **Tipo de lectura:** primaria
 **Fecha de consulta:** 2026-08-08
+**Edición cotejada:** digital (PDF) — el investigador cotejó contra su
+propio ejemplar en PDF (véase `research/sources/bibliography.bib`); campo
+completado retroactivamente por `DEC-019`.
 
 Jacques Derrida, *Hospitality, Volume I*, serie *The Seminars of Jacques
 Derrida*, ed. Pascale-Anne Brault y Peggy Kamuf, trad. E. S. Burt

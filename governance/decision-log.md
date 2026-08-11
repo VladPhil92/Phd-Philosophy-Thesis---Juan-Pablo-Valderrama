@@ -474,6 +474,33 @@
   edición se preferiría para nuevas citas sin invalidar las ya
   cotejadas.
 
+## DEC-019 — Procedimiento de cotejo: edición física prioritaria, nivel uniforme, corpus doctoral 100% humano
+
+- **Fecha:** 2026-08-11
+- **Estado:** aceptada
+- **Contexto:** `research/methodology.md` §7 dejaba pendiente solo el
+  detalle del procedimiento de cotejo (edición física o digital, doble
+  verificación en citas centrales), tras haberse usado en esta misma
+  sesión, para material de trasfondo (`research/background/**`), un
+  patrón de lectura de IA seguida de autorización explícita del
+  investigador (`ai/log/IA-2026-08-11-24.md`) que no se había definido
+  si aplicaba también al corpus doctoral.
+- **Decisión:** la edición física, cuando el investigador tiene acceso a
+  ella, prevalece sobre el PDF para el cotejo, y su uso debe declararse
+  explícitamente (`**Edición cotejada:**` en `templates/ficha-fuente.md`);
+  sin declaración se asume digital. El nivel de verificación es uniforme:
+  cotejo humano directo para toda cita, sin un nivel reforzado aparte
+  para citas centrales. El documento oficial de la tesis y cualquier
+  artículo derivado exigen construcción 100% humana; el patrón de
+  autorización usado para el trasfondo queda explícitamente excluido del
+  corpus doctoral y sus citas.
+- **Consecuencias:** se añade el campo `**Edición cotejada:**` a
+  `templates/ficha-fuente.md` y se completa retroactivamente en las tres
+  fichas ya cotejadas (`digital (PDF)`, dato ya constaba en
+  `bibliography.bib`). Cierra explícitamente la pregunta, dejada abierta
+  por `IA-2026-08-11-24.md`, de si el patrón de autorización del
+  trasfondo podía extenderse al corpus doctoral: no puede.
+
 ## DEC-020 — Papel de las objeciones: al menos una registrada exige `READY_FOR_HUMAN_REVIEW`, cualquier origen basta
 
 - **Fecha:** 2026-08-11

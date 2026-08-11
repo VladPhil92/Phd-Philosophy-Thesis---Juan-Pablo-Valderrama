@@ -361,3 +361,17 @@
   `ai/quote-audit/`, antes de darse por resuelta esta entrada. Detalle
   completo en el registro de intervención de IA correspondiente
   (`ai/log/`).
+
+## DEC-013 — Método filosófico general: deconstrucción heredada como eje organizador
+
+- **Fecha:** 2026-08-11
+- **Estado:** aceptada
+- **Contexto:** `research/methodology.md` §1 marcaba como `DECISIÓN HUMANA
+  REQUERIDA` qué combinación de enfoques orienta la tesis, sin resolver.
+- **Decisión:** la deconstrucción, tal como la practicó Derrida, es el
+  enfoque organizador; genealogía, análisis comparado, lectura
+  hermenéutica y reconstrucción normativa son auxiliares y subordinados,
+  según el texto de §1.
+- **Consecuencias:** define qué cuenta como argumento válido en la tesis;
+  deja pendiente en §10 si esa lente heredada requiere justificación
+  adicional para leer autores anteriores a Derrida.

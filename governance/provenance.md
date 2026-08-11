@@ -159,7 +159,7 @@ una clave BibTeX canónica, pero permanecen fuera del corpus doctoral. Sus
 análisis viven únicamente en `research/background/`; una autocita puede probar
 cronología autoral, no una afirmación filosófica. La integración de la tesis de
 grado de 2015 (`SRC-PR-002`) fue asistida por IA y está registrada en
-[`ai/IA-2026-08-10-03.md`](../ai/IA-2026-08-10-03.md). El PDF original ya está
+[`ai/log/IA-2026-08-10-03.md`](../ai/log/IA-2026-08-10-03.md). El PDF original ya está
 archivado y su integridad binaria fue verificada; esto cierra la procedencia
 documental, pero no promueve automáticamente los pasajes históricos al
 `quote-ledger`. Cada candidato conserva `SOURCE_RECHECK_REQUIRED` hasta que sea
@@ -168,7 +168,7 @@ cotejado textual y contextualmente por el investigador.
 ## Genealogía intelectual del asesor de grado
 
 La operación `INTELLECTUAL_GENEALOGY_RESEARCH` sobre Kenneth Moreno May está
-registrada en [`IA-2026-08-10-06`](../ai/IA-2026-08-10-06.md). Sus actividades
+registrada en [`IA-2026-08-10-06`](../ai/log/IA-2026-08-10-06.md). Sus actividades
 fueron recuperación bibliográfica, reconstrucción cronológica, clasificación de
 fuentes, comparación conceptual, auditoría de influencia y reconstrucción de
 contexto. Los registros `SRC-201`–`SRC-209` permanecen candidatos; la
@@ -179,7 +179,7 @@ influencia reconocida no autorizan inferir dependencia ni origen conceptual.
 
 La investigación y organización del dossier público de identidad académica se
 documenta en
-[`ai/IA-2026-08-10-04.md`](../ai/IA-2026-08-10-04.md). Su resultado canónico es
+[`ai/log/IA-2026-08-10-04.md`](../ai/log/IA-2026-08-10-04.md). Su resultado canónico es
 [`RESEARCHER.md`](../RESEARCHER.md), permanece `HUMAN_REVIEW_REQUIRED` y no
 modifica la procedencia archivística de los trabajos previos ni crea un sistema
 paralelo.

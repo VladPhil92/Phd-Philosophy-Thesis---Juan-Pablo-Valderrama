@@ -53,7 +53,7 @@ La ausencia de un dato verificado no debe completarse mediante conjetura. Las ac
 
 ## Procedencia y revisión
 
-La intervención asistida por IA está registrada en [`ai/IA-2026-08-10-04.md`](ai/IA-2026-08-10-04.md). La IA organizó información del repositorio y explicitó límites de verificación; no certificó identidad, credenciales, afiliación, publicaciones ni calidad académica.
+La intervención asistida por IA está registrada en [`ai/log/IA-2026-08-10-04.md`](ai/log/IA-2026-08-10-04.md). La IA organizó información del repositorio y explicitó límites de verificación; no certificó identidad, credenciales, afiliación, publicaciones ni calidad académica.
 
 - [ ] El investigador confirmó la forma de su nombre.
 - [ ] El investigador revisó la síntesis de su trayectoria.

@@ -49,22 +49,38 @@ Derrida (Bodin, Hobbes, Kant) — no se resuelve aquí.
 
 ## 2. Selección del corpus
 
-**DECISIÓN HUMANA REQUERIDA.** Criterios explícitos para incluir o excluir
-una obra del corpus: ¿centralidad del autor en la pregunta de investigación,
-disponibilidad de edición verificable, existencia de traducción autorizada,
-límite temporal o de escuela filosófica? El README actual nombra autores de
-referencia (Bodin, Hobbes, Schmitt, Kant, Lévinas, Derrida, Heidegger,
-Agamben, Nancy, Esposito, Donaldson y Kymlicka), pero **eso no constituye
-todavía un criterio de selección justificado por escrito**.
+**Decisión (2026-08-11).** El criterio principal de inclusión es la
+**centralidad de la obra para alguna de las cuatro genealogías** que la
+lectura deconstructiva trabaja (`DEC-013`): soberanía (Bodin, Hobbes,
+Schmitt...), hospitalidad (Kant, Lévinas, Derrida...), animalidad
+(Heidegger, Derrida, Agamben...) o comunidad (Nancy, Esposito...). Una obra
+ajena a las cuatro genealogías —aunque relevante para el giro político de
+la cuestión animal en términos generales— requiere justificación aparte
+para entrar al corpus.
 
-Existe una propuesta de arquitectura de corpus (200 candidatos, seis
-categorías funcionales más una ampliación 2020–2026) en
-[`research/sources/library-manifest.md`](sources/library-manifest.md). Es un punto de
-partida para esta decisión, no su resolución: ningún candidato de ese mapa
-ha sido verificado en edición ni leído, y los criterios de inclusión que
-implícitamente usa (centralidad en el «giro político» animal, cercanía a
-Derrida, recencia 2020–2026) siguen pendientes de ratificación explícita
-por el investigador.
+La disponibilidad de edición verificable o traducción autorizada **no es
+condición de entrada al corpus como candidata**: una obra central para
+alguna genealogía puede registrarse como `CANDIDATE` en
+[`research/sources/library-manifest.md`](sources/library-manifest.md) con
+esa limitación declarada explícitamente. Sí es condición para avanzar en
+la escala de verificación — ninguna obra pasa de `CANDIDATE` a `CITED` sin
+edición confirmada y cotejo directo (véase la convención de estados en
+`library-manifest.md`).
+
+No hay límite temporal fijo. El corpus permanece abierto a incorporar
+publicaciones nuevas que aparezcan mientras dure la investigación, siempre
+que satisfagan el criterio de centralidad genealógica; el rango 2020–2026
+de la sección G del manifiesto fue el alcance de una búsqueda puntual en su
+momento, no un corte definitivo del corpus.
+
+Registrada también en `governance/decision-log.md` (`DEC-014`).
+
+`research/sources/library-manifest.md` reúne actualmente 211 obras
+candidatas (seis categorías funcionales A–F, más la ampliación 2020–2026 de
+la sección G y el contexto de formación de la sección H). Es el inventario
+de trabajo para esta decisión, no una lista cerrada: ningún candidato ha
+sido verificado en edición ni leído más allá de las tres fuentes ya
+promovidas a `bibliography.bib`.
 
 ## 3. Fuentes primarias y secundarias
 

@@ -375,3 +375,23 @@
 - **Consecuencias:** define qué cuenta como argumento válido en la tesis;
   deja pendiente en §10 si esa lente heredada requiere justificación
   adicional para leer autores anteriores a Derrida.
+
+## DEC-014 — Criterio de selección del corpus: centralidad genealógica, sin gate de edición ni límite temporal fijo
+
+- **Fecha:** 2026-08-11
+- **Estado:** aceptada
+- **Contexto:** `research/methodology.md` §2 marcaba como `DECISIÓN HUMANA
+  REQUERIDA` los criterios explícitos de inclusión/exclusión del corpus.
+- **Decisión:** el criterio principal de inclusión es la centralidad de la
+  obra para alguna de las cuatro genealogías que la lectura deconstructiva
+  trabaja (soberanía, hospitalidad, animalidad, comunidad — coherente con
+  `DEC-013`). La disponibilidad de edición verificable o traducción
+  autorizada no condiciona la entrada al corpus como candidata, solo el
+  avance a `CITED`. No hay límite temporal fijo: el corpus admite
+  publicaciones nuevas mientras dure la investigación, sujetas al criterio
+  de centralidad genealógica.
+- **Consecuencias:** una obra puede registrarse como candidata en
+  `library-manifest.md` con limitaciones de edición declaradas
+  explícitamente, sin que eso la excluya; el corte 2020–2026 de la
+  sección G deja de leerse como límite del corpus y pasa a ser solo el
+  alcance de la búsqueda que lo generó.

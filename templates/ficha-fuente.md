@@ -5,6 +5,18 @@
 **Tipo de lectura:** primaria/secundaria
 **Fecha de consulta:** AAAA-MM-DD
 
+## Registro de sesiones de lectura
+
+> Una fila por sesión. Distingue **leído** (pasaje trabajado en su
+> contexto argumentativo) de **consultado** (pasaje solo localizado, sin
+> trabajar el argumento que lo rodea) — véase `research/methodology.md`
+> §4. Las columnas de página y hora permiten calcular páginas leídas y
+> ritmo de lectura; no se completan por estimación.
+
+| Fecha | Hora inicio | Hora fin | Página inicial | Página final | Leído / consultado | Notas |
+|---|---|---|---|---|---|---|
+| | | | | | | |
+
 ## Tesis y propósito de la obra
 
 ## Conceptos relevantes

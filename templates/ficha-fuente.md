@@ -4,6 +4,9 @@
 **Referencia verificada:** sí/no
 **Tipo de lectura:** primaria/secundaria
 **Fecha de consulta:** AAAA-MM-DD
+**Edición cotejada:** física/digital (PDF) — véase `research/methodology.md`
+§7; sin declarar se asume digital. La física prevalece cuando el
+investigador tiene acceso a ella.
 
 ## Registro de sesiones de lectura
 

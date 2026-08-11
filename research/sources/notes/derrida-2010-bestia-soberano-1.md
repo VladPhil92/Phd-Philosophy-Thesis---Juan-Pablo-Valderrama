@@ -4,6 +4,9 @@
 **Referencia verificada:** sí
 **Tipo de lectura:** primaria
 **Fecha de consulta:** 2026-08-08
+**Edición cotejada:** digital (PDF) — el investigador cotejó contra su
+propio ejemplar en PDF (véase `research/sources/bibliography.bib`); campo
+completado retroactivamente por `DEC-019`.
 
 Jacques Derrida, *Seminario La bestia y el soberano, Volumen I
 (2001–2002)*, ed. Michel Lisse, Marie-Louise Mallet y Ginette Michaud,

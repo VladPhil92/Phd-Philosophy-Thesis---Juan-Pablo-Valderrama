@@ -366,6 +366,12 @@ Toda obra efectivamente consultada debe incorporarse a
 cuando corresponda, con una ficha analítica. Las fuentes secundarias, los
 resúmenes y las salidas automatizadas no se presentan como lectura directa.
 
+[`research/reading-schedule.md`](research/reading-schedule.md) propone una
+secuencia temporal de lectura para 204 de esas obras, en el orden
+metodológico de `research/methodology.md` §1–2 — es una propuesta de ritmo
+y orden, no una decisión metodológica cerrada ni un registro de lectura
+realizada.
+
 ## Objetivos
 
 ### Objetivo general

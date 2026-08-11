@@ -17,15 +17,35 @@ pendientes que siguen.
 
 ## 1. Método filosófico general
 
-**DECISIÓN HUMANA REQUERIDA.** ¿Qué combinación de los siguientes enfoques
-—u otro no listado— orienta la tesis, y en qué proporción?
+**Decisión (2026-08-11).** El enfoque organizador es la **deconstrucción**,
+heredada de la practicada por Jacques Derrida: no es un método que la tesis
+aplique por primera vez sobre el corpus, sino un procedimiento ya elaborado
+que se adopta como lente para leer a los demás autores (Bodin, Hobbes,
+Schmitt, Kant, Lévinas, Heidegger, Agamben, Nancy, Esposito, Donaldson,
+Kymlicka). Derrida ocupa así una posición distinta a la de los demás autores
+del corpus: es la fuente del método, no solo un objeto sometido a él en el
+mismo sentido que los demás.
 
-- reconstrucción conceptual;
-- genealogía;
-- deconstrucción;
-- lectura hermenéutica;
-- reconstrucción normativa;
-- análisis comparado.
+Los demás enfoques listados son auxiliares, subordinados a ese eje:
+
+- **Genealogía** y **análisis comparado** proveen el material preparatorio
+  (reconstrucción de las tríadas de autores en soberanía, hospitalidad,
+  animalidad y comunidad) sobre el que se ejerce la lectura deconstructiva.
+- **Lectura hermenéutica** (close reading cotejado) es la base evidencial:
+  sin cita verificada no hay lectura deconstructiva legítima, solo
+  intuición filosófica sin apoyo textual.
+- **Reconstrucción normativa** es el resultado, no el punto de partida: los
+  ocho principios normativos se justifican *a partir de* lo que la lectura
+  deconstructiva muestra sobre los límites antropológicos de la comunidad
+  política, no al revés.
+
+Registrada también en `governance/decision-log.md` (`DEC-013`), por afectar
+a todo el corpus.
+
+**Pendiente para §10 (límites metodológicos):** queda por decidir, aparte,
+si adoptar la deconstrucción derridiana como método heredado exige
+justificar también por qué esa lente es apta para autores muy anteriores a
+Derrida (Bodin, Hobbes, Kant) — no se resuelve aquí.
 
 ## 2. Selección del corpus
 

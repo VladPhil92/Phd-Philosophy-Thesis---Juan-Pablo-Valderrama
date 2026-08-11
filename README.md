@@ -347,8 +347,12 @@ estado del arte del giro político animal, contexto de soberanía y
 biopolítica, profundización posthumanista y multiespecie, metodología, y una
 ampliación 2020–2026— clasificadas por prioridad y con su estado de
 verificación declarado. Es un punto de partida para la selección, no una
-lista de lectura cerrada ni fuentes ya incorporadas: ninguna entrada de ese
-mapa ha sido leída, verificada en su edición ni citada todavía.
+lista de lectura cerrada: la gran mayoría de sus entradas permanece sin
+leer ni verificar en edición. Tres han sido promovidas a
+`bibliography.bib` con edición verificada, ficha de lectura y citas
+cotejadas (`SRC-002`, `SRC-004`, `SRC-005` — véase
+[`research/sources/library-manifest.md`](research/sources/library-manifest.md) para
+el estado detallado de cada una).
 
 Toda obra efectivamente consultada debe incorporarse a
 [`research/sources/bibliography.bib`](research/sources/bibliography.bib) y contar,
@@ -413,6 +417,11 @@ resuelven mediante inferencias no comprobadas. Véanse
 [`METHODOLOGY.md`](METHODOLOGY.md) y
 [`RESEARCH-WORKFLOW.md`](RESEARCH-WORKFLOW.md).
 
+La hoja de ruta ejecutiva del proyecto —fases, modelo de madurez, puertas
+de decisión e indicadores, desde el estado actual hasta el manuscrito
+completo— se mantiene en
+[`MASTER_EXECUTION_PLAN.md`](MASTER_EXECUTION_PLAN.md).
+
 ## Research Background
 
 El proyecto doctoral se inserta en una línea investigativa previa del autor.
@@ -430,12 +439,30 @@ La IA puede apoyar la búsqueda exploratoria, clasificación, comparación,
 resumen, revisión de estilo y automatización. Nunca constituye evidencia, y sus
 salidas no acreditan una lectura ni sustituyen la comprobación de fuentes. La
 selección de evidencia, interpretación filosófica, evaluación de argumentos,
-redacción final y conclusiones son responsabilidad del investigador.
+redacción final y conclusiones son responsabilidad del investigador. La
+autoridad exclusiva de Juan Pablo Valderrama Pino (VladPhil92) para aprobar,
+modificar, integrar, rechazar o validar cambios en el repositorio canónico,
+y los límites correspondientes para terceros y para agentes de IA, están
+formalizados en
+[`governance/authority-policy.md`](governance/authority-policy.md).
 
 Todo uso material se registra y verifica según el
 [`AI-RESEARCH-PROTOCOL.md`](AI-RESEARCH-PROTOCOL.md). No se cargan materiales
 restringidos, confidenciales, personales o protegidos a servicios externos sin
 autorización. La IA no figura como autora ni decide el contenido filosófico.
+
+Dos principios rigen específicamente la redacción del manuscrito, formalizados
+en [`ai/policy.md`](ai/policy.md) ("Principios de autoría del manuscrito"): el
+*Human Manuscript Principle* (ninguna salida generativa de IA se incorpora como
+prosa final sin reconstrucción y autoría humana sustantiva) y el *Positive
+Authorship Evidence Principle* (la autoría humana se demuestra con procedencia
+documentada — véase "Modelo de procedencia de escritura" en
+[`governance/provenance.md`](governance/provenance.md) —, nunca con detectores
+probabilísticos de IA). Dos componentes de auditoría, invocados por el
+subagente `epistemic-auditor` (`.claude/agents/epistemic-auditor.md`), apoyan
+esta trazabilidad sin sustituir el juicio del investigador: `ai/plaa/` (forma
+lógica de un argumento) y `ai/quote-audit/` (integridad contextual, pertinencia
+filosófica y fuerza argumentativa de una cita ya verificada).
 
 ## Publicaciones científicas derivadas
 
@@ -487,7 +514,7 @@ research/                  preguntas, método, fuentes, análisis y argumentos
 research/sources/          bibliografía y fichas verificables
 research/argument-ledger/  registro trazable de argumentos
 thesis/                    esquema, capítulos y revisión
-ai/                        política y registros de apoyo automatizado
+ai/                        política, registros de apoyo automatizado, PLAA y auditoría de citas
 templates/                 formatos reutilizables
 assets/                    recursos autorizados del manuscrito
 scripts/                   validaciones automatizadas
@@ -518,8 +545,18 @@ particular:
 
 ## Estado actual
 
-La infraestructura documental y la auditoría automatizada están preparadas. La
-pregunta, hipótesis, objetivos, principios, selección de autores, corpus, método
-sustantivo y arquitectura capitular aquí presentados requieren desarrollo y
-validación por el investigador. La auditoría inicial y los riesgos pendientes
-constan en [`governance/initial-audit.md`](governance/initial-audit.md).
+La infraestructura documental y la auditoría automatizada están preparadas.
+Tres fuentes primarias tienen edición verificada, ficha de lectura y citas
+cotejadas por el investigador (`bibliography.bib`, `research/sources/notes/`),
+y el repositorio registra su primer argumento (`ARG-001`,
+`research/argument-ledger/`), en desarrollo y sin validación humana todavía.
+La pregunta, hipótesis, objetivos, principios, selección de autores, corpus,
+método sustantivo y arquitectura capitular aquí presentados requieren
+desarrollo y validación por el investigador. La auditoría inicial y los
+riesgos pendientes constan en
+[`governance/initial-audit.md`](governance/initial-audit.md).
+
+El repositorio declaró el cierre de esta ronda de consolidación de
+infraestructura (`governance/decision-log.md`, `DEC-009`): la prioridad pasa a
+ser leer, interpretar, argumentar y escribir filosofía, no seguir ampliando
+herramientas.

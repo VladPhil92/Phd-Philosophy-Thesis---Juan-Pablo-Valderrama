@@ -8,7 +8,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from plaa.report import AnalysisReport, DetectedProblem  # noqa: E402
+from plaa.report import AnalysisReport, DetectedProblem, FormalizationRecord  # noqa: E402
+from plaa.fallacy_checklist import FallacyVerdict  # noqa: E402
 from plaa.schema_check import validate_analysis_report_body, validate_analysis_report_frontmatter  # noqa: E402
 from plaa.miner import parse_frontmatter, parse_sections  # noqa: E402
 
@@ -66,6 +67,49 @@ class AnalysisReportValidationTests(unittest.TestCase):
         ]
         self.assertEqual(report.validate(), [])
 
+    def test_formalizer_module_without_formalization_is_rejected(self) -> None:
+        report = _valid_report()
+        report.module = "formalizer"
+        self.assertTrue(any("formalizer" in error for error in report.validate()))
+
+    def test_formalizer_module_with_formalization_passes(self) -> None:
+        report = _valid_report()
+        report.module = "formalizer"
+        report.formalization = FormalizationRecord(level="propositional", notation="P1, P2 |- C")
+        self.assertEqual(report.validate(), [])
+
+    def test_non_provisional_formalization_is_rejected(self) -> None:
+        # Principle 5: every formalization remains provisional until a human approves it.
+        report = _valid_report()
+        report.module = "formalizer"
+        report.formalization = FormalizationRecord(
+            level="propositional", notation="P1, P2 |- C", provisional=False
+        )
+        self.assertTrue(any("provisional" in error for error in report.validate()))
+
+    def test_invalid_formalization_level_is_rejected(self) -> None:
+        report = _valid_report()
+        report.module = "formalizer"
+        report.formalization = FormalizationRecord(level="astrology", notation="whatever")
+        self.assertTrue(any("formalization.level" in error for error in report.validate()))
+
+    def test_possible_fallacies_reuses_fallacy_verdict_validation(self) -> None:
+        # FallacyVerdict validates itself at construction: an AnalysisReport can never
+        # hold a malformed fallacy finding, so report.validate() needs no extra check.
+        with self.assertRaises(ValueError):
+            FallacyVerdict("not_a_real_fallacy", "POSSIBLE", "irrelevant")
+
+    def test_well_formed_possible_fallacy_passes(self) -> None:
+        report = _valid_report()
+        report.possible_fallacies = [
+            FallacyVerdict(
+                "begging_the_question",
+                "POSSIBLE",
+                "La premisa 2 presupone la conclusión (ARG-900001.md#Inferencia).",
+            )
+        ]
+        self.assertEqual(report.validate(), [])
+
 
 class AnalysisReportRenderingTests(unittest.TestCase):
     def test_rendered_markdown_round_trips_through_frontmatter_parser(self) -> None:
@@ -88,6 +132,30 @@ class AnalysisReportRenderingTests(unittest.TestCase):
         report = _valid_report()
         rendered = report.to_markdown()
         self.assertEqual(validate_analysis_report_body(parse_sections(rendered)), [])
+
+    def test_rendered_formalizer_report_satisfies_module_conditional_body_validation(self) -> None:
+        report = _valid_report()
+        report.module = "formalizer"
+        report.formalization = FormalizationRecord(level="propositional", notation="P1, P2 |- C")
+        rendered = report.to_markdown()
+        self.assertEqual(validate_analysis_report_body(parse_sections(rendered), module="formalizer"), [])
+
+    def test_rendered_report_includes_concept_ambiguity_references(self) -> None:
+        report = _valid_report()
+        report.module = "concept_consistency"
+        report.concept_ambiguity = ["research/sources/notes/derrida-1997-hospitalite.md#Conceptos"]
+        rendered = report.to_markdown()
+        self.assertIn("research/sources/notes/derrida-1997-hospitalite.md#Conceptos", rendered)
+        self.assertEqual(validate_analysis_report_body(parse_sections(rendered), module="concept_consistency"), [])
+
+    def test_rendered_report_includes_possible_fallacies_table(self) -> None:
+        report = _valid_report()
+        report.possible_fallacies = [
+            FallacyVerdict("equivocation", "UNLIKELY", "El término se usa de forma consistente en el pasaje.")
+        ]
+        rendered = report.to_markdown()
+        self.assertIn("equivocation", rendered)
+        self.assertIn("UNLIKELY", rendered)
 
 
 if __name__ == "__main__":

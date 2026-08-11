@@ -1,0 +1,45 @@
+# Configuración de Quote Audit.
+#
+# Archivo plano deliberadamente, igual que ai/plaa/CONFIG.yaml: sin listas
+# anidadas profundas ni anclas YAML, para poder leerse con el analizador
+# mínimo de quote_audit/schema_check.py sin depender de PyYAML.
+
+# Vocabulario de confianza: reutilizado tal cual de ai/plaa/CONFIG.yaml.
+# No editable aquí sin editar también ai/plaa/CONFIG.yaml y
+# quote_audit/schema_check.py a la vez.
+confidence_vocabulary: POSSIBLE,LIKELY,UNLIKELY,NOT_DETECTED
+
+# Ciclo de estado de una cita (PASO 5 del encargo original).
+recommended_status_vocabulary: CANDIDATE,SOURCE_LOCATED,HUMAN_VERIFIED,CONTEXT_AUDITED,RELEVANCE_AUDITED,APA7_READY,READY_FOR_ARGUMENT_USE,REJECTED_FOR_USE
+
+# Estados que ninguna sesión de IA puede escribir por sí sola: exigen el
+# campo human_verified: true puesto explícitamente por el investigador.
+recommended_status_requires_human_marker: HUMAN_VERIFIED,READY_FOR_ARGUMENT_USE
+
+# Clasificación final de una auditoría de cita.
+classification_vocabulary: VERIFIED_RELEVANT,VERIFIED_CONTEXT_NEEDED,VERIFIED_WEAK_RELEVANCE,CANDIDATE_ONLY,MISLEADING_FRAGMENT,UNVERIFIED,APA_NONCOMPLIANT,REJECTED_FOR_USE
+
+# Integridad contextual (Contextual Integrity Test, prompts/01).
+context_status_vocabulary: SELF_CONTAINED,CONTEXT_REQUIRED,CONTEXT_CRITICAL,POSSIBLY_MISLEADING
+
+# Función filosófica de la cita (PASO 2).
+philosophical_function_vocabulary: DEFINITION,TEXTUAL_EVIDENCE,CONCEPTUAL_DISTINCTION,AUTHOR_CLAIM,ARGUMENT_PREMISE,COUNTERARGUMENT,INTERPRETIVE_SUPPORT,HISTORICAL_CONTEXT,EXAMPLE,METHODOLOGICAL_STATEMENT,RHETORICAL_ONLY,UNDETERMINED
+
+# Pertinencia (PASO 2).
+relevance_status_vocabulary: HIGH,MEDIUM,LOW,NONE,UNDETERMINED
+
+# Soporte argumentativo cuando la cita se vincula a un ARG-* (PASO 3).
+argumentative_support_vocabulary: DIRECT_SUPPORT,PARTIAL_SUPPORT,CONTEXTUAL_SUPPORT,ILLUSTRATIVE_ONLY,NO_SUPPORT,CONTRADICTS_CLAIM,UNDETERMINED
+
+# Riesgos detectables (lista abierta en el esquema, valor cerrado documentado aquí).
+known_risk_vocabulary: POSSIBLE_QUOTE_MINING,INFERENTIAL_GAP,APA7_HUMAN_REVIEW
+
+# APA 7 — reglas estructurales realmente implementadas por schema_check.py.
+# No se añaden reglas nuevas aquí sin implementarlas primero (ver
+# prompts/05-apa7-structural.md, "no inventes reglas").
+apa7_quote_type_vocabulary: short,block
+apa7_block_quote_word_threshold: 40
+
+# Decisiones humanas finales (fuera del alcance de recommended_status):
+# ninguna sesión de IA puede escribir estos valores en ningún campo.
+human_only_decision_vocabulary: APPROVED_FOR_INTERPRETIVE_USE,APPROVED_FOR_ARGUMENTATIVE_USE,APPROVED_FOR_MANUSCRIPT

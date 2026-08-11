@@ -19,6 +19,14 @@ paths:
 - Los originales protegidos por derechos de autor permanecen fuera del
   repositorio público salvo autorización legal explícita; no los versiones
   ni los transcribas íntegros en Markdown.
+- Excepción única y explícita: el propio trabajo previo depositado del
+  investigador (`PREVIOUS_RESEARCH_BY_AUTHOR`, tesis de maestría y trabajo
+  de grado) puede versionarse en PDF bajo `research/background/**/originals/`,
+  porque el investigador es su autor y depositante, no un tercero — no
+  constituye precedente para versionar ninguna otra edición protegida.
+  `scripts/auditar_repositorio.py` (`ALLOWED_SELF_AUTHORED_PDFS`) permite
+  únicamente esas dos rutas por nombre exacto, no una excepción genérica de
+  extensión `.pdf` (véase `governance/decision-log.md`, DEC-012).
 - No recrees fichas o registros para obras que el investigador aún no ha
   incorporado realmente al corpus, incluso si una rama histórica del
   repositorio las propuso.

@@ -19,9 +19,12 @@ REQUIRED_PATHS = (
     "AI-RESEARCH-PROTOCOL.md",
     "CITATION.cff",
     "LICENSE",
+    "MASTER_EXECUTION_PLAN.md",
     "governance/architecture.md",
     "governance/initial-audit.md",
     "governance/decision-log.md",
+    "governance/authority-policy.md",
+    "governance/provenance.md",
     "governance/architecture-audit-2026-08-10.md",
     "ai/policy.md",
     "research/questions.md",
@@ -43,12 +46,17 @@ REQUIRED_PATHS = (
     "research/sources/notes/README.md",
     "research/analysis/README.md",
     "research/argument-ledger/README.md",
+    "research/argument-map.md",
     "thesis/outline.md",
     "thesis/chapters/README.md",
     "thesis/review/checklist.md",
     "templates/ficha-fuente.md",
     "templates/ficha-argumento.md",
     "templates/registro-ia.md",
+    "templates/checklist-fase.md",
+    "templates/revision-semanal.md",
+    "templates/revision-mensual.md",
+    "templates/revision-trimestral.md",
 )
 MARKDOWN_LINK = re.compile(r"(?<!!)\[[^]]+\]\(([^)]+)\)")
 JUNK_NAMES = {
@@ -85,6 +93,15 @@ VALID_ARGUMENT_STATUSES = {
     "VALIDATED",
     "REJECTED",
 }
+FORBIDDEN_LIBRARY_SUFFIXES = (".pdf", ".epub", ".mobi", ".azw", ".azw3", ".djvu", ".djv")
+ALLOWED_SELF_AUTHORED_PDFS = {
+    "research/background/masters-thesis/originals/"
+    "Valderrama-Pino_2020_En-torno-al-Animal_UniNorte_MA-Philosophy.pdf",
+    "research/background/undergraduate-thesis/originals/"
+    "Una mirada a la idea de sujeto desde la perspectiva de Jacques Derrida - Juan Pablo Valderrama Pino.pdf",
+}
+BIBTEX_KEY_PATTERN = re.compile(r"^@\w+\{\s*([^,\s]+)\s*,", re.MULTILINE)
+ARG_SOURCES_FIELD = re.compile(r"^\*\*Fuentes:\*\*\s*(.+?)\n\n", re.MULTILINE | re.DOTALL)
 OBSOLETE_ARCHITECTURE_ROOTS = {
     "00-gobernanza",
     "01-investigacion",
@@ -230,12 +247,17 @@ def validate_library_manifest() -> list[str]:
     for identifier, count in seen.items():
         if count > 1:
             errors.append(f"Identificador duplicado en library-manifest.md: {identifier} ({count} veces)")
+    stage_prefix = re.compile(r"^(" + "|".join(sorted(VALID_READING_STAGES, key=len, reverse=True)) + r")\b")
     for line in content.splitlines():
         if not re.match(r"^\|\s*SRC-(?:PR-)?\d{3,}\s*\|", line):
             continue
         cells = [cell.strip() for cell in line.strip("|").split("|")]
         categories = set(cells) & VALID_SOURCE_CATEGORIES
-        stages = set(cells) & VALID_READING_STAGES
+        # The stage cell may carry an annotation after the bare keyword (for
+        # example "CITED — véase `bibliography.bib:...`"), so match by
+        # prefix instead of exact equality; still requires exactly one cell
+        # in the row to start with a valid stage.
+        stages = [cell for cell in cells if stage_prefix.match(cell)]
         if len(categories) != 1:
             errors.append(f"Categoría canónica ausente o ambigua para {cells[0]}")
         if len(stages) != 1:
@@ -294,6 +316,69 @@ def validate_research_background_separation() -> list[str]:
                 errors.append(
                     "Trabajo previo copiado al argument ledger sin reexamen doctoral: "
                     f"{path.relative_to(ROOT).as_posix()}"
+                )
+    return errors
+
+
+def validate_no_private_library_files() -> list[str]:
+    """Reject copyrighted primary-source editions accidentally committed.
+
+    .claude/rules/sources.md prohibits versioning full editions or OCR of
+    protected works; this checks only file extension (form), never content,
+    and cannot detect a protected work saved under a different extension.
+
+    ALLOWED_SELF_AUTHORED_PDFS is a narrow, path-specific exception (not a
+    blanket .pdf allowance) for the author's own prior deposited work,
+    archived under research/background/** as PREVIOUS_RESEARCH_BY_AUTHOR
+    (see governance/decision-log.md, DEC-012) — distinct from third-party
+    copyrighted editions, which .claude/rules/sources.md keeps out of the
+    repository entirely.
+    """
+    errors: list[str] = []
+    for path in tracked_files():
+        if path.suffix.lower() in FORBIDDEN_LIBRARY_SUFFIXES and path.as_posix() not in ALLOWED_SELF_AUTHORED_PDFS:
+            errors.append(
+                "Archivo de biblioteca privada versionado (prohibido por "
+                f".claude/rules/sources.md): {path.as_posix()}"
+            )
+    return errors
+
+
+def bibliography_keys() -> set[str]:
+    """Return the BibTeX entry keys declared in research/sources/bibliography.bib."""
+    bib_path = ROOT / "research" / "sources" / "bibliography.bib"
+    if not bib_path.is_file():
+        return set()
+    return set(BIBTEX_KEY_PATTERN.findall(bib_path.read_text(encoding="utf-8")))
+
+
+def validate_argument_sources() -> list[str]:
+    """Check that every key listed after "**Fuentes:**" in an ARG-* file
+    resolves to a real entry in research/sources/bibliography.bib.
+
+    Silently skips files without that field: it is a documented convention
+    (templates/ficha-argumento.md), not a required frontmatter field, so its
+    absence is not itself an error here.
+    """
+    errors: list[str] = []
+    ledger_dir = ROOT / "research" / "argument-ledger"
+    if not ledger_dir.is_dir():
+        return errors
+    known_keys = bibliography_keys()
+    for path in sorted(ledger_dir.glob("*.md")):
+        if path.name == "README.md":
+            continue
+        content = path.read_text(encoding="utf-8")
+        location = path.relative_to(ROOT).as_posix()
+        match = ARG_SOURCES_FIELD.search(content)
+        if not match:
+            continue
+        for raw_key in match.group(1).split(","):
+            key = raw_key.strip().strip("`")
+            if key and key not in known_keys:
+                errors.append(
+                    f"Clave BibTeX no encontrada en bibliography.bib: {key!r} "
+                    f"(citada en «Fuentes» de {location})"
                 )
     return errors
 
@@ -361,6 +446,8 @@ def main() -> int:
         + validate_obsolete_architecture_roots()
         + validate_research_questions()
         + validate_argument_ledger()
+        + validate_argument_sources()
+        + validate_no_private_library_files()
         + validate_library_manifest()
         + validate_bibliography()
         + validate_research_background_separation()

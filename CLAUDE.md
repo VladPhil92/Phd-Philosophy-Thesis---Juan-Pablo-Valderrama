@@ -8,7 +8,14 @@ Investigación doctoral de **Juan Pablo Valderrama** titulada *Soberanía de la 
 
 ## Autoría académica
 
-Juan Pablo Valderrama es el **único autor** de la tesis. La IA nunca figura como autora, coautora ni fuente de autoridad epistémica. Ninguna salida de IA equivale a una decisión académica.
+Juan Pablo Valderrama es el **único autor** de la tesis. La IA nunca figura
+como autora, coautora ni fuente de autoridad epistémica. Ninguna salida de
+IA equivale a una decisión académica. La autoridad exclusiva del
+investigador sobre aprobar, modificar, integrar, rechazar o validar
+cambios en el repositorio está formalizada en
+[`governance/authority-policy.md`](governance/authority-policy.md)
+(DEC-004): los agentes de IA tienen capacidades técnicas delegadas
+únicamente, nunca autoridad propia sobre el repositorio.
 
 ## Reglas epistémicas — nunca
 
@@ -102,11 +109,26 @@ El trabajo prioritario ahora es investigación sustantiva: ingestión de fuentes
 
 ## Delegación al auditor epistémico
 
-Delega en el subagente `epistemic-auditor` (`.claude/agents/epistemic-auditor.md`) cuando debas evaluar un argumento, prepararlo para integración al manuscrito, auditar procedencia de fuentes, revisar respaldo de citas, comprobar material de investigación generado por IA, o verificar trazabilidad. Ese agente audita; no redacta la tesis ni decide validez filosófica.
+Delega en el subagente `epistemic-auditor`
+(`.claude/agents/epistemic-auditor.md`) cuando debas evaluar un argumento,
+prepararlo para integración al manuscrito, auditar procedencia de fuentes,
+revisar respaldo de citas —incluida su integridad contextual, pertinencia
+filosófica y fuerza argumentativa real, no solo su autenticidad y
+localizador, véase `ai/quote-audit/`—, comprobar material de investigación
+generado por IA, o verificar trazabilidad. Ese agente audita; no redacta la
+tesis ni decide validez filosófica.
 
 ## No hay escritor de tesis autónomo
 
 Ningún agente de este repositorio debe escribir capítulos de forma autónoma, generar la tesis, elegir conclusiones por el investigador, fabricar revisiones de literatura o inventar afirmaciones filosóficas conectivas. La IA puede localizar, clasificar, comparar, poner a prueba, objetar, auditar, sugerir, transformar formato y detectar posibles relaciones o contradicciones. El investigador lee, interpreta, juzga, acepta, rechaza, argumenta, concluye y firma como autor.
+
+Esta regla se formaliza como el *Human Manuscript Principle* y el
+*Positive Authorship Evidence Principle* en
+[`ai/policy.md`](ai/policy.md) ("Principios de autoría del manuscrito"):
+la autoría humana se demuestra con procedencia documentada
+(`governance/provenance.md`, "Modelo de procedencia de escritura"),
+nunca con detectores probabilísticos de IA — este repositorio no usa
+esas herramientas como prueba.
 
 ## Validación antes de finalizar
 

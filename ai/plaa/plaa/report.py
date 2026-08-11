@@ -13,6 +13,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 
 from . import schema_check
+from .fallacy_checklist import FallacyVerdict
 
 
 @dataclass(frozen=True)
@@ -25,9 +26,33 @@ class DetectedProblem:
     reviewed_as_possible_aporia: bool
 
 
+@dataclass(frozen=True)
+class FormalizationRecord:
+    """Module 3 output: a provisional formal reconstruction, never the
+    original text (Principle 2). Mirrors analysis-report.schema.*'s
+    ``formalization`` property and templates/formal-reconstruction.md.
+    """
+
+    level: str  # "propositional" | "predicate" | "modal" | "deontic"
+    notation: str
+    provisional: bool = True
+
+
 @dataclass
 class AnalysisReport:
-    """A single PLAA module's output for one ARG-*."""
+    """A single PLAA module's output for one ARG-*.
+
+    ``possible_fallacies`` reuses ``fallacy_checklist.FallacyVerdict``
+    rather than a bespoke dataclass: that class already enforces the closed
+    fallacy catalogue, the closed confidence vocabulary, and the
+    justification-required-unless-NOT_DETECTED rule at construction time,
+    so an ``AnalysisReport`` can never hold a malformed fallacy finding.
+
+    ``concept_ambiguity`` is a list of references (paths/anchors into
+    ``research/argument-ledger/**`` or a ``concept-consistency.md`` report),
+    not full ``Concept`` objects — the Markdown template links to those
+    fichas rather than duplicating their content, and this mirrors that.
+    """
 
     argument_id: str
     module: str
@@ -38,6 +63,9 @@ class AnalysisReport:
     missing_premises: list[str] = field(default_factory=list)
     premises: list[str] = field(default_factory=list)
     conclusion: str = ""
+    formalization: FormalizationRecord | None = None
+    concept_ambiguity: list[str] = field(default_factory=list)
+    possible_fallacies: list[FallacyVerdict] = field(default_factory=list)
     counterargument: str = ""
     source: str = ""
     human_review_required: bool = True
@@ -61,6 +89,16 @@ class AnalysisReport:
             errors.append("human_review_required debe ser True (Principio 4).")
         if not self.repository_references:
             errors.append("repository_references no puede estar vacío (Principio 7: no claim without traceability).")
+
+        if self.module == "formalizer" and self.formalization is None:
+            errors.append("module es 'formalizer' pero no se aportó formalization (Módulo 3).")
+        if self.formalization is not None:
+            if self.formalization.level not in {"propositional", "predicate", "modal", "deontic"}:
+                errors.append(f"formalization.level inválido: {self.formalization.level!r}.")
+            if self.formalization.provisional is not True:
+                errors.append(
+                    "formalization.provisional debe ser True hasta aprobación humana explícita (Principio 5)."
+                )
 
         for index, problem in enumerate(self.detected_problems):
             if problem.confidence not in schema_check.VALID_CONFIDENCE_VALUES:
@@ -95,6 +133,18 @@ class AnalysisReport:
             lines.append("(ninguna premisa citada en este informe)")
         if self.conclusion:
             lines += ["", "## Conclusión considerada", "", self.conclusion]
+        lines += ["", "## Formalización", ""]
+        if self.formalization is not None:
+            lines += [
+                f"Nivel: `{self.formalization.level}`",
+                "",
+                f"```text\n{self.formalization.notation}\n```",
+                "",
+                f"Provisional: {'sí' if self.formalization.provisional else 'no'} "
+                "(nunca sobrescribe el texto original; pendiente de aprobación humana).",
+            ]
+        else:
+            lines.append("No aplica a este módulo.")
         lines += ["", "## Estado lógico", "", self.logical_status, "", "## Problemas detectados", ""]
         if self.detected_problems:
             lines.append("| Descripción | Ubicación de la evidencia | Confianza | ¿Revisado como posible aporía? |")
@@ -109,6 +159,19 @@ class AnalysisReport:
         if self.missing_premises:
             lines += ["", "## Premisas faltantes", ""]
             lines += [f"- {premise}" for premise in self.missing_premises]
+        lines += ["", "## Ambigüedad conceptual", ""]
+        if self.concept_ambiguity:
+            lines += [f"- {reference}" for reference in self.concept_ambiguity]
+        else:
+            lines.append("Sin ambigüedad conceptual reportada en este análisis.")
+        lines += ["", "## Falacias posibles", ""]
+        if self.possible_fallacies:
+            lines.append("| Falacia | Veredicto | Justificación |")
+            lines.append("|---|---|---|")
+            for finding in self.possible_fallacies:
+                lines.append(f"| {finding.fallacy} | {finding.verdict} | {finding.justification} |")
+        else:
+            lines.append("Sin falacias posibles reportadas en este análisis.")
         if self.counterargument:
             lines += ["", "## Contraargumento", "", self.counterargument]
         lines += [

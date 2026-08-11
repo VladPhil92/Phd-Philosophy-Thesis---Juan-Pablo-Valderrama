@@ -83,6 +83,14 @@ REQUERIDA** solo en el detalle del procedimiento de cotejo: ¿verificación
 directa sobre el original físico o edición digital autorizada, doble
 verificación en citas centrales, etc.?
 
+Existe además, desde 2026-08-08, herramienta (opcional, no obligatoria)
+para auditar una cita ya cotejada más allá de su autenticidad —integridad
+contextual, pertinencia filosófica, riesgo de extracción engañosa, fuerza
+argumentativa— en [`ai/quote-audit/`](../ai/quote-audit/README.md). Esa
+herramienta no resuelve ni el detalle de cotejo de esta sección ni la
+sección 6 (traducciones): da soporte al procedimiento que el investigador
+decida, no lo sustituye.
+
 ## 8. Papel de las objeciones
 
 **DECISIÓN HUMANA REQUERIDA.** ¿Se exige al menos una objeción seria por

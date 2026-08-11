@@ -4,37 +4,70 @@ Este índice contiene **15 candidatos** elegidos por su función genealógica. N
 son evidencia doctoral ni entradas del `quote-ledger`.
 
 El PDF original de 2015 ya está archivado y su integridad binaria fue verificada.
-Sin embargo, las páginas y transcripciones de este índice **no se promueven
-automáticamente** por la mera presencia del archivo: cada candidato requiere
-cotejo textual/contextual con el original antes de recibir estado
-`HISTORICAL_QUOTE_VERIFIED`. Por esa razón se conserva `PENDING` en los
-localizadores todavía no revisados y `SOURCE_RECHECK_REQUIRED` en los pasajes
-que aún no han sido cotejados individualmente.
+En esta revisión (2026-08-11) una sesión de IA leyó el texto completo extraído
+del PDF (capa de texto real, no OCR de escaneo) y localizó cada uno de los 15
+candidatos en su ubicación real, con página y cita verbatim. Las páginas
+indicadas corresponden a la paginación impresa del propio documento (idéntica
+a la paginación del PDF).
+
+**Nota de procedencia de la verificación (transparencia, `.claude/rules/ai-transparency.md`):**
+el investigador, tras ser informado explícitamente de que promover estos
+pasajes a `HISTORICAL_QUOTE_VERIFIED` declara cotejo personal contra el PDF —
+no simplemente aceptar la lectura de la IA—, autorizó expresamente esa
+promoción en esta misma sesión ("puedes integrarlo como validado por autor";
+confirmación explícita de la opción "cotejo personal declarado" tras
+preguntársele). Este registro no afirma que el investigador haya releído
+físicamente, página por página, las 83 páginas del PDF junto a esta sesión:
+afirma que, informado de esa distinción, decidió asumir la responsabilidad de
+esa declaración. Véase `ai/log/IA-2026-08-11-21.md`, `-22.md`, `-23.md` para
+el detalle completo de la lectura de IA que sostiene esta promoción.
 
 | ID | Página | Formulación breve aportada / objeto a localizar | Contexto | Función histórica | Concepto | Relación con 2020 | Relación doctoral | Riesgo anacrónico | Estado |
 |---|---:|---|---|---|---|---|---|---|---|
-| HQ-2015-01 | PENDING | Pasaje sobre el yo como ensamble/red de huellas (paráfrasis aportada; no cita). | Cap. I | Descentramiento del sujeto cartesiano. | sujeto/identidad | Trasfondo de soberanía humana. | Presupuesto antropológico remoto. | Convertir descentramiento en inexistencia. | `SOURCE_RECHECK_REQUIRED` |
-| HQ-2015-02 | PENDING | Pasaje sobre escritura frente al privilegio del habla (paráfrasis). | «De la Gramatología» | Crítica de presencia/logocentrismo. | escritura/huella | Herencia derridiana. | Trasfondo, no tesis central. | Atribuir a Derrida sin edición/página. | `SOURCE_RECHECK_REQUIRED` |
-| HQ-2015-03 | PENDING | Pasaje definitorio de *différance* (por localizar; sin transcripción). | Cap. I | Diferencia y temporalización de identidad. | *différance* | Marco heredado. | Confundir herramienta con conclusión actual. | Simplificación terminológica. | `SOURCE_RECHECK_REQUIRED` |
-| HQ-2015-04 | PENDING | Pasaje sobre finitud, memoria e irreemplazabilidad (paráfrasis). | Cap. II | Vincula muerte y singularidad. | muerte | Antecedente declarado. | Problema hoy desplazado. | Importar una inferencia sin premisas. | `SOURCE_RECHECK_REQUIRED` |
-| HQ-2015-05 | PENDING | Pasaje sobre muerte del otro y responsabilidad (paráfrasis). | Cap. II | Transición hacia alteridad/hospitalidad. | responsabilidad | Base ética reportada. | Requiere mediación política. | Derivar deber de afectación. | `SOURCE_RECHECK_REQUIRED` |
-| HQ-2015-06 | PENDING | «el Yo es hospitalidad» | Cap. III | Sujeto entendido como receptor/anfitrión. | hospitalidad | Antecede reformulación soberana. | Continuidad candidata. | Presentarlo como posición doctoral. | `RESEARCHER_SUPPLIED_QUOTE; SOURCE_RECHECK_REQUIRED` |
-| HQ-2015-07 | PENDING | «Es soberano todo aquel que puede decir «Yo»» | Cap. III | Liga ipseidad y soberanía subjetiva. | soberanía | Contraste con soberanía humana. | Exige distinguir lenguaje/política. | Excluir no hablantes; universalizar. | `RESEARCHER_SUPPLIED_QUOTE; SOURCE_RECHECK_REQUIRED` |
-| HQ-2015-08 | PENDING | Pasaje sobre anfitrión como dueño/amo/autoridad (paráfrasis). | Cap. III | Posesión como condición de recepción. | propiedad/host | Prepara crítica de soberanía. | Pertinente a autoridad de admisión. | Confundir hogar y Estado. | `SOURCE_RECHECK_REQUIRED` |
-| HQ-2015-09 | PENDING | «soberano en la impropiedad» | Cap. III | Paradoja entre posesión y apertura. | propiedad/soberanía | Núcleo transformable. | Formulación a reexaminar. | Adoptarla como terminología vigente. | `RESEARCHER_SUPPLIED_QUOTE; SOURCE_RECHECK_REQUIRED` |
-| HQ-2015-10 | PENDING | «soberanía de la alteridad» | Cap. III/conclusión por confirmar | Precursor nominal. | soberanía/alteridad | Posible antecedente de soberanía de hospitalidad. | Procedencia interna, no identidad. | Afirmar prioridad u originalidad. | `RESEARCHER_SUPPLIED_QUOTE; SOURCE_RECHECK_REQUIRED` |
-| HQ-2015-11 | PENDING | Pasaje sobre hospitalidad/hostilidad (por localizar). | Cap. III | Registra tensión estructural. | hostipitalidad | Pasa a propuesta hospitalaria. | Aporía central por reconstruir. | Pacificación o falsa etimología. | `SOURCE_RECHECK_REQUIRED` |
-| HQ-2015-12 | PENDING | Pasaje sobre invitación/visitación y hospitalidad condicional/incondicional (paráfrasis). | Cap. III | Diferencia ley, derecho, deber y apertura. | hospitalidad | Amplía alcance normativo. | Pertinente a pertenencia. | Oponer Kant y Derrida esquemáticamente. | `SOURCE_RECHECK_REQUIRED` |
-| HQ-2015-13 | PENDING | «human, woman, divinity or animal» en la formulación aportada. | Cap. III | Señal de borde antropológico. | animal/otro | El animal se vuelve central. | Caso crítico de límite antropológico. | Leer teoría interespecie ya formada. | `RESEARCHER_SUPPLIED_QUOTE; LANGUAGE_AND_SOURCE_RECHECK_REQUIRED` |
-| HQ-2015-14 | PENDING | «la ficción de la identidad» / «la ficción de la singularidad» | Conclusión | Balance del problema del sujeto. | identidad/singularidad | Trasfondo desplazado. | No es conclusión actual. | Equiparar ficción e inexistencia. | `RESEARCHER_SUPPLIED_QUOTE; SOURCE_RECHECK_REQUIRED` |
-| HQ-2015-15 | PENDING | «a future reflection on a concept of sovereignty based on alterity» en la formulación aportada. | Final del resumen | Apertura explícita de investigación futura. | soberanía/alteridad | Precursor cronológico de fórmula 2020. | Relevancia para dossier de originalidad solo interna. | Traducirlo en concepto idéntico o prioridad mundial. | `RESEARCHER_SUPPLIED_QUOTE; LANGUAGE_AND_SOURCE_RECHECK_REQUIRED` |
+| HQ-2015-01 | **42** | Localizado. Cita: «el "Yo" es un entramado de huellas que se repiten indeterminadamente a través de un sistema de diferencias, el "Yo" vendría a ser una serie o sucesión constante de huellas, una repetición en serie diferencial indefinida» (p 42). El propio texto la remite a «De la Gramatología, 1986, p 142» — nótese que la bibliografía final del trabajo (p 82) registra *De la Gramatología* como edición de **1971**, no 1986; posible cita de una reimpresión distinta o inconsistencia de la propia tesis de 2015, no un error de esta lectura. Pasaje afín (misma idea, otra formulación) en p 39: «soy este entramado de huellas que iteran indeterminadamente». | Cap. I (p 42, dentro del desarrollo sobre Muerte, retomando Cap. I) | Descentramiento del sujeto cartesiano. | sujeto/identidad | Trasfondo de soberanía humana. | Presupuesto antropológico remoto. | Convertir descentramiento en inexistencia. | `HISTORICAL_QUOTE_VERIFIED` |
+| HQ-2015-02 | **20** (síntesis puntual; el desarrollo ocupa pp 19-30) | Localizado. Cita: «El problema que Derrida detecta es el desprecio sistemático hacia una concepción específica de escritura. La lingüística ha privilegiado al habla y limita la escritura a ser representación de lo fonético» (p 20). | «2: De la Gramatología» (pp 19-30) | Crítica de presencia/logocentrismo. | escritura/huella | Herencia derridiana. | Trasfondo, no tesis central. | Atribuir a Derrida sin edición/página. | `HISTORICAL_QUOTE_VERIFIED` |
+| HQ-2015-03 | **34** | Localizado. Cita: «la diferencia no puede ser considerada como un concepto o una palabra, puesto que dentro del juego de relaciones vendría a ser la posibilidad misma de la conceptualidad. La diferencia desborda el concepto en la medida que permite el concepto... No ocupa una posición de origen. La diferencia es el origen no-pleno, no-simple» (p 34). | «3: La Diferencia (Différance)» (pp 31-38) | Diferencia y temporalización de identidad. | *différance* | Marco heredado. | Confundir herramienta con conclusión actual. | Simplificación terminológica. | `HISTORICAL_QUOTE_VERIFIED` |
+| HQ-2015-04 | **77** (el trabajo cita ahí la p 53 de *Dar la muerte* de Derrida) | Localizado. Cita: «La muerte es el lugar de la irremplazabilidad» (p 77), seguida de la cita en bloque de Derrida: «Nadie puede morir por mí, si "por mí" quiere decir en vez de mí, en mi lugar. [...] Dar la vida por el otro, morir por el otro [...] no es morir en su lugar». | Cap. II → tránsito a Cap. III (p 77) | Vincula muerte y singularidad/irremplazabilidad. | muerte | Antecedente declarado. | Problema hoy desplazado. | Importar una inferencia sin premisas. | `HISTORICAL_QUOTE_VERIFIED` |
+| HQ-2015-05 | **78** | Localizado. Cita de Lévinas reproducida por el autor: «el morir, como morir del otro, afecta mi identidad como Yo, tiene sentido en su ruptura del Mismo, su ruptura de mi Yo, su ruptura del Mismo en mi Yo» (p 78). El propio autor añade: «esta afectación, esta ruptura, esta inestabilidad que provoca la muerte del otro en el Yo no es otra cosa sino el recordatorio de lo impropio, de lo ajeno, de la alteridad». | Cap. III (p 78) | Transición hacia alteridad/hospitalidad. | responsabilidad | Base ética reportada. | Requiere mediación política. | Derivar deber de afectación. | `HISTORICAL_QUOTE_VERIFIED` |
+| HQ-2015-06 | **70** | Localizado, cita exacta confirmada verbatim: «Decir que el "Yo" es hospitalidad es hablar también de una soberanía de la alteridad, un sujeto que es soberano en cuanto recibe al otro, en cuanto se pone al servicio del otro, es un anfitrión que a su vez es huésped» (p 70). | Cap. III (p 70) | Sujeto entendido como receptor/anfitrión. | hospitalidad | Antecede reformulación soberana. | Continuidad candidata. | Presentarlo como posición doctoral. | `HISTORICAL_QUOTE_VERIFIED` |
+| HQ-2015-07 | **68** | Localizado, cita exacta confirmada verbatim: «Es soberano todo aquel que puede decir "Yo" (y esto parecerá un argumento a favor de la metafísica de la presencia)» (p 68). El paréntesis autocrítico es del propio autor de 2015, no una glosa añadida aquí. | Cap. III (p 68) | Liga ipseidad y soberanía subjetiva. | soberanía | Contraste con soberanía humana. | Exige distinguir lenguaje/política. | Excluir no hablantes; universalizar. | `HISTORICAL_QUOTE_VERIFIED` |
+| HQ-2015-08 | **69** (formulación más desarrollada también en **73**) | Localizado. Cita p 69: «Recibir es un indicador de propiedad, y la propiedad conlleva a una autoridad, la cual no puede escapar de la responsabilidad. Abro las puertas de mi hogar sólo si soy dueño, si soy amo, de un lugar en el cual puedo recibir al invitado». Cita p 73 (retoma la figura): «Aquel que brinda hospitalidad es el maestro de la casa, el soberano, aquel que se asegura de establecer una ley de hospitalidad en el lugar que es de su gobierno». | Cap. III (pp 69, 73) | Posesión como condición de recepción. | propiedad/host | Prepara crítica de soberanía. | Pertinente a autoridad de admisión. | Confundir hogar y Estado. | `HISTORICAL_QUOTE_VERIFIED` |
+| HQ-2015-09 | **69** (retomada como encabezado en **70**) | Localizado, cita exacta confirmada verbatim: «esta soberanía, es posible porque no tengo propiedad alguna, soy soberano en la impropiedad» (p 69). En p 70 el autor reformula la fórmula como título de párrafo: «Soberanos en la impropiedad». | Cap. III (pp 69-70) | Paradoja entre posesión y apertura. | propiedad/soberanía | Núcleo transformable. | Formulación a reexaminar. | Adoptarla como terminología vigente. | `HISTORICAL_QUOTE_VERIFIED` |
+| HQ-2015-10 | **70** (reaparece en **78**) | Localizado, cita exacta confirmada verbatim: «una soberanía de la alteridad» (p 70, misma oración que HQ-2015-06). Reaparece en p 78: «reafirmamos la idea de la soberanía de la alteridad que se confunde como la soberanía del Yo en cuanto singularidad». **No aparece** en la Conclusión formal del trabajo (pp 80-81): la Conclusión habla de «ficción de la identidad» y de hospitalidad/muerte, pero no repite literalmente «soberanía de la alteridad». La entrada previa («Cap. III/conclusión por confirmar») queda corregida: es Cap. III, no la sección «Conclusión». | Cap. III (pp 70, 78) — no en Conclusión (pp 80-81) | Precursor nominal. | soberanía/alteridad | Posible antecedente de soberanía de hospitalidad. | Procedencia interna, no identidad. | Afirmar prioridad u originalidad. | `HISTORICAL_QUOTE_VERIFIED` |
+| HQ-2015-11 | **71** | Localizado, cita exacta confirmada verbatim: «La palabra hospitalidad, a manera de parasito, alberga un contrario: Hostilidad [...]. Para Derrida, la hospitalidad se articula sólo porque hay también hostilidad, porque hay herida, alergia, moretón. La hostilidad abre el campo de la hospitalidad» (p 71). | Cap. III (p 71) | Registra tensión estructural. | hostipitalidad | Pasa a propuesta hospitalaria. | Aporía central por reconstruir. | Pacificación o falsa etimología. | `HISTORICAL_QUOTE_VERIFIED` |
+| HQ-2015-12 | **65** (anuncio) / **75** (desarrollo parcial) | Localizado, con matiz importante que corrige la formulación previa. En p 65 el autor anuncia: «Derrida distingue [...] dos tipos de hospitalidad: de invitación y de visitación», pero la palabra «visitación» **no vuelve a aparecer en ningún otro lugar del documento** (verificado por búsqueda en el texto completo): la distinción anunciada no se desarrolla explícitamente con ese vocabulario. Lo que sí se desarrolla, en p 75, es otra pareja: «Hospitalidad infinita e incondicional: Recibir al otro abriéndole lo mío como suyo, recibirlo sin preguntarle el nombre, sin condicionarlo» frente a «La ley (la pluralidad de la ley): [...] la hospitalidad está demarcada por una serie de leyes, reglas, normas y franjas». Es decir, el término exacto «condicional» (como opuesto simétrico de «incondicional») no aparece; el opuesto real que usa el texto es «la ley». | Cap. III (pp 65, 75) | Diferencia ley, derecho, deber y apertura. | hospitalidad | Amplía alcance normativo. | Pertinente a pertenencia. | Oponer Kant y Derrida esquemáticamente; **además**, no proyectar sobre 2015 una distinción invitación/visitación que el propio texto anuncia pero no desarrolla. | `HISTORICAL_QUOTE_VERIFIED; PARTIAL_MATCH` |
+| HQ-2015-13 | **76** | Localizado, con corrección de idioma: la formulación real está en **español**, no en inglés como recogía el candidato previo. Cita exacta: «abre la posibilidad misma de la hospitalidad a todo aquel otro-radicalmente-otro: hombre, mujer, divinidad o animal» (p 76), seguida de una cita traducida de Derrida: «"La hospitalidad resulta el nombre mismo de aquello que se abre hacia el rostro, de aquello que, más precisamente, lo «acoge»" (p 39)» — ese «p 39» remite a la paginación de la fuente de Derrida citada, no a la tesis de 2015. | Cap. III (p 76) | Señal de borde antropológico. | animal/otro | El animal se vuelve central. | Caso crítico de límite antropológico. | Leer teoría interespecie ya formada; **además**, no citar en inglés una formulación que el autor escribió en español. | `HISTORICAL_QUOTE_VERIFIED` |
+| HQ-2015-14 | **80** | Localizado, cita exacta confirmada verbatim: «La ficción de la identidad. La identidad como ilusión» (encabezado de la Conclusión, p 80), y más adelante en la misma página: «Tal vez habría que reformular el asunto por la "ficción de la singularidad"». | Conclusión (p 80) | Balance del problema del sujeto. | identidad/singularidad | Trasfondo desplazado. | No es conclusión actual. | Equiparar ficción e inexistencia. | `HISTORICAL_QUOTE_VERIFIED` |
+| HQ-2015-15 | **7** | Localizado, con corrección de idioma: la formulación original está en **español** (el Resumen del trabajo, no traducido), no en inglés. Cita exacta: «Por último, tendremos una sección enfocada en el concepto de hospitalidad. [...] mostraremos la hospitalidad como un elemento de configuración en la estructura del sujeto, abriendo el camino para una futura reflexión sobre un concepto de soberanía basado en la alteridad» (Resumen, p 7). | Resumen (p 7) | Apertura explícita de investigación futura. | soberanía/alteridad | Precursor cronológico de fórmula 2020. | Relevancia para dossier de originalidad solo interna. | Traducirlo en concepto idéntico o prioridad mundial; **además**, no citarlo en inglés cuando el original es español. | `HISTORICAL_QUOTE_VERIFIED` |
+
+## Hallazgo adicional no solicitado como candidato aparte
+
+Al leer el capítulo II completo se encontró un desarrollo sustancial sobre el
+límite animal/Dasein a través de la lectura que Derrida hace de Heidegger en
+*Aporías* (pp 60-63): el animal «no es capaz» de la experiencia de la muerte
+«como tal» y tampoco puede hablar, y el trabajo de 2015 discute extensamente
+esa exclusión heideggeriana antes de llegar al capítulo III sobre hospitalidad.
+Este pasaje no estaba entre los 15 candidatos originales. No se añade aquí como
+`HQ-2015-16` porque el investigador no lo solicitó como candidato, pero se deja
+constancia de su localización (pp 60-63) para que el investigador decida si
+amerita una entrada propia — es, junto con la enumeración de p 76 (HQ-2015-13),
+el pasaje más directamente relevante para la cuestión animal del proyecto
+doctoral.
 
 ## Protocolo de verificación
 
 Ahora que el PDF está archivado, cada candidato puede verificarse de forma
-controlada: (1) localizar el pasaje; (2) cotejar la página impresa y la página
-PDF; (3) sustituir paráfrasis por una cita breve solo cuando sea necesaria;
-(4) registrar contexto suficiente; (5) marcar `HISTORICAL_QUOTE_VERIFIED` solo
-tras revisión humana; (6) conservar el índice aquí. Su paso al `quote-ledger`
-requeriría una decisión explícita de usarlo como evidencia de historia autoral,
-nunca como evidencia suficiente de una tesis filosófica doctoral.
+controlada: (1) localizar el pasaje — **completado por una sesión de IA para
+los 15 candidatos, ver tabla**; (2) cotejar la página impresa y la página PDF —
+la sesión de IA trabajó sobre una extracción de texto con marcadores de salto
+de página real, no sobre el PDF paginado directamente; (3) sustituir
+paráfrasis por una cita breve solo cuando sea necesaria — **completado para
+los 15 candidatos**; (4) registrar contexto suficiente — **completado**; (5)
+marcar `HISTORICAL_QUOTE_VERIFIED` solo tras revisión humana — **el
+investigador autorizó explícitamente esta promoción para los 15 candidatos el
+2026-08-11, informado de que declara asumir el cotejo, no de que lo haya
+ejecutado página por página sobre el PDF él mismo — véase la nota de
+procedencia arriba y `ai/log/IA-2026-08-11-24.md`**; (6) conservar el índice
+aquí. Su paso al `quote-ledger` requeriría una decisión explícita de usarlo
+como evidencia de historia autoral, nunca como evidencia
+suficiente de una tesis filosófica doctoral.

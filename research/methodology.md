@@ -84,10 +84,35 @@ promovidas a `bibliography.bib`.
 
 ## 3. Fuentes primarias y secundarias
 
-**DECISIÓN HUMANA REQUERIDA.** Regla explícita para distinguir lectura
-primaria de secundaria en este proyecto, y condiciones bajo las cuales una
-fuente secundaria puede sostener una premisa (¿nunca por sí sola?, ¿solo con
-respaldo adicional?).
+**Decisión (2026-08-11).** Una fuente es **primaria** cuando presenta un
+argumento filosófico original sobre alguna de las preguntas de
+investigación (`PI-*`), independientemente de si su autor pertenece a
+alguna de las cuatro genealogías de `DEC-013` o a otra categoría del
+manifiesto. Es **secundaria** cuando su contribución consiste en comentar,
+interpretar o criticar el argumento de otro autor, sin sostener una
+posición filosófica propia sobre la pregunta misma.
+
+Este criterio corta transversalmente la clasificación funcional de
+`library-manifest.md`: no coincide automáticamente con las etiquetas
+`PRIMARY_CORE`/`SECONDARY_CORE` de ese documento, que distinguen dominio
+temático, no tipo de contribución. En particular, la literatura del giro
+político de la cuestión animal (categoría `STATE_OF_ART`: Garner,
+O'Sullivan, Cochrane, Meijer, Donaldson y Kymlicka) cuenta como
+**primaria** bajo este criterio, porque argumenta posiciones propias sobre
+la comunidad política interespecie, no comenta la obra de otro. Del mismo
+modo, un texto de cualquier categoría del manifiesto —incluidas `CONTEXT`,
+`DEEPENING` o `METHODOLOGY`— es secundario si su función es interpretar o
+criticar a otro autor, y primario si argumenta una posición propia.
+
+Una fuente secundaria **puede sostener una premisa por sí sola**, sin
+requerir respaldo adicional de una fuente primaria. No hay jerarquía de
+peso evidencial fijada entre ambas: la fuerza de la premisa depende del
+argumento, no del tipo de fuente que la sostiene.
+
+Registrada también en `governance/decision-log.md` (`DEC-015`). Este
+criterio no exige reclasificar de inmediato las 211 entradas de
+`library-manifest.md`: se aplica caso por caso cuando una obra se
+promueve a `CITED` y se usa en un `ARG-*`.
 
 ## 4. Procedimiento de lectura cercana (close reading)
 

@@ -395,3 +395,20 @@
   explícitamente, sin que eso la excluya; el corte 2020–2026 de la
   sección G deja de leerse como límite del corpus y pasa a ser solo el
   alcance de la búsqueda que lo generó.
+
+## DEC-015 — Fuentes primarias y secundarias: criterio por tipo de contribución, no por categoría del manifiesto
+
+- **Fecha:** 2026-08-11
+- **Estado:** aceptada
+- **Contexto:** `research/methodology.md` §3 marcaba como `DECISIÓN HUMANA
+  REQUERIDA` la regla para distinguir fuente primaria de secundaria y las
+  condiciones bajo las cuales una secundaria puede sostener una premisa.
+- **Decisión:** una fuente es primaria si presenta un argumento filosófico
+  original sobre alguna `PI-*`, sin importar si su autor pertenece a las
+  cuatro genealogías de `DEC-013`; es secundaria si su contribución es
+  comentar o criticar el argumento de otro. No coincide automáticamente
+  con las etiquetas `PRIMARY_CORE`/`SECONDARY_CORE` del manifiesto. Una
+  fuente secundaria puede sostener una premisa por sí sola.
+- **Consecuencias:** no exige reclasificar de inmediato las 211 entradas
+  de `library-manifest.md`; el criterio se aplica caso por caso, no como
+  relabeling retroactivo.

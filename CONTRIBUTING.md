@@ -65,3 +65,18 @@ ausencia de binarios restringidos. No se integra un cambio con referencias sin
 verificar, datos sensibles, conflictos sin resolver, enlaces rotos o
 afirmaciones sustantivas sin fuente o justificación. Los borradores incompletos
 son admisibles solo si declaran su estado.
+
+Si el cambio toca `research/argument-ledger/**` o `ai/plaa/**`, ejecute
+también `python3 -m unittest discover -s ai/plaa/tests -p "test_*.py"`. Si
+toca `research/sources/**` o `ai/quote-audit/**`, ejecute
+`python3 -m unittest discover -s ai/quote-audit/tests -p "test_*.py"`. Ambas
+suites, junto con `auditar_repositorio.py`, corren automáticamente en cada
+`push`/`pull_request` (`.github/workflows/auditoria.yml`); correrlas en local
+antes de subir el cambio ahorra una vuelta de CI.
+
+Para evaluar la integridad de un argumento (`ARG-*`) o una cita concreta más
+allá de lo que valida `auditar_repositorio.py` —relevancia filosófica,
+integridad contextual, fuerza argumentativa, procedencia de autoría—, delegue
+en el subagente `epistemic-auditor`
+(`.claude/agents/epistemic-auditor.md`); nunca simule esa auditoría usted
+mismo con juicio no declarado como tal.

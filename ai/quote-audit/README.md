@@ -60,7 +60,7 @@ autenticidad que ya hace el investigador.
   epistémica del repositorio; este paquete es la infraestructura que ese
   agente usa cuando audita citas (sección "Auditoría de citas" de ese
   archivo), no un segundo agente independiente.
-- **No obliga a re-auditar las citas ya integradas.** Las ~184 citas ya
+- **No obliga a re-auditar las citas ya integradas.** Las ~194 citas ya
   verificadas en `research/sources/notes/**` siguen siendo válidas para
   su uso actual (evidencia de lectura, respaldo de fichas). El bloque de
   auditoría estructurada es opt-in: se aplica cuando una cita concreta se

@@ -171,7 +171,7 @@
   sección **opcional** «Auditoría de citas» (opt-in, no retroactiva).
   `governance/provenance.md` registra un `quote_id` opcional para citas
   auditadas, sin crear un identificador obligatorio nuevo.
-- **Consecuencias:** las ~184 citas ya verificadas en
+- **Consecuencias:** las ~194 citas ya verificadas en
   `research/sources/notes/**` no se migran ni se modifican — siguen
   siendo válidas para su uso actual sin este bloque adicional. Se
   auditaron, como demostración y sin tocar las fichas reales, las 3
@@ -241,7 +241,7 @@
   sin acción adicional requerida mientras ambos permanezcan
   `CANDIDATE`.
 - **Consecuencias:** se **reporta sin ejecutar** un conflicto real: el
-  encargo de auditoría pedía clasificar retroactivamente las 184 citas
+  encargo de auditoría pedía clasificar retroactivamente las ~194 citas
   ya integradas con un campo `QUALITY` nuevo, lo cual contradice
   directamente `DEC-007` (misma fecha, horas antes), que decidió que la
   auditoría de citas es opt-in y no retroactiva. Queda pendiente de que

@@ -79,6 +79,9 @@ VALID_ARGUMENT_STATUSES = {
     "VALIDATED",
     "REJECTED",
 }
+FORBIDDEN_LIBRARY_SUFFIXES = (".pdf", ".epub", ".mobi", ".azw", ".azw3", ".djvu", ".djv")
+BIBTEX_KEY_PATTERN = re.compile(r"^@\w+\{\s*([^,\s]+)\s*,", re.MULTILINE)
+ARG_SOURCES_FIELD = re.compile(r"^\*\*Fuentes:\*\*\s*(.+?)\n\n", re.MULTILINE | re.DOTALL)
 OBSOLETE_ARCHITECTURE_ROOTS = {
     "00-gobernanza",
     "01-investigacion",
@@ -216,6 +219,62 @@ def validate_corpus_map() -> list[str]:
     return errors
 
 
+def validate_no_private_library_files() -> list[str]:
+    """Reject copyrighted primary-source editions accidentally committed.
+
+    .claude/rules/sources.md prohibits versioning full editions or OCR of
+    protected works; this checks only file extension (form), never content,
+    and cannot detect a protected work saved under a different extension.
+    """
+    errors: list[str] = []
+    for path in tracked_files():
+        if path.suffix.lower() in FORBIDDEN_LIBRARY_SUFFIXES:
+            errors.append(
+                "Archivo de biblioteca privada versionado (prohibido por "
+                f".claude/rules/sources.md): {path.as_posix()}"
+            )
+    return errors
+
+
+def bibliography_keys() -> set[str]:
+    """Return the BibTeX entry keys declared in research/sources/bibliography.bib."""
+    bib_path = ROOT / "research" / "sources" / "bibliography.bib"
+    if not bib_path.is_file():
+        return set()
+    return set(BIBTEX_KEY_PATTERN.findall(bib_path.read_text(encoding="utf-8")))
+
+
+def validate_argument_sources() -> list[str]:
+    """Check that every key listed after "**Fuentes:**" in an ARG-* file
+    resolves to a real entry in research/sources/bibliography.bib.
+
+    Silently skips files without that field: it is a documented convention
+    (templates/ficha-argumento.md), not a required frontmatter field, so its
+    absence is not itself an error here.
+    """
+    errors: list[str] = []
+    ledger_dir = ROOT / "research" / "argument-ledger"
+    if not ledger_dir.is_dir():
+        return errors
+    known_keys = bibliography_keys()
+    for path in sorted(ledger_dir.glob("*.md")):
+        if path.name == "README.md":
+            continue
+        content = path.read_text(encoding="utf-8")
+        location = path.relative_to(ROOT).as_posix()
+        match = ARG_SOURCES_FIELD.search(content)
+        if not match:
+            continue
+        for raw_key in match.group(1).split(","):
+            key = raw_key.strip().strip("`")
+            if key and key not in known_keys:
+                errors.append(
+                    f"Clave BibTeX no encontrada en bibliography.bib: {key!r} "
+                    f"(citada en «Fuentes» de {location})"
+                )
+    return errors
+
+
 def validate_argument_ledger() -> list[str]:
     """Check ARG-* frontmatter: duplicate IDs, valid status, and human_validation safeguard."""
     errors: list[str] = []
@@ -279,7 +338,9 @@ def main() -> int:
         + validate_obsolete_architecture_roots()
         + validate_research_questions()
         + validate_argument_ledger()
+        + validate_argument_sources()
         + validate_corpus_map()
+        + validate_no_private_library_files()
     )
     if errors:
         print("Auditoría fallida:")

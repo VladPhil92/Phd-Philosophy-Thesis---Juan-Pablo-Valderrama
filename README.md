@@ -387,6 +387,19 @@ Todo uso material se registra y verifica según el
 restringidos, confidenciales, personales o protegidos a servicios externos sin
 autorización. La IA no figura como autora ni decide el contenido filosófico.
 
+Dos principios rigen específicamente la redacción del manuscrito, formalizados
+en [`ai/policy.md`](ai/policy.md) ("Principios de autoría del manuscrito"): el
+*Human Manuscript Principle* (ninguna salida generativa de IA se incorpora como
+prosa final sin reconstrucción y autoría humana sustantiva) y el *Positive
+Authorship Evidence Principle* (la autoría humana se demuestra con procedencia
+documentada — véase "Modelo de procedencia de escritura" en
+[`governance/provenance.md`](governance/provenance.md) —, nunca con detectores
+probabilísticos de IA). Dos componentes de auditoría, invocados por el
+subagente `epistemic-auditor` (`.claude/agents/epistemic-auditor.md`), apoyan
+esta trazabilidad sin sustituir el juicio del investigador: `ai/plaa/` (forma
+lógica de un argumento) y `ai/quote-audit/` (integridad contextual, pertinencia
+filosófica y fuerza argumentativa de una cita ya verificada).
+
 ## Flujo de biblioteca y OCR
 
 Los originales autorizados y la biblioteca privada se conservan localmente y
@@ -427,7 +440,7 @@ research/                  preguntas, método, fuentes, análisis y argumentos
 research/sources/          bibliografía y fichas verificables
 research/argument-ledger/  registro trazable de argumentos
 thesis/                    esquema, capítulos y revisión
-ai/                        política y registros de apoyo automatizado
+ai/                        política, registros de apoyo automatizado, PLAA y auditoría de citas
 templates/                 formatos reutilizables
 assets/                    recursos autorizados del manuscrito
 scripts/                   validaciones automatizadas
@@ -458,8 +471,18 @@ particular:
 
 ## Estado actual
 
-La infraestructura documental y la auditoría automatizada están preparadas. La
-pregunta, hipótesis, objetivos, principios, selección de autores, corpus, método
-sustantivo y arquitectura capitular aquí presentados requieren desarrollo y
-validación por el investigador. La auditoría inicial y los riesgos pendientes
-constan en [`governance/initial-audit.md`](governance/initial-audit.md).
+La infraestructura documental y la auditoría automatizada están preparadas.
+Tres fuentes primarias tienen edición verificada, ficha de lectura y citas
+cotejadas por el investigador (`bibliography.bib`, `research/sources/notes/`),
+y el repositorio registra su primer argumento (`ARG-001`,
+`research/argument-ledger/`), en desarrollo y sin validación humana todavía.
+La pregunta, hipótesis, objetivos, principios, selección de autores, corpus,
+método sustantivo y arquitectura capitular aquí presentados requieren
+desarrollo y validación por el investigador. La auditoría inicial y los
+riesgos pendientes constan en
+[`governance/initial-audit.md`](governance/initial-audit.md).
+
+El repositorio declaró el cierre de esta ronda de consolidación de
+infraestructura (`governance/decision-log.md`, `DEC-009`): la prioridad pasa a
+ser leer, interpretar, argumentar y escribir filosofía, no seguir ampliando
+herramientas.

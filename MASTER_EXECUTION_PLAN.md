@@ -33,8 +33,8 @@ aspiracional:
 - **Nivel alcanzado: 3** (argumentos producidos). Tres fuentes en
   `bibliography.bib` con edición verificada y ficha en
   `research/sources/notes/`: `SRC-004` (Derrida, *The Animal That
-  Therefore I Am*, 58 citas cotejadas), `SRC-002` (Derrida, *Hospitality,
-  Volume I*, 60 citas cotejadas — la de conexión más directa con `PI-01`
+  Therefore I Am*, 67 citas cotejadas), `SRC-002` (Derrida, *Hospitality,
+  Volume I*, 61 citas cotejadas — la de conexión más directa con `PI-01`
   hasta ahora) y `SRC-005` (Derrida, *La bestia y el soberano, Vol. I*,
   trad. Manantial 2010, 66 citas cotejadas — homología bestia/soberano,
   respaldo textual más directo hasta ahora para `PI-02`/`PI-04`, cierre

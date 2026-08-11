@@ -180,10 +180,31 @@ Registrada también en `governance/decision-log.md` (`DEC-017`).
 
 ## 6. Traducciones
 
-**DECISIÓN HUMANA REQUERIDA.** ¿Se cita en el idioma original con traducción
-propia, se usa una traducción publicada y autorizada, o ambas con nota de
-discrepancia? Esto debe fijarse antes de la primera cita textual del corpus,
-no caso por caso.
+**Decisión (2026-08-11).** Se cita de cualquier edición autorizada, en
+cualquier idioma, siempre que sea una publicación válida (no una
+transcripción no autorizada ni un manuscrito sin editar). Cuando el
+investigador tiene acceso al archivo de la edición en el idioma original
+de composición (francés, en el caso de Derrida), esa edición tiene
+preferencia. Pero la regla operativa es la disponibilidad real: el
+investigador cita de la obra que tenga efectivamente a su disposición, sin
+esperar a conseguir el original si ya cuenta con una edición autorizada en
+otro idioma.
+
+Esto no exige ninguna acción retroactiva sobre las tres fuentes ya
+citadas: `derrida-2008-animal` (inglés, Fordham UP) y
+`derrida-2023-hospitality` (inglés, Chicago UP) se citan de la edición que
+el investigador tiene disponible, no del francés; lo mismo aplica a
+`derrida-2010-bestia-soberano-1` (español, Manantial). Si en el futuro el
+investigador consigue la edición francesa de alguna, esa edición pasaría a
+preferirse para nuevas citas, sin invalidar las ya cotejadas.
+
+El investigador puede registrar **traducciones propias** de un pasaje
+cuando lo considere necesario, distinguiéndolas explícitamente de la cita
+en el idioma de la edición consultada — ya previsto en
+`templates/ficha-fuente.md` ("incluir localizador exacto y distinguir la
+cita de la traducción propia").
+
+Registrada también en `governance/decision-log.md` (`DEC-018`).
 
 ## 7. Verificación de citas
 

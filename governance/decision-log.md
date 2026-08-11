@@ -453,3 +453,23 @@
   se corrigen retroactivamente las dos objeciones ya existentes en
   `ARG-001.md`, declarando su origen real (esta sesión de Claude Code, no
   el investigador ni el subagente `epistemic-auditor`).
+
+## DEC-018 — Traducciones: disponibilidad real, preferencia por el idioma original cuando el archivo existe
+
+- **Fecha:** 2026-08-11
+- **Estado:** aceptada
+- **Contexto:** `research/methodology.md` §6 marcaba como `DECISIÓN HUMANA
+  REQUERIDA` si se cita en idioma original, traducción publicada, o
+  ambas, antes de la primera cita textual del corpus.
+- **Decisión:** se cita de cualquier edición autorizada, en cualquier
+  idioma, siempre que sea publicación válida. El idioma original de
+  composición tiene preferencia cuando el investigador tiene acceso al
+  archivo; en la práctica, se cita de la obra efectivamente disponible,
+  sin esperar a conseguir el original. El investigador puede registrar
+  traducciones propias de un pasaje cuando lo considere necesario,
+  distinguiéndolas de la cita en el idioma de la edición consultada.
+- **Consecuencias:** no exige ninguna acción retroactiva sobre las tres
+  fuentes ya citadas (dos en inglés, una en español, ninguna en
+  francés); si en el futuro se consigue una edición francesa, esa
+  edición se preferiría para nuevas citas sin invalidar las ya
+  cotejadas.

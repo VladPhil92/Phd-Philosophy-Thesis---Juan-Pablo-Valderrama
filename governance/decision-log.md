@@ -514,3 +514,24 @@
 - **Consecuencias:** `ARG-001` ya satisface este requisito con sus dos
   objeciones existentes. No se crea ningún mecanismo nuevo de atribución
   de origen: reutiliza el ya fijado por `DEC-017`.
+
+## DEC-021 — Papel de la IA en el método: consolidación de tareas delegadas y nunca delegadas
+
+- **Fecha:** 2026-08-11
+- **Estado:** aceptada
+- **Contexto:** `research/methodology.md` §9 dejaba pendiente el detalle
+  de qué tareas exploratorias se delegan de forma habitual en IA y cuáles
+  nunca se delegan en esta investigación. Gran parte ya estaba fijada de
+  forma dispersa por `DEC-007`, `DEC-017`, `DEC-019`, `DEC-020` y
+  `ai/policy.md`.
+- **Decisión:** se consolidan, sin cambiar su sustancia, las tareas ya
+  habitualmente delegadas (localización de literatura secundaria,
+  generación de objeciones de prueba, auditoría de citas y de argumentos,
+  lectura de material de trasfondo con autorización explícita, redacción
+  del texto de una decisión ya tomada por el investigador) y las nunca
+  delegadas (cotejo de citas del corpus doctoral, prosa final del
+  manuscrito, elección de conclusiones filosóficas, validación de
+  argumentos, y la sustancia misma de una decisión metodológica).
+- **Consecuencias:** ninguna regla nueva; el texto de §9 pasa a ser el
+  punto único de referencia para esta pregunta, en vez de quedar
+  repartida entre varias entradas de este registro.

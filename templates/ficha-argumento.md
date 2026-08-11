@@ -46,6 +46,17 @@ y por qué.
 
 ## Objeciones y respuestas
 
+> Cada entrada debe declarar su **Origen** — véase `research/methodology.md`
+> §5: `investigador`, `epistemic-auditor`, un tercero humano identificado
+> por nombre, o una IA de terceros identificada por herramienta y modelo.
+> Una objeción sin origen no se considera completa. Si la disputa ya está
+> registrada a nivel de pasaje en la ficha de fuente correspondiente
+> ("Objeciones y límites"), referénciala aquí en vez de duplicarla.
+
+- **Origen:** [investigador | epistemic-auditor | nombre del tercero | herramienta de IA y modelo]
+  **Objeción:**
+  **Respuesta:**
+
 ## Alcance y límites
 
 ## Uso de IA

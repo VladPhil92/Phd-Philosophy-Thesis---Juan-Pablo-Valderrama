@@ -4,7 +4,7 @@
 
 ## Fuentes
 
-- Candidatas registradas en `library-manifest.md`: **211**
+- Candidatas registradas en `library-manifest.md`: **219**
 - Con edición verificada, leídas y citadas (`CITED`): **3**
 - Con identidad confirmada por búsqueda, sin leer (`IDENTITY_VERIFIED`): **49** — este conteo busca la palabra literal por fila; la sección G (SRC-151–200) la declara una sola vez en su preámbulo, no por fila, así que este número la subestima. Ver `library-manifest.md` directamente.
 - Lectura parcial (`READING`): no se distingue todavía como estado propio en `library-manifest.md` — ver `research/methodology.md` §4.

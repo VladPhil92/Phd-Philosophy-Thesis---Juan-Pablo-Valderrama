@@ -157,7 +157,13 @@ De esta pregunta rectora se desprenden varios problemas subordinados:
 - ¿cómo puede reconocerse políticamente a seres que no participan de las formas
   clásicas de representación, deliberación o reciprocidad?; y
 - ¿puede existir una soberanía que conserve capacidad de decisión y, al mismo
-  tiempo, se encuentre normativamente obligada por aquello que no domina?
+  tiempo, se encuentre normativamente obligada por aquello que no domina?; y
+- ¿cómo transforma la infraestructura algorítmica y la extracción de datos la
+  soberanía y la pertenencia política, y qué presupuestos antropológicos
+  sostiene o erosiona esa transformación? (`PI-08`, añadida 2026-08-11,
+  `DEC-023` — extiende las genealogías de soberanía y comunidad hacia un
+  objeto contemporáneo concreto; el animal sigue siendo el campo crítico
+  privilegiado de la tesis, no se sustituye por este objeto)
 
 Las versiones de la pregunta principal y de las preguntas secundarias, con sus
 estados e identificadores, se mantienen en
@@ -342,11 +348,12 @@ candidata no acredita que haya sido leída ni que su posición haya sido adoptad
 
 La selección del corpus permanece pendiente de justificación documental.
 [`research/sources/library-manifest.md`](research/sources/library-manifest.md) reúne una
-propuesta de 201 obras candidatas —corpus primario, bibliografía secundaria,
+propuesta de 219 obras candidatas —corpus primario, bibliografía secundaria,
 estado del arte del giro político animal, contexto de soberanía y
-biopolítica, profundización posthumanista y multiespecie, metodología, y una
-ampliación 2020–2026— clasificadas por prioridad y con su estado de
-verificación declarado. Es un punto de partida para la selección, no una
+biopolítica, profundización posthumanista y multiespecie, metodología, una
+ampliación 2020–2026, y gobernanza algorítmica y economía política del dato
+(`PI-08`)— clasificadas por prioridad y con su estado de verificación
+declarado. Es un punto de partida para la selección, no una
 lista de lectura cerrada: la gran mayoría de sus entradas permanece sin
 leer ni verificar en edición. Tres han sido promovidas a
 `bibliography.bib` con edición verificada, ficha de lectura y citas

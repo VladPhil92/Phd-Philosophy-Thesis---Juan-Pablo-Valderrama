@@ -565,3 +565,35 @@
   registrada (`DEC-013`–`DEC-022`); el documento pasa de "idea" a "método
   fijado" en su propio encabezado, sujeto a revisión explícita futura si
   la investigación lo exige.
+
+## DEC-023 — Nueva PI-08: infraestructura algorítmica y transformación de la soberanía
+
+- **Fecha:** 2026-08-11
+- **Estado:** aceptada
+- **Contexto:** el investigador señaló que no tratar la inteligencia
+  artificial y la infraestructura tecnológica contemporánea (gobernanza
+  algorítmica, economía política del dato, «feudalismo tecnológico»,
+  impacto en democracia, economía, vida social y psicología) dejaba fuera
+  del tejido doctoral desarrollos de peso comparable a la animalidad, la
+  soberanía y la hospitalidad. `DEC-022` (§10) había dejado explícitamente
+  reservada la puerta para abrir esta línea si el investigador lo decidía
+  de forma explícita — esta entrada ejerce esa reserva, no la contradice.
+- **Decisión:** se añade `PI-08` — "¿Cómo transforma la infraestructura
+  algorítmica y la extracción de datos la soberanía y la pertenencia
+  política, y qué presupuestos antropológicos sostiene o erosiona esa
+  transformación?" — como pregunta subordinada a PI-01, extendiendo las
+  genealogías de soberanía y comunidad (`DEC-013`) hacia un objeto
+  contemporáneo concreto. El animal sigue siendo, según `CLAUDE.md`, el
+  campo crítico privilegiado de la tesis; `PI-08` no lo sustituye ni
+  reabre el «doble frente» animal/IA ya superado (`DEC-003`). Se
+  incorporan ocho candidatos (`SRC-211`–`SRC-218`, sección I de
+  `library-manifest.md`) elegidos por el investigador de una lista de
+  opciones presentada por la sesión: Varoufakis, Durand, Zuboff, Srnicek,
+  Rouvroy y Berns, Stiegler, Mbembe, y Byung-Chul Han.
+- **Consecuencias:** `research/questions.md` pasa de 7 a 8 preguntas;
+  `library-manifest.md` pasa de 211 a 219 candidatas; se actualiza el
+  conteo en `research/methodology.md` §2 y en `README.md`. Los ocho
+  candidatos nuevos son reportados de memoria por esta sesión, sin
+  búsqueda externa de verificación — permanecen `CANDIDATE`, sujetos a la
+  misma disciplina de verificación que cualquier otro candidato (`DEC-014`)
+  antes de promoverse a `bibliography.bib`.

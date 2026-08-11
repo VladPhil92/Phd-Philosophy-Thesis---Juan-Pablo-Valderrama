@@ -25,12 +25,25 @@ REQUIRED_PATHS = (
     "governance/decision-log.md",
     "governance/authority-policy.md",
     "governance/provenance.md",
+    "governance/architecture-audit-2026-08-10.md",
     "ai/policy.md",
     "research/questions.md",
+    "research/concept-registry.md",
     "research/methodology.md",
+    "research/background/README.md",
+    "research/background/research-lineage.md",
+    "research/background/masters-thesis/README.md",
+    "research/background/masters-thesis/metadata.md",
+    "research/background/masters-thesis/analytical-summary.md",
+    "research/background/masters-thesis/concept-evolution.md",
+    "research/background/masters-thesis/argument-evolution.md",
+    "research/background/masters-thesis/critical-audit.md",
+    "research/background/masters-thesis/continuity-with-phd.md",
+    "research/background/masters-thesis/originals/README.md",
     "research/sources/bibliography.bib",
+    "research/sources/library-manifest.md",
+    "research/sources/quote-ledger.md",
     "research/sources/notes/README.md",
-    "research/sources/corpus-map.md",
     "research/analysis/README.md",
     "research/argument-ledger/README.md",
     "research/argument-map.md",
@@ -67,9 +80,10 @@ PI_HEADING = re.compile(r"^#{2,6}\s+(PI-\d+)\b", re.MULTILINE)
 ARG_FRONTMATTER = re.compile(r"\A---\n(.*?)\n---\n", re.DOTALL)
 ARG_ID_FIELD = re.compile(r"^argument_id:\s*(\S+)\s*$", re.MULTILINE)
 ARG_ID_PATTERN = re.compile(r"^ARG-\d{3,}$")
-SRC_ID_TABLE_CELL = re.compile(r"^\|\s*(SRC-\d{3,})\s*\|", re.MULTILINE)
+SRC_ID_TABLE_CELL = re.compile(r"^\|\s*(SRC-(?:PR-)?\d{3,})\s*\|", re.MULTILINE)
 ARG_STATUS_FIELD = re.compile(r"^status:\s*(\S+)\s*$", re.MULTILINE)
 ARG_VALIDATION_FIELD = re.compile(r"^human_validation:\s*(\S+)\s*$", re.MULTILINE)
+BIBTEX_KEY = re.compile(r"^@\w+\s*\{\s*([^,\s]+)\s*,", re.MULTILINE)
 VALID_ARGUMENT_STATUSES = {
     "IDEA",
     "DEVELOPING",
@@ -80,6 +94,12 @@ VALID_ARGUMENT_STATUSES = {
     "REJECTED",
 }
 FORBIDDEN_LIBRARY_SUFFIXES = (".pdf", ".epub", ".mobi", ".azw", ".azw3", ".djvu", ".djv")
+ALLOWED_SELF_AUTHORED_PDFS = {
+    "research/background/masters-thesis/originals/"
+    "Valderrama-Pino_2020_En-torno-al-Animal_UniNorte_MA-Philosophy.pdf",
+    "research/background/undergraduate-thesis/originals/"
+    "Una mirada a la idea de sujeto desde la perspectiva de Jacques Derrida - Juan Pablo Valderrama Pino.pdf",
+}
 BIBTEX_KEY_PATTERN = re.compile(r"^@\w+\{\s*([^,\s]+)\s*,", re.MULTILINE)
 ARG_SOURCES_FIELD = re.compile(r"^\*\*Fuentes:\*\*\s*(.+?)\n\n", re.MULTILINE | re.DOTALL)
 OBSOLETE_ARCHITECTURE_ROOTS = {
@@ -202,20 +222,101 @@ def validate_research_questions() -> list[str]:
     return errors
 
 
-def validate_corpus_map() -> list[str]:
-    """Detect duplicate SRC-* identifiers in research/sources/corpus-map.md."""
+VALID_SOURCE_CATEGORIES = {
+    "PRIMARY_CORE", "PRIMARY_SUPPORTING", "SECONDARY_CORE", "STATE_OF_ART",
+    "CONTEXT", "DEEPENING", "COMPLEMENTARY", "METHODOLOGY",
+    "PREVIOUS_RESEARCH_BY_AUTHOR",
+}
+VALID_READING_STAGES = {
+    "CANDIDATE", "IDENTITY_VERIFIED", "EDITION_VERIFIED", "ACQUIRED",
+    "READING", "READ", "CITED", "ARCHIVED",
+}
+
+
+def validate_library_manifest() -> list[str]:
+    """Validate canonical identifiers, categories, and reading stages."""
     errors: list[str] = []
-    corpus_map = ROOT / "research" / "sources" / "corpus-map.md"
-    if not corpus_map.is_file():
+    manifest = ROOT / "research" / "sources" / "library-manifest.md"
+    if not manifest.is_file():
         return errors
-    content = corpus_map.read_text(encoding="utf-8")
+    content = manifest.read_text(encoding="utf-8")
     seen: dict[str, int] = {}
     for match in SRC_ID_TABLE_CELL.finditer(content):
         identifier = match.group(1)
         seen[identifier] = seen.get(identifier, 0) + 1
     for identifier, count in seen.items():
         if count > 1:
-            errors.append(f"Identificador duplicado en research/sources/corpus-map.md: {identifier} ({count} veces)")
+            errors.append(f"Identificador duplicado en library-manifest.md: {identifier} ({count} veces)")
+    stage_prefix = re.compile(r"^(" + "|".join(sorted(VALID_READING_STAGES, key=len, reverse=True)) + r")\b")
+    for line in content.splitlines():
+        if not re.match(r"^\|\s*SRC-(?:PR-)?\d{3,}\s*\|", line):
+            continue
+        cells = [cell.strip() for cell in line.strip("|").split("|")]
+        categories = set(cells) & VALID_SOURCE_CATEGORIES
+        # The stage cell may carry an annotation after the bare keyword (for
+        # example "CITED — véase `bibliography.bib:...`"), so match by
+        # prefix instead of exact equality; still requires exactly one cell
+        # in the row to start with a valid stage.
+        stages = [cell for cell in cells if stage_prefix.match(cell)]
+        if len(categories) != 1:
+            errors.append(f"Categoría canónica ausente o ambigua para {cells[0]}")
+        if len(stages) != 1:
+            errors.append(f"Etapa de lectura ausente o ambigua para {cells[0]}")
+    return errors
+
+
+def validate_bibliography() -> list[str]:
+    """Detect duplicate BibTeX keys, including the prior-work record."""
+    bibliography = ROOT / "research" / "sources" / "bibliography.bib"
+    if not bibliography.is_file():
+        return []
+    content = bibliography.read_text(encoding="utf-8")
+    seen: dict[str, int] = {}
+    for key in BIBTEX_KEY.findall(content):
+        normalized_key = key.casefold()
+        seen[normalized_key] = seen.get(normalized_key, 0) + 1
+    return [
+        f"Clave BibTeX duplicada: {key} ({count} veces)"
+        for key, count in seen.items()
+        if count > 1
+    ]
+
+
+def validate_research_background_separation() -> list[str]:
+    """Keep the master's thesis in lineage records and out of the live corpus/ledger."""
+    errors: list[str] = []
+    prior_work_key = "valderrama-pino-2020-animal"
+    bibliography = ROOT / "research" / "sources" / "bibliography.bib"
+    if bibliography.is_file():
+        content = bibliography.read_text(encoding="utf-8")
+        if len(re.findall(rf"^@mastersthesis\s*\{{\s*{prior_work_key}\s*,", content, re.MULTILINE)) != 1:
+            errors.append(
+                "La tesis de maestría debe tener una única entrada @mastersthesis "
+                f"con clave {prior_work_key}"
+            )
+        for classification in ("PREVIOUS_RESEARCH_BY_AUTHOR",):
+            if classification not in content:
+                errors.append(f"Falta la clasificación {classification} en la entrada de trabajo previo")
+
+    manifest = ROOT / "research" / "sources" / "library-manifest.md"
+    if manifest.is_file():
+        content = manifest.read_text(encoding="utf-8")
+        expected = "SRC-PR-001 | Valderrama Pino, *En torno al «Animal»* (2020) | PREVIOUS_RESEARCH_BY_AUTHOR | ARCHIVED"
+        if expected not in content:
+            errors.append("La tesis de maestría no tiene su clasificación canónica en library-manifest.md")
+
+    ledger_dir = ROOT / "research" / "argument-ledger"
+    if ledger_dir.is_dir():
+        forbidden_markers = (prior_work_key, "HIST-2020-", "PREVIOUS_RESEARCH_BY_AUTHOR")
+        for path in sorted(ledger_dir.glob("*.md")):
+            if path.name == "README.md":
+                continue
+            content = path.read_text(encoding="utf-8")
+            if any(marker in content for marker in forbidden_markers):
+                errors.append(
+                    "Trabajo previo copiado al argument ledger sin reexamen doctoral: "
+                    f"{path.relative_to(ROOT).as_posix()}"
+                )
     return errors
 
 
@@ -225,10 +326,17 @@ def validate_no_private_library_files() -> list[str]:
     .claude/rules/sources.md prohibits versioning full editions or OCR of
     protected works; this checks only file extension (form), never content,
     and cannot detect a protected work saved under a different extension.
+
+    ALLOWED_SELF_AUTHORED_PDFS is a narrow, path-specific exception (not a
+    blanket .pdf allowance) for the author's own prior deposited work,
+    archived under research/background/** as PREVIOUS_RESEARCH_BY_AUTHOR
+    (see governance/decision-log.md, DEC-012) — distinct from third-party
+    copyrighted editions, which .claude/rules/sources.md keeps out of the
+    repository entirely.
     """
     errors: list[str] = []
     for path in tracked_files():
-        if path.suffix.lower() in FORBIDDEN_LIBRARY_SUFFIXES:
+        if path.suffix.lower() in FORBIDDEN_LIBRARY_SUFFIXES and path.as_posix() not in ALLOWED_SELF_AUTHORED_PDFS:
             errors.append(
                 "Archivo de biblioteca privada versionado (prohibido por "
                 f".claude/rules/sources.md): {path.as_posix()}"
@@ -339,8 +447,10 @@ def main() -> int:
         + validate_research_questions()
         + validate_argument_ledger()
         + validate_argument_sources()
-        + validate_corpus_map()
         + validate_no_private_library_files()
+        + validate_library_manifest()
+        + validate_bibliography()
+        + validate_research_background_separation()
     )
     if errors:
         print("Auditoría fallida:")

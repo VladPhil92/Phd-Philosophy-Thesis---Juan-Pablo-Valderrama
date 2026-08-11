@@ -9,7 +9,7 @@ Jacques Derrida, *Seminario La bestia y el soberano, Volumen I
 (2001–2002)*, ed. Michel Lisse, Marie-Louise Mallet y Ginette Michaud,
 trad. Cristina de Peretti y Delmiro Rocha (Buenos Aires: Manantial,
 2010), ISBN 978-987-500-142-8, 416 p. Corresponde a `SRC-005` en
-[`research/sources/corpus-map.md`](../corpus-map.md) (registrado allí
+[`research/sources/library-manifest.md`](../library-manifest.md) (registrado allí
 como *The Beast and the Sovereign, Vol. I*, edición Chicago 2009; esta
 ficha trabaja sobre la traducción castellana). Identidad bibliográfica
 confirmada por el investigador y por búsqueda independiente en esta

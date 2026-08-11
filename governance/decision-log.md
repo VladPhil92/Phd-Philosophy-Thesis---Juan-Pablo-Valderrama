@@ -255,3 +255,109 @@
   que una necesidad de investigación real y explícita lo justifique
   (mismo criterio ya vigente desde `DEC-003`, reafirmado aquí como
   cierre de esta fase de consolidación).
+
+## DEC-010 — Refinamiento del título y de la jerarquía conceptual
+
+- **Fecha:** 2026-08-09
+- **Estado:** aceptada
+- **Nota de reconciliación (2026-08-11):** esta decisión se tomó en una
+  sesión paralela (Codex, directamente contra `main`) mientras esta rama
+  seguía abierta como PR #12, y quedó registrada allí como «DEC-004»,
+  colisionando con el DEC-004 de esta rama (Repository Authority
+  Policy). Al fusionar ambas líneas de trabajo se renumeró a `DEC-010`
+  sin alterar una palabra de su contenido — ver `ai/log/` de la sesión
+  de reconciliación para el detalle completo.
+- **Contexto:** el título provisional coordinaba dos formulaciones que la
+  arquitectura intelectual actual sitúa en niveles distintos.
+- **Decisión:** refinar el título de *Soberanía de la hospitalidad y comunidad
+  política interespecie* a *Soberanía de la hospitalidad: los límites
+  antropológicos de la comunidad política*.
+- **Justificación:** el nuevo título refleja mejor la jerarquía de la
+  investigación, conserva la centralidad de soberanía y hospitalidad, y sitúa
+  la cuestión animal dentro del problema más fundamental de los límites
+  antropológicos de la pertenencia política. Así evita presuponer una comunidad
+  interespecie como conclusión, sin excluirla como posibilidad pendiente de
+  justificación.
+- **Consecuencias:** «comunidad política interespecie» deja de ser parte del
+  título y se usa solo como categoría exploratoria, horizonte normativo,
+  interlocución con teoría política animal, hipótesis derivada o formulación
+  por justificar. No se modifican las preguntas canónicas ni la hipótesis
+  central.
+
+## DEC-011 — Capa canónica de research lineage
+
+- **Fecha:** 2026-08-10
+- **Estado:** aceptada, pendiente de revisión humana sustantiva
+- **Nota de reconciliación (2026-08-11):** misma situación que `DEC-010`
+  — registrada originalmente como «DEC-004» en la sesión paralela de
+  Codex, renumerada al fusionar sin alterar su contenido.
+- **Contexto:** cuatro notas planas de `research/background/` ofrecían una
+  reconstrucción preliminar, pero no separaban ficha, original archivístico,
+  argumentos históricos y auditoría, y contenían inferencias incompatibles con
+  nuevos datos reportados sobre hospitalidad en 2020.
+- **Decisión:** mantener `research/background/` como única capa histórica,
+  consolidar un mapa `research-lineage.md` y aislar el dossier en
+  `masters-thesis/`. No crear `research/intellectual-history/` ni mezclar el
+  antecedente con el corpus o el *argument ledger*.
+- **Consecuencias:** toda atribución interna queda pendiente hasta recibir el
+  PDF; la posición previa se distingue de la doctoral; el original futuro se
+  identifica por hash y se preserva sin corrección; las rutas planas anteriores
+  se sustituyen por documentos con una sola función epistémica.
+
+## DEC-012 — Reconciliación de dos líneas de trabajo paralelas (Codex + Claude Code)
+
+- **Fecha:** 2026-08-11
+- **Estado:** aceptada
+- **Contexto:** entre el cierre de `DEC-009` y esta entrada, el
+  investigador trabajó en paralelo con otra herramienta (Codex)
+  directamente contra `main`, fusionando 18 PRs (#13–#30) mientras esta
+  rama (PR #12) permanecía abierta y sin actualizar. Las dos líneas de
+  trabajo resultaron casi completamente disjuntas: `main` ganó gobernanza
+  de seguridad (`SECURITY.md`, `CODEOWNERS`), un dossier de investigación
+  previa del autor (`research/background/`, dos PDF de tesis propias
+  archivadas), un marco de publicaciones (`research/publications/`), un
+  cambio de título de la tesis (`DEC-010`), y renombró
+  `research/sources/corpus-map.md` a `library-manifest.md`; esta rama
+  ganó tres fuentes primarias de Derrida verificadas y citadas (194
+  citas), el primer argumento del repositorio (`ARG-001`), `ai/quote-audit/`
+  y la política de integridad de autoría (`DEC-007`, `DEC-008`). Ninguna
+  de las dos sesiones tenía visibilidad de la otra. Se detectaron dos
+  colisiones semánticas reales que un merge automático no habría
+  señalado: el identificador `DEC-004` usado tres veces para tres
+  decisiones distintas, y las fuentes `SRC-002`/`SRC-004`/`SRC-005`
+  revertidas a `CANDIDATE` en el `library-manifest.md` de `main` (porque
+  Codex renombró el archivo a partir del estado anterior a que esta rama
+  las marcara `CITED`).
+- **Decisión:** el investigador autorizó expresamente resolver la
+  reconciliación "según criterio" de esta sesión. Se aplicaron los
+  siguientes criterios, en orden de prioridad: (1) preservar todo
+  contenido sustantivo de ambas líneas, sin descartar trabajo; (2)
+  renumerar en vez de sobrescribir cualquier identificador colisionado
+  (`DEC-004` de Codex → `DEC-010`/`DEC-011`, contenido intacto); (3)
+  adoptar el renombre `library-manifest.md` de Codex como ruta canónica
+  hacia delante (ya fusionado en `main`, con contenido más amplio: 201
+  candidatos) y reaplicarle las promociones a `CITED` de `SRC-002`,
+  `SRC-004` y `SRC-005` más la anotación de traducción de `SRC-005`
+  (Manantial 2010) y la relación `PI-07`, en vez de mantener un
+  `corpus-map.md` paralelo; (4) combinar `bibliography.bib` (3 entradas
+  Derrida + 2 entradas de investigación previa del autor, sin colisión
+  de claves); (5) conservar los dos PDF de tesis propias archivadas
+  (`research/background/**/originals/`) como excepción explícita, no
+  tácita, a `.claude/rules/sources.md` — enmendada para distinguir obra
+  de terceros (prohibida) de obra propia ya depositada del investigador
+  (permitida con procedencia documentada); (6) actualizar el candado
+  `validate_no_private_library_files()` (`scripts/auditar_repositorio.py`,
+  añadido en esta misma rama antes de la reconciliación) con una lista de
+  excepción explícita y acotada a esas rutas exactas, no una excepción
+  genérica a la extensión `.pdf`.
+- **Consecuencias:** ningún contenido de ninguna de las dos líneas se
+  perdió. `research/sources/corpus-map.md` deja de existir como archivo;
+  todo lo que lo referenciaba (fichas, scripts, `README.md`,
+  `research/methodology.md`) se actualizó a `library-manifest.md`. Los
+  scripts de ambas líneas (`auditar_repositorio.py`, con adiciones
+  independientes de Codex y de esta rama) se combinaron a mano, no por
+  fusión automática de Git, y se revalidaron con
+  `python3 scripts/auditar_repositorio.py`, las suites de `ai/plaa/` y
+  `ai/quote-audit/`, antes de darse por resuelta esta entrada. Detalle
+  completo en el registro de intervención de IA correspondiente
+  (`ai/log/`).

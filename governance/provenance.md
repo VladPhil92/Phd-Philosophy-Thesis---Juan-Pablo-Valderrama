@@ -143,3 +143,43 @@ independiente por cita, sin base de datos). No es una reconsideración de
 la convención, es la extensión mínima que la propia convención preveía;
 si en el futuro se necesita más que eso, aplica el mismo criterio de esta
 sección antes de construirlo.
+
+**Nota (2026-08-11):** durante la reconciliación de dos líneas de trabajo
+paralelas (`governance/decision-log.md`, DEC-012) se incorporaron además
+las tres secciones siguientes, desarrolladas en la otra línea de trabajo
+sobre trasfondo de investigación del autor. No sustituyen ni reconsideran
+esta convención; documentan eslabones adicionales de procedencia para
+material `PREVIOUS_RESEARCH_BY_AUTHOR` y para el dossier público del
+investigador, ambos fuera del corpus doctoral propiamente dicho.
+
+## Investigación previa del autor
+
+Los artefactos `PREVIOUS_RESEARCH_BY_AUTHOR` usan `SRC-PR-*` en el manifiesto y
+una clave BibTeX canónica, pero permanecen fuera del corpus doctoral. Sus
+análisis viven únicamente en `research/background/`; una autocita puede probar
+cronología autoral, no una afirmación filosófica. La integración de la tesis de
+grado de 2015 (`SRC-PR-002`) fue asistida por IA y está registrada en
+[`ai/IA-2026-08-10-03.md`](../ai/IA-2026-08-10-03.md). El PDF original ya está
+archivado y su integridad binaria fue verificada; esto cierra la procedencia
+documental, pero no promueve automáticamente los pasajes históricos al
+`quote-ledger`. Cada candidato conserva `SOURCE_RECHECK_REQUIRED` hasta que sea
+cotejado textual y contextualmente por el investigador.
+
+## Genealogía intelectual del asesor de grado
+
+La operación `INTELLECTUAL_GENEALOGY_RESEARCH` sobre Kenneth Moreno May está
+registrada en [`IA-2026-08-10-06`](../ai/IA-2026-08-10-06.md). Sus actividades
+fueron recuperación bibliográfica, reconstrucción cronológica, clasificación de
+fuentes, comparación conceptual, auditoría de influencia y reconstrucción de
+contexto. Los registros `SRC-201`–`SRC-209` permanecen candidatos; la
+interpretación requiere revisión humana. En esta cadena, supervisión e
+influencia reconocida no autorizan inferir dependencia ni origen conceptual.
+
+## Dossier público del investigador
+
+La investigación y organización del dossier público de identidad académica se
+documenta en
+[`ai/IA-2026-08-10-04.md`](../ai/IA-2026-08-10-04.md). Su resultado canónico es
+[`RESEARCHER.md`](../RESEARCHER.md), permanece `HUMAN_REVIEW_REQUIRED` y no
+modifica la procedencia archivística de los trabajos previos ni crea un sistema
+paralelo.

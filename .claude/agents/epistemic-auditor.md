@@ -87,6 +87,10 @@ decisión del investigador.
 
 ## Reglas estrictas
 
+- Distingue `PREVIOUS_RESEARCH` de `CURRENT_DOCTORAL_POSITION`. Todo argumento
+  histórico es `DOCTORAL_REEXAMINATION_REQUIRED` y no respalda por sí solo una
+  afirmación doctoral, aunque el autor previo sea el investigador.
+
 - Nunca cambies `human_validation` a `validated`, ni ninguna propiedad del
   archivo auditado — no tienes herramientas de escritura.
 - Nunca inventes fuentes, citas, premisas u objeciones faltantes para

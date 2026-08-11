@@ -1,14 +1,42 @@
-# Soberanía de la hospitalidad y comunidad política interespecie
+# Soberanía de la hospitalidad: los límites antropológicos de la comunidad política
 
 ## Investigación doctoral en Filosofía
 
 **Juan Pablo Valderrama**
+
+## Investigador
+
+La identidad académica, trayectoria documentada y límites de verificación de
+**Juan Pablo Valderrama Pino** se registran en el
+[`dossier canónico del investigador`](RESEARCHER.md). El dossier permanece
+`HUMAN_REVIEW_REQUIRED` y no sustituye la validación humana de sus datos.
 
 > ¿Puede existir soberanía allí donde la comunidad política deja de definirse
 > primordialmente por la potestad de excluir y comienza a pensarse desde la
 > responsabilidad frente a aquello que no domina?
 
 ## Presentación de la investigación
+
+La investigación estudia si la soberanía puede reconstruirse desde la
+hospitalidad y qué ocurre con la comunidad política cuando sus criterios de
+pertenencia dejan de descansar exclusivamente sobre una determinada definición
+de humanidad. La cuestión animal no constituye un segundo objeto independiente:
+es una prueba filosófica decisiva de los presupuestos antropológicos que ordenan
+la pertenencia política.
+
+```text
+soberanía
+↓
+hospitalidad
+↓
+límites políticos
+↓
+criterios de pertenencia
+↓
+presupuestos antropológicos
+↓
+frontera humano/animal
+```
 
 La tradición moderna de la soberanía ha pensado el poder político, bajo
 formulaciones distintas, a partir de una determinada capacidad de producir
@@ -85,10 +113,12 @@ la hospitalidad política, en cambio, requiere reglas, instituciones y
 condiciones. Lejos de cancelar la política, la tensión entre ambas introduce una
 exigencia permanente de revisión de sus límites.
 
-La tesis traslada esta aporía al problema de la comunidad interespecie: ¿qué
-ocurre cuando aquel ante quien debe responder la comunidad no es necesariamente
-un sujeto humano capaz de reciprocidad jurídica, lenguaje político o
-representación institucional?
+La tesis examina esta aporía en los límites antropológicos de la comunidad
+política: ¿qué ocurre cuando aquel ante quien debe responder la comunidad no es
+necesariamente un sujeto humano capaz de reciprocidad jurídica, lenguaje
+político o representación institucional? La cuestión animal permite someter a
+prueba esos límites y la soberanía de la hospitalidad, sin presuponer que el
+resultado deba ser una «comunidad política interespecie».
 
 Esta pregunta obliga a reconsiderar una larga tradición filosófica que ha
 construido la singularidad humana mediante la atribución diferencial de
@@ -150,17 +180,19 @@ sobre las que sus decisiones producen efectos.
 El problema de la hospitalidad deja así de reducirse a la entrada del extranjero
 humano en un territorio y adquiere una dimensión ontológica y política más amplia:
 **quién puede comparecer como otro ante la comunidad y obligarla a justificar
-sus límites**. La comunidad interespecie constituye el campo en el cual esta
-hipótesis será puesta a prueba.
+sus límites**. La problematización de los límites antropológicos de la comunidad
+política constituye uno de los campos decisivos en los que esta hipótesis será
+puesta a prueba.
 
 ## Contribución original: soberanía de la hospitalidad
 
-*Soberanía de la hospitalidad* nombra el concepto original que el proyecto se
-propone desarrollar. La expresión desplaza el centro de gravedad desde la
-facultad de excluir hacia la responsabilidad de justificar cómo se constituye,
-se abre y se transforma una comunidad. El concepto no equivale a negar toda
-decisión política ni anticipa por sí solo un modelo institucional: esas
-implicaciones deberán argumentarse y contrastarse durante la tesis.
+*Soberanía de la hospitalidad* nombra el concepto cuya elaboración y eventual
+originalidad el proyecto se propone establecer. La expresión desplaza el centro
+de gravedad desde la facultad de excluir hacia la responsabilidad de justificar
+cómo se constituye, se abre y se transforma una comunidad. El concepto no
+equivale a negar toda decisión política ni anticipa por sí solo un modelo
+institucional: esas implicaciones deberán argumentarse y contrastarse durante
+la tesis.
 
 La expresión contiene deliberadamente una tensión. La soberanía remite a
 decisión, autoridad, delimitación y capacidad efectiva de actuar. La
@@ -182,7 +214,7 @@ sino también:
 
 > **¿Ante quién debe responder quien decide?**
 
-Y, en el contexto interespecie:
+Y, al examinar la frontera humano/animal:
 
 > **¿Por qué la pertenencia a la especie humana habría de constituir por sí sola
 > el límite último de esa responsabilidad política?**
@@ -272,25 +304,45 @@ hospitalidad: toda comunidad necesita protegerse, pero la inmunización absoluta
 terminaría produciendo una comunidad cerrada a aquello que la constituye desde
 fuera.
 
-### 5. Comunidad política interespecie
+### 5. Cuestión animal y posibilidad de una comunidad política interespecie
 
-La investigación dialogará también con desarrollos contemporáneos que han
-intentado trasladar la cuestión animal desde la ética individual hacia la teoría
-política. La propuesta de Sue Donaldson y Will Kymlicka en *Zoopolis*, por
-ejemplo, resulta relevante porque sustituye la pregunta exclusiva por el trato
-moral de los animales por problemas de membresía, ciudadanía, soberanía
-territorial, dependencia y coexistencia política.
+La investigación dialogará con el llamado giro político de la cuestión animal,
+que desplaza y amplía parte del debate desde el estatuto moral y el trato debido
+hacia problemas de justicia, instituciones, membresía, representación,
+ciudadanía, soberanía y democracia. En este campo provisional, Robert Garner y
+Siobhan O'Sullivan sitúan la cuestión animal en los lenguajes de la justicia, la
+igualdad y las instituciones democráticas, mientras que *Zoopolis*, de Sue
+Donaldson y Will Kymlicka, constituye un punto de entrada para examinar
+relaciones políticas diferenciadas de ciudadanía, residencia y soberanía, no una
+comunidad humano-animal homogénea.
 
-Estos debates permiten examinar hasta dónde puede llegar la traducción de
-categorías políticas humanas al mundo interespecie y dónde aparecen sus límites.
-La propuesta de esta tesis no consiste simplemente en adoptar un modelo
-preexistente de ciudadanía animal, sino en retroceder un nivel conceptual:
-**preguntar qué debe significar soberanía antes de determinar quién puede ser
-incorporado a ella**.
+Este desplazamiento no produce una posición única. *Sentientist Politics*, de
+Alasdair Cochrane, ofrece un contrapunto para investigar si la soberanía es la
+categoría adecuada y cómo se relaciona con democracia y representación;
+*When Animals Speak*, de Eva Meijer, abre preguntas sobre agencia política y
+democracia interespecie. *Animals and the Right to Politics* (2025) exige,
+además, no tratar *Zoopolis* (2011) como la última formulación del programa de
+Donaldson y Kymlicka. El alcance y los desacuerdos precisos de estas propuestas
+permanecen pendientes de lectura directa.
+
+Estas obras son interlocutoras y campo de prueba, no premisas doctrinales. El
+proyecto no adopta una teoría preexistente de ciudadanía animal o democracia
+interespecie ni presupone que extender categorías humanas baste. Propone
+retroceder un nivel conceptual y preguntar qué debe significar soberanía, qué
+frontera antropológica presupone y qué relación mantiene con pertenencia, límite,
+alteridad y hospitalidad antes de determinar quién —o qué forma de vida— puede
+contar como miembro de una comunidad política.
+
+La expresión «comunidad política interespecie» permanece, por tanto,
+conceptualmente abierta: no equivale sin más a ciudadanía animal, representación
+democrática, agencia política, soberanía de comunidades animales o recepción de
+justicia. La selección y jerarquización final de este corpus está sometida a
+verificación de edición, lectura y evaluación filosófica; registrar una obra como
+candidata no acredita que haya sido leída ni que su posición haya sido adoptada.
 
 La selección del corpus permanece pendiente de justificación documental.
-[`research/sources/corpus-map.md`](research/sources/corpus-map.md) reúne una
-propuesta de 200 obras candidatas —corpus primario, bibliografía secundaria,
+[`research/sources/library-manifest.md`](research/sources/library-manifest.md) reúne una
+propuesta de 201 obras candidatas —corpus primario, bibliografía secundaria,
 estado del arte del giro político animal, contexto de soberanía y
 biopolítica, profundización posthumanista y multiespecie, metodología, y una
 ampliación 2020–2026— clasificadas por prioridad y con su estado de
@@ -299,7 +351,7 @@ lista de lectura cerrada: la gran mayoría de sus entradas permanece sin
 leer ni verificar en edición. Tres han sido promovidas a
 `bibliography.bib` con edición verificada, ficha de lectura y citas
 cotejadas (`SRC-002`, `SRC-004`, `SRC-005` — véase
-[`research/sources/corpus-map.md`](research/sources/corpus-map.md) para
+[`research/sources/library-manifest.md`](research/sources/library-manifest.md) para
 el estado detallado de cada una).
 
 Toda obra efectivamente consultada debe incorporarse a
@@ -312,8 +364,9 @@ resúmenes y las salidas automatizadas no se presentan como lectura directa.
 ### Objetivo general
 
 Desarrollar y evaluar filosóficamente el concepto de soberanía de la
-hospitalidad como posible fundamento normativo para pensar una comunidad
-política interespecie.
+hospitalidad frente al problema de los límites antropológicos de la comunidad
+política y las formas de pertenencia que podrían pensarse más allá de la
+excepcionalidad humana.
 
 ### Objetivos específicos
 
@@ -369,6 +422,17 @@ de decisión e indicadores, desde el estado actual hasta el manuscrito
 completo— se mantiene en
 [`MASTER_EXECUTION_PLAN.md`](MASTER_EXECUTION_PLAN.md).
 
+## Research Background
+
+El proyecto doctoral se inserta en una línea investigativa previa del autor.
+La tesis de maestría de 2020 se registra como memoria histórica separada del
+corpus: no representa automáticamente la posición actual ni valida por sí sola
+ningún argumento doctoral.
+
+- [Research lineage e historia intelectual](research/background/research-lineage.md)
+- [Dossier de la tesis de grado](research/background/undergraduate-thesis/README.md)
+- [Dossier de la tesis de maestría](research/background/masters-thesis/README.md)
+
 ## Investigación asistida por IA y autoría humana
 
 La IA puede apoyar la búsqueda exploratoria, clasificación, comparación,
@@ -399,6 +463,16 @@ subagente `epistemic-auditor` (`.claude/agents/epistemic-auditor.md`), apoyan
 esta trazabilidad sin sustituir el juicio del investigador: `ai/plaa/` (forma
 lógica de un argumento) y `ai/quote-audit/` (integridad contextual, pertinencia
 filosófica y fuerza argumentativa de una cita ya verificada).
+
+## Publicaciones científicas derivadas
+
+El repositorio está diseñado no solo para apoyar la tesis doctoral, sino también
+para generar publicaciones científicas evaluadas por pares derivadas del mismo
+proceso de investigación. Son productos de preguntas, fuentes, conceptos y
+argumentos doctorales validados, no proyectos independientes. El
+[`marco de publicaciones`](research/publications/README.md) registra propuestas
+y condiciones de preparación; no afirma que existan artículos antes de su
+escritura y aprobación humanas.
 
 ## Flujo de biblioteca y OCR
 

@@ -9,6 +9,12 @@ que ninguna quede implícita o se presuponga por defecto. Cada sección marca
 investigador, con fecha y justificación, idealmente registrada también como
 entrada en `governance/decision-log.md` si afecta a todo el corpus.
 
+La investigación no presupone de entrada una comunidad política interespecie;
+examina primero los límites antropológicos que estructuran la pertenencia
+política y evalúa qué consecuencias se derivan de su problematización. Esta
+delimitación conceptual no resuelve ninguna de las decisiones metodológicas
+pendientes que siguen.
+
 ## 1. Método filosófico general
 
 **DECISIÓN HUMANA REQUERIDA.** ¿Qué combinación de los siguientes enfoques
@@ -33,7 +39,7 @@ todavía un criterio de selección justificado por escrito**.
 
 Existe una propuesta de arquitectura de corpus (200 candidatos, seis
 categorías funcionales más una ampliación 2020–2026) en
-[`research/sources/corpus-map.md`](sources/corpus-map.md). Es un punto de
+[`research/sources/library-manifest.md`](sources/library-manifest.md). Es un punto de
 partida para esta decisión, no su resolución: ningún candidato de ese mapa
 ha sido verificado en edición ni leído, y los criterios de inclusión que
 implícitamente usa (centralidad en el «giro político» animal, cercanía a

@@ -22,7 +22,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import auditar_repositorio as base  # noqa: E402
 
 ROOT = base.ROOT
-CORPUS_MAP = ROOT / "research" / "sources" / "corpus-map.md"
+LIBRARY_MANIFEST = ROOT / "research" / "sources" / "library-manifest.md"
 NOTES_DIR = ROOT / "research" / "sources" / "notes"
 LEDGER_DIR = ROOT / "research" / "argument-ledger"
 CHAPTERS_DIR = ROOT / "thesis" / "chapters"
@@ -45,14 +45,14 @@ def extract_section(content: str, heading: str) -> str:
 
 
 def count_corpus_states() -> tuple[int, int, int]:
-    """Return (total candidatas, CITED, IDENTITY_VERIFIED) from corpus-map.md.
+    """Return (total candidatas, CITED, IDENTITY_VERIFIED) from library-manifest.md.
 
     Counts by substring match on the row text, not a fixed column index,
     because section G's table has a different column layout than A-F.
     """
-    if not CORPUS_MAP.is_file():
+    if not LIBRARY_MANIFEST.is_file():
         return (0, 0, 0)
-    content = CORPUS_MAP.read_text(encoding="utf-8")
+    content = LIBRARY_MANIFEST.read_text(encoding="utf-8")
     total = len(set(base.SRC_ID_TABLE_CELL.findall(content)))
     cited = identity_verified = 0
     for line in content.splitlines():
@@ -144,14 +144,14 @@ def render(
         "",
         "## Fuentes",
         "",
-        f"- Candidatas registradas en `corpus-map.md`: **{total_candidates}**",
+        f"- Candidatas registradas en `library-manifest.md`: **{total_candidates}**",
         f"- Con edición verificada, leídas y citadas (`CITED`): **{cited}**",
         f"- Con identidad confirmada por búsqueda, sin leer (`IDENTITY_VERIFIED`): **{identity_verified}** "
         "— este conteo busca la palabra literal por fila; la sección G "
         "(SRC-151–200) la declara una sola vez en su preámbulo, no por fila, "
-        "así que este número la subestima. Ver `corpus-map.md` directamente.",
+        "así que este número la subestima. Ver `library-manifest.md` directamente.",
         "- Lectura parcial (`READING`): no se distingue todavía como estado "
-        "propio en `corpus-map.md` — ver `research/methodology.md` §4.",
+        "propio en `library-manifest.md` — ver `research/methodology.md` §4.",
         "",
         "## Citas verificadas",
         "",

@@ -1,17 +1,40 @@
 # Historical argument register
 
-> Agendas `AI-ASSISTED RECONSTRUCTION`, no argumentos atribuidos ni copiados al
->*argument ledger*. Todos son `HISTORICAL_ARGUMENT`, `HISTORICALLY_SIGNIFICANT`
-y `DOCTORAL_REEXAMINATION_REQUIRED`.
+> `SOURCE-DERIVED`. Los argumentos abajo fueron reconstruidos leyendo el
+> texto completo de la tesis de maestría de 2020 (166 páginas, marcadores de
+> página reales), no inferidos del título ni de reportes verbales. Cada
+> argumento sigue siendo `HISTORICAL_ARGUMENT`, `HISTORICALLY_SIGNIFICANT` y
+> `DOCTORAL_REEXAMINATION_REQUIRED`: haber sido leído no equivale a haber
+> sido validado como posición doctoral. Ningún estado de esta tabla es
+> `VALIDATED`; el investigador es quien decide conservar, reformular o
+> abandonar cada argumento.
+>
+> Nota de autoría: varios de estos argumentos son, en su forma de 2020,
+> mayormente **exposición y aplicación** del argumento de Derrida (leído a
+> través de *El animal que luego estoy si(gui)endo* y *La bestia y el
+> soberano I*, y de literatura secundaria, sobre todo González Gallinas
+> 2016), no una tesis originada de forma independiente por Valderrama. Eso se
+> indica explícitamente en la columna «Evidencia» de cada fila.
 
-| ID | Argumento por reconstruir | Evidencia | Problema a examinar | Estado doctoral |
+| ID | Argumento (reconstruido con página) | Premisas y evidencia textual | Conclusión del texto de 2020 | Estado frente al conjeturado / evaluación |
 |---|---|---|---|---|
-| HIST-2020-01 | Racionalidad/lenguaje y soberanía. | Conceptos reportados. | Salto de capacidad a jerarquía. | `REQUIRES_NEW_EVIDENCE`. |
-| HIST-2020-02 | Soberanía humana sobre animales. | Título. | Equivocidad antropológica/política. | `DOCTORALLY_REFORMULATED`. |
-| HIST-2020-03 | Soberanía/hospitalidad. | Dos fórmulas reportadas. | Fórmula no prueba definición, argumento ni prioridad. | `REQUIRES_NEW_EVIDENCE`. |
-| HIST-2020-04 | Comunidad, sostenibilidad e industrialización. | Contenido reportado. | Posible salto de Derrida a tesis económica/normativa. | `REQUIRES_REVISION`. |
+| HIST-2020-01 | **Racionalidad/lenguaje como fundamento de la jerarquía humano-animal, y su deconstrucción.** La tradición (Aristóteles→Descartes→Kant→Heidegger→Lacan→Lévinas) identifica lo propio del hombre con el logos y de ahí deriva un derecho de dominación (p. 24–26, p. 61–65); Derrida (2010, p. 34, citado p. 83) sostiene que el límite razón/no-razón es «poroso», y que no hay «una» diferencia sino una multiplicidad de diferencias entre vivientes (p. 26–31). | Descartes: «hacernos como dueños y poseedores de la naturaleza» (Descartes, 2006, p. 90, citado p. 18–19). Definición de logocentrismo citada literalmente de Derrida (2010, p. 399, citado p. 24–25). Crítica de Garrocho (2014, p. 54–59) contrastada con Derrida. | El salto de «tener razón/lenguaje» a «tener soberanía» es precisamente el blanco de la crítica del capítulo III («De los propios del Hombre», pp. 55–75), no un supuesto no examinado del autor. | El conjeturado «salto de capacidad a jerarquía» **sí está presente y sí es tratado**, con desarrollo textual extenso y bien citado. Se corrige la clasificación previa (`REQUIRES_NEW_EVIDENCE` → ya no aplica por falta de evidencia; ahora hay evidencia). Persiste como límite genuino: la crítica es en gran parte glosa de Derrida, con aporte propio de Valderrama sobre todo en la extensión a casos empíricos (industria, colonialismo, fracking). |
+| HIST-2020-02 | **«Soberanía humana» es equívoca: coexisten al menos dos sentidos antagónicos, no uno.** El propio texto lo declara programa de trabajo: «dos formas o modalidades de soberanía humana» (p. 20); desarrolla, además, la tensión entre soberanía estatal y «la soberanía del hombre mismo» que los derechos humanos oponen al Estado (Derrida, 2010, pp. 97–99, citado pp. 58–61). | Cita de Eleonora Parra (2012, p. 2, citado p. 59) sobre proliferación de instrumentos jurídicos de derechos humanos frente a violaciones masivas; cita de Derrida (2010, pp. 98–99, citado p. 59–60) sobre la «mundialización» como estratagema política, con Bourdieu (2001, p. 99, citado p. 60). | El título mismo («una pregunta por la soberanía humana») es programáticamente ambiguo: no hay un concepto unívoco de soberanía humana en el texto, y esa ambigüedad —no una imprecisión— es el motor de la investigación. | El conjeturado «equivocidad antropológica/política» **se confirma con evidencia textual concreta y localizable**, en dos registros distintos (soberanía política/estatal vs. soberanía «del hombre»; y, en el capítulo VI, soberanía cruel vs. hospitalaria — ver HIST-2020-03). |
+| HIST-2020-03 | **«Soberanía de la Hospitalidad» / «Soberanía Hospitalaria»: tiene definición y argumento, no es una fórmula vacía — pero el propio texto la deja aporética, sin resolver.** Se construye en el capítulo VI (pp. 126–157) contrastando dos relatos de la creación en el Bereshit/Génesis. | Análisis de términos hebreos: שׁ ְ ‫( ְו ִכ ְב‬sojuzgar, dominar con violencia) y ‫( ּו ְר ֞דּו‬someter/señorear) en Génesis 1:26–30, frente a לַ ֽע ֲ֖ בֹד ‫ת־הֽאֲ דָ ָמֽה‬ ֶ ‫( א‬trabajar/servir la tierra) en Génesis 2:5–8 (pp. 130–132), leídos vía Derrida (2008, pp. 30–33) y el Midrash Bereshit (Weissman, 2012). Definición operativa: soberanía ejercida como servicio y responsabilidad, fundada en la no-propiedad de la tierra —«Soberanos en la impropiedad» (pp. 142–144, con una cita a «Derrida, 1998» que **no tiene entrada correspondiente en la bibliografía final del documento** — ver `critical-audit.md`). Aporía reconocida explícitamente vía Guille (2015, p. 268, citado p. 148) entre hospitalidad incondicional y condicionada. | El propio texto afirma que «ambos relatos nos ofrecen una perspectiva sobre un antagonismo entre una soberanía cruel (es decir, una violencia destructiva) y una soberanía hospitalaria (es decir, una violencia preservativa)» (p. 132) — es decir, **la soberanía hospitalaria no es no-violenta**, sigue implicando cría y adiestramiento (p. 132). El capítulo cierra sin resolver cómo ser hospitalario con un huésped al que además se consume: «¿Qué tanto estamos dispuestos a sacrificar en pos de la hospitalidad?» (p. 157). | El conjeturado «la fórmula no prueba definición, argumento ni prioridad» **se corrige**: sí hay definición y argumento textual, bastante desarrollado. Lo que no hay es resolución: el propio autor de 2020 deja la fórmula como pregunta abierta, no como tesis cerrada. Esto es un hallazgo relevante para el proyecto doctoral (ver observaciones en `continuity-with-phd.md`), presentado aquí solo como descripción de lo que el texto hace. |
+| HIST-2020-04 | **Salto de la crítica metafísica del logocentrismo a un diagnóstico económico-político concreto (fracking, ganadería industrial, TLC, minería, comida rápida, mundialización).** Presente extensamente en los capítulos II (pp. 36–39, 65–74) y V (pp. 111–124). | Los vínculos se afirman más por yuxtaposición retórica que por derivación argumentativa: p. ej. tras exponer la distinción civilización/cultura de Lemm sobre Nietzsche (pp. 65–66), el texto pasa directamente a datos sobre fracking (González J., 2014, citado pp. 67–68) y ganadería y cambio climático (Lorente, 2010, citado pp. 68–69) sin un argumento explícito que derive lo segundo de lo primero, más allá de la fórmula recurrente «principios metafísicos que operan detrás» (p. 68, p. 77). | El capítulo VII, donde debería cerrarse esta cadena en una propuesta institucional, es corto (5 páginas) y en gran parte recapitulativo (pp. 158–160); la propuesta misma («comunidades híbridas», pp. 160–162) no especifica mecanismo político o económico de implementación. | El conjeturado «posible salto de Derrida a tesis económica/normativa» **se confirma como debilidad real, no solo posible**, con localización textual precisa. Se mantiene `REQUIRES_REVISION`, ahora con evidencia en vez de sospecha. |
+| HIST-2020-05 *(nuevo, no anticipado en la reconstrucción previa)* | **La crueldad como «lo propio del hombre»: crítica a la lectura lacaniana, sin resolución.** Derrida (2010, p. 135, citado pp. 108–109): «lo que distinguiría la crueldad o la ferocidad humana de cualquier violencia animal [...] es que el hombre cruel la toma con su semejante, cosa que no haría el animal»; para Lacan, ley y crimen serían exclusivamente humanos porque exigen un superyó (p. 106, citando Derrida, 2010, p. 132). Valderrama contrapone un catálogo de crueldad humana contra quienes *no* son reconocidos como «semejantes» (genocidios coloniales, conflicto armado colombiano, asesinos en serie — pp. 115–119) y evidencia primatológica sobre jerarquías y sanciones sociales en primates (Gallardo, 2012, sobre Frans de Waal, pp. 106–110). | Cita de Derrida (2010, p. 137, citado p. 111): «ahí donde hay transmisión transgeneracional, hay ley y, por lo tanto, crimen y pecabilidad» — usada para cuestionar que los animales carezcan de toda ley. | El texto **no resuelve** si hay o no ley/moral en sociedades animales; deja la tesis lacaniana cuestionada pero no refutada, y explícitamente advierte contra igualar sociedades de primates con sociedades humanas (p. 108–109). | Entrada nueva. Clasificación: `REQUIRES_REVISION` — el argumento está bien documentado como *movimiento crítico* (cuestionar la tesis lacaniana), pero no llega a una conclusión propia sustantiva sobre el estatuto moral/jurídico de las sociedades animales. |
 
-Para cada uno faltan afirmación, páginas, premisas, conclusión, fuentes,
-objeciones y alcance. Solo el investigador decidirá conservar, reformular o
-abandonar. PLAA se limitará a pasajes elegidos y su resultado se marcará
-`RETROSPECTIVE_ANALYSIS`, no validación.
+## Notas para el investigador
+
+- Ningún cambio de columna en esta tabla equivale a validación filosófica.
+  Son reclasificaciones de **qué evidencia textual existe**, no juicios sobre
+  si el argumento es correcto, debe conservarse o debe usarse en la tesis
+  doctoral.
+- El detalle de `HIST-2020-01` a `HIST-2020-03` muestra que buena parte del
+  aparato conceptual de 2020 (soberanía dual, deconstrucción de «lo propio
+  del hombre», la fórmula «soberanía de la hospitalidad») ya usa las mismas
+  dos fuentes primarias de Derrida (*El animal que luego estoy si(gui)endo*,
+  *La bestia y el soberano I*, edición Manantial 2010) que hoy son
+  `PRIMARY_CORE` en el corpus doctoral (`library-manifest.md` SRC-004,
+  SRC-005). Esto es una observación de procedencia, no una prueba de
+  continuidad filosófica; ver `continuity-with-phd.md`.

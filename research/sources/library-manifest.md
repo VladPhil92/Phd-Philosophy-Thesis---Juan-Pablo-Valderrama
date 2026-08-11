@@ -39,6 +39,14 @@ incorporada.
 - **SRC-210** corresponde a Donaldson y Kymlicka, *Animals and the Right to
   Politics* (2025), incorporado como candidato del estado del arte y pendiente
   de verificación de edición y lectura directa.
+- **SRC-211 a SRC-218** corresponden a `PI-08` (infraestructura algorítmica y
+  transformación de la soberanía, `DEC-023`, 2026-08-11). Son autores y
+  títulos reportados de memoria por esta sesión, **sin búsqueda externa de
+  verificación**: permanecen `CANDIDATE`, no `IDENTITY_VERIFIED`, y dos de
+  ellas (SRC-216, SRC-217) declaran explícitamente incertidumbre sobre cuál
+  obra exacta del autor es la más pertinente. Requieren la misma
+  verificación bibliográfica que cualquier otro candidato antes de avanzar
+  en la escala de estados.
 - Ninguna entrada de este documento se marca `EDITION_VERIFIED`,
   `ACQUIRED`, `READING`, `READ` ni `CITED`. Esos estados solo los asigna el
   investigador cuando adquiere y verifica la edición real que va a citar.
@@ -72,7 +80,7 @@ al investigador con el objeto físico o la edición digital autorizada en mano.
 | `PRIMARY_CORE` | Interviene directamente en la construcción de la tesis, lectura obligatoria | A (prioridad máxima) |
 | `PRIMARY_SUPPORTING` | Corpus primario de apoyo | A (resto) |
 | `SECONDARY_CORE` | Interpretación crítica del corpus primario | B |
-| `STATE_OF_ART` | Estado del arte del giro político animal / comunidad interespecie | C, más una parte de G |
+| `STATE_OF_ART` | Estado del arte del giro político animal / comunidad interespecie (C); estado del arte de la gobernanza algorítmica y economía política del dato, `PI-08` (I) | C, I, más una parte de G |
 | `CONTEXT` | Soberanía, comunidad, frontera, ciudadanía, biopolítica | D, más una parte de G |
 | `DEEPENING` / `COMPLEMENTARY` | Posthumanismo, estudios multiespecie, antropología, etología (se trata como un solo nivel; no se distinguen ambas etiquetas mientras el corpus no lo requiera) | E, más una parte de G |
 | `METHODOLOGY` | Método filosófico, historia conceptual, trazabilidad computacional | F, más una parte de G |
@@ -380,6 +388,31 @@ Estos candidatos se explican en el
 [`contexto intelectual y de supervisión`](../background/undergraduate-thesis/intellectual-context.md).
 No se promovieron a `bibliography.bib`: registrar descubrimiento o una identidad
 por verificar no equivale a incorporar una fuente doctoral.
+
+## I. Gobernanza algorítmica, economía política del dato y transformación de la soberanía (SRC-211–SRC-218)
+
+> Candidatos para `PI-08` (`research/questions.md`, `DEC-023`, 2026-08-11).
+> Reportados de memoria por esta sesión, **sin búsqueda externa de
+> verificación**: ninguno está `IDENTITY_VERIFIED`. Dos entradas (SRC-216,
+> SRC-217) declaran explícitamente incertidumbre sobre cuál obra concreta
+> del autor es la más pertinente al eje de la pregunta.
+
+| SRC | Autor(es) | Título | Año reportado | Clasificación | PI relacionadas | Estado |
+|---|---|---|---|---|---|---|
+| SRC-211 | Varoufakis, Y. | *Technofeudalism: What Killed Capitalism* | 2023 | STATE_OF_ART | PI-08 | CANDIDATE |
+| SRC-212 | Durand, C. | *Technoféodalisme* / *Techno-Feudalism: Rise of the New Lords* | 2020/2024 | STATE_OF_ART | PI-08 | CANDIDATE |
+| SRC-213 | Zuboff, S. | *The Age of Surveillance Capitalism* | 2019 | STATE_OF_ART | PI-08 | CANDIDATE |
+| SRC-214 | Srnicek, N. | *Platform Capitalism* | 2017 | STATE_OF_ART | PI-08 | CANDIDATE |
+| SRC-215 | Rouvroy, A. y Berns, T. | «Gouvernementalité algorithmique et perspectives d'émancipation» | 2013 | STATE_OF_ART | PI-08 | CANDIDATE |
+| SRC-216 | Stiegler, B. | *The Age of Disruption* (u otra obra del autor sobre técnica y farmacología — obra exacta por confirmar) | 2016/2019 | STATE_OF_ART | PI-01, PI-08 | CANDIDATE |
+| SRC-217 | Mbembe, A. | *Necropolitics* o *Brutalisme* — por confirmar cuál es más pertinente al eje de `PI-08` | 2016/2019 | STATE_OF_ART | PI-02, PI-08 | CANDIDATE |
+| SRC-218 | Byung-Chul Han | *Psychopolitics* y *Infocracy* (dos obras; por confirmar si se registran como entradas separadas) | 2014/2021 | STATE_OF_ART | PI-08 | CANDIDATE |
+
+Ninguna de estas ocho entradas acredita lectura, identidad verificada ni
+edición confirmada. Su función es dar un punto de partida real para `PI-08`,
+no sustituir la verificación bibliográfica y de lectura que exige
+`research/methodology.md` §2 (`DEC-014`) antes de promover cualquier
+candidato a `bibliography.bib`.
 
 ## Duplicados y observaciones de calidad ya detectados
 

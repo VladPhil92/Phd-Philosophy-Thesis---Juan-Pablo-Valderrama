@@ -116,10 +116,34 @@ promueve a `CITED` y se usa en un `ARG-*`.
 
 ## 4. Procedimiento de lectura cercana (close reading)
 
-**DECISIÓN HUMANA REQUERIDA.** Protocolo concreto: ¿qué se registra de cada
-sesión de lectura (edición, páginas, fecha), cómo se distingue paráfrasis de
-cita, cuándo se considera «leído» un pasaje frente a simplemente
-«consultado»?
+**Decisión (2026-08-11).** Un pasaje se considera **leído** cuando el
+investigador lo trabajó en su contexto argumentativo inmediato — no cuando
+fue solo localizado (por ejemplo, mediante búsqueda de texto, índice o
+referencia de una fuente secundaria) sin trabajar el argumento que lo
+rodea. Un pasaje localizado pero no trabajado en contexto se registra como
+**consultado**, no como leído.
+
+Cada sesión de lectura se registra con: fecha, hora de inicio, hora de fin,
+página inicial y página final — permite calcular tanto las páginas leídas
+por sesión como el ritmo de lectura. El campo único `Fecha de consulta` de
+`templates/ficha-fuente.md` no basta para esto: se añade una sección
+"Registro de sesiones de lectura" (tabla con esas columnas), acumulativa a
+lo largo de las sesiones que use cada ficha.
+
+Una cita textual solo se reconoce como tal si cumple las normas de la
+edición vigente de APA (7.ª edición): citas de **menos de 40 palabras** se
+integran en el texto con comillas; citas de **40 palabras o más** se
+presentan como cita en bloque, sin comillas. Esto formaliza como requisito
+de base, para toda cita nueva, el mismo umbral que
+`ai/quote-audit/prompts/05-apa7-structural.md` ya implementa como
+auditoría opcional (`BLOCK_QUOTE_REQUIRED`) — deja de ser solo una capa de
+auditoría más profunda y pasa a ser condición mínima de reconocimiento de
+la cita.
+
+Registrada también en `governance/decision-log.md` (`DEC-016`). No exige
+reauditar retroactivamente las 194 citas ya registradas antes de esta
+decisión; se aplica hacia adelante, salvo que el investigador pida
+explícitamente una revisión retroactiva.
 
 ## 5. Disputas de interpretación
 

@@ -412,3 +412,22 @@
 - **Consecuencias:** no exige reclasificar de inmediato las 211 entradas
   de `library-manifest.md`; el criterio se aplica caso por caso, no como
   relabeling retroactivo.
+
+## DEC-016 — Protocolo de lectura cercana: leído vs. consultado, registro de sesiones, citas bajo APA 7
+
+- **Fecha:** 2026-08-11
+- **Estado:** aceptada
+- **Contexto:** `research/methodology.md` §4 marcaba como `DECISIÓN HUMANA
+  REQUERIDA` el protocolo de lectura cercana.
+- **Decisión:** un pasaje es "leído" cuando se trabaja en su contexto
+  argumentativo, no solo localizado ("consultado" en ese caso). Cada
+  sesión de lectura registra fecha, hora de inicio, hora de fin, página
+  inicial y página final. Una cita solo se reconoce como tal si cumple
+  APA 7.ª edición: menos de 40 palabras integrada con comillas; 40 o más,
+  cita en bloque.
+- **Consecuencias:** se añade una sección "Registro de sesiones de
+  lectura" a `templates/ficha-fuente.md`. El umbral de 40 palabras, ya
+  implementado como auditoría opcional en
+  `ai/quote-audit/prompts/05-apa7-structural.md`, pasa a ser requisito de
+  base para toda cita nueva. No se reaudita retroactivamente ninguna de
+  las 194 citas ya registradas antes de esta fecha.

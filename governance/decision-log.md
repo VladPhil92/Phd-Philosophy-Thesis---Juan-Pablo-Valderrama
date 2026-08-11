@@ -500,3 +500,17 @@
   `bibliography.bib`). Cierra explícitamente la pregunta, dejada abierta
   por `IA-2026-08-11-24.md`, de si el patrón de autorización del
   trasfondo podía extenderse al corpus doctoral: no puede.
+
+## DEC-020 — Papel de las objeciones: al menos una registrada exige `READY_FOR_HUMAN_REVIEW`, cualquier origen basta
+
+- **Fecha:** 2026-08-11
+- **Estado:** aceptada
+- **Contexto:** `research/methodology.md` §8 dejaba pendiente si se exige
+  al menos una objeción antes de `READY_FOR_HUMAN_REVIEW`, y quién puede
+  plantearlas — esto último ya resuelto en la práctica por `DEC-017`.
+- **Decisión:** se exige al menos una objeción registrada (con `Origen`
+  declarado) antes de `READY_FOR_HUMAN_REVIEW`. Basta con que esté
+  registrada, sin importar su origen ni que esté respondida.
+- **Consecuencias:** `ARG-001` ya satisface este requisito con sus dos
+  objeciones existentes. No se crea ningún mecanismo nuevo de atribución
+  de origen: reutiliza el ya fijado por `DEC-017`.

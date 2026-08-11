@@ -248,10 +248,27 @@ decida, no lo sustituye.
 
 ## 8. Papel de las objeciones
 
-**DECISIÓN HUMANA REQUERIDA.** ¿Se exige al menos una objeción seria por
-argumento antes de que pueda alcanzar el estado `READY_FOR_HUMAN_REVIEW`
-(véase `templates/ficha-argumento.md`)? ¿Quién puede plantear objeciones
-además del investigador (el auditor epistémico, revisores externos)?
+**Decisión (2026-08-11).** Se exige al menos una objeción registrada
+("Objeciones y respuestas", con `Origen` declarado según `DEC-017`) antes
+de que un argumento pueda alcanzar el estado `READY_FOR_HUMAN_REVIEW`
+(véase `templates/ficha-argumento.md`). Basta con que la objeción esté
+registrada, sin importar su origen: no se exige que provenga de un origen
+distinto al que redactó el argumento, ni que pase necesariamente por el
+subagente `epistemic-auditor` o por el investigador. Tampoco se exige que
+la objeción esté respondida — este requisito es de objeción registrada, no
+de objeción resuelta.
+
+Quién puede plantear objeciones ya está fijado por `DEC-017`: el
+investigador, el subagente `epistemic-auditor`, un tercero humano
+identificado por nombre, o una IA de terceros identificada por herramienta
+y modelo.
+
+`ARG-001` ya satisface este requisito con sus dos objeciones existentes
+(origen: Claude Code, sesión `IA-2026-08-08-09`), aunque sigue en
+`DEVELOPING` por otras razones y ninguna de las dos objeciones esté
+todavía respondida.
+
+Registrada también en `governance/decision-log.md` (`DEC-020`).
 
 ## 9. Papel de la IA en el método
 

@@ -93,6 +93,11 @@ VALID_ARGUMENT_STATUSES = {
     "VALIDATED",
     "REJECTED",
 }
+STATUSES_REQUIRING_OBJECTION = {"READY_FOR_HUMAN_REVIEW", "VALIDATED", "REJECTED"}
+ARG_OBJECTIONS_SECTION = re.compile(
+    r"^##\s+Objeciones y respuestas\b.*?\n(.*?)(?=^##\s|\Z)", re.MULTILINE | re.DOTALL
+)
+OBJECTION_ORIGIN_ENTRY = re.compile(r"^-\s+\*\*Origen:\*\*", re.MULTILINE)
 FORBIDDEN_LIBRARY_SUFFIXES = (".pdf", ".epub", ".mobi", ".azw", ".azw3", ".djvu", ".djv")
 ALLOWED_SELF_AUTHORED_PDFS = {
     "research/background/masters-thesis/originals/"
@@ -427,6 +432,15 @@ def validate_argument_ledger() -> list[str]:
             errors.append(
                 f"Argumento marcado VALIDATED sin human_validation: validated explícito en {location}"
             )
+
+        if status in STATUSES_REQUIRING_OBJECTION:
+            objections_match = ARG_OBJECTIONS_SECTION.search(content)
+            objections_body = objections_match.group(1) if objections_match else ""
+            if not OBJECTION_ORIGIN_ENTRY.search(objections_body):
+                errors.append(
+                    f"Argumento en estado {status!r} sin ninguna objeción registrada "
+                    f"(con «Origen» declarado, DEC-017/DEC-020) en {location}"
+                )
 
     for argument_id, locations in seen_ids.items():
         if len(locations) > 1:

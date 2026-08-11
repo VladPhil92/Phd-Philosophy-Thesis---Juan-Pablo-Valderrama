@@ -30,6 +30,6 @@
 
 ## Decisiones humanas pendientes
 
-- Marcadas `DECISIÓN HUMANA REQUERIDA` en `research/methodology.md`: **6**
+- Marcadas `DECISIÓN HUMANA REQUERIDA` en `research/methodology.md`: **5**
 - Argumentos sin `human_validation: validated`: **1**
 

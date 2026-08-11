@@ -147,10 +147,36 @@ explícitamente una revisión retroactiva.
 
 ## 5. Disputas de interpretación
 
-**DECISIÓN HUMANA REQUERIDA.** Cuando dos lecturas plausibles de un mismo
-pasaje entran en conflicto, ¿cómo se documenta la disputa? ¿Se registra como
-objeción dentro de la ficha de argumento, como nota de lectura alternativa,
-o ambas?
+**Decisión (2026-08-11).** Una disputa de interpretación se documenta
+según el nivel al que pertenece, siguiendo la cadena de procedencia
+(`governance/provenance.md`):
+
+- **Nivel de pasaje** (antes de que se use como evidencia en ningún
+  argumento): se registra en la sección "Objeciones y límites" de la
+  ficha de fuente (`templates/ficha-fuente.md`).
+- **Nivel de argumento** (el pasaje ya se usa como evidencia y la disputa
+  cuestiona esa lectura evidencial): se registra en "Objeciones y
+  respuestas" de la ficha de argumento (`templates/ficha-argumento.md`).
+
+Si una disputa registrada a nivel de pasaje se vuelve relevante para un
+`ARG-*` posterior, la ficha de argumento **referencia** la entrada de la
+ficha de fuente en vez de duplicar su contenido.
+
+**Origen obligatorio.** Toda objeción registrada en cualquiera de los dos
+lugares debe declarar quién la plantea:
+
+- `investigador` — el propio Juan Pablo Valderrama Pino;
+- `epistemic-auditor` — el subagente, cuando genera una objeción de
+  prueba;
+- un tercero humano, identificado por nombre;
+- una IA de terceros, identificada por herramienta y modelo (por ejemplo,
+  "ChatGPT / GPT-5.6").
+
+Una objeción sin origen declarado no se considera completa. Se añade el
+campo `**Origen:**` como parte del formato de cada entrada de objeción en
+ambas plantillas.
+
+Registrada también en `governance/decision-log.md` (`DEC-017`).
 
 ## 6. Traducciones
 

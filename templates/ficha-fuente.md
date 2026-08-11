@@ -81,4 +81,14 @@ humana rápida)
 
 ## Objeciones y límites
 
+> Disputas de interpretación a nivel de pasaje (dos lecturas plausibles en
+> conflicto, antes de que el pasaje se use como evidencia en un `ARG-*`) —
+> véase `research/methodology.md` §5. Cada entrada debe declarar su
+> **Origen**: `investigador`, `epistemic-auditor`, un tercero humano
+> identificado por nombre, o una IA de terceros identificada por
+> herramienta y modelo. Una objeción sin origen no se considera completa.
+
+- **Origen:** [investigador | epistemic-auditor | nombre del tercero | herramienta de IA y modelo]
+  **Objeción:**
+
 ## Tareas pendientes

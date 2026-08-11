@@ -431,3 +431,25 @@
   `ai/quote-audit/prompts/05-apa7-structural.md`, pasa a ser requisito de
   base para toda cita nueva. No se reaudita retroactivamente ninguna de
   las 194 citas ya registradas antes de esta fecha.
+
+## DEC-017 — Disputas de interpretación: documentación por nivel y origen obligatorio
+
+- **Fecha:** 2026-08-11
+- **Estado:** aceptada
+- **Contexto:** `research/methodology.md` §5 marcaba como `DECISIÓN
+  HUMANA REQUERIDA` cómo documentar una disputa de interpretación entre
+  dos lecturas plausibles de un mismo pasaje, y quién puede plantearla.
+- **Decisión:** una disputa a nivel de pasaje (antes de usarse como
+  evidencia) se registra en "Objeciones y límites" de la ficha de fuente;
+  una disputa a nivel de argumento (cuestiona el uso evidencial ya hecho)
+  se registra en "Objeciones y respuestas" del `ARG-*`, que referencia en
+  vez de duplicar una disputa de nivel de pasaje ya registrada. Toda
+  objeción, en cualquiera de los dos lugares, debe declarar su origen:
+  `investigador`, `epistemic-auditor`, un tercero humano identificado por
+  nombre, o una IA de terceros identificada por herramienta y modelo. Una
+  objeción sin origen declarado no se considera completa.
+- **Consecuencias:** se añade el campo `**Origen:**` al formato de
+  objeciones en `templates/ficha-fuente.md` y `templates/ficha-argumento.md`;
+  se corrigen retroactivamente las dos objeciones ya existentes en
+  `ARG-001.md`, declarando su origen real (esta sesión de Claude Code, no
+  el investigador ni el subagente `epistemic-auditor`).

@@ -40,13 +40,15 @@ incorporada.
   Politics* (2025), incorporado como candidato del estado del arte y pendiente
   de verificación de edición y lectura directa.
 - **SRC-211 a SRC-218** corresponden a `PI-08` (infraestructura algorítmica y
-  transformación de la soberanía, `DEC-023`, 2026-08-11). Son autores y
-  títulos reportados de memoria por esta sesión, **sin búsqueda externa de
-  verificación**: permanecen `CANDIDATE`, no `IDENTITY_VERIFIED`, y dos de
-  ellas (SRC-216, SRC-217) declaran explícitamente incertidumbre sobre cuál
-  obra exacta del autor es la más pertinente. Requieren la misma
-  verificación bibliográfica que cualquier otro candidato antes de avanzar
-  en la escala de estados.
+  transformación de la soberanía, `DEC-023`, 2026-08-11). Registradas
+  inicialmente de memoria, sin búsqueda externa; confirmada su identidad
+  por búsqueda web el mismo día (autor, título, editorial, año, con URL),
+  igual que SRC-151–SRC-200: `IDENTITY_VERIFIED`, no edición exacta,
+  adquisición ni lectura. Esa misma búsqueda corrigió dos títulos en
+  inglés supuestos sin verificar (Durand, Han) y resolvió cuál obra de
+  Mbembe es la pertinente (*Brutalisme*, no *Necropolitics*).
+  Requieren la misma verificación de edición y lectura que cualquier otro
+  candidato antes de avanzar en la escala de estados.
 - Ninguna entrada de este documento se marca `EDITION_VERIFIED`,
   `ACQUIRED`, `READING`, `READ` ni `CITED`. Esos estados solo los asigna el
   investigador cuando adquiere y verifica la edición real que va a citar.
@@ -392,27 +394,32 @@ por verificar no equivale a incorporar una fuente doctoral.
 ## I. Gobernanza algorítmica, economía política del dato y transformación de la soberanía (SRC-211–SRC-218)
 
 > Candidatos para `PI-08` (`research/questions.md`, `DEC-023`, 2026-08-11).
-> Reportados de memoria por esta sesión, **sin búsqueda externa de
-> verificación**: ninguno está `IDENTITY_VERIFIED`. Dos entradas (SRC-216,
-> SRC-217) declaran explícitamente incertidumbre sobre cuál obra concreta
-> del autor es la más pertinente al eje de la pregunta.
+> Identidad confirmada por búsqueda web en esta sesión (2026-08-11): se
+> verificó que cada obra existe con ese autor, título, editorial y año, con
+> URL de referencia. Estado `IDENTITY_VERIFIED`, mismo alcance que
+> SRC-151–SRC-200: **no** acredita edición exacta (ISBN/DOI), adquisición ni
+> lectura. Dos correcciones respecto de la propuesta inicial: el título en
+> inglés de Durand es *How Silicon Valley Unleashed Techno-Feudalism* (no
+> *Rise of the New Lords*, título que esta sesión había supuesto sin
+> verificar), y el de Han es *Infocracy: Digitization and the Crisis of
+> Democracy* (no *Digital Freedom and the Crisis of Information*).
 
-| SRC | Autor(es) | Título | Año reportado | Clasificación | PI relacionadas | Estado |
-|---|---|---|---|---|---|---|
-| SRC-211 | Varoufakis, Y. | *Technofeudalism: What Killed Capitalism* | 2023 | STATE_OF_ART | PI-08 | CANDIDATE |
-| SRC-212 | Durand, C. | *Technoféodalisme* / *Techno-Feudalism: Rise of the New Lords* | 2020/2024 | STATE_OF_ART | PI-08 | CANDIDATE |
-| SRC-213 | Zuboff, S. | *The Age of Surveillance Capitalism* | 2019 | STATE_OF_ART | PI-08 | CANDIDATE |
-| SRC-214 | Srnicek, N. | *Platform Capitalism* | 2017 | STATE_OF_ART | PI-08 | CANDIDATE |
-| SRC-215 | Rouvroy, A. y Berns, T. | «Gouvernementalité algorithmique et perspectives d'émancipation» | 2013 | STATE_OF_ART | PI-08 | CANDIDATE |
-| SRC-216 | Stiegler, B. | *The Age of Disruption* (u otra obra del autor sobre técnica y farmacología — obra exacta por confirmar) | 2016/2019 | STATE_OF_ART | PI-01, PI-08 | CANDIDATE |
-| SRC-217 | Mbembe, A. | *Necropolitics* o *Brutalisme* — por confirmar cuál es más pertinente al eje de `PI-08` | 2016/2019 | STATE_OF_ART | PI-02, PI-08 | CANDIDATE |
-| SRC-218 | Byung-Chul Han | *Psychopolitics* y *Infocracy* (dos obras; por confirmar si se registran como entradas separadas) | 2014/2021 | STATE_OF_ART | PI-08 | CANDIDATE |
+| SRC | Autor(es) | Título | Año | Clasificación | PI relacionadas | Fuente de verificación | Estado |
+|---|---|---|---|---|---|---|---|
+| SRC-211 | Varoufakis, Y. | *Technofeudalism: What Killed Capitalism* (The Bodley Head / Melville House) | 2023 | STATE_OF_ART | PI-08 | [penguin.co.uk](https://www.penguin.co.uk/books/451795/technofeudalism-by-varoufakis-yanis/9781529926095) | IDENTITY_VERIFIED |
+| SRC-212 | Durand, C. | *Techno-féodalisme : Critique de l'économie numérique* (La Découverte, 2020); trad. inglesa *How Silicon Valley Unleashed Techno-Feudalism: The Making of the Digital Economy* (Verso, trad. David Broder) | 2020/2024 | STATE_OF_ART | PI-08 | [penguinrandomhouse.com](https://www.penguinrandomhouse.com/books/741159/how-silicon-valley-unleashed-techno-feudalism-by-cedric-durand/) | IDENTITY_VERIFIED |
+| SRC-213 | Zuboff, S. | *The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power* (PublicAffairs) | 2019 | STATE_OF_ART | PI-08 | [hachettebookgroup.com](https://www.hachettebookgroup.com/titles/shoshana-zuboff/the-age-of-surveillance-capitalism/9781610395694/) | IDENTITY_VERIFIED |
+| SRC-214 | Srnicek, N. | *Platform Capitalism* (Polity, serie Theory Redux) | 2017 | STATE_OF_ART | PI-08 | [wiley.com](https://www.wiley.com/en-us/Platform+Capitalism-p-9781509504862) | IDENTITY_VERIFIED |
+| SRC-215 | Rouvroy, A. y Berns, T. | «Gouvernementalité algorithmique et perspectives d'émancipation» (*Réseaux* 2013/1, n.º 177, pp. 163–196) | 2013 | STATE_OF_ART | PI-08 | [cairn.info](https://shs.cairn.info/revue-reseaux-2013-1-page-163) | IDENTITY_VERIFIED |
+| SRC-216 | Stiegler, B. | *The Age of Disruption: Technology and Madness in Computational Capitalism* (Polity, trad. Daniel Ross; original francés *Dans la disruption*, 2016) | 2016/2019 | STATE_OF_ART | PI-01, PI-08 | [waterstones.com](https://www.waterstones.com/book/the-age-of-disruption/bernard-stiegler/9781509529278) | IDENTITY_VERIFIED |
+| SRC-217 | Mbembe, A. | *Brutalisme* (Éditions La Découverte, 246 pp.; trad. inglesa *Brutalism*, Duke University Press) — confirmado como el título más pertinente a `PI-08` (aborda explícitamente el capitalismo digital/algorítmico), se descarta *Necropolitics* para esta entrada | 2020 | STATE_OF_ART | PI-02, PI-08 | [editionsladecouverte.fr](https://www.editionsladecouverte.fr/brutalisme-9782348057496) | IDENTITY_VERIFIED |
+| SRC-218 | Byung-Chul Han | *Psychopolitics: Neoliberalism and New Technologies of Power* (Verso, trad. Erik Butler) e *Infocracy: Digitization and the Crisis of Democracy* (Polity, trad. Daniel Steuer) — dos obras distintas, se mantienen en una sola fila hasta que el investigador decida separarlas | 2017/2022 | STATE_OF_ART | PI-08 | [versobooks.com](https://www.versobooks.com/products/226-psychopolitics), [barnesandnoble.com](https://www.barnesandnoble.com/w/infocracy-byung-chul-han/1141043365) | IDENTITY_VERIFIED |
 
-Ninguna de estas ocho entradas acredita lectura, identidad verificada ni
-edición confirmada. Su función es dar un punto de partida real para `PI-08`,
-no sustituir la verificación bibliográfica y de lectura que exige
-`research/methodology.md` §2 (`DEC-014`) antes de promover cualquier
-candidato a `bibliography.bib`.
+Ninguna de estas ocho entradas acredita lectura, edición confirmada ni
+adquisición. Su función es dar un punto de partida real y ahora
+bibliográficamente confirmado para `PI-08`, no sustituir la verificación de
+edición y lectura que exige `research/methodology.md` §2 (`DEC-014`) antes
+de promover cualquier candidato a `bibliography.bib`.
 
 ## Duplicados y observaciones de calidad ya detectados
 

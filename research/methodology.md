@@ -1,6 +1,10 @@
 # Metodología
 
-**Estado:** idea — andamiaje de decisiones pendientes, no un método adoptado.
+**Estado:** método fijado (2026-08-11) — las 10 secciones de este documento
+tienen decisión registrada (`DEC-013` a `DEC-022`,
+`governance/decision-log.md`). Fijado no significa inmutable: sigue
+sujeto a revisión explícita del investigador si la investigación lo
+exige, con la misma disciplina de fecha y registro usada para fijarlo.
 
 Este documento no fija el método filosófico de la tesis. Estructura las
 decisiones metodológicas que el investigador debe tomar y registrar, para
@@ -42,10 +46,10 @@ Los demás enfoques listados son auxiliares, subordinados a ese eje:
 Registrada también en `governance/decision-log.md` (`DEC-013`), por afectar
 a todo el corpus.
 
-**Pendiente para §10 (límites metodológicos):** queda por decidir, aparte,
-si adoptar la deconstrucción derridiana como método heredado exige
-justificar también por qué esa lente es apta para autores muy anteriores a
-Derrida (Bodin, Hobbes, Kant) — no se resuelve aquí.
+**Resuelto en §10 (límites metodológicos, `DEC-022`):** adoptar la
+deconstrucción derridiana como método heredado no exige una justificación
+aparte para aplicarla a autores muy anteriores a Derrida (Bodin, Hobbes,
+Kant).
 
 ## 2. Selección del corpus
 
@@ -281,10 +285,42 @@ cuáles nunca se delegan en esta investigación en particular.
 
 ## 10. Límites metodológicos
 
-**DECISIÓN HUMANA REQUERIDA.** Declaración explícita de qué queda fuera del
-alcance del método elegido: por ejemplo, si la reconstrucción normativa de
-los ocho principios (véase `README.md`) se somete a un procedimiento de
-justificación filosófica distinto del usado para la genealogía conceptual.
+**Decisión (2026-08-11).**
+
+- **Aplicabilidad de la lente heredada a autores anteriores a Derrida.**
+  Cierra el punto que `DEC-013` (§1) dejó pendiente aparte: adoptar la
+  deconstrucción derridiana como método heredado **no** exige una
+  justificación adicional para aplicarla a autores muy anteriores a
+  Derrida (Bodin, Hobbes, Kant). La genealogía y el análisis comparado, ya
+  fijados como auxiliares en `DEC-013`, bastan para preparar esa lectura
+  sin un aparato justificativo aparte.
+
+- **Justificación del paso a lo normativo.** La reconstrucción normativa
+  de los ocho principios (`README.md`) se apoya, como regla general, en el
+  propio recurso normativo interno de la deconstrucción derridiana: la
+  exigencia de justicia indeconstruible que, según Derrida (*Fuerza de
+  ley*), precede y excede cualquier decisión, y que la propia deconstrucción
+  no hace sino responder — no un aparato normativo importado desde fuera.
+  Cuando ese recurso deje un principio genuinamente indeterminado, y solo
+  entonces, se recurre directamente a Lévinas (no solo a la lectura que
+  Derrida hace de él) como fuente normativa más determinada, declarando
+  explícitamente cada vez que se use — no como apoyo permanente ni
+  aparato paralelo.
+
+- **La IA como tema filosófico queda fuera de alcance.** Ninguna pregunta
+  de investigación (`PI-01`–`PI-07`) ni ninguna fuente del corpus trata la
+  inteligencia artificial como objeto filosófico de la tesis; el animal
+  sigue siendo el único campo crítico privilegiado de los límites
+  antropológicos de la comunidad política. Esto es distinto de la IA como
+  *herramienta* de investigación, ya regulada en `ai/policy.md` y
+  `AI-RESEARCH-PROTOCOL.md`, que no se ve afectada por esta exclusión. Una
+  rama de trabajo histórica y ya superada de este repositorio propuso un
+  «doble frente» animal/IA (`governance/decision-log.md`, `DEC-003`) que
+  no fue adoptado; esta decisión no reabre esa propuesta, pero tampoco
+  cierra la puerta a que el investigador abra en el futuro una `PI-*`
+  nueva sobre la IA como caso límite, si lo decide explícitamente.
+
+Registrada también en `governance/decision-log.md` (`DEC-022`).
 
 ## Regla de cierre
 

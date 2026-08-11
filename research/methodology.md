@@ -278,10 +278,42 @@ Registrada también en `governance/decision-log.md` (`DEC-020`).
 
 Ya regulado de forma transversal por `ai/policy.md` y
 `AI-RESEARCH-PROTOCOL.md`: la IA no decide interpretación ni conclusiones.
-**DECISIÓN HUMANA REQUERIDA** únicamente en el detalle metodológico de qué
-tareas exploratorias se delegan de forma habitual (por ejemplo, localización
-de literatura secundaria candidata, generación de objeciones de prueba) y
-cuáles nunca se delegan en esta investigación en particular.
+**Decisión (2026-08-11).** El detalle metodológico queda fijado
+consolidando, en un solo lugar, lo que ya se seguía de decisiones previas
+de esta sesión — no es sustancia nueva:
+
+**Tareas exploratorias que se delegan de forma habitual:**
+
+- Localización de literatura secundaria candidata
+  (`research/sources/library-manifest.md`).
+- Generación de objeciones de prueba, con `Origen` declarado
+  (`DEC-017`/`DEC-020`).
+- Auditoría de citas más allá de su autenticidad
+  ([`ai/quote-audit/`](../ai/quote-audit/README.md), `DEC-007`).
+- Auditoría de argumentos, fuentes y procedencia
+  (subagente `epistemic-auditor`).
+- Lectura y análisis de material de **trasfondo** (`research/background/**`,
+  no corpus doctoral), solo con autorización explícita del investigador
+  para cada intervención (`DEC-019`).
+- Redacción del *texto* de una decisión metodológica ya tomada por el
+  investigador: la IA formaliza y presenta el texto para aprobación antes
+  de escribirlo; el investigador decide la sustancia, nunca la IA.
+
+**Tareas que nunca se delegan en esta investigación** (ya fijado por
+decisiones previas, reunido aquí sin cambiar nada):
+
+- Cotejo de citas del corpus doctoral — 100% humano, sin excepción
+  (`DEC-019`).
+- Redacción de la prosa final del manuscrito o de los capítulos
+  (*Human Manuscript Principle*, `ai/policy.md`).
+- Elegir conclusiones filosóficas o fijar una interpretación como
+  asentada.
+- Validar un argumento (`human_validation: validated` — exclusivo del
+  investigador).
+- Decidir la sustancia de una decisión metodológica — la IA redacta,
+  nunca decide qué se decide.
+
+Registrada también en `governance/decision-log.md` (`DEC-021`).
 
 ## 10. Límites metodológicos
 

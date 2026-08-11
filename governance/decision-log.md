@@ -535,3 +535,33 @@
 - **Consecuencias:** ninguna regla nueva; el texto de §9 pasa a ser el
   punto único de referencia para esta pregunta, en vez de quedar
   repartida entre varias entradas de este registro.
+
+## DEC-022 — Límites metodológicos: lente heredada sin justificación aparte, normatividad vía Derrida con Lévinas puntual, IA fuera de alcance como tema
+
+- **Fecha:** 2026-08-11
+- **Estado:** aceptada
+- **Contexto:** `research/methodology.md` §10 dejaba pendiente declarar
+  qué queda fuera del alcance del método, incluida una pregunta que
+  `DEC-013` había dejado explícitamente diferida: si la deconstrucción
+  heredada exige justificación aparte para autores anteriores a Derrida.
+- **Decisión:** (1) no se exige justificación aparte para aplicar la
+  lente deconstructiva a autores anteriores a Derrida (Bodin, Hobbes,
+  Kant) — la genealogía y el análisis comparado ya fijados en `DEC-013`
+  bastan. (2) La reconstrucción normativa de los ocho principios se apoya,
+  como regla general, en el propio recurso normativo interno de la
+  deconstrucción derridiana (la exigencia de justicia indeconstruible de
+  *Fuerza de ley*); solo cuando ese recurso deje un principio
+  genuinamente indeterminado se recurre directamente a Lévinas como
+  fuente normativa más determinada, declarándolo explícitamente cada vez,
+  no como aparato paralelo permanente. (3) La inteligencia artificial
+  como tema filosófico de la tesis queda fuera de alcance — ninguna
+  `PI-*` ni fuente del corpus la trata como objeto de estudio, distinto
+  de su uso ya regulado como herramienta de investigación
+  (`ai/policy.md`); no reabre la propuesta de «doble frente» animal/IA ya
+  superada (`DEC-003`), pero tampoco impide que el investigador abra en
+  el futuro una `PI-*` nueva sobre ello si lo decide explícitamente.
+- **Consecuencias:** cierra la nota pendiente de `DEC-013`. Con esta
+  entrada, las 10 secciones de `research/methodology.md` tienen decisión
+  registrada (`DEC-013`–`DEC-022`); el documento pasa de "idea" a "método
+  fijado" en su propio encabezado, sujeto a revisión explícita futura si
+  la investigación lo exige.

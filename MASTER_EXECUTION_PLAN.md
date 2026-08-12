@@ -25,10 +25,13 @@ probabilidad de que esta investigación doctoral se complete con mayor
 rigor académico, transparencia, reproducibilidad y mantenibilidad a largo
 plazo?* Si la respuesta es no, no se implementa.
 
-## Dónde estamos ahora (2026-08-08)
+## Dónde estamos ahora (2026-08-11)
 
 Evaluación honesta contra el modelo de madurez (sección siguiente), no
-aspiracional:
+aspiracional. Actualizado tras el cierre completo de la Fase 2
+(`research/methodology.md`, `DEC-013`–`DEC-022`, 2026-08-11) y la apertura
+de `PI-08` (`DEC-023`, misma fecha); revisar de nuevo cuando el investigador
+declare Gate D o valide el primer `ARG-*`.
 
 - **Nivel alcanzado: 3** (argumentos producidos). Tres fuentes en
   `bibliography.bib` con edición verificada y ficha en
@@ -61,6 +64,15 @@ aspiracional:
   ninguna sesión de IA.
 - **Gate A (Repository Ready) cruzada** (2026-08-08, DEC-006): Fase 1
   cerrada, incluida la protección de `main`.
+- **Fase 2 (Metodología de investigación) cerrada** (2026-08-11,
+  `DEC-013`–`DEC-022`): las diez secciones de `research/methodology.md`
+  tienen decisión registrada; el documento pasó de "idea" a "método
+  fijado" en su propio encabezado. `PI-08` (infraestructura algorítmica y
+  transformación de la soberanía) se añadió el mismo día (`DEC-023`),
+  ejerciendo la puerta que `DEC-022` había dejado reservada; el corpus
+  candidato de `library-manifest.md` pasó de 211 a 219 entradas.
+  `research/reading-schedule.md` propone, sin decidirlo, un orden y ritmo
+  de lectura para 204 de esas obras a partir del 15 de agosto de 2026.
 - Fase activa: **Fase 4 (Investigación sustantiva)**, con la Fase 3
   (Biblioteca de investigación) todavía abierta en paralelo — el corpus se
   construye de forma progresiva, no por lote.
@@ -92,7 +104,7 @@ abandonan, son capas que se sostienen.
 | 6 | Manuscrito doctoral | Todos los capítulos de `thesis/outline.md` (una vez ratificado) redactados, integrados y en revisión final. |
 
 Este modelo no crea identificadores nuevos: es una lectura agregada de los
-estados que `templates/ficha-fuente.md`, `research/sources/corpus-map.md`
+estados que `templates/ficha-fuente.md`, `research/sources/library-manifest.md`
 y `templates/ficha-argumento.md` ya registran. Calcularlo hoy es manual
 (contar fichas y estados); automatizarlo con un script solo se justifica
 cuando el volumen lo requiera, siguiendo el mismo criterio que
@@ -160,27 +172,23 @@ cuando el volumen lo requiera, siguiendo el mismo criterio que
   cerrar la metodología prematuramente y tener que revisarla después de
   construir varios argumentos sobre una base distinta.
 - **Indicadores de éxito:** cero secciones marcadas `DECISIÓN HUMANA
-  REQUERIDA` en `research/methodology.md` para las decisiones que ya
-  bloquean trabajo activo (§2 selección de corpus, §6 traducciones son las
-  más urgentes hoy, dado el trabajo ya en curso sobre Derrida).
+  REQUERIDA` en `research/methodology.md` — cumplido en su totalidad el
+  2026-08-11.
 - **Checklist de cierre:**
-  - [ ] §1 Método filosófico general decidido.
-  - [ ] §2 Criterios de selección del corpus decididos.
-  - [ ] §3 Regla primaria/secundaria decidida.
-  - [ ] §4 Procedimiento de lectura cercana decidido.
-  - [ ] §5 Tratamiento de disputas de interpretación decidido.
-  - [ ] §6 Tratamiento de traducciones decidido (**urgente**: ya afecta a
-        `research/sources/notes/derrida-2008-animal.md`).
-  - [x] §7 Verificación de citas — regla operativa mínima ya vigente
-        (`RESEARCH-WORKFLOW.md`, `.claude/rules/sources.md`); detalle fino
-        pendiente.
-  - [ ] §8 Papel de las objeciones decidido.
-  - [x] §9 Papel de la IA — regulado por `ai/policy.md` y
-        `AI-RESEARCH-PROTOCOL.md`; detalle de tareas delegables pendiente.
-  - [ ] §10 Límites metodológicos declarados.
-- **Madurez estimada:** parcial — puede avanzar en paralelo con la Fase 3
-  y la Fase 4 a pequeña escala (como ya ocurrió con la primera fuente),
-  pero no debe escalar el corpus completo sin cerrar §2 y §6.
+  - [x] §1 Método filosófico general decidido (`DEC-013`).
+  - [x] §2 Criterios de selección del corpus decididos (`DEC-014`).
+  - [x] §3 Regla primaria/secundaria decidida (`DEC-015`).
+  - [x] §4 Procedimiento de lectura cercana decidido (`DEC-016`).
+  - [x] §5 Tratamiento de disputas de interpretación decidido (`DEC-017`).
+  - [x] §6 Tratamiento de traducciones decidido (`DEC-018`).
+  - [x] §7 Verificación de citas decidida en detalle (`DEC-019`).
+  - [x] §8 Papel de las objeciones decidido (`DEC-020`).
+  - [x] §9 Papel de la IA consolidado (`DEC-021`).
+  - [x] §10 Límites metodológicos declarados (`DEC-022`).
+- **Madurez estimada:** cerrada (2026-08-11). Las diez secciones tienen
+  decisión registrada y fechada; el documento queda sujeto a revisión
+  explícita futura si la investigación lo exige, no a nuevas decisiones
+  pendientes por defecto.
 
 ### Fase 3 — Biblioteca de investigación
 
@@ -190,16 +198,16 @@ cuando el volumen lo requiera, siguiendo el mismo criterio que
 - **Alcance:** separar la **capa de fuentes privadas** (originales,
   PDF, OCR — locales, excluidos de Git por `.gitignore`) de la **capa de
   conocimiento de investigación versionada** (`bibliography.bib`,
-  `research/sources/notes/`, `research/sources/corpus-map.md`).
+  `research/sources/notes/`, `research/sources/library-manifest.md`).
 - **Dependencias:** Fase 1 (Gate A). No depende de cerrar toda la Fase 2,
   pero sí de tener al menos una decisión provisional sobre traducciones
   antes de citar en volumen.
 - **Entregables:**
   - `research/sources/bibliography.bib` con entradas de edición
     verificada. **1 de N — Derrida 2008.**
-  - `research/sources/corpus-map.md`: 200 candidatos clasificados y
-    priorizados. **Hecho** (es un mapa de candidatos, no de fuentes
-    incorporadas).
+  - `research/sources/library-manifest.md`: 219 candidatos clasificados y
+    priorizados (secciones A–I, incluida la ampliación `PI-08`). **Hecho**
+    (es un mapa de candidatos, no de fuentes incorporadas).
   - Flujo de lectura documentado (`RESEARCH-WORKFLOW.md`,
     `templates/ficha-fuente.md`). **Hecho.**
   - Ediciones verificadas para cada fuente que pase de `CANDIDATE` a
@@ -342,6 +350,15 @@ puerta se cruza y por qué.
 | E | Argument Ready | Fase 6 (redacción activa) | Checklist de cierre de Fase 5 completo: ≥1 `ARG-*` `VALIDATED`. |
 | F | Writing Ready | Integración capitular a escala | `thesis/outline.md` ratificado y mapeado a argumentos validados. |
 
+**Estado de las puertas (2026-08-11):** el criterio mínimo de la Puerta B
+está cumplido en su totalidad — las diez secciones de
+`research/methodology.md` están cerradas, no solo §2 y §6 — y el de la
+Puerta D también (véase checklist de cierre de la Fase 4). Que el criterio
+esté cumplido no equivale a que la puerta esté cruzada: como con toda
+puerta de este documento, declararlas cruzadas sigue siendo decisión
+exclusiva del investigador, pendiente de registrarse en
+`governance/decision-log.md`.
+
 Cruzar una puerta antes de tiempo no es una falta grave si es deliberado y
 declarado (p. ej. investigar una fuente aislada antes de cerrar toda la
 metodología, como ya ocurrió). Lo que este documento prohíbe es cruzarla
@@ -357,7 +374,7 @@ sugerido de tabla para `templates/revision-mensual.md`:
 
 | Indicador | Cómo se cuenta | Prioriza calidad sobre cantidad |
 |---|---|---|
-| Fuentes candidatas | Filas de `research/sources/corpus-map.md` | Referencia de contexto, no meta. |
+| Fuentes candidatas | Filas de `research/sources/library-manifest.md` | Referencia de contexto, no meta. |
 | Fuentes registradas (`bibliography.bib`) | Entradas `@...{...}` reales | — |
 | Fuentes leídas (Nivel 2) | Fichas con «Citas verificadas» no trivial | Prioriza profundidad de lectura por fuente sobre número de fuentes tocadas. |
 | Citas verificadas | Citas listadas en fichas de `research/sources/notes/` | Nunca meta de por sí — una cita mal verificada vale menos que cero. |
@@ -375,7 +392,7 @@ sugerido de tabla para `templates/revision-mensual.md`:
 
 ```mermaid
 flowchart TD
-    A[Fuente candidata\nresearch/sources/corpus-map.md] --> B[Edición verificada\nbibliography.bib]
+    A[Fuente candidata\nresearch/sources/library-manifest.md] --> B[Edición verificada\nbibliography.bib]
     B --> C[Lectura\nresearch/sources/notes/*.md]
     C --> D[Citas verificadas]
     D --> E[Conceptos rastreados]

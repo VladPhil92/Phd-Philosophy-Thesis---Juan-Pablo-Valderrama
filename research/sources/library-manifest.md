@@ -89,10 +89,14 @@ al investigador con el objeto físico o la edición digital autorizada en mano.
 
 ## Relación con `research/methodology.md`
 
-La selección final de corpus sigue marcada `DECISIÓN HUMANA REQUERIDA` en
-`research/methodology.md` §2. Este manifest es una propuesta de partida para esa
-decisión, no su resolución. Ningún criterio de selección se considera
-adoptado hasta que el investigador lo registre allí.
+`research/methodology.md` §2 (`DEC-014`, 2026-08-11) ya fijó el criterio de
+selección del corpus: centralidad genealógica para alguna de las cuatro
+genealogías de `DEC-013`, sin gate de edición ni límite temporal fijo. Ese
+criterio decide **qué cuenta como candidato legítimo**, no qué candidatos
+concretos entran finalmente al corpus citado: cada entrada de este manifest
+sigue siendo, individualmente, un candidato sujeto a la escala de
+verificación (`CANDIDATE` → ... → `CITED`) antes de poder usarse como
+evidencia en un `ARG-*`.
 
 ## Lectura de primera ronda (propuesta del investigador, pendiente de confirmación)
 

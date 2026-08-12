@@ -558,18 +558,44 @@ particular:
 
 ## Estado actual
 
-La infraestructura documental y la auditoría automatizada están preparadas.
-Tres fuentes primarias tienen edición verificada, ficha de lectura y citas
-cotejadas por el investigador (`bibliography.bib`, `research/sources/notes/`),
-y el repositorio registra su primer argumento (`ARG-001`,
-`research/argument-ledger/`), en desarrollo y sin validación humana todavía.
-La pregunta, hipótesis, objetivos, principios, selección de autores, corpus,
-método sustantivo y arquitectura capitular aquí presentados requieren
-desarrollo y validación por el investigador. La auditoría inicial y los
-riesgos pendientes constan en
+**Infraestructura y método:** la arquitectura documental está congelada
+(`governance/decision-log.md`, `DEC-001`–`DEC-003`) y la auditoría
+automatizada se ejecuta en verde. El método sustantivo de la tesis está
+fijado en su totalidad: las diez secciones de
+[`research/methodology.md`](research/methodology.md) tienen decisión
+registrada y fechada (`DEC-013`–`DEC-022`, 2026-08-11) — deconstrucción
+derridiana como eje organizador, criterio de selección de corpus,
+distinción primaria/secundaria, protocolo de lectura cercana, tratamiento
+de disputas de interpretación y de traducciones, procedimiento de cotejo,
+papel de las objeciones y de la IA, y límites metodológicos explícitos.
+Sujeto a revisión si la investigación lo exige, no a decisiones pendientes
+por defecto.
+
+**Corpus:** [`research/sources/library-manifest.md`](research/sources/library-manifest.md)
+reúne 219 obras candidatas, incluida la sección `PI-08` añadida el
+2026-08-11 (`DEC-023`). Tres fuentes primarias tienen edición verificada,
+ficha de lectura y citas cotejadas por el investigador (`SRC-002`,
+`SRC-004`, `SRC-005` en `bibliography.bib` y `research/sources/notes/`).
+[`research/reading-schedule.md`](research/reading-schedule.md) propone,
+sin decidirlo, un orden y ritmo de lectura para 204 de esas obras a partir
+del 15 de agosto de 2026.
+
+**Argumentación:** el repositorio registra su primer argumento (`ARG-001`,
+`research/argument-ledger/`), en estado `DEVELOPING` y sin validación
+humana todavía. Los tres criterios verificables de la Puerta D (*Research
+Ready*, `MASTER_EXECUTION_PLAN.md`) ya están cumplidos; que el investigador
+la declare formalmente cruzada sigue siendo, como toda puerta de decisión
+de este proyecto, una decisión suya exclusiva (`governance/authority-policy.md`,
+`DEC-004`), no algo que ninguna sesión de IA pueda resolver por sí sola.
+
+La pregunta, hipótesis, objetivos, principios, selección de autores, corpus
+y arquitectura capitular aquí presentados requieren desarrollo y validación
+adicional por el investigador. La auditoría inicial y los riesgos
+pendientes constan en
 [`governance/initial-audit.md`](governance/initial-audit.md).
 
-El repositorio declaró el cierre de esta ronda de consolidación de
-infraestructura (`governance/decision-log.md`, `DEC-009`): la prioridad pasa a
-ser leer, interpretar, argumentar y escribir filosofía, no seguir ampliando
-herramientas.
+El repositorio declaró el cierre de la ronda de consolidación de
+infraestructura (`governance/decision-log.md`, `DEC-009`): la prioridad es
+leer, interpretar, argumentar y escribir filosofía, no seguir ampliando
+herramientas ni arquitectura salvo que una necesidad de investigación real
+lo justifique.

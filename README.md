@@ -371,7 +371,7 @@ cuando corresponda, con una ficha analítica. Las fuentes secundarias, los
 resúmenes y las salidas automatizadas no se presentan como lectura directa.
 
 [`research/reading-schedule.md`](research/reading-schedule.md) propone una
-secuencia temporal de lectura para 204 de esas obras, en el orden
+secuencia temporal de lectura para 212 de esas obras, en el orden
 metodológico de `research/methodology.md` §1–2 — es una propuesta de ritmo
 y orden, no una decisión metodológica cerrada ni un registro de lectura
 realizada.
@@ -582,10 +582,9 @@ reúne 227 obras candidatas, incluida la sección `PI-08` añadida el
 ficha de lectura y citas cotejadas por el investigador (`SRC-002`,
 `SRC-004`, `SRC-005` en `bibliography.bib` y `research/sources/notes/`).
 [`research/reading-schedule.md`](research/reading-schedule.md) propone,
-sin decidirlo, un orden y ritmo de lectura para 204 de las 219 obras que
-existían al construirse ese cronograma — no incluye todavía las ocho
-candidatas de la sección J, que requiere una revisión aparte del
-cronograma si el investigador lo pide.
+sin decidirlo, un orden y ritmo de lectura para 212 de las 227 obras del
+manifiesto, incluidas las ocho candidatas de la sección J (`SRC-219`–`226`,
+`DEC-025`), leídas al final de la Fase 8 junto a la sección I.
 
 **Argumentación:** el repositorio registra su primer argumento (`ARG-001`,
 `research/argument-ledger/`), en estado `DEVELOPING` y sin validación

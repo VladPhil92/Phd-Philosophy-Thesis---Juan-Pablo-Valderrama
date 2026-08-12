@@ -72,11 +72,12 @@ declare Gate D o valide el primer `ARG-*`.
   ejerciendo la puerta que `DEC-022` había dejado reservada; el corpus
   candidato de `library-manifest.md` pasó de 211 a 219 entradas.
   `research/reading-schedule.md` propone, sin decidirlo, un orden y ritmo
-  de lectura para 204 de esas obras a partir del 15 de agosto de 2026. El
-  2026-08-12, la rúbrica de `PI-06` se resolvió (`DEC-024`) y el alcance
-  de `PI-08` se amplió hacia la frontera humano/IA (`DEC-025`), con ocho
-  candidatas adicionales (`library-manifest.md` sección J): 227 entradas
-  en total.
+  de lectura a partir del 15 de agosto de 2026. El 2026-08-12, la rúbrica
+  de `PI-06` se resolvió (`DEC-024`) y el alcance de `PI-08` se amplió
+  hacia la frontera humano/IA (`DEC-025`), con ocho candidatas adicionales
+  (`library-manifest.md` sección J, verificadas por búsqueda web el mismo
+  día): 227 entradas en total. `reading-schedule.md` se regeneró para
+  incorporar esas ocho al final de la Fase 8: cubre 212 obras.
 - Fase activa: **Fase 4 (Investigación sustantiva)**, con la Fase 3
   (Biblioteca de investigación) todavía abierta en paralelo — el corpus se
   construye de forma progresiva, no por lote.

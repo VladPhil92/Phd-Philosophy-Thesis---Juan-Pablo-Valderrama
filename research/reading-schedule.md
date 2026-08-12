@@ -61,13 +61,10 @@ vuelve a ejecutarlo; no requiere reescribir la secuencia de fases a mano.
 - **`SRC-185`.** Retirado como duplicado de `SRC-037` (ya señalado en el
   manifiesto); no es una entrada real.
 
-Con esas exclusiones, el cronograma cubre **204 obras** de las 219
-candidatas que existían en el manifiesto al construirse este cronograma
-(2026-08-11). No incluye las ocho candidatas de la sección J
-(`SRC-219`–`SRC-226`, alcance ampliado de `PI-08` hacia la frontera
-humano/IA, `DEC-025`, 2026-08-12), añadidas después: siguen sin fecha de
-lectura asignada hasta que el investigador pida una revisión de este
-cronograma.
+Con esas exclusiones, el cronograma cubre **212 obras** de las 227
+candidatas del manifiesto — incluidas las ocho de la sección J
+(`SRC-219`–`SRC-226`, alcance ampliado de `PI-08`, `DEC-025`), añadidas el
+2026-08-12 tras verificarse su identidad por búsqueda web.
 
 ## Fases y fundamento de cada una
 
@@ -90,10 +87,12 @@ El orden de fases es:
    sección D + cluster `CONTEXT` de la sección G).
 7. Complemento y profundización (sección E + cluster `DEEPENING` de la
    sección G).
-8. `PI-08` — infraestructura algorítmica y transformación de la
-   soberanía (sección I completa, `DEC-023`): la línea más nueva y menos
-   integrada del corpus, deliberadamente al final, sobre la base ya
-   construida en las fases 1–7.
+8. `PI-08` — infraestructura algorítmica, frontera humano/IA y
+   transformación de la soberanía (secciones I y J completas, `DEC-023`,
+   `DEC-025`): la línea más nueva y menos integrada del corpus,
+   deliberadamente al final, sobre la base ya construida en las fases
+   1–7. La sección J se lee inmediatamente después de la I, por ser la
+   continuación del mismo eje temático dentro de la misma pregunta.
 
 Cada fase, en el cuerpo del documento, repite su fundamento metodológico
 específico antes de la tabla correspondiente.
@@ -353,9 +352,9 @@ Sección E completa (posthumanismo, estudios multiespecie, etología) más el cl
 | SRC-181 | Ferrando | The Art of Being Posthuman | — | 25 may 2030 | 31 may 2030 |
 | SRC-182 | Calarco | The Three Ethologies | — | 1 jun 2030 | 7 jun 2030 |
 
-## Fase 8 — PI-08: infraestructura algorítmica y transformación de la soberanía
+## Fase 8 — PI-08: infraestructura algorítmica, frontera humano/IA y transformación de la soberanía
 
-Sección I completa (SRC-211–218, DEC-023). Línea más nueva y menos integrada del corpus: se lee al final, sobre la base ya construida en las fases 1–7, tal como la extiende explícitamente hacia "un objeto contemporáneo concreto" sin sustituir el campo crítico privilegiado (el animal).
+Secciones I (SRC-211–218, DEC-023) y J (SRC-219–226, DEC-025) completas. Línea más nueva y menos integrada del corpus: se lee al final, sobre la base ya construida en las fases 1–7, tal como la extiende explícitamente hacia "un objeto contemporáneo concreto" sin sustituir el campo crítico privilegiado (el animal). La sección J (frontera humano/IA, autonomía algorítmica, control bélico y biopolítico) se lee justo después de la I, como ampliación del mismo eje, no como línea aparte.
 
 | SRC | Autor(es) | Obra | Prioridad | Inicio | Fin |
 |---|---|---|---|---|---|
@@ -367,5 +366,13 @@ Sección I completa (SRC-211–218, DEC-023). Línea más nueva y menos integrad
 | SRC-216 | Stiegler | The Age of Disruption | — | 9 jul 2030 | 15 jul 2030 |
 | SRC-217 | Mbembe | Brutalisme | — | 16 jul 2030 | 22 jul 2030 |
 | SRC-218 | Byung-Chul Han | Psychopolitics + Infocracy (dos obras, una fila) | — | 23 jul 2030 | 5 ago 2030 |
+| SRC-219 | Bostrom | Superintelligence: Paths, Dangers, Strategies | — | 6 ago 2030 | 12 ago 2030 |
+| SRC-220 | Crawford | Atlas of AI | — | 13 ago 2030 | 19 ago 2030 |
+| SRC-221 | Pasquale | The Black Box Society | — | 20 ago 2030 | 26 ago 2030 |
+| SRC-222 | Pasquale | New Laws of Robotics | — | 27 ago 2030 | 2 sep 2030 |
+| SRC-223 | Singer, P. W. | Wired for War | — | 3 sep 2030 | 9 sep 2030 |
+| SRC-224 | Kello | The Virtual Weapon and International Order | — | 10 sep 2030 | 16 sep 2030 |
+| SRC-225 | Hui | Recursivity and Contingency | — | 17 sep 2030 | 23 sep 2030 |
+| SRC-226 | Floridi | The Fourth Revolution | — | 24 sep 2030 | 30 sep 2030 |
 
-**Fin del cronograma (a este ritmo estimado): 5 ago 2030 (~207.5 semanas, ~4.0 años).**
+**Fin del cronograma (a este ritmo estimado): 30 sep 2030 (~215.5 semanas, ~4.1 años).**

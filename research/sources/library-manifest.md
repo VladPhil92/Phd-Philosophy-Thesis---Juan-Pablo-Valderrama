@@ -52,10 +52,14 @@ incorporada.
 - **SRC-219 a SRC-226** corresponden al alcance ampliado de `PI-08` hacia la
   frontera humano/IA, la autonomía/singularidad algorítmica, el control
   bélico, la manipulación de mercados y la regulación humana de la IA
-  (`DEC-025`, 2026-08-12). Registradas de memoria por esta sesión, **sin
-  búsqueda externa de verificación** — igual que SRC-211–218 en su primer
-  registro, marcadas `CANDIDATE`, no `IDENTITY_VERIFIED`, hasta que una
-  búsqueda web confirme autor, título, editorial y año.
+  (`DEC-025`, 2026-08-12). Registradas inicialmente de memoria, sin
+  búsqueda externa; confirmada su identidad por búsqueda web el mismo día
+  (autor, título, editorial, año, con URL), igual que SRC-211–218:
+  `IDENTITY_VERIFIED`, no edición exacta, adquisición ni lectura. Esa misma
+  búsqueda corrigió la editorial exacta de `SRC-222` (Belknap Press, no
+  Harvard University Press a secas). Requieren la misma verificación de
+  edición y lectura que cualquier otro candidato antes de avanzar en la
+  escala de estados.
 - Ninguna entrada de este documento se marca `EDITION_VERIFIED`,
   `ACQUIRED`, `READING`, `READ` ni `CITED`. Esos estados solo los asigna el
   investigador cuando adquiere y verifica la edición real que va a citar.
@@ -437,30 +441,35 @@ de promover cualquier candidato a `bibliography.bib`.
 > Candidatos para el alcance ampliado de `PI-08` (`research/questions.md`,
 > `DEC-025`, 2026-08-12): frontera humano/IA, autonomía/singularidad,
 > control bélico, manipulación de mercados y regulación humana de la IA.
-> Registradas de memoria por esta sesión, **sin búsqueda externa de
-> verificación**: `CANDIDATE`, no `IDENTITY_VERIFIED`. Requieren la misma
-> verificación por búsqueda web que ya se aplicó a SRC-211–218 antes de
-> avanzar en la escala de estados.
+> Identidad confirmada por búsqueda web el 2026-08-12: se verificó que cada
+> obra existe con ese autor, título, editorial y año, con URL de
+> referencia. Estado `IDENTITY_VERIFIED`, mismo alcance que SRC-151–SRC-200
+> y SRC-211–218: **no** acredita edición exacta (ISBN/DOI), adquisición ni
+> lectura.
 
-| SRC | Autor(es) | Título | Año | Clasificación | PI relacionadas | Estado |
-|---|---|---|---|---|---|---|
-| SRC-219 | Bostrom, N. | *Superintelligence: Paths, Dangers, Strategies* (Oxford University Press) | 2014 | STATE_OF_ART | PI-08 | CANDIDATE |
-| SRC-220 | Crawford, K. | *Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence* (Yale University Press) | 2021 | STATE_OF_ART | PI-02, PI-08 | CANDIDATE |
-| SRC-221 | Pasquale, F. | *The Black Box Society: The Secret Algorithms That Control Money and Information* (Harvard University Press) | 2015 | STATE_OF_ART | PI-08 | CANDIDATE |
-| SRC-222 | Pasquale, F. | *New Laws of Robotics: Defending Human Expertise in the Age of AI* (Harvard University Press) | 2020 | STATE_OF_ART | PI-08 | CANDIDATE |
-| SRC-223 | Singer, P. W. | *Wired for War: The Robotics Revolution and Conflict in the Twenty-First Century* (Penguin Press) | 2009 | STATE_OF_ART | PI-08 | CANDIDATE |
-| SRC-224 | Kello, L. | *The Virtual Weapon and International Order* (Yale University Press) | 2017 | STATE_OF_ART | PI-02, PI-08 | CANDIDATE |
-| SRC-225 | Hui, Y. | *Recursivity and Contingency* (Rowman & Littlefield International) | 2019 | STATE_OF_ART | PI-08 | CANDIDATE |
-| SRC-226 | Floridi, L. | *The Fourth Revolution: How the Infosphere Is Reshaping Human Reality* (Oxford University Press) | 2014 | STATE_OF_ART | PI-04, PI-08 | CANDIDATE |
+| SRC | Autor(es) | Título | Año | Clasificación | PI relacionadas | Fuente de verificación | Estado |
+|---|---|---|---|---|---|---|---|
+| SRC-219 | Bostrom, N. | *Superintelligence: Paths, Dangers, Strategies* (Oxford University Press) | 2014 | STATE_OF_ART | PI-08 | [global.oup.com](https://global.oup.com/academic/product/superintelligence-9780199678112) | IDENTITY_VERIFIED |
+| SRC-220 | Crawford, K. | *Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence* (Yale University Press) | 2021 | STATE_OF_ART | PI-02, PI-08 | [yalebooks.yale.edu](https://yalebooks.yale.edu/book/9780300264630/atlas-of-ai/) | IDENTITY_VERIFIED |
+| SRC-221 | Pasquale, F. | *The Black Box Society: The Secret Algorithms That Control Money and Information* (Harvard University Press) | 2015 | STATE_OF_ART | PI-08 | [en.wikipedia.org](https://en.wikipedia.org/wiki/The_Black_Box_Society) | IDENTITY_VERIFIED |
+| SRC-222 | Pasquale, F. | *New Laws of Robotics: Defending Human Expertise in the Age of AI* (Belknap Press / Harvard University Press) | 2020 | STATE_OF_ART | PI-08 | [hup.harvard.edu](https://www.hup.harvard.edu/books/9780674975224) | IDENTITY_VERIFIED |
+| SRC-223 | Singer, P. W. | *Wired for War: The Robotics Revolution and Conflict in the Twenty-First Century* (Penguin Press) | 2009 | STATE_OF_ART | PI-08 | [penguinrandomhouse.com](https://www.penguinrandomhouse.com/books/303774/wired-for-war-by-p-w-singer/) | IDENTITY_VERIFIED |
+| SRC-224 | Kello, L. | *The Virtual Weapon and International Order* (Yale University Press) | 2017 | STATE_OF_ART | PI-02, PI-08 | [yalebooks.yale.edu](https://yalebooks.yale.edu/book/9780300234497/the-virtual-weapon-and-international-order/) | IDENTITY_VERIFIED |
+| SRC-225 | Hui, Y. | *Recursivity and Contingency* (Rowman & Littlefield International) | 2019 | STATE_OF_ART | PI-08 | [digitalmilieu.net](https://digitalmilieu.net/recursivity-and-contingency-en/) | IDENTITY_VERIFIED |
+| SRC-226 | Floridi, L. | *The Fourth Revolution: How the Infosphere Is Reshaping Human Reality* (Oxford University Press) | 2014 | STATE_OF_ART | PI-04, PI-08 | [global.oup.com](https://global.oup.com/academic/product/the-fourth-revolution-9780199606726) | IDENTITY_VERIFIED |
 
 Notas: `SRC-223` es Peter W. Singer, politólogo especializado en tecnología
 militar — sin relación con Peter Singer (`SRC-080`, ética animal); no
 confundir. `SRC-225` (Yuk Hui) dialoga explícitamente con Stiegler
 (`SRC-216`, ya en el corpus), lo que puede facilitar su lectura conjunta.
-Ninguna de estas ocho entradas acredita lectura, edición confirmada,
-adquisición ni siquiera identidad verificada por búsqueda externa — es un
-punto de partida propuesto por esta sesión, no una lista cerrada ni
-confirmada.
+`SRC-222` corrige la editorial exacta respecto de la propuesta inicial: es
+Belknap Press, el sello de Harvard University Press bajo el que se publicó,
+no Harvard University Press a secas — dato que la búsqueda de esta sesión
+confirmó y que la propuesta inicial no distinguía. Ninguna de estas ocho
+entradas acredita lectura, edición confirmada ni adquisición — la
+verificación de identidad no sustituye la verificación de edición y
+lectura que exige `research/methodology.md` §2 (`DEC-014`) antes de
+promover cualquier candidato a `bibliography.bib`.
 
 ## Duplicados y observaciones de calidad ya detectados
 

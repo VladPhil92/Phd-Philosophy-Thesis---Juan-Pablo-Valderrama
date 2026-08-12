@@ -79,8 +79,10 @@ vuelve a ejecutarlo; no requiere reescribir la secuencia de fases a mano.
 - **`SRC-185`.** Retirado como duplicado de `SRC-037` (ya señalado en el
   manifiesto); no es una entrada real.
 
-Con esas exclusiones, el cronograma cubre **204 obras** de las 219
-candidatas del manifiesto.
+Con esas exclusiones, el cronograma cubre **212 obras** de las 227
+candidatas del manifiesto — incluidas las ocho de la sección J
+(`SRC-219`–`SRC-226`, alcance ampliado de `PI-08`, `DEC-025`), añadidas el
+2026-08-12 tras verificarse su identidad por búsqueda web.
 
 ## Fases y fundamento de cada una
 
@@ -103,10 +105,12 @@ El orden de fases es:
    sección D + cluster `CONTEXT` de la sección G).
 7. Complemento y profundización (sección E + cluster `DEEPENING` de la
    sección G).
-8. `PI-08` — infraestructura algorítmica y transformación de la
-   soberanía (sección I completa, `DEC-023`): la línea más nueva y menos
-   integrada del corpus, deliberadamente al final, sobre la base ya
-   construida en las fases 1–7.
+8. `PI-08` — infraestructura algorítmica, frontera humano/IA y
+   transformación de la soberanía (secciones I y J completas, `DEC-023`,
+   `DEC-025`): la línea más nueva y menos integrada del corpus,
+   deliberadamente al final, sobre la base ya construida en las fases
+   1–7. La sección J se lee inmediatamente después de la I, por ser la
+   continuación del mismo eje temático dentro de la misma pregunta.
 
 Cada fase, en el cuerpo del documento, repite su fundamento metodológico
 específico antes de la tabla correspondiente.
@@ -388,12 +392,16 @@ FASES = [
     ),
     dict(
         num=8,
-        titulo="PI-08: infraestructura algorítmica y transformación de la soberanía",
-        fundamento="Sección I completa (SRC-211–218, DEC-023). Línea más nueva y "
-                    "menos integrada del corpus: se lee al final, sobre la base ya "
-                    "construida en las fases 1–7, tal como la extiende explícitamente "
-                    "hacia \"un objeto contemporáneo concreto\" sin sustituir el campo "
-                    "crítico privilegiado (el animal).",
+        titulo="PI-08: infraestructura algorítmica, frontera humano/IA y transformación de la soberanía",
+        fundamento="Secciones I (SRC-211–218, DEC-023) y J (SRC-219–226, "
+                    "DEC-025) completas. Línea más nueva y menos integrada del "
+                    "corpus: se lee al final, sobre la base ya construida en las "
+                    "fases 1–7, tal como la extiende explícitamente hacia \"un "
+                    "objeto contemporáneo concreto\" sin sustituir el campo "
+                    "crítico privilegiado (el animal). La sección J (frontera "
+                    "humano/IA, autonomía algorítmica, control bélico y "
+                    "biopolítico) se lee justo después de la I, como ampliación "
+                    "del mismo eje, no como línea aparte.",
         entries=[
             ("SRC-211", "Varoufakis", "Technofeudalism: What Killed Capitalism", "—", "L"),
             ("SRC-212", "Durand", "How Silicon Valley Unleashed Techno-Feudalism", "—", "L"),
@@ -403,6 +411,14 @@ FASES = [
             ("SRC-216", "Stiegler", "The Age of Disruption", "—", "L"),
             ("SRC-217", "Mbembe", "Brutalisme", "—", "L"),
             ("SRC-218", "Byung-Chul Han", "Psychopolitics + Infocracy (dos obras, una fila)", "—", "LL"),
+            ("SRC-219", "Bostrom", "Superintelligence: Paths, Dangers, Strategies", "—", "L"),
+            ("SRC-220", "Crawford", "Atlas of AI", "—", "L"),
+            ("SRC-221", "Pasquale", "The Black Box Society", "—", "L"),
+            ("SRC-222", "Pasquale", "New Laws of Robotics", "—", "L"),
+            ("SRC-223", "Singer, P. W.", "Wired for War", "—", "L"),
+            ("SRC-224", "Kello", "The Virtual Weapon and International Order", "—", "L"),
+            ("SRC-225", "Hui", "Recursivity and Contingency", "—", "L"),
+            ("SRC-226", "Floridi", "The Fourth Revolution", "—", "L"),
         ],
     ),
 ]

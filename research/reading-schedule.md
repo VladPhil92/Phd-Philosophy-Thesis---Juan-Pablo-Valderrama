@@ -121,10 +121,10 @@ Historia conceptual y hermenéutica como auxiliares de la reconstrucción geneal
 | SRC-146 | Drucker | Graphesis | BAJA | 27 oct 2026 | 2 nov 2026 |
 | SRC-147 | Schreibman, Siemens & Unsworth (eds.) | A Companion to Digital Humanities | BAJA | 3 nov 2026 | 9 nov 2026 |
 | SRC-148 | Borgman | Big Data, Little Data, No Data | BAJA | 10 nov 2026 | 16 nov 2026 |
-| SRC-192 | (autor por confirmar) | "Algorithmic Governmentality, Digital Sovereignty, and Agency" | — | 17 nov 2026 | 20 nov 2026 |
-| SRC-193 | (autor por confirmar) | "Algorithmic sovereignty and democratic resilience..." | — | 21 nov 2026 | 23 nov 2026 |
-| SRC-194 | (autor por confirmar) | "Reproducibility and explainability in digital humanities" | — | 24 nov 2026 | 27 nov 2026 |
-| SRC-195 | (autor por confirmar) | "Reproducibility, verifiability, and computational historical research" | — | 28 nov 2026 | 30 nov 2026 |
+| SRC-192 | Pop Stefanija & Pierson | "Algorithmic Governmentality, Digital Sovereignty, and Agency Affordances" | — | 17 nov 2026 | 20 nov 2026 |
+| SRC-193 | Badawy | "Algorithmic sovereignty and democratic resilience..." | — | 21 nov 2026 | 23 nov 2026 |
+| SRC-194 | Ries, van Dalen-Oskam & Offert | "Reproducibility and explainability in digital humanities" | — | 24 nov 2026 | 27 nov 2026 |
+| SRC-195 | Burrows | "Reproducibility, verifiability, and computational historical research" | — | 28 nov 2026 | 30 nov 2026 |
 
 ## Fase 1 — Fuente del método: Derrida
 
@@ -175,7 +175,7 @@ Los diez autores/pares sobre los que se ejerce la lectura deconstructiva, en el 
 | SRC-110 | Esposito | Communitas | ALTA | 13 nov 2027 | 26 nov 2027 |
 | SRC-111 | Esposito | Immunitas | ALTA | 27 nov 2027 | 10 dic 2027 |
 | SRC-112 | Esposito | Bíos: Biopolitics and Philosophy | MEDIA | 11 dic 2027 | 17 dic 2027 |
-| SRC-191 | Esposito | "Oltre la biopolitica" / "Beyond Biopolitics" (2024; formato por confirmar) | — | 18 dic 2027 | 20 dic 2027 |
+| SRC-191 | Esposito | "Oltre la biopolitica" / "Beyond Biopolitics" (2024, conferencia) | — | 18 dic 2027 | 20 dic 2027 |
 | SRC-061 | Donaldson & Kymlicka | Zoopolis | ALTA | 21 dic 2027 | 3 ene 2028 |
 | SRC-210 | Donaldson & Kymlicka | Animals and the Right to Politics (2025) | ALTA | 4 ene 2028 | 17 ene 2028 |
 | SRC-062 | Donaldson & Kymlicka | "Animals and the Frontiers of Citizenship" | MEDIA | 18 ene 2028 | 21 ene 2028 |
@@ -232,8 +232,8 @@ Sección B completa, más el cluster de secundaria sobre Derrida de la sección 
 | SRC-058 | Norris | Derrida | BAJA | 29 ago 2028 | 4 sep 2028 |
 | SRC-060 | Borradori | Philosophy in a Time of Terror | BAJA | 5 sep 2028 | 11 sep 2028 |
 | SRC-184 | Piskorski | Derrida and Textual Animality | — | 12 sep 2028 | 18 sep 2028 |
-| SRC-186 | (autor por confirmar) | "Jacques Derrida on the Aporias of Hospitality" | — | 19 sep 2028 | 22 sep 2028 |
-| SRC-187 | (autor por confirmar) | "Paradise Lost in Derrida and Agamben..." | — | 23 sep 2028 | 25 sep 2028 |
+| SRC-186 | Kakoliris | Jacques Derrida on the Aporias of Hospitality (monografía, no artículo) | — | 19 sep 2028 | 25 sep 2028 |
+| SRC-187 | Willemse | "Paradise Lost in Derrida and Agamben..." | — | 26 sep 2028 | 29 sep 2028 |
 
 ## Fase 5 — Estado del arte: giro político animal / comunidad interespecie
 
@@ -241,52 +241,52 @@ Resto de la sección C (SRC-066–090, sin 061–065/210 ya leídos en la Fase 2
 
 | SRC | Autor(es) | Obra | Prioridad | Inicio | Fin |
 |---|---|---|---|---|---|
-| SRC-066 | Cochrane | Sentientist Politics | ALTA | 26 sep 2028 | 2 oct 2028 |
-| SRC-074 | Meijer | When Animals Speak | ALTA | 3 oct 2028 | 9 oct 2028 |
-| SRC-067 | Cochrane | Animal Rights Without Liberation | MEDIA | 10 oct 2028 | 16 oct 2028 |
-| SRC-068 | Cochrane | An Introduction to Animals and Political Theory | MEDIA | 17 oct 2028 | 23 oct 2028 |
-| SRC-069 | Garner | A Theory of Justice for Animals | MEDIA | 24 oct 2028 | 30 oct 2028 |
-| SRC-071 | Garner & O'Sullivan (eds.) | The Political Turn in Animal Ethics | MEDIA | 31 oct 2028 | 6 nov 2028 |
-| SRC-072 | O'Sullivan | Animals, Equality and Democracy | MEDIA | 7 nov 2028 | 13 nov 2028 |
-| SRC-075 | Meijer | Animal Languages | MEDIA | 14 nov 2028 | 20 nov 2028 |
-| SRC-076 | Nussbaum | Frontiers of Justice | MEDIA | 21 nov 2028 | 27 nov 2028 |
-| SRC-077 | Nussbaum | Justice for Animals | MEDIA | 28 nov 2028 | 4 dic 2028 |
-| SRC-078 | Korsgaard | Fellow Creatures | MEDIA | 5 dic 2028 | 11 dic 2028 |
-| SRC-070 | Garner | Political Animals | BAJA | 12 dic 2028 | 18 dic 2028 |
-| SRC-073 | Smith | Governing Animals | BAJA | 19 dic 2028 | 25 dic 2028 |
-| SRC-079 | Regan | The Case for Animal Rights | BAJA | 26 dic 2028 | 1 ene 2029 |
-| SRC-080 | Singer | Animal Liberation | BAJA | 2 ene 2029 | 8 ene 2029 |
-| SRC-081 | Francione | Animals, Property, and the Law | BAJA | 9 ene 2029 | 15 ene 2029 |
-| SRC-082 | Francione | Introduction to Animal Rights | BAJA | 16 ene 2029 | 22 ene 2029 |
-| SRC-083 | Palmer | Animal Ethics in Context | BAJA | 23 ene 2029 | 29 ene 2029 |
-| SRC-084 | Rowlands | Animal Rights: Moral Theory and Practice | BAJA | 30 ene 2029 | 5 feb 2029 |
-| SRC-085 | Rowlands | Can Animals Be Moral? | BAJA | 6 feb 2029 | 12 feb 2029 |
-| SRC-086 | Cavalieri | The Animal Question | BAJA | 13 feb 2029 | 19 feb 2029 |
-| SRC-087 | Aaltola | Animal Suffering | BAJA | 20 feb 2029 | 26 feb 2029 |
-| SRC-088 | Gruen | Entangled Empathy | BAJA | 27 feb 2029 | 5 mar 2029 |
-| SRC-089 | Gruen | Ethics and Animals | BAJA | 6 mar 2029 | 12 mar 2029 |
-| SRC-090 | Donovan & Adams (eds.) | The Feminist Care Tradition in Animal Ethics | BAJA | 13 mar 2029 | 19 mar 2029 |
-| SRC-151 | Youatt | Interspecies Politics | — | 20 mar 2029 | 26 mar 2029 |
-| SRC-152 | Chao et al. (eds.) | The Promise of Multispecies Justice | — | 27 mar 2029 | 2 abr 2029 |
-| SRC-158 | Garner | "The Case for an Interspecies Theory of Democracy" | — | 3 abr 2029 | 6 abr 2029 |
-| SRC-159 | Cochrane & Cojocaru | "Solidarity with Wild Animals" | — | 7 abr 2029 | 9 abr 2029 |
-| SRC-160 | Cochrane | "Cosmozoopolis..." | — | 10 abr 2029 | 13 abr 2029 |
-| SRC-161 | Garner | "Animals and Democratic Theory..." | — | 14 abr 2029 | 16 abr 2029 |
-| SRC-162 | Meijer | "Global injustice and animals..." | — | 17 abr 2029 | 20 abr 2029 |
-| SRC-163 | Meijer | "A Daoist-inspired Approach to Multispecies Relations" | — | 21 abr 2029 | 23 abr 2029 |
-| SRC-164 | Meijer | Multispecies Dialogues | — | 24 abr 2029 | 30 abr 2029 |
-| SRC-165 | Narayanan | "Animal-state relations..." | — | 1 may 2029 | 4 may 2029 |
-| SRC-166 | Narayanan | "For multispecies liberatory futures..." | — | 5 may 2029 | 7 may 2029 |
-| SRC-167 | Narayanan & Srinivasan | "...The species turn in Indian identity politics" | — | 8 may 2029 | 11 may 2029 |
-| SRC-168 | Narayanan | "Mother Cow, Mother India..." | — | 12 may 2029 | 14 may 2029 |
-| SRC-169 | Faria | Animal Ethics in the Wild | — | 15 may 2029 | 21 may 2029 |
-| SRC-170 | Johannsen (ed.) | Positive Duties to Wild Animals | — | 22 may 2029 | 28 may 2029 |
-| SRC-171 | Browning & Veit | "Positive Wild Animal Welfare" | — | 29 may 2029 | 1 jun 2029 |
-| SRC-172 | Horta & Teran | "Reducing Wild Animal Suffering Effectively..." | — | 2 jun 2029 | 4 jun 2029 |
-| SRC-173 | (autor por confirmar) | "Indigenizing wild animal sovereignty" | — | 5 jun 2029 | 8 jun 2029 |
-| SRC-174 | Milburn | Food, Justice, and Animals | — | 9 jun 2029 | 15 jun 2029 |
-| SRC-175 | Adams, Gruen & Crary (eds.) | The Good It Promises, the Harm It Does | — | 16 jun 2029 | 22 jun 2029 |
-| SRC-179 | Bernet Kempers | "What Are Animal Rights For?" | — | 23 jun 2029 | 25 jun 2029 |
+| SRC-066 | Cochrane | Sentientist Politics | ALTA | 30 sep 2028 | 6 oct 2028 |
+| SRC-074 | Meijer | When Animals Speak | ALTA | 7 oct 2028 | 13 oct 2028 |
+| SRC-067 | Cochrane | Animal Rights Without Liberation | MEDIA | 14 oct 2028 | 20 oct 2028 |
+| SRC-068 | Cochrane | An Introduction to Animals and Political Theory | MEDIA | 21 oct 2028 | 27 oct 2028 |
+| SRC-069 | Garner | A Theory of Justice for Animals | MEDIA | 28 oct 2028 | 3 nov 2028 |
+| SRC-071 | Garner & O'Sullivan (eds.) | The Political Turn in Animal Ethics | MEDIA | 4 nov 2028 | 10 nov 2028 |
+| SRC-072 | O'Sullivan | Animals, Equality and Democracy | MEDIA | 11 nov 2028 | 17 nov 2028 |
+| SRC-075 | Meijer | Animal Languages | MEDIA | 18 nov 2028 | 24 nov 2028 |
+| SRC-076 | Nussbaum | Frontiers of Justice | MEDIA | 25 nov 2028 | 1 dic 2028 |
+| SRC-077 | Nussbaum | Justice for Animals | MEDIA | 2 dic 2028 | 8 dic 2028 |
+| SRC-078 | Korsgaard | Fellow Creatures | MEDIA | 9 dic 2028 | 15 dic 2028 |
+| SRC-070 | Garner | Political Animals | BAJA | 16 dic 2028 | 22 dic 2028 |
+| SRC-073 | Smith | Governing Animals | BAJA | 23 dic 2028 | 29 dic 2028 |
+| SRC-079 | Regan | The Case for Animal Rights | BAJA | 30 dic 2028 | 5 ene 2029 |
+| SRC-080 | Singer | Animal Liberation | BAJA | 6 ene 2029 | 12 ene 2029 |
+| SRC-081 | Francione | Animals, Property, and the Law | BAJA | 13 ene 2029 | 19 ene 2029 |
+| SRC-082 | Francione | Introduction to Animal Rights | BAJA | 20 ene 2029 | 26 ene 2029 |
+| SRC-083 | Palmer | Animal Ethics in Context | BAJA | 27 ene 2029 | 2 feb 2029 |
+| SRC-084 | Rowlands | Animal Rights: Moral Theory and Practice | BAJA | 3 feb 2029 | 9 feb 2029 |
+| SRC-085 | Rowlands | Can Animals Be Moral? | BAJA | 10 feb 2029 | 16 feb 2029 |
+| SRC-086 | Cavalieri | The Animal Question | BAJA | 17 feb 2029 | 23 feb 2029 |
+| SRC-087 | Aaltola | Animal Suffering | BAJA | 24 feb 2029 | 2 mar 2029 |
+| SRC-088 | Gruen | Entangled Empathy | BAJA | 3 mar 2029 | 9 mar 2029 |
+| SRC-089 | Gruen | Ethics and Animals | BAJA | 10 mar 2029 | 16 mar 2029 |
+| SRC-090 | Donovan & Adams (eds.) | The Feminist Care Tradition in Animal Ethics | BAJA | 17 mar 2029 | 23 mar 2029 |
+| SRC-151 | Youatt | Interspecies Politics | — | 24 mar 2029 | 30 mar 2029 |
+| SRC-152 | Chao et al. (eds.) | The Promise of Multispecies Justice | — | 31 mar 2029 | 6 abr 2029 |
+| SRC-158 | Garner | "The Case for an Interspecies Theory of Democracy" | — | 7 abr 2029 | 9 abr 2029 |
+| SRC-159 | Cochrane & Cojocaru | "Solidarity with Wild Animals" | — | 10 abr 2029 | 13 abr 2029 |
+| SRC-160 | Cochrane | "Cosmozoopolis..." | — | 14 abr 2029 | 16 abr 2029 |
+| SRC-161 | Garner | "Animals and Democratic Theory..." | — | 17 abr 2029 | 20 abr 2029 |
+| SRC-162 | Meijer | "Global injustice and animals..." | — | 21 abr 2029 | 23 abr 2029 |
+| SRC-163 | Meijer | "A Daoist-inspired Approach to Multispecies Relations" | — | 24 abr 2029 | 27 abr 2029 |
+| SRC-164 | Meijer | Multispecies Dialogues | — | 28 abr 2029 | 4 may 2029 |
+| SRC-165 | Narayanan | "Animal-state relations..." | — | 5 may 2029 | 7 may 2029 |
+| SRC-166 | Narayanan | "For multispecies liberatory futures..." | — | 8 may 2029 | 11 may 2029 |
+| SRC-167 | Narayanan & Srinivasan | "...The species turn in Indian identity politics" | — | 12 may 2029 | 14 may 2029 |
+| SRC-168 | Narayanan | "Mother Cow, Mother India..." | — | 15 may 2029 | 18 may 2029 |
+| SRC-169 | Faria | Animal Ethics in the Wild | — | 19 may 2029 | 25 may 2029 |
+| SRC-170 | Johannsen (ed.) | Positive Duties to Wild Animals | — | 26 may 2029 | 1 jun 2029 |
+| SRC-171 | Browning & Veit | "Positive Wild Animal Welfare" | — | 2 jun 2029 | 4 jun 2029 |
+| SRC-172 | Horta & Teran | "Reducing Wild Animal Suffering Effectively..." | — | 5 jun 2029 | 8 jun 2029 |
+| SRC-173 | Papadopoulos | "Indigenizing wild animal sovereignty" | — | 9 jun 2029 | 11 jun 2029 |
+| SRC-174 | Milburn | Food, Justice, and Animals | — | 12 jun 2029 | 18 jun 2029 |
+| SRC-175 | Adams, Gruen & Crary (eds.) | The Good It Promises, the Harm It Does | — | 19 jun 2029 | 25 jun 2029 |
+| SRC-179 | Bernet Kempers | "What Are Animal Rights For?" | — | 26 jun 2029 | 29 jun 2029 |
 
 ## Fase 6 — Contexto: soberanía, comunidad, ciudadanía, biopolítica
 
@@ -294,33 +294,33 @@ Resto de la sección D (sin Nancy/Esposito, ya leídos en la Fase 2) más el clu
 
 | SRC | Autor(es) | Obra | Prioridad | Inicio | Fin |
 |---|---|---|---|---|---|
-| SRC-091 | Bartelson | A Genealogy of Sovereignty | MEDIA | 26 jun 2029 | 2 jul 2029 |
-| SRC-096 | Brown | Walled States, Waning Sovereignty | MEDIA | 3 jul 2029 | 9 jul 2029 |
-| SRC-099 | Arendt | The Origins of Totalitarianism | MEDIA | 10 jul 2029 | 16 jul 2029 |
-| SRC-100 | Arendt | The Human Condition | MEDIA | 17 jul 2029 | 23 jul 2029 |
-| SRC-102 | Foucault | Society Must Be Defended | MEDIA | 24 jul 2029 | 30 jul 2029 |
-| SRC-103 | Foucault | Security, Territory, Population | MEDIA | 31 jul 2029 | 6 ago 2029 |
-| SRC-104 | Foucault | The Birth of Biopolitics | MEDIA | 7 ago 2029 | 13 ago 2029 |
-| SRC-106 | Mbembe | Necropolitics | MEDIA | 14 ago 2029 | 20 ago 2029 |
-| SRC-107 | Butler | Precarious Life | MEDIA | 21 ago 2029 | 27 ago 2029 |
-| SRC-108 | Butler | Frames of War | MEDIA | 28 ago 2029 | 3 sep 2029 |
-| SRC-092 | Hinsley | Sovereignty | BAJA | 4 sep 2029 | 10 sep 2029 |
-| SRC-093 | Krasner | Sovereignty: Organized Hypocrisy | BAJA | 11 sep 2029 | 17 sep 2029 |
-| SRC-094 | Walker | Inside/Outside | BAJA | 18 sep 2029 | 24 sep 2029 |
-| SRC-095 | Agnew | "Sovereignty Regimes..." | BAJA | 25 sep 2029 | 28 sep 2029 |
-| SRC-097 | Balibar | We, the People of Europe? | BAJA | 29 sep 2029 | 5 oct 2029 |
-| SRC-098 | Balibar | Citizenship | BAJA | 6 oct 2029 | 12 oct 2029 |
-| SRC-101 | Arendt | On Revolution | BAJA | 13 oct 2029 | 19 oct 2029 |
-| SRC-105 | Foucault | The History of Sexuality, Vol. 1 | BAJA | 20 oct 2029 | 26 oct 2029 |
-| SRC-109 | Rancière | Disagreement | BAJA | 27 oct 2029 | 2 nov 2029 |
-| SRC-115 | Hardt & Negri | Empire | BAJA | 3 nov 2029 | 9 nov 2029 |
-| SRC-176 | Fasel & Butler | Animal Rights Law | — | 10 nov 2029 | 16 nov 2029 |
-| SRC-177 | Adenitire & Fasel | Animals and the Constitution | — | 17 nov 2029 | 23 nov 2029 |
-| SRC-178 | Deckha | Animals as Legal Beings | — | 24 nov 2029 | 30 nov 2029 |
-| SRC-183 | Cimatti & Salzani (eds.) | The Biopolitical Animal | — | 1 dic 2029 | 7 dic 2029 |
-| SRC-188 | Di Cesare | Resident Foreigners | — | 8 dic 2029 | 14 dic 2029 |
-| SRC-189 | Lejeune, Pagès-El Karoui, Schmoll & Thiollet (eds.) | Migration, Urbanity and Cosmopolitanism in a Globalized World | — | 15 dic 2029 | 21 dic 2029 |
-| SRC-190 | Piasentier & Raimondi (eds.) | Debating Biopolitics | — | 22 dic 2029 | 28 dic 2029 |
+| SRC-091 | Bartelson | A Genealogy of Sovereignty | MEDIA | 30 jun 2029 | 6 jul 2029 |
+| SRC-096 | Brown | Walled States, Waning Sovereignty | MEDIA | 7 jul 2029 | 13 jul 2029 |
+| SRC-099 | Arendt | The Origins of Totalitarianism | MEDIA | 14 jul 2029 | 20 jul 2029 |
+| SRC-100 | Arendt | The Human Condition | MEDIA | 21 jul 2029 | 27 jul 2029 |
+| SRC-102 | Foucault | Society Must Be Defended | MEDIA | 28 jul 2029 | 3 ago 2029 |
+| SRC-103 | Foucault | Security, Territory, Population | MEDIA | 4 ago 2029 | 10 ago 2029 |
+| SRC-104 | Foucault | The Birth of Biopolitics | MEDIA | 11 ago 2029 | 17 ago 2029 |
+| SRC-106 | Mbembe | Necropolitics | MEDIA | 18 ago 2029 | 24 ago 2029 |
+| SRC-107 | Butler | Precarious Life | MEDIA | 25 ago 2029 | 31 ago 2029 |
+| SRC-108 | Butler | Frames of War | MEDIA | 1 sep 2029 | 7 sep 2029 |
+| SRC-092 | Hinsley | Sovereignty | BAJA | 8 sep 2029 | 14 sep 2029 |
+| SRC-093 | Krasner | Sovereignty: Organized Hypocrisy | BAJA | 15 sep 2029 | 21 sep 2029 |
+| SRC-094 | Walker | Inside/Outside | BAJA | 22 sep 2029 | 28 sep 2029 |
+| SRC-095 | Agnew | "Sovereignty Regimes..." | BAJA | 29 sep 2029 | 1 oct 2029 |
+| SRC-097 | Balibar | We, the People of Europe? | BAJA | 2 oct 2029 | 8 oct 2029 |
+| SRC-098 | Balibar | Citizenship | BAJA | 9 oct 2029 | 15 oct 2029 |
+| SRC-101 | Arendt | On Revolution | BAJA | 16 oct 2029 | 22 oct 2029 |
+| SRC-105 | Foucault | The History of Sexuality, Vol. 1 | BAJA | 23 oct 2029 | 29 oct 2029 |
+| SRC-109 | Rancière | Disagreement | BAJA | 30 oct 2029 | 5 nov 2029 |
+| SRC-115 | Hardt & Negri | Empire | BAJA | 6 nov 2029 | 12 nov 2029 |
+| SRC-176 | Fasel & Butler | Animal Rights Law | — | 13 nov 2029 | 19 nov 2029 |
+| SRC-177 | Adenitire & Fasel | Animals and the Constitution | — | 20 nov 2029 | 26 nov 2029 |
+| SRC-178 | Deckha | Animals as Legal Beings | — | 27 nov 2029 | 3 dic 2029 |
+| SRC-183 | Cimatti & Salzani (eds.) | The Biopolitical Animal | — | 4 dic 2029 | 10 dic 2029 |
+| SRC-188 | Di Cesare | Resident Foreigners | — | 11 dic 2029 | 17 dic 2029 |
+| SRC-189 | Lejeune, Pagès-El Karoui, Schmoll & Thiollet (eds.) | Migration, Urbanity and Cosmopolitanism in a Globalized World | — | 18 dic 2029 | 24 dic 2029 |
+| SRC-190 | Piasentier & Raimondi (eds.) | Debating Biopolitics | — | 25 dic 2029 | 31 dic 2029 |
 
 ## Fase 7 — Complemento y profundización
 
@@ -328,29 +328,29 @@ Sección E completa (posthumanismo, estudios multiespecie, etología) más el cl
 
 | SRC | Autor(es) | Obra | Prioridad | Inicio | Fin |
 |---|---|---|---|---|---|
-| SRC-116 | Haraway | The Companion Species Manifesto | MEDIA | 29 dic 2029 | 4 ene 2030 |
-| SRC-117 | Haraway | When Species Meet | MEDIA | 5 ene 2030 | 11 ene 2030 |
-| SRC-118 | Haraway | Staying with the Trouble | MEDIA | 12 ene 2030 | 18 ene 2030 |
-| SRC-119 | Wolfe | What Is Posthumanism? | MEDIA | 19 ene 2030 | 25 ene 2030 |
-| SRC-121 | Braidotti | The Posthuman | MEDIA | 26 ene 2030 | 1 feb 2030 |
-| SRC-124 | Latour | Politics of Nature | MEDIA | 2 feb 2030 | 8 feb 2030 |
-| SRC-132 | Despret | What Would Animals Say If We Asked the Right Questions? | MEDIA | 9 feb 2030 | 15 feb 2030 |
-| SRC-134 | von Uexküll | A Foray into the Worlds of Animals and Humans | MEDIA | 16 feb 2030 | 22 feb 2030 |
-| SRC-120 | Hayles | How We Became Posthuman | BAJA | 23 feb 2030 | 1 mar 2030 |
-| SRC-122 | Braidotti | Posthuman Knowledge | BAJA | 2 mar 2030 | 8 mar 2030 |
-| SRC-123 | Latour | We Have Never Been Modern | BAJA | 9 mar 2030 | 15 mar 2030 |
-| SRC-125 | Latour | Facing Gaia | BAJA | 16 mar 2030 | 22 mar 2030 |
-| SRC-126 | Descola | Beyond Nature and Culture | BAJA | 23 mar 2030 | 29 mar 2030 |
-| SRC-127 | Viveiros de Castro | Cannibal Metaphysics | BAJA | 30 mar 2030 | 5 abr 2030 |
-| SRC-128 | Kohn | How Forests Think | BAJA | 6 abr 2030 | 12 abr 2030 |
-| SRC-129 | Tsing | The Mushroom at the End of the World | BAJA | 13 abr 2030 | 19 abr 2030 |
-| SRC-130 | van Dooren | Flight Ways | BAJA | 20 abr 2030 | 26 abr 2030 |
-| SRC-131 | Rose | Wild Dog Dreaming | BAJA | 27 abr 2030 | 3 may 2030 |
-| SRC-133 | Despret | Living as a Bird | BAJA | 4 may 2030 | 10 may 2030 |
-| SRC-135 | de Waal | Are We Smart Enough to Know How Smart Animals Are? | BAJA | 11 may 2030 | 17 may 2030 |
-| SRC-180 | Braidotti | Posthuman Feminism | — | 18 may 2030 | 24 may 2030 |
-| SRC-181 | Ferrando | The Art of Being Posthuman | — | 25 may 2030 | 31 may 2030 |
-| SRC-182 | Calarco | The Three Ethologies | — | 1 jun 2030 | 7 jun 2030 |
+| SRC-116 | Haraway | The Companion Species Manifesto | MEDIA | 1 ene 2030 | 7 ene 2030 |
+| SRC-117 | Haraway | When Species Meet | MEDIA | 8 ene 2030 | 14 ene 2030 |
+| SRC-118 | Haraway | Staying with the Trouble | MEDIA | 15 ene 2030 | 21 ene 2030 |
+| SRC-119 | Wolfe | What Is Posthumanism? | MEDIA | 22 ene 2030 | 28 ene 2030 |
+| SRC-121 | Braidotti | The Posthuman | MEDIA | 29 ene 2030 | 4 feb 2030 |
+| SRC-124 | Latour | Politics of Nature | MEDIA | 5 feb 2030 | 11 feb 2030 |
+| SRC-132 | Despret | What Would Animals Say If We Asked the Right Questions? | MEDIA | 12 feb 2030 | 18 feb 2030 |
+| SRC-134 | von Uexküll | A Foray into the Worlds of Animals and Humans | MEDIA | 19 feb 2030 | 25 feb 2030 |
+| SRC-120 | Hayles | How We Became Posthuman | BAJA | 26 feb 2030 | 4 mar 2030 |
+| SRC-122 | Braidotti | Posthuman Knowledge | BAJA | 5 mar 2030 | 11 mar 2030 |
+| SRC-123 | Latour | We Have Never Been Modern | BAJA | 12 mar 2030 | 18 mar 2030 |
+| SRC-125 | Latour | Facing Gaia | BAJA | 19 mar 2030 | 25 mar 2030 |
+| SRC-126 | Descola | Beyond Nature and Culture | BAJA | 26 mar 2030 | 1 abr 2030 |
+| SRC-127 | Viveiros de Castro | Cannibal Metaphysics | BAJA | 2 abr 2030 | 8 abr 2030 |
+| SRC-128 | Kohn | How Forests Think | BAJA | 9 abr 2030 | 15 abr 2030 |
+| SRC-129 | Tsing | The Mushroom at the End of the World | BAJA | 16 abr 2030 | 22 abr 2030 |
+| SRC-130 | van Dooren | Flight Ways | BAJA | 23 abr 2030 | 29 abr 2030 |
+| SRC-131 | Rose | Wild Dog Dreaming | BAJA | 30 abr 2030 | 6 may 2030 |
+| SRC-133 | Despret | Living as a Bird | BAJA | 7 may 2030 | 13 may 2030 |
+| SRC-135 | de Waal | Are We Smart Enough to Know How Smart Animals Are? | BAJA | 14 may 2030 | 20 may 2030 |
+| SRC-180 | Braidotti | Posthuman Feminism | — | 21 may 2030 | 27 may 2030 |
+| SRC-181 | Ferrando | The Art of Being Posthuman | — | 28 may 2030 | 3 jun 2030 |
+| SRC-182 | Calarco | The Three Ethologies | — | 4 jun 2030 | 10 jun 2030 |
 
 ## Fase 8 — PI-08: infraestructura algorítmica, frontera humano/IA y transformación de la soberanía
 
@@ -358,21 +358,21 @@ Secciones I (SRC-211–218, DEC-023) y J (SRC-219–226, DEC-025) completas. Lí
 
 | SRC | Autor(es) | Obra | Prioridad | Inicio | Fin |
 |---|---|---|---|---|---|
-| SRC-211 | Varoufakis | Technofeudalism: What Killed Capitalism | — | 8 jun 2030 | 14 jun 2030 |
-| SRC-212 | Durand | How Silicon Valley Unleashed Techno-Feudalism | — | 15 jun 2030 | 21 jun 2030 |
-| SRC-213 | Zuboff | The Age of Surveillance Capitalism | — | 22 jun 2030 | 28 jun 2030 |
-| SRC-214 | Srnicek | Platform Capitalism | — | 29 jun 2030 | 5 jul 2030 |
-| SRC-215 | Rouvroy & Berns | "Gouvernementalité algorithmique et perspectives d'émancipation" | — | 6 jul 2030 | 8 jul 2030 |
-| SRC-216 | Stiegler | The Age of Disruption | — | 9 jul 2030 | 15 jul 2030 |
-| SRC-217 | Mbembe | Brutalisme | — | 16 jul 2030 | 22 jul 2030 |
-| SRC-218 | Byung-Chul Han | Psychopolitics + Infocracy (dos obras, una fila) | — | 23 jul 2030 | 5 ago 2030 |
-| SRC-219 | Bostrom | Superintelligence: Paths, Dangers, Strategies | — | 6 ago 2030 | 12 ago 2030 |
-| SRC-220 | Crawford | Atlas of AI | — | 13 ago 2030 | 19 ago 2030 |
-| SRC-221 | Pasquale | The Black Box Society | — | 20 ago 2030 | 26 ago 2030 |
-| SRC-222 | Pasquale | New Laws of Robotics | — | 27 ago 2030 | 2 sep 2030 |
-| SRC-223 | Singer, P. W. | Wired for War | — | 3 sep 2030 | 9 sep 2030 |
-| SRC-224 | Kello | The Virtual Weapon and International Order | — | 10 sep 2030 | 16 sep 2030 |
-| SRC-225 | Hui | Recursivity and Contingency | — | 17 sep 2030 | 23 sep 2030 |
-| SRC-226 | Floridi | The Fourth Revolution | — | 24 sep 2030 | 30 sep 2030 |
+| SRC-211 | Varoufakis | Technofeudalism: What Killed Capitalism | — | 11 jun 2030 | 17 jun 2030 |
+| SRC-212 | Durand | How Silicon Valley Unleashed Techno-Feudalism | — | 18 jun 2030 | 24 jun 2030 |
+| SRC-213 | Zuboff | The Age of Surveillance Capitalism | — | 25 jun 2030 | 1 jul 2030 |
+| SRC-214 | Srnicek | Platform Capitalism | — | 2 jul 2030 | 8 jul 2030 |
+| SRC-215 | Rouvroy & Berns | "Gouvernementalité algorithmique et perspectives d'émancipation" | — | 9 jul 2030 | 12 jul 2030 |
+| SRC-216 | Stiegler | The Age of Disruption | — | 13 jul 2030 | 19 jul 2030 |
+| SRC-217 | Mbembe | Brutalisme | — | 20 jul 2030 | 26 jul 2030 |
+| SRC-218 | Byung-Chul Han | Psychopolitics + Infocracy (dos obras, una fila) | — | 27 jul 2030 | 9 ago 2030 |
+| SRC-219 | Bostrom | Superintelligence: Paths, Dangers, Strategies | — | 10 ago 2030 | 16 ago 2030 |
+| SRC-220 | Crawford | Atlas of AI | — | 17 ago 2030 | 23 ago 2030 |
+| SRC-221 | Pasquale | The Black Box Society | — | 24 ago 2030 | 30 ago 2030 |
+| SRC-222 | Pasquale | New Laws of Robotics | — | 31 ago 2030 | 6 sep 2030 |
+| SRC-223 | Singer, P. W. | Wired for War | — | 7 sep 2030 | 13 sep 2030 |
+| SRC-224 | Kello | The Virtual Weapon and International Order | — | 14 sep 2030 | 20 sep 2030 |
+| SRC-225 | Hui | Recursivity and Contingency | — | 21 sep 2030 | 27 sep 2030 |
+| SRC-226 | Floridi | The Fourth Revolution | — | 28 sep 2030 | 4 oct 2030 |
 
-**Fin del cronograma (a este ritmo estimado): 30 sep 2030 (~215.5 semanas, ~4.1 años).**
+**Fin del cronograma (a este ritmo estimado): 4 oct 2030 (~216 semanas, ~4.1 años).**

@@ -21,7 +21,7 @@ de lo aprendido?
 ## Ajustes de metodología o corpus
 
 ¿Cambió algo en `research/methodology.md` o en los criterios de
-priorización de `research/sources/corpus-map.md`? Regístrese como entrada
+priorización de `research/sources/library-manifest.md`? Regístrese como entrada
 nueva en `governance/decision-log.md`, no como edición silenciosa.
 
 ## Riesgos estructurales

@@ -11,7 +11,7 @@ no estimar.
 
 | Indicador | Valor este mes | Valor mes anterior | Nota |
 |---|---|---|---|
-| Fuentes candidatas (`corpus-map.md`) | | | |
+| Fuentes candidatas (`library-manifest.md`) | | | |
 | Fuentes registradas (`bibliography.bib`) | | | |
 | Fuentes leídas (Nivel 2) | | | |
 | Citas verificadas | | | |

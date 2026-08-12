@@ -62,7 +62,12 @@ vuelve a ejecutarlo; no requiere reescribir la secuencia de fases a mano.
   manifiesto); no es una entrada real.
 
 Con esas exclusiones, el cronograma cubre **204 obras** de las 219
-candidatas del manifiesto.
+candidatas que existían en el manifiesto al construirse este cronograma
+(2026-08-11). No incluye las ocho candidatas de la sección J
+(`SRC-219`–`SRC-226`, alcance ampliado de `PI-08` hacia la frontera
+humano/IA, `DEC-025`, 2026-08-12), añadidas después: siguen sin fecha de
+lectura asignada hasta que el investigador pida una revisión de este
+cronograma.
 
 ## Fases y fundamento de cada una
 

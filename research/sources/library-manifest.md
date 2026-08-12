@@ -49,6 +49,13 @@ incorporada.
   Mbembe es la pertinente (*Brutalisme*, no *Necropolitics*).
   Requieren la misma verificación de edición y lectura que cualquier otro
   candidato antes de avanzar en la escala de estados.
+- **SRC-219 a SRC-226** corresponden al alcance ampliado de `PI-08` hacia la
+  frontera humano/IA, la autonomía/singularidad algorítmica, el control
+  bélico, la manipulación de mercados y la regulación humana de la IA
+  (`DEC-025`, 2026-08-12). Registradas de memoria por esta sesión, **sin
+  búsqueda externa de verificación** — igual que SRC-211–218 en su primer
+  registro, marcadas `CANDIDATE`, no `IDENTITY_VERIFIED`, hasta que una
+  búsqueda web confirme autor, título, editorial y año.
 - Ninguna entrada de este documento se marca `EDITION_VERIFIED`,
   `ACQUIRED`, `READING`, `READ` ni `CITED`. Esos estados solo los asigna el
   investigador cuando adquiere y verifica la edición real que va a citar.
@@ -82,7 +89,7 @@ al investigador con el objeto físico o la edición digital autorizada en mano.
 | `PRIMARY_CORE` | Interviene directamente en la construcción de la tesis, lectura obligatoria | A (prioridad máxima) |
 | `PRIMARY_SUPPORTING` | Corpus primario de apoyo | A (resto) |
 | `SECONDARY_CORE` | Interpretación crítica del corpus primario | B |
-| `STATE_OF_ART` | Estado del arte del giro político animal / comunidad interespecie (C); estado del arte de la gobernanza algorítmica y economía política del dato, `PI-08` (I) | C, I, más una parte de G |
+| `STATE_OF_ART` | Estado del arte del giro político animal / comunidad interespecie (C); estado del arte de la gobernanza algorítmica y economía política del dato, `PI-08` (I); estado del arte de la frontera humano/IA y control biopolítico, alcance ampliado de `PI-08` (J) | C, I, J, más una parte de G |
 | `CONTEXT` | Soberanía, comunidad, frontera, ciudadanía, biopolítica | D, más una parte de G |
 | `DEEPENING` / `COMPLEMENTARY` | Posthumanismo, estudios multiespecie, antropología, etología (se trata como un solo nivel; no se distinguen ambas etiquetas mientras el corpus no lo requiera) | E, más una parte de G |
 | `METHODOLOGY` | Método filosófico, historia conceptual, trazabilidad computacional | F, más una parte de G |
@@ -424,6 +431,36 @@ adquisición. Su función es dar un punto de partida real y ahora
 bibliográficamente confirmado para `PI-08`, no sustituir la verificación de
 edición y lectura que exige `research/methodology.md` §2 (`DEC-014`) antes
 de promover cualquier candidato a `bibliography.bib`.
+
+## J. Frontera humano/IA, autonomía algorítmica y control biopolítico (SRC-219–SRC-226)
+
+> Candidatos para el alcance ampliado de `PI-08` (`research/questions.md`,
+> `DEC-025`, 2026-08-12): frontera humano/IA, autonomía/singularidad,
+> control bélico, manipulación de mercados y regulación humana de la IA.
+> Registradas de memoria por esta sesión, **sin búsqueda externa de
+> verificación**: `CANDIDATE`, no `IDENTITY_VERIFIED`. Requieren la misma
+> verificación por búsqueda web que ya se aplicó a SRC-211–218 antes de
+> avanzar en la escala de estados.
+
+| SRC | Autor(es) | Título | Año | Clasificación | PI relacionadas | Estado |
+|---|---|---|---|---|---|---|
+| SRC-219 | Bostrom, N. | *Superintelligence: Paths, Dangers, Strategies* (Oxford University Press) | 2014 | STATE_OF_ART | PI-08 | CANDIDATE |
+| SRC-220 | Crawford, K. | *Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence* (Yale University Press) | 2021 | STATE_OF_ART | PI-02, PI-08 | CANDIDATE |
+| SRC-221 | Pasquale, F. | *The Black Box Society: The Secret Algorithms That Control Money and Information* (Harvard University Press) | 2015 | STATE_OF_ART | PI-08 | CANDIDATE |
+| SRC-222 | Pasquale, F. | *New Laws of Robotics: Defending Human Expertise in the Age of AI* (Harvard University Press) | 2020 | STATE_OF_ART | PI-08 | CANDIDATE |
+| SRC-223 | Singer, P. W. | *Wired for War: The Robotics Revolution and Conflict in the Twenty-First Century* (Penguin Press) | 2009 | STATE_OF_ART | PI-08 | CANDIDATE |
+| SRC-224 | Kello, L. | *The Virtual Weapon and International Order* (Yale University Press) | 2017 | STATE_OF_ART | PI-02, PI-08 | CANDIDATE |
+| SRC-225 | Hui, Y. | *Recursivity and Contingency* (Rowman & Littlefield International) | 2019 | STATE_OF_ART | PI-08 | CANDIDATE |
+| SRC-226 | Floridi, L. | *The Fourth Revolution: How the Infosphere Is Reshaping Human Reality* (Oxford University Press) | 2014 | STATE_OF_ART | PI-04, PI-08 | CANDIDATE |
+
+Notas: `SRC-223` es Peter W. Singer, politólogo especializado en tecnología
+militar — sin relación con Peter Singer (`SRC-080`, ética animal); no
+confundir. `SRC-225` (Yuk Hui) dialoga explícitamente con Stiegler
+(`SRC-216`, ya en el corpus), lo que puede facilitar su lectura conjunta.
+Ninguna de estas ocho entradas acredita lectura, edición confirmada,
+adquisición ni siquiera identidad verificada por búsqueda externa — es un
+punto de partida propuesto por esta sesión, no una lista cerrada ni
+confirmada.
 
 ## Duplicados y observaciones de calidad ya detectados
 

@@ -72,7 +72,11 @@ declare Gate D o valide el primer `ARG-*`.
   ejerciendo la puerta que `DEC-022` había dejado reservada; el corpus
   candidato de `library-manifest.md` pasó de 211 a 219 entradas.
   `research/reading-schedule.md` propone, sin decidirlo, un orden y ritmo
-  de lectura para 204 de esas obras a partir del 15 de agosto de 2026.
+  de lectura para 204 de esas obras a partir del 15 de agosto de 2026. El
+  2026-08-12, la rúbrica de `PI-06` se resolvió (`DEC-024`) y el alcance
+  de `PI-08` se amplió hacia la frontera humano/IA (`DEC-025`), con ocho
+  candidatas adicionales (`library-manifest.md` sección J): 227 entradas
+  en total.
 - Fase activa: **Fase 4 (Investigación sustantiva)**, con la Fase 3
   (Biblioteca de investigación) todavía abierta en paralelo — el corpus se
   construye de forma progresiva, no por lote.
@@ -205,8 +209,8 @@ cuando el volumen lo requiera, siguiendo el mismo criterio que
 - **Entregables:**
   - `research/sources/bibliography.bib` con entradas de edición
     verificada. **1 de N — Derrida 2008.**
-  - `research/sources/library-manifest.md`: 219 candidatos clasificados y
-    priorizados (secciones A–I, incluida la ampliación `PI-08`). **Hecho**
+  - `research/sources/library-manifest.md`: 227 candidatos clasificados y
+    priorizados (secciones A–J, incluida la ampliación `PI-08`). **Hecho**
     (es un mapa de candidatos, no de fuentes incorporadas).
   - Flujo de lectura documentado (`RESEARCH-WORKFLOW.md`,
     `templates/ficha-fuente.md`). **Hecho.**

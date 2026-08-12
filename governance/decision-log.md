@@ -597,3 +597,83 @@
   búsqueda externa de verificación — permanecen `CANDIDATE`, sujetos a la
   misma disciplina de verificación que cualquier otro candidato (`DEC-014`)
   antes de promoverse a `bibliography.bib`.
+
+## DEC-024 — Rúbrica de PI-06: «Pertenencia más allá de la excepcionalidad humana»
+
+- **Fecha:** 2026-08-12
+- **Estado:** aceptada
+- **Contexto:** `PROJECT.md` («Nota de auditoría», tras el refinamiento del
+  título de `DEC-010`) dejaba marcada `DECISIÓN HUMANA REQUERIDA`: si
+  conservar la rúbrica de `PI-06`, «Reconocimiento interespecie», o
+  sustituirla por otra que no anticipara como nombre el resultado que la
+  pregunta todavía debe someter a examen. El investigador, al resolverla,
+  añadió una razón adicional no prevista en la nota original: «interespecie»
+  no es un término que Derrida use, y el proyecto no quiere alejarse de su
+  vocabulario, que es la fuente del método (`DEC-013`).
+- **Decisión:** la rúbrica de `PI-06` pasa de «Reconocimiento interespecie»
+  a «Pertenencia más allá de la excepcionalidad humana» — el texto que la
+  propia nota pendiente de `PROJECT.md` ya sugería como alternativa. El
+  identificador `PI-06` y el enunciado de la pregunta
+  («¿Cómo puede reconocerse políticamente a seres que no participan de las
+  formas clásicas de representación, deliberación o reciprocidad?») no se
+  modifican.
+- **Consecuencias:** se actualizan `research/questions.md` y `PROJECT.md`.
+  No se tocan las menciones de `PI-06` en `research/sources/library-manifest.md`
+  (identificador puro, sin depender de la rúbrica), ni las glosas
+  parentéticas «(reconocimiento interespecie)» ya escritas en fichas de
+  lectura y documentos de trasfondo (`research/sources/notes/**`,
+  `research/background/masters-thesis/**`) — son registros de un momento de
+  análisis anterior a esta decisión, no afirmaciones vigentes sobre el
+  nombre actual de la pregunta, y editarlas retroactivamente no es necesario
+  para que la rúbrica quede resuelta hacia delante. Tampoco se modifica el
+  principio normativo 4 («Reconocimiento interespecie») de los ocho
+  principios de trabajo en `README.md`: es una decisión distinta, no
+  planteada por el investigador en este intercambio.
+
+## DEC-025 — Alcance ampliado de PI-08: frontera humano/IA, autonomía y control biopolítico
+
+- **Fecha:** 2026-08-12
+- **Estado:** aceptada
+- **Contexto:** al resolver `DEC-024` (rúbrica de `PI-06`), el investigador
+  planteó, en el mismo intercambio, que el problema de la máquina/IA —la
+  frontera humano/IA, la singularidad y autonomía de la IA, el control
+  bélico, la manipulación de mercados, la regulación humana de la IA, el
+  riesgo de dominación de la IA sobre lo humano (control biopolítico), y si
+  hay «algo más allá de lo biopolítico»— adquiere una relevancia comparable
+  a la del problema de la animalidad frente a las reflexiones ya
+  desarrolladas, y que `PI-08` (`DEC-023`, infraestructura algorítmica y
+  economía política del dato) se había quedado corta para ese alcance. Esta
+  sesión presentó un borrador de pregunta ampliada y una nota de alcance
+  para aprobación explícita antes de escribir nada (`DEC-021`); el
+  investigador lo aprobó tal cual.
+- **Decisión:** `PI-08` conserva su identificador y su posición subordinada
+  a `PI-01`, pero su enunciado se amplía a: «¿Cómo transforma la
+  infraestructura algorítmica —desde la extracción de datos hasta la
+  creciente autonomía de los sistemas de inteligencia artificial— la
+  soberanía y la pertenencia política, y qué presupuestos antropológicos
+  sostiene, erosiona o desplaza esa transformación?». Se añade una nota de
+  alcance explícita cubriendo: (1) la frontera humano/IA como campo de
+  prueba de los límites antropológicos, en paralelo —no en sustitución— de
+  la frontera humano/animal, que sigue siendo el campo crítico privilegiado
+  de la tesis (`CLAUDE.md`); (2) control bélico y manipulación de mercados
+  como formas concretas de poder algorítmico; (3) la relación entre
+  regulación humana de la IA y el riesgo inverso de dominación de la IA
+  sobre lo humano, como polaridad a examinar, no como resultado presupuesto;
+  (4) si el control biopolítico agota el problema o hay algo que lo excede,
+  dejado explícitamente abierto, no resuelto por el propio enunciado. Se
+  incorporan ocho candidatos nuevos (`SRC-219`–`SRC-226`, sección J de
+  `library-manifest.md`): Bostrom, Crawford, Pasquale (dos obras), P. W.
+  Singer, Kello, Hui y Floridi, propuestos por esta sesión de memoria, sin
+  búsqueda externa de verificación — permanecen `CANDIDATE`, no
+  `IDENTITY_VERIFIED`, sujetos a la misma verificación que recibieron
+  `SRC-211`–`218` antes de promoverse.
+- **Consecuencias:** `research/questions.md` y `README.md` actualizan el
+  enunciado de `PI-08`; `library-manifest.md` pasa de 219 a 227 candidatas
+  (`research/methodology.md` §2, `MASTER_EXECUTION_PLAN.md` y `README.md`
+  actualizan el conteo). `research/reading-schedule.md` no incluye todavía
+  las ocho candidatas nuevas: se generó el 2026-08-11, antes de esta
+  decisión, y queda pendiente de una revisión aparte si el investigador la
+  pide. No se reabre el «doble frente» animal/IA ya superado (`DEC-003`):
+  el animal sigue siendo, según `CLAUDE.md`, el único campo crítico
+  privilegiado de la tesis; la frontera humano/IA es un campo de prueba
+  adicional y paralelo, no un segundo objeto que compita por esa posición.

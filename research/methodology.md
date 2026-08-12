@@ -79,12 +79,14 @@ momento, no un corte definitivo del corpus.
 
 Registrada también en `governance/decision-log.md` (`DEC-014`).
 
-`research/sources/library-manifest.md` reúne actualmente 219 obras
+`research/sources/library-manifest.md` reúne actualmente 227 obras
 candidatas (seis categorías funcionales A–F, la ampliación 2020–2026 de la
-sección G, el contexto de formación de la sección H, y la sección I sobre
-gobernanza algorítmica para `PI-08`, `DEC-023`). Es el inventario de
-trabajo para esta decisión, no una lista cerrada: ningún candidato ha
-sido verificado en edición ni leído más allá de las tres fuentes ya
+sección G, el contexto de formación de la sección H, la sección I sobre
+gobernanza algorítmica para `PI-08` [`DEC-023`], y la sección J sobre
+frontera humano/IA y control biopolítico para el alcance ampliado de
+`PI-08` [`DEC-025`]). Es el inventario de trabajo para esta decisión, no
+una lista cerrada: ningún candidato ha sido verificado en edición ni
+leído más allá de las tres fuentes ya
 promovidas a `bibliography.bib`.
 
 ## 3. Fuentes primarias y secundarias

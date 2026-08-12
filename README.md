@@ -158,11 +158,14 @@ De esta pregunta rectora se desprenden varios problemas subordinados:
   clásicas de representación, deliberación o reciprocidad?; y
 - ¿puede existir una soberanía que conserve capacidad de decisión y, al mismo
   tiempo, se encuentre normativamente obligada por aquello que no domina?; y
-- ¿cómo transforma la infraestructura algorítmica y la extracción de datos la
-  soberanía y la pertenencia política, y qué presupuestos antropológicos
-  sostiene o erosiona esa transformación? (`PI-08`, añadida 2026-08-11,
-  `DEC-023` — extiende las genealogías de soberanía y comunidad hacia un
-  objeto contemporáneo concreto; el animal sigue siendo el campo crítico
+- ¿cómo transforma la infraestructura algorítmica —desde la extracción de
+  datos hasta la creciente autonomía de los sistemas de inteligencia
+  artificial— la soberanía y la pertenencia política, y qué presupuestos
+  antropológicos sostiene, erosiona o desplaza esa transformación? (`PI-08`,
+  añadida 2026-08-11, `DEC-023`, alcance ampliado 2026-08-12, `DEC-025` —
+  extiende las genealogías de soberanía y comunidad hacia un objeto
+  contemporáneo concreto, incluida la frontera humano/IA en paralelo a la
+  frontera humano/animal; esta última sigue siendo el campo crítico
   privilegiado de la tesis, no se sustituye por este objeto)
 
 Las versiones de la pregunta principal y de las preguntas secundarias, con sus
@@ -348,12 +351,13 @@ candidata no acredita que haya sido leída ni que su posición haya sido adoptad
 
 La selección del corpus permanece pendiente de justificación documental.
 [`research/sources/library-manifest.md`](research/sources/library-manifest.md) reúne una
-propuesta de 219 obras candidatas —corpus primario, bibliografía secundaria,
+propuesta de 227 obras candidatas —corpus primario, bibliografía secundaria,
 estado del arte del giro político animal, contexto de soberanía y
 biopolítica, profundización posthumanista y multiespecie, metodología, una
-ampliación 2020–2026, y gobernanza algorítmica y economía política del dato
-(`PI-08`)— clasificadas por prioridad y con su estado de verificación
-declarado. Es un punto de partida para la selección, no una
+ampliación 2020–2026, gobernanza algorítmica y economía política del dato, y
+frontera humano/IA y control biopolítico (`PI-08`)— clasificadas por
+prioridad y con su estado de verificación declarado. Es un punto de partida
+para la selección, no una
 lista de lectura cerrada: la gran mayoría de sus entradas permanece sin
 leer ni verificar en edición. Tres han sido promovidas a
 `bibliography.bib` con edición verificada, ficha de lectura y citas
@@ -572,13 +576,16 @@ Sujeto a revisión si la investigación lo exige, no a decisiones pendientes
 por defecto.
 
 **Corpus:** [`research/sources/library-manifest.md`](research/sources/library-manifest.md)
-reúne 219 obras candidatas, incluida la sección `PI-08` añadida el
-2026-08-11 (`DEC-023`). Tres fuentes primarias tienen edición verificada,
+reúne 227 obras candidatas, incluida la sección `PI-08` añadida el
+2026-08-11 (`DEC-023`) y su alcance ampliado hacia la frontera humano/IA el
+2026-08-12 (`DEC-025`). Tres fuentes primarias tienen edición verificada,
 ficha de lectura y citas cotejadas por el investigador (`SRC-002`,
 `SRC-004`, `SRC-005` en `bibliography.bib` y `research/sources/notes/`).
 [`research/reading-schedule.md`](research/reading-schedule.md) propone,
-sin decidirlo, un orden y ritmo de lectura para 204 de esas obras a partir
-del 15 de agosto de 2026.
+sin decidirlo, un orden y ritmo de lectura para 204 de las 219 obras que
+existían al construirse ese cronograma — no incluye todavía las ocho
+candidatas de la sección J, que requiere una revisión aparte del
+cronograma si el investigador lo pide.
 
 **Argumentación:** el repositorio registra su primer argumento (`ARG-001`,
 `research/argument-ledger/`), en estado `DEVELOPING` y sin validación

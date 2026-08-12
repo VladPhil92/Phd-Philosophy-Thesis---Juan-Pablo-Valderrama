@@ -30,21 +30,29 @@ humano/animal?
 ¿Puede la hospitalidad convertirse en una categoría constitutiva de lo
 político y no únicamente en una obligación ética frente al extranjero?
 
-### PI-06 — Reconocimiento interespecie
+### PI-06 — Pertenencia más allá de la excepcionalidad humana
 
 ¿Cómo puede reconocerse políticamente a seres que no participan de las formas
 clásicas de representación, deliberación o reciprocidad?
+
+Rúbrica renombrada el 2026-08-12 (`governance/decision-log.md`, `DEC-024`),
+a decisión explícita del investigador: sustituye «Reconocimiento
+interespecie» para no anticipar como nombre el resultado que la pregunta
+todavía debe someter a examen, y para no introducir un término («interespecie»)
+ajeno al vocabulario derridiano que organiza el método (`DEC-013`). El ID y
+el enunciado de la pregunta permanecen intactos.
 
 ### PI-07 — Decisión y responsabilidad
 
 ¿Puede existir una soberanía que conserve capacidad de decisión y, al mismo
 tiempo, se encuentre normativamente obligada por aquello que no domina?
 
-### PI-08 — Infraestructura algorítmica y transformación de la soberanía
+### PI-08 — Infraestructura algorítmica, frontera humano/IA y transformación de la soberanía
 
-¿Cómo transforma la infraestructura algorítmica y la extracción de datos la
-soberanía y la pertenencia política, y qué presupuestos antropológicos
-sostiene o erosiona esa transformación?
+¿Cómo transforma la infraestructura algorítmica —desde la extracción de
+datos hasta la creciente autonomía de los sistemas de inteligencia
+artificial— la soberanía y la pertenencia política, y qué presupuestos
+antropológicos sostiene, erosiona o desplaza esa transformación?
 
 Añadida el 2026-08-11 (`governance/decision-log.md`, `DEC-023`), a pedido
 explícito del investigador, ejerciendo la puerta que `DEC-022` dejó
@@ -54,6 +62,22 @@ soberanía y comunidad (`DEC-013`) hacia un objeto contemporáneo concreto
 (gobernanza algorítmica, economía política del dato), distinto del caso
 límite animal/humano que sigue siendo, según `CLAUDE.md`, el campo crítico
 privilegiado de la tesis.
+
+**Alcance ampliado (2026-08-12, `DEC-025`)**, a pedido explícito del
+investigador:
+
+- la frontera humano/IA como nuevo campo de prueba de los límites
+  antropológicos, **en paralelo** —no en sustitución— de la frontera
+  humano/animal, que sigue siendo el campo crítico privilegiado de la
+  tesis (`CLAUDE.md`);
+- control bélico y manipulación de mercados como formas concretas de
+  ejercicio del poder algorítmico;
+- la relación entre regulación humana de la IA y el riesgo inverso —
+  dominación de la IA sobre lo humano— como polaridad a examinar, no como
+  resultado presupuesto;
+- si el control biopolítico agota el problema o si hay «algo más allá de
+  lo biopolítico»: la pregunta debe dejarlo abierto, no decidirlo desde su
+  propio enunciado.
 
 ## Criterio de uso
 

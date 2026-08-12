@@ -24,12 +24,12 @@ oficial del objeto central de la tesis.
 - **Preguntas:** PI-01 sigue siendo compatible con el título y no se modifica.
   PI-03 adquiere centralidad estructural y PI-04 examina críticamente la
   antropología política mediante la frontera de especie, sin que ello requiera
-  reformular sus enunciados. En PI-06, «reconocimiento interespecie» todavía
-  nombra con pertinencia el campo de la teoría política animal, pero puede
-  anticipar el resultado que ahora se quiere someter a examen. **DECISIÓN HUMANA
-  REQUERIDA:** conservar esa rúbrica o sustituirla por otra que destaque la
-  pertenencia más allá de la excepcionalidad humana. El ID y la pregunta se
-  mantienen intactos.
+  reformular sus enunciados. **Resuelto (2026-08-12, `DEC-024`):** la rúbrica
+  de PI-06 pasa de «Reconocimiento interespecie» a «Pertenencia más allá de
+  la excepcionalidad humana», por decisión explícita del investigador —
+  evita anticipar como nombre un resultado todavía por examinar y evita un
+  término ajeno al vocabulario derridiano del método (`DEC-013`). El ID y la
+  pregunta se mantienen intactos (`research/questions.md`).
 - **Corpus:** el mapa candidato cubre soberanía, hospitalidad, antropología
   filosófica, animalidad, comunidad y teoría política animal. Como ninguna
   entrada está todavía incorporada ni leída, su equilibrio efectivo solo podrá

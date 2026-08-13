@@ -88,7 +88,7 @@ al investigador con el objeto físico o la edición digital autorizada en mano.
 
 **Primera entrada en `READING`:** `SRC-136` (2026-08-12) — el investigador
 inició lectura directa de su propio ejemplar y registró la primera sesión
-en `research/sources/notes/skinner-2020-significado-comprension.md`
+en `research/sources/notes/skinner-2000-significado-comprension.md`
 (`research/methodology.md` §4, `DEC-016`). La promoción de estado la
 declaró el investigador mismo, no una sesión de IA de forma autónoma.
 
@@ -310,7 +310,7 @@ ni se promueve sin verificación adicional.
 
 | SRC | Autor(es) | Título | Año | Clasificación | Prioridad | PI relacionadas | Estado |
 |---|---|---|---|---|---|---|---|
-| SRC-136 | Skinner, Q. | "Meaning and Understanding in the History of Ideas" — trad. española «Significado y comprensión en la historia de las ideas», edición 2020 en lectura (véase `research/sources/notes/skinner-2020-significado-comprension.md`) | 1969 | METHODOLOGY | MEDIA | — | READING |
+| SRC-136 | Skinner, Q. | "Meaning and Understanding in the History of Ideas" — trad. española «Significado y comprensión en la historia de las ideas», *Prismas* 4(4), 2000, pp. 149–191, Universidad Nacional de Quilmes, acceso abierto en RIDAA-UNQ (en lectura; véase `research/sources/notes/skinner-2000-significado-comprension.md`) | 1969/2000 | METHODOLOGY | MEDIA | — | READING |
 | SRC-137 | Skinner, Q. | Visions of Politics, Vol. I: Regarding Method | 2002 | METHODOLOGY | MEDIA | — | CANDIDATE |
 | SRC-138 | Koselleck, R. | Futures Past: On the Semantics of Historical Time | 1979/2004 | METHODOLOGY | MEDIA | — | CANDIDATE |
 | SRC-139 | Koselleck, R. | The Practice of Conceptual History | 2002 | METHODOLOGY | MEDIA | — | CANDIDATE |

@@ -27,11 +27,15 @@ ficha (2026-08-12) registraba el año de esta edición como 2020, dato
 tomado provisionalmente de las anotaciones originales del investigador
 ("Skinner, 2020"); la referencia completa que aportó después confirma que
 la publicación es de 2000. Las citas de esta ficha usan el año correcto
-(2000); las anotaciones originales del investigador, reproducidas
-verbatim más abajo, conservan el año tal como él las escribió — véase la
-nota en esa sección. Véase registro de intervención de IA
-[`ai/log/IA-2026-08-12-06.md`](../../../ai/log/IA-2026-08-12-06.md) y
-[`ai/log/IA-2026-08-13-01.md`](../../../ai/log/IA-2026-08-13-01.md).
+(2000). **Corrección adicional (2026-08-13):** a petición explícita del
+investigador, la cita "Skinner (2020)" dentro de sus propias anotaciones
+(sección "Paráfrasis e interpretación") también se corrigió a "Skinner
+(2000)" para que coincida con la fuente — véase la nota en esa sección
+para el detalle de qué se cambió y por qué. Véase registro de
+intervención de IA
+[`ai/log/IA-2026-08-12-06.md`](../../../ai/log/IA-2026-08-12-06.md),
+[`ai/log/IA-2026-08-13-01.md`](../../../ai/log/IA-2026-08-13-01.md) y
+[`ai/log/IA-2026-08-13-02.md`](../../../ai/log/IA-2026-08-13-02.md).
 
 ## Registro de sesiones de lectura
 
@@ -106,16 +110,16 @@ la idea de que existan "ideas o conceptos fundamentales" intemporales.
 > y citaciones."
 
 Anotaciones de Juan Pablo Valderrama Pino sobre las pp. 149–152 (sesión
-del 2026-08-12), reproducidas del documento que aportó, sin modificación
-de contenido. **Nota:** el texto original que sigue dice "Skinner (2020)"
-y "(Skinner, 2020, pp. 151-152)" — el investigador escribió esas
-anotaciones antes de aportar la referencia completa (2026-08-13), que
-confirma que la publicación es de 2000. Se preserva el texto exactamente
-como lo redactó, sin corregir el año dentro de la cita reproducida; el
-año correcto (2000) ya se usa en el resto de esta ficha, incluida la
-sección "Citas verificadas" arriba.
+del 2026-08-12), reproducidas del documento que aportó. **Nota de
+corrección (2026-08-13):** el texto original que el investigador redactó
+decía "Skinner (2020)" — escribió esa anotación antes de aportar la
+referencia completa, que confirma que la publicación es de 2000
+(`IA-2026-08-13-01.md`). El propio investigador pidió explícitamente
+corregir el año dentro de esta cita para que coincida con la fuente; el
+único cambio aplicado aquí es esa fecha, a petición suya, no una edición
+autónoma de esta sesión de IA.
 
-Skinner (2020) abre el texto preguntando por la esencia del objeto de
+Skinner (2000) abre el texto preguntando por la esencia del objeto de
 estudio de un historiador de las ideas cuando intenta comprender una
 obra: "¿cuáles son los procedimientos adecuados que hay que adoptar
 cuando se intenta alcanzar una comprensión de la obra?" (p. 149). Esta

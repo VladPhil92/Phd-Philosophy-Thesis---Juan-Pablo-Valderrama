@@ -48,23 +48,31 @@ intervención de IA
 | Fecha | Hora inicio | Hora fin | Página inicial | Página final | Leído / consultado | Notas |
 |---|---|---|---|---|---|---|
 | 2026-08-12 | 20:00 | 21:00 | 149 | 152 | Leído | Primera sesión. Cubre la apertura del ensayo: la pregunta por el método, el rechazo de las dos vías de la "ortodoxia hermenéutica", y la crítica a la idea de "ideas/conceptos fundamentales" intemporales. Quedan pp. 153–191 pendientes. |
+| 2026-08-13 | 13:40 | 13:58 | 152 | 153 | Leído | Segunda sesión, suspendida antes de completar la p. 154 (el investigador señaló explícitamente "no pude llegar hasta la 154, pero seguiré más tarde"). Cubre la formulación del método de Skinner (p. 152) y el primer rasgo de "mitología" que identifica: la expectativa de que cada autor clásico enuncie doctrina sobre todos los tópicos "obligatorios" de su materia (p. 153). Quedan pp. 154–191 pendientes. |
 
 ## Tesis y propósito de la obra
 
-Lectura parcial en curso (pp. 149–152 de 149–191); la tesis completa de
+Lectura parcial en curso (pp. 149–153 de 149–191); la tesis completa de
 la obra queda pendiente de sesiones futuras. De lo leído hasta ahora:
 Skinner abre preguntando por los "procedimientos adecuados" para
 comprender una obra del pasado, y rechaza dos respuestas de lo que llama
 la "ortodoxia hermenéutica" — comprensión por contexto (político, social,
 religioso) frente a comprensión por el texto mismo, sin contexto, como
-fuente autosuficiente de sentido. La sección leída desarrolla el segundo
-rechazo (contra el textualismo autosuficiente), apoyado en la crítica a
-la idea de que existan "ideas o conceptos fundamentales" intemporales.
+fuente autosuficiente de sentido. La sección leída en la primera sesión
+desarrolla el segundo rechazo (contra el textualismo autosuficiente),
+apoyado en la crítica a la idea de que existan "ideas o conceptos
+fundamentales" intemporales. La segunda sesión (pp. 152–153) añade la
+formulación positiva del método propio de Skinner —revelar la
+contaminación del estudio histórico por paradigmas inconscientes,
+apoyándose en el condicionamiento psicológico del "equipamiento mental"
+del observador— y el primer rasgo de lo que llama "mitología de las
+doctrinas": esperar que cada autor clásico enuncie doctrina sobre todos
+los tópicos considerados obligatorios de su materia.
 
 ## Conceptos relevantes
 
 (Extraídos de las anotaciones del investigador sobre lo leído hasta pp.
-149–152; lista provisional, sujeta a ampliarse con el resto del texto.)
+149–153; lista provisional, sujeta a ampliarse con el resto del texto.)
 
 - **"Ortodoxia hermenéutica"**: las dos vías que Skinner rechaza como
   respuesta a la pregunta por el método (contexto vs. texto autosuficiente).
@@ -74,6 +82,16 @@ la idea de que existan "ideas o conceptos fundamentales" intemporales.
 - **Precomprensión**: la expectativa previa con la que un observador se
   acerca a una obra al buscar en ella "fundamentos" o "familiaridad de
   características".
+- **Contaminación por paradigmas inconscientes**: el método positivo de
+  Skinner (p. 152) — revelar hasta qué punto el estudio histórico de
+  ideas éticas, políticas y religiosas está condicionado por paradigmas
+  cuya familiaridad para el historiador encubre su inaplicabilidad al
+  pasado.
+- **"Mitología de las doctrinas"**: primer rasgo de mitología histórica
+  identificado (p. 153) — el historiador, movido por la expectativa de
+  que cada autor clásico enuncie doctrina sobre todos los tópicos
+  "obligatorios" de su materia, termina "encontrando" esas doctrinas
+  aunque el autor no las haya sostenido.
 
 ## Citas verificadas
 
@@ -95,6 +113,28 @@ la idea de que existan "ideas o conceptos fundamentales" intemporales.
    > cualquier autor clásico dado (en particular en una cultura ajena) sin
    > poner en juego algunas de nuestras propias expectativas con respecto
    > a lo que debe haber dicho. (Skinner, 2000, pp. 151–152)
+
+3. **p. 152** (cita en bloque, 40 palabras — umbral exacto,
+   `research/methodology.md` §4, `DEC-016`):
+
+   > Mi método consistirá en revelar en qué medida el estudio histórico
+   > actual de ideas éticas, políticas, religiosas y otras semejantes está
+   > contaminado por la aplicación inconsciente de paradigmas cuya
+   > familiaridad, para el historiador, encubre un carácter esencialmente
+   > inaplicable al pasado. (Skinner, 2000, p. 152)
+
+4. **p. 153** (cita en bloque, ≥40 palabras):
+
+   > La mitología más persistente se genera cuando el historiador es
+   > movido por la expectativa de comprobar que cada autor clásico (en la
+   > historia, digamos, de las ideas éticas o políticas) enuncia alguna
+   > doctrina sobre cada uno de los tópicos juzgados como constitutivos de
+   > su materia. Hay un paso peligrosamente corto entre estar bajo la
+   > influencia de un paradigma semejante (aunque sea de manera
+   > inconsciente) y "encontrar" las doctrinas de un autor dado sobre
+   > todos los temas obligatorios. El resultado (muy frecuente) es un tipo
+   > de discusión que podría calificarse como "mitología de las
+   > doctrinas". (Skinner, 2000, p. 153)
 
 ## Auditoría de citas
 
@@ -150,6 +190,44 @@ confusión y falta de verdad, ya que cualquier observador, al ver la
 familiaridad de características o fundamentos, se acercará a dicha obra
 con una "precomprensión" o idea de lo que espera encontrar.
 
+---
+
+Anotaciones de Juan Pablo Valderrama Pino sobre las pp. 152–153 (sesión
+del 2026-08-13, 13:40–13:58, suspendida antes de completar la p. 154),
+reproducidas del documento que aportó, sin modificación de contenido:
+
+Seguidamente, Skinner plantea su método:
+
+> Mi método consistirá en revelar en qué medida el estudio histórico
+> actual de ideas éticas, políticas, religiosas y otras semejantes está
+> contaminado por la aplicación inconsciente de paradigmas cuya
+> familiaridad, para el historiador, encubre un carácter esencialmente
+> inaplicable al pasado (Skinner, 2000, p. 152).
+
+Skinner señala, apoyándose en estudios psicológicos, que existe un
+condicionamiento del equipamiento mental del observador. Dicho de otro
+modo, los preconceptos y las experiencias previas condicionan nuestra
+comprensión de las cosas y no nos permite aproximarnos a lo desconocido
+teniendo en cuenta lo desconocido, sino nuestras experiencias previas y
+preconceptos. Se corre el riesgo, al estudiar textos antiguos, de
+convertir la historia en mitología por carecer de herramientas
+conceptuales que nos permitan analizar el contexto adecuado sin tener en
+cuenta nuestros propios paradigmas investigativos.
+
+El primer rasgo de mitología en el estudio de la Historia es cuando el
+observador toma a un autor clásico y lo interpreta como enunciado de una
+doctrina de principios fundamentales de su materia:
+
+> La mitología más persistente se genera cuando el historiador es movido
+> por la expectativa de comprobar que cada autor clásico (en la historia,
+> digamos, de las ideas éticas o políticas) enuncia alguna doctrina sobre
+> cada uno de los tópicos juzgados como constitutivos de su materia. Hay
+> un paso peligrosamente corto entre estar bajo la influencia de un
+> paradigma semejante (aunque sea de manera inconsciente) y "encontrar"
+> las doctrinas de un autor dado sobre todos los temas obligatorios. El
+> resultado (muy frecuente) es un tipo de discusión que podría
+> calificarse como "mitología de las doctrinas". (Skinner, 2000, p. 153).
+
 ## Relación con preguntas y argumentos
 
 `library-manifest.md` no vincula `SRC-136` a ninguna `PI-*` (columna "PI
@@ -164,7 +242,8 @@ Ninguna todavía — lectura en curso.
 
 ## Tareas pendientes
 
-- Continuar la lectura de pp. 153–191.
+- Continuar la lectura de pp. 154–191 (la sesión del 2026-08-13 se
+  suspendió antes de completar la p. 154).
 - Nombre del traductor: no consta en la referencia aportada por el
   investigador; confirmar si se necesita para la cita final del
   manuscrito (no bloquea el avance de estado del corpus).
